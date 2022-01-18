@@ -48,13 +48,15 @@ print(scope.selected_country)
 
 
 
-
-# print( 'List of all keys in the st.session_state')
-# if 'initial_load' in st.session_state:
-# 	print(st.session_state)
-# 	for key in sorted(st.session_state):
-# 		print ( key)
-# print ( '-'*100)
+print('-'*100)
+print( 'List of all keys in the st.session_state')
+print('-'*100)
+if 'initial_load' in st.session_state:
+	# print(st.session_state)
+	for key in sorted(st.session_state):
+		print ( key.ljust(40), scope[key])
+		# print(scope[key])
+print ( '-'*100)
 
 
 

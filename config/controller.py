@@ -6,6 +6,14 @@ from pages.view.welcome import view_project_welcome
 from config.model.folders import scope_folders
 
 from config.model.countries import scope_countries
+from config.model.selected_country import set_selected_country
+from config.model.campaigns import scope_campaign
+from config.model.users import scope_user
+from config.model.version import scope_version
+
+# user
+# budget version
+# campaign
 
 
 def set_scope(scope):
@@ -19,10 +27,13 @@ def set_scope(scope):
 
 		scope.loaded_data = False				# set default status as have not loaded the data at this stage
 		scope.page_to_display = 'welcome'		# The homepage to display on first load
-		scope.selected_country = 'Australia'	# TODO - for testing purposes - this needs to be in the user load
-		scope.campaign = 2022					# The campaign being forecast
-
+		# scope.campaign = 2022					# The campaign being forecast
+		scope_campaign(scope)					# The campaign being forecast
+		scope_user(scope)						# Store the current user details
+		scope_version(scope)					# Store the current version number TODO: this might be changeable, but we need an initial version
 		scope_countries(scope)					# add list of countries for selection
+		set_selected_country(scope)				# Set the default country for this user
+
 
 		# scope_app(scope)						# This contains all the application settings
 		# scope_pages(scope)					# This contains all the page Specific settings

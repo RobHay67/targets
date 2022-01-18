@@ -5,7 +5,7 @@ import streamlit as st
 
 from targets.model.format_values import format_regos, format_dolls, format_percent
 
-
+# TODO - scope.user_can_edit_targets - need to check this is True before allowing edits
 
 
 def view_targets(scope):
