@@ -4,17 +4,22 @@ from config.model.page import set_page
 
 
 def render_sidebar(scope):
-
-	st.sidebar.write('User : ' + '**' + scope.user_name + '**')
+	st.sidebar.title('Target Setting Application')
+	
+	st.sidebar.write('Peer to Peer and Foundation')
+	st.sidebar.write('---------')
+	st.sidebar.write('Financial Year : **1 May ' + str(scope.campaign) + ' to 30 April ' + str(scope.campaign + 1) + '**')
 	st.sidebar.write('Campaign (November) : ' + '**' + str(scope.campaign) + '**')
 	st.sidebar.write('Budget Version : ' + '**' + scope.budget_version + '**')
-	
+
 	st.sidebar.write('---------')
+
+	st.sidebar.write('Welcome : ' + '**' + scope.user_name + '**')
 
 	previous_country = scope.selected_country
 
 	scope.selected_country = st.sidebar.selectbox ( 
-												label=('Country / Market'), 
+												label=('Available Countries'), 
 												options=scope.dropdown_countries,
 												# key='91',
 												) 

@@ -1,11 +1,7 @@
 
 
-from pages.view.welcome import view_project_welcome
-# from pages.view.targets import view_targets
+# from pages.view.welcome import view_project_welcome
 from targets.view.targets import view_targets
-# from pages.view.comics import view_comics_star_wars
-
-# from pages.view.cards import view_cards_star_wars
 
 
 
@@ -14,13 +10,11 @@ from targets.view.targets import view_targets
 def render_selected_page(scope):
 	
 	page = scope.page_to_display
-	print( 'Rendering > ', page)
+	# print( 'Rendering > ', page)
 	
 	page_map = {
-						'welcome'			:view_project_welcome,
+						# 'welcome'			:view_project_welcome,
 						'targets'			:view_targets,
-						# 'sw_cards'			:view_cards_star_wars,
-						# 'dr_who'			:view_dr_who_dvds,
 
 					}
 

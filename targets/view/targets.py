@@ -15,26 +15,25 @@ from config.model.currency import currency_name, currency_symbol
 
 def view_targets(scope):
 
-	# col1,col2,col3,col4,col5,col6 = st.columns([2,2,2,2,2,2])
-
-	st.subheader('Mo.com Target Setting Application')
-	st.write('Peer to Peer Fundraisers and Foundation Donations ( Mo.com )')
-	st.write('For the Financial Year period 1 May ' + str(scope.campaign) + ' to 30 April ' + str(scope.campaign + 1))
+	# st.subheader('Mo.com Target Setting Application')
+	# st.write('Peer to Peer Fundraisers and Foundation Donations ( Mo.com )')
+	# st.write('For the Financial Year period 1 May ' + str(scope.campaign) + ' to 30 April ' + str(scope.campaign + 1))
 
 
 	currency = currency_name(scope.selected_country)
 	dollar_symbol = currency_symbol(scope.selected_country)
 
+	# st.title(scope.selected_country)
+	# st.write('Currency = ' + currency +' ( ' + dollar_symbol + ' )')
 
 	col1,col2 = st.columns([4,2])
 
-	with col1: st.title(scope.selected_country)
-	with col2: st.subheader('Campaign ' + str(scope.campaign) )
+	with col1: st.header(scope.selected_country)
 	with col2: st.write('Currency = ' + currency +' ( ' + dollar_symbol + ' )')
 
 	st.markdown("""---""")
 
-	st.subheader('Market Summary - Totals')
+	st.write('**Market Summary - Totals**')
 	col1,col2,col3,col4,col5 = st.columns(5)
 
 
@@ -84,3 +83,10 @@ def view_targets(scope):
 
 
 
+	st.markdown("""---""")
+
+
+	for i in range(20):
+		print (i)
+		st.write(i, 'This will be even more data')
+	

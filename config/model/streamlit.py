@@ -16,7 +16,8 @@ def set_streamlit_page_config():
 			)
 	
 	# Padding Between Controls
-	padding = 1.0
+	# padding = 1.0
+	padding = 0.5
 	st.markdown(f""" <style>
 		.reportview-container .main .block-container{{
 			padding-top: {padding}rem;
