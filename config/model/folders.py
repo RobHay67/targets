@@ -8,7 +8,6 @@ import streamlit as st
 def scope_folders(scope):
 	scope.folder_project = pathlib.Path(__file__).parent.parent.parent.resolve()
 
-	print ( scope.folder_project )
 	scope.folder_data = pathlib.Path.home().joinpath( scope.folder_project, 'files' )
 	
 	if not os.path.isdir( scope.folder_project ) : os.makedirs( scope.folder_project )

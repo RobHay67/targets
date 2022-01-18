@@ -38,7 +38,7 @@ def scope_countries(scope):
 	# This function depends on the user being assigned a country or list of countries
 
 	if 'user_country_codes' in scope:
-		list_of_countries = []
+		dropdown_list = []
 
 		if 'all' in scope.user_country_codes:
 			# Add every country to the list of allowable countries
@@ -48,7 +48,7 @@ def scope_countries(scope):
 				# handled by scope.user_can_see_total_movember
 				if key != 'all':
 					country_name = country_dict[key]['country_name']
-					list_of_countries.append(country_name)
+					dropdown_list.append(country_name)
 		else:
 			# Add specific countries
 			for country in scope.user_country_codes:
@@ -57,27 +57,28 @@ def scope_countries(scope):
 				if country != 'all':
 					if country in country_dict.keys():
 						country_name = country_dict[country]['country_name']
-						list_of_countries.append(country_name)
-		print('list_of_countries')
-		print(list_of_countries)
+						dropdown_list.append(country_name)
+
+
+		# hierachy for the default country selection
+		# 1 > if you have access to total Movember 
+		# 2 > Just select the first country in the 
 
 		if scope.user_can_see_total_movember:
 			country_name = country_dict['all']['country_name']
-			list_of_countries.insert(0, country_name)
+			dropdown_list.insert(0, country_name)
 
-		# add a 'what to do' at the start of the list if 
-		# we have more than one (1) country
-		if len(list_of_countries) > 1:
-			list_of_countries.insert(0, 'select country / market')
-		
-		scope.dropdown_countries = list_of_countries
+		scope.dropdown_countries = dropdown_list
+		scope.selected_country = dropdown_list[0]
+		scope.page_to_display = 'targets'
+
+		# print('dropdown_list    = ', dropdown_list)
+		# print('selected_country = ', selected_country)
+
 
 	else:
 		print('\033[91mAPPLICATION ERROR - Scope does not contrain user_country_codes\033[0m')
 
 		
 
-
-
-	
 	
