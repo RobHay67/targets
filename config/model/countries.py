@@ -1,9 +1,3 @@
-
-
-
-
-
-
 country_dict =   {
                     'all':{ 'country_name':'Movember (Total)', 'dashboard_group': None  		, 'reporting_group': None      	 , 'default_member_id':None, 'currency_name':'AUD', 'currency_symbol': '$' , 'time_zone':'Australia/Melbourne', 'gmt_diff':11, 'email':'general.at@produs.movember.com'  },
                     'au' :{ 'country_name':'Australia'     , 'dashboard_group': 'Australia'  , 'reporting_group': 'Big4'      , 'default_member_id': 99, 'currency_name':'AUD', 'currency_symbol': '$' , 'time_zone':'Australia/Melbourne', 'gmt_diff':11, 'email':'general.at@produs.movember.com'  },
@@ -34,6 +28,10 @@ country_dict =   {
 
 
 
+
+
+
+
 def scope_countries(scope):
 	# This function depends on the user being assigned a country or list of countries
 
@@ -41,8 +39,7 @@ def scope_countries(scope):
 		dropdown_list = []
 
 		if 'all' in scope.user_country_codes:
-			# Add every country to the list of allowable countries
-
+			# Add every country to the list of dropdown_list countries
 			for key in country_dict.keys():
 				# prevent access to total Movember - this is 
 				# handled by scope.user_can_see_total_movember
@@ -50,7 +47,7 @@ def scope_countries(scope):
 					country_name = country_dict[key]['country_name']
 					dropdown_list.append(country_name)
 		else:
-			# Add specific countries
+			# Add specific countries to the dropdown_list
 			for country in scope.user_country_codes:
 				# prevent access to total Movember - this is 
 				# handled by scope.user_can_see_total_movember
@@ -71,10 +68,6 @@ def scope_countries(scope):
 		scope.dropdown_countries = dropdown_list
 		scope.selected_country = dropdown_list[0]
 		scope.page_to_display = 'targets'
-
-		# print('dropdown_list    = ', dropdown_list)
-		# print('selected_country = ', selected_country)
-
 
 	else:
 		print('\033[91mAPPLICATION ERROR - Scope does not contrain user_country_codes\033[0m')

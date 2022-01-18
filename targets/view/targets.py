@@ -8,14 +8,28 @@ from targets.model.format_values import format_regos, format_dolls, format_perce
 # TODO - scope.user_can_edit_targets - need to check this is True before allowing edits
 
 
+from config.model.currency import currency_name, currency_symbol
+
+
+
+
 def view_targets(scope):
 
 	# col1,col2,col3,col4,col5,col6 = st.columns([2,2,2,2,2,2])
 
-	col1,col2 = st.columns(2)
+	st.subheader('Mo.com Target Setting Application')
+	st.write('Peer to Peer Fundraisers and Foundation Donations ( Mo.com )')
+	st.write('For the Financial Year period 1 May ' + str(scope.campaign) + ' to 30 April ' + str(scope.campaign + 1))
 
-	with col1: st.title(scope.selected_country)
-	with col2: st.title('Budget / Targets ' + str(scope.campaign) )
+
+	print(currency_name(scope.selected_country))
+	print(currency_symbol(scope.selected_country))
+
+
+	col1,col2 = st.columns([4,2])
+
+	with col1: st.header(scope.selected_country)
+	with col2: st.subheader('Campaign ' + str(scope.campaign) )
 
 	st.markdown("""---""")
 

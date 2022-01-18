@@ -8,7 +8,7 @@ def scope_user(scope):
 	scope.user_name = 'Rob Hay'
 	scope.user_pword = 'Bella12'
 	
-	scope.user_country_codes = ['ca', 'au']				# List of Countries the User can See or Edit
+	scope.user_country_codes = ['ca', 'au', 'be']			# List of Countries the User can See or Edit
 	# scope.user_country_codes = ['au']
 	# scope.user_country_codes = ['all']			# lowercase all just to be safe
 
