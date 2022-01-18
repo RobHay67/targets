@@ -22,14 +22,15 @@ def view_targets(scope):
 	st.write('For the Financial Year period 1 May ' + str(scope.campaign) + ' to 30 April ' + str(scope.campaign + 1))
 
 
-	print(currency_name(scope.selected_country))
-	print(currency_symbol(scope.selected_country))
+	currency = currency_name(scope.selected_country)
+	dollar_symbol = currency_symbol(scope.selected_country)
 
 
 	col1,col2 = st.columns([4,2])
 
-	with col1: st.header(scope.selected_country)
+	with col1: st.title(scope.selected_country)
 	with col2: st.subheader('Campaign ' + str(scope.campaign) )
+	with col2: st.write('Currency = ' + currency +' ( ' + dollar_symbol + ' )')
 
 	st.markdown("""---""")
 
