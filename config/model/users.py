@@ -17,8 +17,12 @@ def scope_user(scope):
 	# Special Admin Code
 	scope.user_can_see_total_movember = False
 	scope.user_can_edit_forex_rates = True
+
+
+	
 	
 	# This will be just for the Insights team so we can set specal params - maybe finance
-	scope.user_can_edit_config = False
+	scope.user_can_edit_previous_rates = True
+	scope.user_can_edit_config = True
 
 
