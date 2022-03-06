@@ -35,8 +35,8 @@ render_sidebar(scope)						# Render the Sidebar
 render_selected_page(scope)					# Render the selected Page
 
 
-print('*'*30)
-print(scope.selected_country)
+# print('*'*30)
+# print(scope.selected_country)
 
 
 
@@ -48,15 +48,16 @@ print(scope.selected_country)
 
 
 
-print('-'*100)
-print( 'List of all keys in the st.session_state')
-print('-'*100)
-if 'initial_load' in st.session_state:
-	# print(st.session_state)
-	for key in sorted(st.session_state):
-		print ( key.ljust(40), scope[key])
-		# print(scope[key])
-print ( '-'*100)
+# print('-'*100)
+# print( 'List of all keys in the st.session_state')
+# print('-'*100)
+# if 'initial_load' in st.session_state:
+# 	# print(st.session_state)
+# 	for key in sorted(st.session_state):
+# 		if key != 'forex_rates':
+# 			print ( key.ljust(40), scope[key])
+# 		# print(scope[key])
+# print ( '-'*100)
 
 
 

@@ -15,7 +15,7 @@ def scope_user(scope):
 	scope.user_can_edit_targets = True				# User can make changes to the Targets
 
 	# Special Admin Code
-	scope.user_can_see_total_movember = False
+	scope.user_can_see_total_movember = True
 	scope.user_can_edit_forex_rates = True
 
 

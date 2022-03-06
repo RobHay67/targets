@@ -1,114 +1,47 @@
 
-
-forex_rates = {
-                    # Update once a year - use the budget rates as set by finance
-                    # Once the latest excahnge rates are updated you will need to rerun for all dataframes so number are converted using these latest rates
-                    # Keep a copy (at the bottom of this module) for posterity - so we can go back to previous rates if needed
-
-                    'au':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.0000000 },
-                    'at':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.6591500 }, 
-                    'be':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.6591500 }, 
-                    'ca':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.0681080 },
-                    'cz':{ 'forex_to_sub': 0.0367161, 'forex_to_aud': 1.6591500 }, 
-                    'dk':{ 'forex_to_sub': 0.1342780, 'forex_to_aud': 1.6591500 },  
-                    'fi':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.6591500 }, 
-                    'fr':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.6591500 }, 
-                    'de':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.6591500 }, 
-                    'hk':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 0.1837170 },
-                    'ie':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.6591500 }, 
-                    'it':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.6591500 }, 
-                    'nl':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.6591500 }, 
-                    'nz':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 0.9410440 },
-                    'no':{ 'forex_to_sub': 0.0900276, 'forex_to_aud': 1.6591500 }, 
-                    'ex':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.4246740 },
-                    'sg':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.0423290 },
-                    'za':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 0.0875240 },
-                    'es':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.6591500 }, 
-                    'se':{ 'forex_to_sub': 0.0968333, 'forex_to_aud': 1.6591500 }, 
-                    'ch':{ 'forex_to_sub': 0.9343610, 'forex_to_aud': 1.6591500 }, 
-                    'gb':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.8438300 },
-                    'us':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.4246740 },
-					'zz':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.0000000 },
-                    }
+# we need to store these as a file in the project directory
+import pandas as pd
+import os
+# import pathlib
 
 
-# --------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Old Exchange Rated - Keep for checking Historical Values
-# --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-forex_rates_2019 = {
-                    'au':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.0000000 },
-                    'at':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.6187100 }, 
-                    'be':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.6187100 }, 
-                    'ca':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.1051680 },
-                    'cz':{ 'forex_to_sub': 0.0392054, 'forex_to_aud': 1.6187100 }, 
-                    'dk':{ 'forex_to_sub': 0.1338590, 'forex_to_aud': 1.6187100 },  
-                    'fi':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.6187100 }, 
-                    'fr':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.6187100 }, 
-                    'de':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.6187100 }, 
-                    'hk':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 0.1857250 },
-                    'ie':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.6187100 }, 
-                    'it':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.6187100 }, 
-                    'nl':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.6187100 }, 
-                    'nz':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 0.9257370 },
-                    'no':{ 'forex_to_sub': 0.0975667, 'forex_to_aud': 1.6187100 }, 
-                    'ex':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.4560600 },
-                    'sg':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.0685470 },
-                    'za':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 0.0971185 },
-                    'es':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.6187100 }, 
-                    'se':{ 'forex_to_sub': 0.0930267, 'forex_to_aud': 1.6187100 }, 
-                    'ch':{ 'forex_to_sub': 0.9063960, 'forex_to_aud': 1.6187100 }, 
-                    'gb':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.8733800 },
-                    'us':{ 'forex_to_sub': 1.0000000, 'forex_to_aud': 1.4560600 },
-                    }
-forex_rates_2018 = {
-                    'au':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.000000000 },
-                    'at':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.591077085 }, 
-                    'be':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.591077085 }, 
-                    'ca':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.040562994 },
-                    'cz':{ 'forex_to_sub': 0.037164937, 'forex_to_aud': 1.591077085 }, 
-                    'dk':{ 'forex_to_sub': 0.128656000, 'forex_to_aud': 1.591077085 },  
-                    'fi':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.591077085 }, 
-                    'fr':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.591077085 }, 
-                    'de':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.591077085 }, 
-                    'hk':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 0.165164000 },
-                    'ie':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.591077085 }, 
-                    'it':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.591077085 }, 
-                    'nl':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.591077085 }, 
-                    'nz':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 0.926131554 },
-                    'no':{ 'forex_to_sub': 0.099921000, 'forex_to_aud': 1.591077085 }, 
-                    'ex':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.326160442 },
-                    'sg':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 0.953593800 },
-                    'za':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 0.097139670 },
-                    'es':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.591077085 }, 
-                    'se':{ 'forex_to_sub': 0.098252000, 'forex_to_aud': 1.591077085 }, 
-                    'ch':{ 'forex_to_sub': 0.867928000, 'forex_to_aud': 1.591077085 }, 
-                    'gb':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.803550905 },
-                    'us':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.326160442 },
-                    }
-forex_rates_2017 = {
-                    'au':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.000000000 },
-                    'at':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.466000086 }, 
-                    'be':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.466000086 }, 
-                    'ca':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.023699985 },
-                    'cz':{ 'forex_to_sub': 0.036994288, 'forex_to_aud': 1.466000086 }, 
-                    'dk':{ 'forex_to_sub': 0.134383315, 'forex_to_aud': 1.466000086 },  
-                    'fi':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.466000086 }, 
-                    'fr':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.466000086 }, 
-                    'de':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.466000086 }, 
-                    'hk':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 0.17164162 },
-                    'ie':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.466000086 }, 
-                    'it':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.466000086 }, 
-                    'nl':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.466000086 }, 
-                    'nz':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 0.954198473 },
-                    'no':{ 'forex_to_sub': 0.108926529, 'forex_to_aud': 1.466000086 }, 
-                    'ex':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.356399908 },
-                    'sg':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 0.955690600 },
-                    'za':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 0.099859286 },
-                    'es':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.466000086 }, 
-                    'se':{ 'forex_to_sub': 0.104473558, 'forex_to_aud': 1.466000086 }, 
-                    'ch':{ 'forex_to_sub': 0.922424131, 'forex_to_aud': 1.466000086 }, 
-                    'gb':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.658499937 },
-                    'us':{ 'forex_to_sub': 1.000000000, 'forex_to_aud': 1.356399908 },
-                    }
+def load_forex_rates(scope):
+
+	if os.path.exists( scope.path_forex_file ):
+
+		forex_table = pd.read_csv( scope.path_forex_file, 
+									dtype={'campaign':'int', 'country':'str', 'forex_to_sub':'float64', 'forex_to_aud':'float64'},
+									# parse_dates=csv_dates(schema),
+									)
+
+		# ticker_index.set_index('share_code', inplace=True)
+
+		print(forex_table)
+		
+		scope.forex_rates = forex_table
+	else: 
+
+		forex_table = pd.DataFrame(columns=['campaign', 'country', 'forex_to_sub', 'forex_to_aud'])
+
+		scope.forex_rates = forex_table
+		
+		# save_forex_table(scope) # TODO
+
+
+
+def save_forex_rates(scope):
+
+	saving_df = scope.forex_rates.copy()
+
+	saving_df.to_csv( scope.path_forex_file, index=False )
+
+
+
+
+
+
+
+
+

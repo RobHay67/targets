@@ -14,9 +14,8 @@ def scope_folders(scope):
 	if not os.path.isdir( scope.folder_data ) 	 : os.makedirs( scope.folder_data )
 	
 	# File Paths
-	scope.path_data_file = pathlib.Path.home().joinpath( scope.folder_data, 'data.csv' )
-	scope.path_users_file  = pathlib.Path.home().joinpath( scope.folder_data, 'users.json' )
-	# scope.path_dvds_file   = pathlib.Path.home().joinpath( scope.folder_data, 'dvds.json' )
+	scope.path_forex_file = pathlib.Path.home().joinpath( scope.folder_data, 'forex_rates.csv' )
+
 
 
 
