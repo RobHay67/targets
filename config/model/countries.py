@@ -35,6 +35,16 @@ country_dict =   {
 def scope_countries(scope):
 	# This function depends on the user being assigned a country or list of countries
 
+	country_code_list = []
+
+	for country_code in country_dict.keys():
+		if country_code != 'all':
+			country_code_list.append(country_code)
+
+	scope.country_code_list = country_code_list
+
+
+
 	if 'user_country_codes' in scope:
 		dropdown_list = []
 

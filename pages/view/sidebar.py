@@ -22,7 +22,7 @@ def render_sidebar(scope):
 	scope.selected_country = st.sidebar.selectbox ( 
 												label=('Available Countries'), 
 												options=scope.dropdown_countries,
-												key='selected_country_1',
+												# key='selected_country',
 												help='Select the country to view and edit the rates.',
 												) 
 

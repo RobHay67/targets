@@ -6,7 +6,7 @@ from config.model.countries import scope_countries
 from config.model.folders import scope_folders
 from config.model.tenure import scope_tenure
 
-from config.model.forex_rates import load_forex_rates
+from config.model.forex_rates import load_forex_rates, scope_forex_rates
 
 def set_scope(scope):
 	
@@ -28,6 +28,7 @@ def set_scope(scope):
 
 	if scope.initial_load:						# This will only run one time after the initial load has occured
 		load_forex_rates(scope)					# Load the forex rates
+		scope_forex_rates(scope)				# Store the current campaign rates into memory
 
 		scope.initial_load = False				# Prevent session_state from re-running during its use
 

@@ -13,5 +13,5 @@ def scope_campaign(scope):
 	scope.dropdown_campaigns = campaigns
 
 	scope.campaign 		 = 2022
-	scope.campaign_forex = 2020
+	scope.campaign_forex = 2023
 

@@ -35,29 +35,28 @@ render_sidebar(scope)						# Render the Sidebar
 render_selected_page(scope)					# Render the selected Page
 
 
-# print('*'*30)
-# print(scope.selected_country)
+
+
+
+# from config.model.forex_rates import scope_forex_rates
+# scope_forex_rates(scope)
+# print(scope.forex_rates)
 
 
 
 
-
-
-
-
-
-
-
-# print('-'*100)
-# print( 'List of all keys in the st.session_state')
-# print('-'*100)
-# if 'initial_load' in st.session_state:
-# 	# print(st.session_state)
-# 	for key in sorted(st.session_state):
-# 		if key != 'forex_rates':
-# 			print ( key.ljust(40), scope[key])
-# 		# print(scope[key])
-# print ( '-'*100)
+print('-'*100)
+print( 'List of all keys in the st.session_state')
+print('-'*100)
+if 'initial_load' in st.session_state:
+	to_much_data = ['forex_df', 'forex_rates', 'forex_rates_maintenance']
+	for key in sorted(st.session_state):
+		if key not in  to_much_data:
+			print ( key.ljust(40), scope[key])
+		else:
+			print ( key.ljust(40), 'too much data to print')
+		# print(scope[key])
+print ( '-'*100)
 
 
 
