@@ -1,8 +1,4 @@
 
-# we have a campaign_forex year
-# we have our loaded forex file
-# we 
-
 
 def forex_rates_maintenance(scope):
 
