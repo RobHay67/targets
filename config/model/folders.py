@@ -15,7 +15,16 @@ def scope_folders(scope):
 	
 	# File Paths
 	scope.path_forex_file = pathlib.Path.home().joinpath( scope.folder_data, 'forex_rates.csv' )
+	
 
+
+
+def set_path_to_target_file(scope):
+	campaign_year = str(scope.campaign)
+
+	target_file_name = 'target_rates_' + campaign_year + '.csv'
+
+	scope.path_target_file = pathlib.Path.home().joinpath( scope.folder_data, target_file_name )
 
 
 

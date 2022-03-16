@@ -2,7 +2,8 @@
 
 # from pages.view.welcome import view_project_welcome
 # from forex.view.forex import view_forex
-from targets.view.targets import view_targets
+# from targets.view.targets import view_targets
+from targets.controller import view_targets
 from forex.controller import view_forex
 
 
@@ -17,7 +18,7 @@ def render_selected_page(scope):
 	page_map = {
 						# 'welcome'			:view_project_welcome,
 						'targets'			:view_targets,
-						# 'forex'				:view_forex,
+
 						'forex'				:view_forex,
 
 					}

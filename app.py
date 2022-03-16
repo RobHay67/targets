@@ -49,7 +49,7 @@ print('-'*100)
 print( 'List of all keys in the st.session_state')
 print('-'*100)
 if 'initial_load' in st.session_state:
-	to_much_data = ['forex_df', 'forex_rates', 'forex_rates_maintenance']
+	to_much_data = ['target_df', 'forex_df', 'forex_rates', 'forex_rates_maintenance']
 	for key in sorted(st.session_state):
 		if key not in  to_much_data:
 			print ( key.ljust(40), scope[key])
@@ -57,6 +57,8 @@ if 'initial_load' in st.session_state:
 			print ( key.ljust(40), 'too much data to print')
 		# print(scope[key])
 print ( '-'*100)
+
+
 
 
 
