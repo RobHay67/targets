@@ -1,37 +1,8 @@
-from hashlib import new
 import streamlit as st
 
 
-# from config.model.tenure import tenure_levels
 
 
-
-
-
-
-def render_tenure_selector(scope):
-
-	scope.target_selected_tenure = st.selectbox ( 
-												label=('Tenure Category'), 
-												options=scope.dropdown_tenure,
-												
-												help='Select the tenure level to view and edit the rates.',
-												# key='target_selected_tenure',
-												) 
-
-
-	if scope.target_selected_tenure == 'New':
-		render_new_fundraisers
-
-	if scope.target_selected_tenure == 'Returned':
-		print('Render the Returned variables right here')
-	
-
-	if scope.target_selected_tenure == 'Returning':
-		print('Render the Returning variables right here')
-
-	if scope.target_selected_tenure == 'Foundation':
-		print('Render the Foundation variables right here')
 
 
 def render_new_fundraisers(scope):
