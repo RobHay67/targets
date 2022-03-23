@@ -16,10 +16,14 @@ def render_forex_rates(scope):
 			col1,col2,col3,col4 = st.columns([3,3,3,3])
 
 			with col1: 
+				# Row Name
+				
 				st.subheader(country_name)
 				st.write('Local Currency = ' + currency +' ( ' + dollar_symbol + ' )')
 
 			with col2: 
+				# Convert Local $$$ to Subsidiary $$$
+
 				widget_key_sub = 'widget_forex_rate_' + country_code + '_sub'
 				scope.forex_rates_maintenance[country_code]['sub'] = st.number_input(
 																					label='Rate to convert Local to Subsidiary', 
@@ -30,6 +34,8 @@ def render_forex_rates(scope):
 																					)
 
 			with col3: 
+				# Convert Subsidary $$$ to Australian $$$
+
 				widget_key_aud = 'widget_forex_rate_' + country_code + '_aud'
 				scope.forex_rates_maintenance[country_code]['aud'] = st.number_input(
 																					label='Rate to convert Subsidiary to AUD', 

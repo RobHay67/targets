@@ -8,17 +8,47 @@ from config.model.folders import set_path_to_target_file
 from config.model.countries import country_dict
 
 
+from config.model.tenure import tenure_levels
+from config.model.regions import set_regions_for_country
+from config.model.countries import country_key_from_name
+
+
 
 def scope_target_rates(scope):
 
 	#TODO - we need to configure this one rob
 	print('TODO - scope_target_rates')
 
+
+	payment_country = country_key_from_name(scope.target_selected_country)
+	tenure_values = tenure_levels[scope.target_selected_tenure]
+
+
+
+
 	# current_campaign = scope.campaign
 	# campaign_forex_rates = scope.forex_df.loc[scope.forex_df['campaign'] == current_campaign]
-	
+	print('='*100)
+	print('Lets establish the widget values for target setting')
+	print('-'*100)
+	print( 'payment-country = ', payment_country)
+	print(scope.target_selected_country)
+	print(scope.target_selected_tenure)
+	print(scope.target_regions)
+	print( 'tenure_values = ', tenure_values)
+	print('='*100)
+	# tenure_levels
 
-	# forex_rates = {}
+
+	target_rates = {}
+
+
+	for region in scope.target_regions:
+
+		print(region)
+
+		for value in tenure_values:
+			print(value)
 
 	# for country_code in country_dict.keys():
 	# 	if country_code != 'all':
@@ -53,7 +83,7 @@ def load_target_rates(scope):
 									dtype={'campaign':'int', 'payment_country':'str', 'region':'str', 'tenure':'str', 'metric':'str', 'value':'float64'},
 									# parse_dates=csv_dates(schema),
 									index_col=None,
-									
+
 									)
 
 		# ticker_index.set_index('share_code', inplace=True)
@@ -72,9 +102,12 @@ def load_target_rates(scope):
 
 
 
+def scope_target(scope):
 
+	scope.target_setting_method = 'Total Country'
 
-
+	# Establish the regions for the default country / tenure
+	set_regions_for_country(scope)
 
 
 

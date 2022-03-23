@@ -27,6 +27,25 @@ country_dict =   {
                     }
 
 
+region_dict = {
+					'au' : [ 'Tas', 'VIC', 'ACT', 'NSW', 'QLD', 'NT', 'SA', 'WA', 'Other'],
+					'us' : [ 'CA', 'WV', 'TX', 'AZ', 'AK', 'FL', 'NY', 'DC', 'Other'],
+					'ca' : [ 'Ontario', 'Quebec', 'Other'],
+
+}
+
+
+def country_key_from_name(country_name):
+
+	country_key = ''
+
+	for key, value in country_dict.items():
+		if country_name == value['country_name']:
+			country_key = key
+			break
+	
+	return country_key
+
 
 
 
@@ -76,7 +95,7 @@ def scope_countries(scope):
 			dropdown_list.insert(0, country_name)
 
 		scope.dropdown_countries = dropdown_list
-		scope.selected_country = dropdown_list[0]
+		scope.target_selected_country = dropdown_list[0]
 		scope.page_to_display = 'targets'
 
 	else:

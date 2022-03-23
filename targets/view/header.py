@@ -2,73 +2,39 @@
 import streamlit as st
 
 from config.model.currency import currency_name, currency_symbol
-
-from targets.model.format_values import format_regos, format_dolls, format_percent
-
-
-def render_target_header(scope):
-
-	currency = currency_name(scope.selected_country)
-	dollar_symbol = currency_symbol(scope.selected_country)
-
-	# st.title(scope.selected_country)
-	# st.write('Currency = ' + currency +' ( ' + dollar_symbol + ' )')
-
-	col1,col2 = st.columns([4,2])
-
-	with col1: st.header(scope.selected_country)
-	with col2: st.write('Currency = ' + currency +' ( ' + dollar_symbol + ' )')
-
-	st.markdown("""---""")
-
-	st.write('**Market Summary - Totals**')
-	col1,col2,col3,col4,col5 = st.columns(5)
+from config.model.regions import set_regions_for_country
 
 
 
+def render_country_selector(scope):
 
-	regos_inactive_total = 123568
-	regos_active_total = 456781
-	regos_total = regos_inactive_total + regos_active_total
+	col1,col2,col3,col4 = st.columns([1,2,1,1])
 
-	apam_total = 472.27
-	active_ratio_total = .242
+	with col1:
+			st.header('Target Rates')
+			
+	with col2:
+			previous_country = scope.target_selected_country
 
+			scope.target_selected_country = st.selectbox ( 
+															label=('Available Countries'), 
+															options=scope.dropdown_countries,
+															# key='target_selected_country',
+															help='Select the country to view and edit the rates.',
+															) 
 
-	dolls_active_total = 7432666.27
+			if previous_country != scope.target_selected_country:
+				set_regions_for_country(scope)
 
+	with col3: 
+		currency = currency_name(scope.target_selected_country)
+		dollar_symbol = currency_symbol(scope.target_selected_country)
 
-
-	with col1: 
-		st.write('**Fundraisers**')
-		st.write('**Inactive**')
-		st.write('**Active**')
-		st.write('**Total**')
-	
-	with col2: 
-		st.write('**Registrations**')
-		st.write(format_regos(regos_inactive_total))
-		st.write(format_regos(regos_active_total))
-		st.write(format_regos(regos_total))
-
-	with col3:
-		st.write('**Average Per Mo**')
-		st.write('$  0.00')
-		st.write(format_dolls(apam_total))
-		st.write('-')
-
+		st.write('Currency = ' + currency +' ( ' + dollar_symbol + ' )')
 	with col4:
-		st.write('**Total Funds Raised**')
-		st.write(format_dolls(0.0))
-		st.write(format_dolls(dolls_active_total))
-		st.write(format_dolls(dolls_active_total))
-
-	with col5:
-		st.write('**Active Ratio**')
-		st.write(format_percent(0.0))
-		st.write(format_percent(active_ratio_total))
-		st.write('-')
-
-
+		scope.target_setting_method = st.selectbox(
+														label='Budget By', 
+														options=['Region', 'Total Country']
+														)
 
 	st.markdown("""---""")

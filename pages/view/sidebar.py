@@ -16,20 +16,9 @@ def render_sidebar(scope):
 
 	st.sidebar.write('---------')
 	
-
-	previous_country = scope.selected_country
-
-	scope.selected_country = st.sidebar.selectbox ( 
-												label=('Available Countries'), 
-												options=scope.dropdown_countries,
-												# key='selected_country',
-												help='Select the country to view and edit the rates.',
-												) 
-
-	if scope.selected_country != previous_country : 
-		scope.page_to_display = 'targets'
-
-	st.sidebar.write('---------')
+	if len(scope.user_country_codes) > 0:
+		st.sidebar.button('Target Rates', on_click=set_page, args=('targets', ))
+		st.sidebar.write('---------')
 
 	if scope.user_can_edit_forex_rates:
 		st.sidebar.button('Forex Rates', on_click=set_page, args=('forex', ))
