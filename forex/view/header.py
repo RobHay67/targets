@@ -2,7 +2,7 @@
 import streamlit as st
 
 
-from forex.model.maintenance import forex_rates_maintenance
+from forex.model.rates_for_view import forex_rates_for_view
 
 
 def render_forex_header(scope, copy_rates):
@@ -33,7 +33,7 @@ def render_forex_header(scope, copy_rates):
 			
 		st.warning ('Forex Rates do not exist for ' + str(scope.campaign_forex) + ' campaign year')
 	else:
-		forex_rates_maintenance(scope)
+		forex_rates_for_view(scope)
 
 	st.markdown("""---""")
 

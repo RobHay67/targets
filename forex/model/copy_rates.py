@@ -1,9 +1,10 @@
 
 import streamlit as st
+import pandas as pd
 
 
 
-from forex.model.maintenance import forex_rates_maintenance
+from forex.model.rates_for_view import forex_rates_for_view
 from forex.model.save import save_forex_rates
 
 def copy_prior_year_rates(scope):
@@ -23,5 +24,5 @@ def copy_prior_year_rates(scope):
 		st.success('Finished copying ' + str(prior_campaign) + ' forex rates. You now have a base set of rates for ' + str(current_campaign))
 		new_forex_rates['campaign'] = current_campaign
 		scope.forex_df = pd.concat([scope.forex_df, new_forex_rates])
-		forex_rates_maintenance(scope)
+		forex_rates_for_view(scope)
 		save_forex_rates(scope)

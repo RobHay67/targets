@@ -3,11 +3,6 @@ import streamlit as st
 import pandas as pd
 
 
-from config.model.countries import country_dict
-from forex.model.maintenance import forex_rates_maintenance
-from forex.model.save import save_forex_rates
-
-
 from forex.view.header import render_forex_header
 from forex.model.copy_rates import copy_prior_year_rates
 from forex.view.forex_rates import render_forex_rates

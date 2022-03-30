@@ -25,9 +25,9 @@ def render_forex_rates(scope):
 				# Convert Local $$$ to Subsidiary $$$
 
 				widget_key_sub = 'widget_forex_rate_' + country_code + '_sub'
-				scope.forex_rates_maintenance[country_code]['sub'] = st.number_input(
+				scope.forex_rates_for_view[country_code]['sub'] = st.number_input(
 																					label='Rate to convert Local to Subsidiary', 
-																					value=scope.forex_rates_maintenance[country_code]['sub'], 
+																					value=scope.forex_rates_for_view[country_code]['sub'], 
 																					format="%.7f", 
 																					step=0.0000001, 
 																					key=(widget_key_sub)
@@ -37,9 +37,9 @@ def render_forex_rates(scope):
 				# Convert Subsidary $$$ to Australian $$$
 
 				widget_key_aud = 'widget_forex_rate_' + country_code + '_aud'
-				scope.forex_rates_maintenance[country_code]['aud'] = st.number_input(
+				scope.forex_rates_for_view[country_code]['aud'] = st.number_input(
 																					label='Rate to convert Subsidiary to AUD', 
-																					value=scope.forex_rates_maintenance[country_code]['aud'], 
+																					value=scope.forex_rates_for_view[country_code]['aud'], 
 																					format="%.7f", 
 																					step=0.0000001, 
 																					key=(widget_key_aud)

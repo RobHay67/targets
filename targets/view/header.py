@@ -34,7 +34,7 @@ def render_country_selector(scope):
 	with col4:
 		scope.target_setting_method = st.selectbox(
 														label='Budget By', 
-														options=['Region', 'Total Country']
+														options=['Region', 'Country']
 														)
 
 	st.markdown("""---""")

@@ -3,75 +3,19 @@ import os
 
 
 from config.model.folders import set_path_to_target_file
-
-
-from config.model.countries import country_dict
-
-
-from config.model.tenure import tenure_levels
 from config.model.regions import set_regions_for_country
-from config.model.countries import country_key_from_name
+
+from targets.model.rates_for_view import target_rates_for_view
 
 
+def scope_target(scope):
 
-def scope_target_rates(scope):
+	scope.target_setting_method = 'Country'
 
-	#TODO - we need to configure this one rob
-	print('TODO - scope_target_rates')
+	# Establish the regions for the default country / tenure
+	set_regions_for_country(scope)
 
-
-	payment_country = country_key_from_name(scope.target_selected_country)
-	tenure_values = tenure_levels[scope.target_selected_tenure]
-
-
-
-
-	# current_campaign = scope.campaign
-	# campaign_forex_rates = scope.forex_df.loc[scope.forex_df['campaign'] == current_campaign]
-	print('='*100)
-	print('Lets establish the widget values for target setting')
-	print('-'*100)
-	print( 'payment-country = ', payment_country)
-	print(scope.target_selected_country)
-	print(scope.target_selected_tenure)
-	print(scope.target_regions)
-	print( 'tenure_values = ', tenure_values)
-	print('='*100)
-	# tenure_levels
-
-
-	target_rates = {}
-
-
-	for region in scope.target_regions:
-
-		print(region)
-
-		for value in tenure_values:
-			print(value)
-
-	# for country_code in country_dict.keys():
-	# 	if country_code != 'all':
-	# 		forex_rates[country_code] = {}
-
-	# 		# set rates for the country / campaign combination (zero if rates are missing)
-	# 		if campaign_forex_rates.empty:
-	# 			sub_rate = 0.0
-	# 			aud_rate = 0.0
-	# 		else:
-	# 			country_forex_rates = campaign_forex_rates.loc[campaign_forex_rates['country'] == country_code]
-	# 			sub_rate = float(country_forex_rates['forex_to_sub'])
-	# 			aud_rate = float(country_forex_rates['forex_to_aud'])
-			
-	# 		forex_rates[country_code]['sub'] = sub_rate
-	# 		forex_rates[country_code]['aud'] = aud_rate
-
-	# scope.forex_rates = forex_rates
-
-
-
-
-
+	
 
 def load_target_rates(scope):
 
@@ -99,15 +43,10 @@ def load_target_rates(scope):
 		scope.target_df = taget_table
 		
 
+	# establish a default set of target rates to display in the browser
 
+	target_rates_for_view(scope)
 
-
-def scope_target(scope):
-
-	scope.target_setting_method = 'Total Country'
-
-	# Establish the regions for the default country / tenure
-	set_regions_for_country(scope)
 
 
 

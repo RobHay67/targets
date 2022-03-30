@@ -1,8 +1,5 @@
 
 
-# from pages.view.welcome import view_project_welcome
-# from forex.view.forex import view_forex
-# from targets.view.targets import view_targets
 from targets.controller import view_targets
 from forex.controller import view_forex
 

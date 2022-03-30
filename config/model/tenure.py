@@ -1,6 +1,7 @@
 
 
-# Values Reqired by each Tenure level
+# Metrics Reqired by each Tenure level
+
 
 
 regos_ret_prior = 'regos_ret_prior'		# Number of Fundraisers who were Retained 2 campaigns ago

@@ -38,18 +38,12 @@ render_selected_page(scope)					# Render the selected Page
 
 
 
-# from config.model.forex_rates import scope_forex_rates
-# scope_forex_rates(scope)
-# print(scope.forex_rates)
-
-
-
 
 print('-'*100)
 print( 'List of all keys in the st.session_state')
 print('-'*100)
 if 'initial_load' in st.session_state:
-	to_much_data = ['target_df', 'forex_df', 'forex_rates', 'forex_rates_maintenance']
+	to_much_data = ['target_df', 'forex_df', 'forex_rates', 'forex_rates_for_view']
 	for key in sorted(st.session_state):
 		if key not in  to_much_data:
 			print ( key.ljust(40), scope[key])

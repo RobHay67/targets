@@ -1,7 +1,6 @@
 import pandas as pd
 
-from config.model.forex_rates import scope_forex_rates
-
+from forex.model.rates_for_view import forex_rates_for_view
 
 def save_forex_rates(scope):
 
@@ -9,7 +8,7 @@ def save_forex_rates(scope):
 	forex_table_edited = pd.DataFrame(columns=['campaign', 'country', 'forex_to_sub', 'forex_to_aud'])
 	campaign = scope.campaign_forex
 
-	for country, row in scope.forex_rates_maintenance.items():
+	for country, row in scope.forex_rates_for_view.items():
 		new_row = {'campaign':campaign, 'country':country, 'forex_to_sub':row['sub'], 'forex_to_aud':row['aud']}
 		forex_table_edited = forex_table_edited.append(new_row, ignore_index=True)
 
@@ -20,9 +19,11 @@ def save_forex_rates(scope):
 	scope.forex_df = scope.forex_df.append(forex_table_edited)
 
 	# refresh the application forex rates (in case we updated the current campaign)
-	scope_forex_rates(scope)
+	forex_rates_for_view(scope)
 
 	# TODO Recalculate forex values???
+	print( '\033[91mTODO Recalculate Forex Values < save_target_rates > \033[0m' )
+
 
 	saving_df = scope.forex_df.copy()
 
