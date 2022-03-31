@@ -27,31 +27,30 @@ def save_target_rates(scope):
 	# print(target_table_edited)
 
 
-	# tag rows to remove - combination of Campaign, Country and Tenure Level
+	# Remove records for the selected target rate set
 	target_df = scope.target_df.copy()
-	# print('size of the target_df originally', len(target_df))
+	# tag rows to remove - combination of Campaign, Country and Tenure Level
 	target_df['delete'] = np.where((target_df['campaign'] == campaign) & ( target_df['payment_country'] == payment_country ) & ( target_df['tenure'] == tenure_group ), 1, 0)
 	target_df = target_df[target_df['delete'] == 0].copy()
 	target_df.drop(columns=['delete'], inplace=True)
 
-	# print('size of the target_df after deleting duplicate rows', len(target_df))
-
-	# and add the latest tenure target rates back into the target_df
+	# Add the latest tenure target rates back into the target_df
 	scope.target_df = target_df.append(target_table_edited)
 
-	# print('size of the target_df after appending our new rows', len(scope.target_df))
-	# print(scope.target_df.tail(20))
 
 	# # refresh the application forex rates (in case we updated the current campaign)
+	#TODO
+	print( '\033[91mTODO Do we need to refresh the view dataset? < save_target_rates > \033[0m' )
+
 	# forex_rates_for_view(scope)
 
 	# TODO Recalculate forex values???
 	print( '\033[91mTODO Recalculate Forex Values < save_target_rates > \033[0m' )
 
 	# Save the rates File
-	# saving_df = scope.target_df.copy()
+	saving_df = scope.target_df.copy()
 
-	# saving_df.to_csv( scope.path_target_file, index=False )
+	saving_df.to_csv( scope.path_target_file, index=False )
 
 
 

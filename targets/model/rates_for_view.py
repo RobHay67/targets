@@ -36,7 +36,6 @@ def target_rates_for_view(scope):
 			base_df_for_region = base_df[base_df['region'] == region]
 			target_df_for_region = target_df[target_df['region'] == region]
 			
-
 			base_rates[region] = {}
 			target_rates[region] = {}
 
@@ -51,7 +50,6 @@ def target_rates_for_view(scope):
 				base_rates[region][metric] = base_result
 
 				# Target Rates (Current Campaign)
-				print(target_df_for_region)
 				if metric in target_df_for_region.index:
 					target_result = target_df_for_region.loc[metric].at['result']
 				else:

@@ -11,6 +11,8 @@ from config.model.countries import country_key_from_name
 
 from targets.model.save import save_target_rates
 
+from targets.model.totals import update_totals
+
 # TODO - ensure we have these variables
 
 	# campaigns 2			ok	scope.campaign	
@@ -22,14 +24,13 @@ from targets.model.save import save_target_rates
 
 
 
-# widget_key_sub = 'widget_forex_rate_' + country_code + '_sub'
-# scope.forex_rates_for_view[country_code]['sub'] = st.number_input(
-# 																	label='Rate to convert Local to Subsidiary', 
-# 																	value=scope.forex_rates_for_view[country_code]['sub'], 
-# 																	format="%.7f", 
-# 																	step=0.0000001, 
-# 																	key=(widget_key_sub)
-# 																	)
+
+
+
+
+
+
+
 
 def render_new_fundraisers(scope):
 
@@ -76,7 +77,7 @@ def render_new_fundraisers(scope):
 																		value=scope.target_rates[region]['regos'], 
 																		format="%.0f", 
 																		step=1.0, 
-																		disabled=disable_col_for_edits,
+																		# disabled=disable_col_for_edits,
 																		key=(widget_key_regos)
 																		)
 
@@ -91,11 +92,9 @@ def render_new_fundraisers(scope):
 		submit_button = st.form_submit_button(label=submit_label)
 
 		if submit_button: 
-			# TODO - save the changes to the database
-			# TODO - update the totals
-			print('I have been poressed')
-			scope.target_rates['Total']['regos'] = 700
-			# scope['widget_target_ca_Total_New_regos'] = 42
+			print('pressed submit button')
+			update_totals(scope)
+			# allocate_totals
 			save_target_rates(scope)
 
 
@@ -124,7 +123,7 @@ def render_new_fundraisers(scope):
 				col.markdown(format_string('Active Ratio/Rate (%)' ,align='Left'), unsafe_allow_html=True)
 			else:
 				rates = scope.target_base_rates[region]
-				
+
 				if rates['regos'] != 0:
 					active_ratio = rates['active'] / rates['regos']
 				else:
