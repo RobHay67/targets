@@ -11,7 +11,6 @@ from targets.model.rates_for_view import target_rates_for_view
 def scope_target(scope):
 
 	scope.target_setting_method = 'Country'
-	# scope.target_refresh_widgets = True
 
 	# Establish the regions for the default country / tenure
 	set_regions_for_country(scope)
