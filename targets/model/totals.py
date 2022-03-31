@@ -48,6 +48,13 @@ def calc_average(scope, metric):
 
 def allocate_metric(scope, metric):
 
+	print( scope['widget_target_ca_Total_New_regos'])
+
+	# scope['widget_target_ca_Ontario_New_regos'] = 766
+	scope.target_refresh_widgets = True
+
+
+	
 	total_to_allocate = scope.target_rates['Total'][metric]
 	regional_values = {}
 

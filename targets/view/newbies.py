@@ -12,6 +12,8 @@ from config.model.countries import country_key_from_name
 from targets.model.save import save_target_rates
 
 from targets.model.totals import update_totals
+from targets.model.can_edit import is_column_editable
+from targets.view.submit_button import submit_label
 
 # TODO - ensure we have these variables
 
@@ -37,64 +39,101 @@ def render_new_fundraisers(scope):
 	target_rates_for_view(scope)
 
 	header_string = tenure_group_header(scope)
-
 	no_of_columns = len(scope.target_regions)
-
 	payment_country = country_key_from_name(scope.target_selected_country)
-	
 
 	# Update Values Section
-
 	with st.form(key='newbies_form'):
 		
 		st.subheader(header_string)
-
 		cols = st.columns(no_of_columns)
-		
 		for i, col in enumerate(cols):
-
 			region = scope.target_regions[i]
-			# rates = scope.target_base_rates[region]
-			
-			disable_col_for_edits = False
+			editable_column = is_column_editable(scope, region)
 
-			# Determine if Column is editable or not
-			if scope.target_setting_method == 'Region' and region == 'Total':
-				disable_col_for_edits = True
-			elif scope.target_setting_method == 'Country' and region != 'Total':
-				disable_col_for_edits = True
-			
 			if region == 'row_heading':
 				# This is an empty column to better align cols with the base rate cols
 				col.write('')
 			else:
+				# Add the Region or Total to the top row of each column
 				col.write('**'+region+'**')
 
+				rates = scope.target_rates[region]
+
+				col_name = 'Registrations'
 				widget_key_regos = 'widget_target_' + payment_country + '_' + region + '_' + scope.target_selected_tenure + '_regos'
+				
 				with col:
-					scope.target_rates[region]['regos'] = st.number_input(
-																		label='Registrations', 
+					if editable_column:
+						scope.target_rates[region]['regos'] = st.number_input(
+																		label=col_name, 
 																		value=scope.target_rates[region]['regos'], 
-																		format="%.0f", 
+																		format="%.0i", # format="%.0f",
 																		step=1.0, 
-																		# disabled=disable_col_for_edits,
 																		key=(widget_key_regos)
 																		)
+					else:
+						st.write(col_name)
+						col.markdown(format_regos(rates['regos'], align='left'), unsafe_allow_html=True)
+						st.write('')
+						st.write('')
+
+				col_name = 'Active Registrations'
+				widget_key_regos = 'widget_target_' + payment_country + '_' + region + '_' + scope.target_selected_tenure + '_active'
+				with col:
+					if editable_column:
+						scope.target_rates[region]['active'] = st.number_input(
+																		label=col_name, 
+																		value=scope.target_rates[region]['active'], 
+																		format="%.0i", # format="%.0f",
+																		step=1.0, 
+																		key=(widget_key_regos)
+																		)
+					else:
+						st.write(col_name)
+						col.markdown(format_regos(rates['active'], align='left'), unsafe_allow_html=True)
+						st.write('')
+						st.write('')
+
+				col_name = 'APAM - Average Per Active Mo'
+				widget_key_regos = 'widget_target_' + payment_country + '_' + region + '_' + scope.target_selected_tenure + '_apam'
+				with col:
+					if editable_column:
+						scope.target_rates[region]['apam'] = st.number_input(
+																		label=col_name, 
+																		value=scope.target_rates[region]['apam'], 
+																		format='%.2f', # format="%.0f",
+																		step=1.0, 
+																		key=(widget_key_regos)
+																		)
+					else:
+						st.write(col_name)
+						col.markdown(format_dolls(rates['apam'], align='left'), unsafe_allow_html=True)
+						st.write('')
+						st.write('')
+
+				col_name = 'Funds Raised'
+				widget_key_regos = 'widget_target_' + payment_country + '_' + region + '_' + scope.target_selected_tenure + '_funds'
+				with col:
+					if editable_column:
+						scope.target_rates[region]['funds'] = st.number_input(
+																		label=col_name, 
+																		value=scope.target_rates[region]['funds'], 
+																		format='%.2f', # format="%.0f",
+																		step=1.0, 
+																		key=(widget_key_regos)
+																		)
+					else:
+						st.write(col_name)
+						col.markdown(format_dolls(rates['funds'], align='left'), unsafe_allow_html=True)
+						st.write('')
+						st.write('')
 
 
-
-		
-		if scope.target_setting_method == 'Region':
-			submit_label = 'Save Regional Changes'
-		else:
-			submit_label = 'Save Totals and Allocate Changes to Regions'
-
-		submit_button = st.form_submit_button(label=submit_label)
+		submit_button = st.form_submit_button(label=submit_label(scope))
 
 		if submit_button: 
-			print('pressed submit button')
 			update_totals(scope)
-			# allocate_totals
 			save_target_rates(scope)
 
 
