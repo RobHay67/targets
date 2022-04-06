@@ -4,8 +4,8 @@
 
 
 
-regos_ret_prior = 'regos_ret_prior'		# Number of Fundraisers who were Retained 2 campaigns ago
-regos_total_prior = 'regos_total_prior'	# Total number of Registrations in all tenure categories (New, Retained and Returning ) excludes Foundation
+regos_campaign_two_ago = 'regos_campaign_two_ago'	# Total number of Registrations in all tenure categories in the campaign TWO years prior
+regos_campaign_one_ago = 'regos_campaign_one_ago'	# Total number of Registrations in all tenure categories in the campaign ONE years prior
 
 regos = 'regos'							# Total number of registrations for the tenure category
 active = 'active'						# Number of Financialy Active Registrations for the tenure category
@@ -17,11 +17,13 @@ ada = 'ada'								# Average Donation Amount
 
 tenure_levels = {
 					'New'		:[regos, active, funds, apam],
-					'Retained'	:[regos, active, funds, apam, regos_ret_prior, regos_total_prior],
+					'Retained'	:[regos, active, funds, apam, regos_campaign_one_ago, regos_campaign_two_ago],
 					'Returning'	:[regos, active, funds, apam],
 					'Foundation':[donations,     funds, ada],
 				}
 
+
+# TODO - I dont think this value is used - regos_campaign_one_ago
 
 
 def scope_tenure(scope):

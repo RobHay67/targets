@@ -5,9 +5,10 @@ from config.model.target_rates import target_rates_for_view
 
 from targets.view.tenure_selector import tenure_group_header
 from targets.model.format_values import format_regos, format_dolls, format_percent, format_string
-from targets.view.widgets import render_regos_widget, render_active_widget, render_apam_widget, render_funds_widget
+from targets.view.widgets import render_donations_widget, render_ada_widget, render_funds_widget
 
-def render_new_fundraisers(scope):
+
+def render_foundation_donations(scope):
 
 	target_rates_for_view(scope)
 
@@ -24,9 +25,8 @@ def render_new_fundraisers(scope):
 		else:
 			with col:
 				st.write('**'+region+'**')
-				render_regos_widget(scope, region)
-				render_active_widget(scope, region)
-				render_apam_widget(scope, region)
+				render_donations_widget(scope, region)
+				render_ada_widget(scope, region)
 				render_funds_widget(scope, region)
 
 
@@ -36,46 +36,28 @@ def render_new_fundraisers(scope):
 	st.subheader(header_string + ' ( base values from ' + previous_campaign + ')')
 
 	cols = st.columns(no_of_columns)
+
 	for i, col in enumerate(cols):
+
 		region = scope.target_regions[i]
 		
+
 		if region == 'row_heading':
 			col.markdown(format_string('Metrics' ,align='Left'), unsafe_allow_html=True)
 			# col.markdown("""---""")
-			col.markdown(format_string('Registrations' ,align='Left'), unsafe_allow_html=True)
-			col.markdown(format_string('Active Registrations' ,align='Left'), unsafe_allow_html=True)
-			col.markdown(format_string('Average Per Active Mo (APAM)' ,align='Left'), unsafe_allow_html=True)
+			col.markdown(format_string('Donations' ,align='Left'), unsafe_allow_html=True)
+			col.markdown(format_string('ADA' ,align='Left'), unsafe_allow_html=True)
 			col.markdown(format_string('Funds Raised' ,align='Left'), unsafe_allow_html=True)
-			col.markdown(format_string('Active Ratio/Rate (%)' ,align='Left'), unsafe_allow_html=True)
 		else:
 			rates = scope.target_base_rates[region]
-			active_ratio = 0.0
-
-			if rates['regos'] != 0:
-				active_ratio = rates['active'] / rates['regos']			
 
 			col.markdown(format_string(region, align='Right', bold=False), unsafe_allow_html=True)
 			# col.markdown("""---""")
-			col.markdown(format_regos(rates['regos'], align='right'), unsafe_allow_html=True)
-			col.markdown(format_regos(rates['active'], align='right'), unsafe_allow_html=True)
-			col.markdown(format_dolls(rates['apam'], align='right'), unsafe_allow_html=True)
+			col.markdown(format_regos(rates['donations'], align='right'), unsafe_allow_html=True)
+			col.markdown(format_regos(rates['ada'], align='right'), unsafe_allow_html=True)
 			col.markdown(format_dolls(rates['funds'], align='right'), unsafe_allow_html=True)
-			col.markdown(format_percent(active_ratio, align='right'), unsafe_allow_html=True)
 				
 
 
-
-
-
-
-
-
-
-
-
-
-	
-
-	
 
 

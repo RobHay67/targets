@@ -7,7 +7,8 @@ from targets.view.tenure_selector import tenure_group_header
 from targets.model.format_values import format_regos, format_dolls, format_percent, format_string
 from targets.view.widgets import render_regos_widget, render_active_widget, render_apam_widget, render_funds_widget
 
-def render_new_fundraisers(scope):
+
+def render_returning_fundraisers(scope):
 
 	target_rates_for_view(scope)
 
@@ -36,9 +37,12 @@ def render_new_fundraisers(scope):
 	st.subheader(header_string + ' ( base values from ' + previous_campaign + ')')
 
 	cols = st.columns(no_of_columns)
+
 	for i, col in enumerate(cols):
+
 		region = scope.target_regions[i]
 		
+
 		if region == 'row_heading':
 			col.markdown(format_string('Metrics' ,align='Left'), unsafe_allow_html=True)
 			# col.markdown("""---""")
@@ -49,10 +53,11 @@ def render_new_fundraisers(scope):
 			col.markdown(format_string('Active Ratio/Rate (%)' ,align='Left'), unsafe_allow_html=True)
 		else:
 			rates = scope.target_base_rates[region]
-			active_ratio = 0.0
 
 			if rates['regos'] != 0:
-				active_ratio = rates['active'] / rates['regos']			
+				active_ratio = rates['active'] / rates['regos']
+			else:
+				active_ratio = 0.0
 
 			col.markdown(format_string(region, align='Right', bold=False), unsafe_allow_html=True)
 			# col.markdown("""---""")
@@ -64,18 +69,5 @@ def render_new_fundraisers(scope):
 				
 
 
-
-
-
-
-
-
-
-
-
-
-	
-
-	
 
 

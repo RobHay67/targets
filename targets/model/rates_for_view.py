@@ -5,6 +5,62 @@ from config.model.tenure import tenure_levels
 from config.model.countries import country_key_from_name
 
 
+
+def market_total(scope, tenure, metric):
+	
+	market_total = 0.0
+	
+	payment_country = country_key_from_name(scope.target_selected_country)
+
+	target_df = scope.target_df[scope.target_df['payment_country'] == payment_country].copy()
+
+	if metric != 'regos_campaign_one_ago':
+		target_df = target_df[target_df['campaign'] == int(scope.campaign)].copy()
+	else:
+		target_df = target_df[target_df['campaign'] == int(scope.campaign-1)].copy()	
+
+	target_df = target_df[target_df['region'] == 'Total']
+
+	if tenure == 'p2p':
+		target_df = target_df[target_df['tenure'] != 'Foundation']
+		target_df = target_df[target_df['metric'] == metric]
+		market_total = sum(target_df['result'])
+	elif tenure == 'Total':
+		target_df = target_df[target_df['metric'] == metric]
+		market_total = sum(target_df['result'])
+	else:
+		target_df = target_df[target_df['tenure'] == tenure]
+		target_df.set_index('metric', inplace = True)
+
+		if metric in target_df.index:market_total = target_df.loc[metric].at['result']
+
+	return market_total
+
+def active_rate(scope, tenure):
+
+	active_rate = 0.0
+	total_regos =  market_total(scope, tenure, 'regos')
+	total_active =  market_total(scope, tenure, 'active')
+
+
+	
+	if total_regos > 0:active_rate = total_active / total_regos
+
+	return active_rate
+
+def retention_rate(scope, tenure):
+	# AKA : Retention Ratio
+
+	retention_ratio = 0.0
+
+	total_regos =  market_total(scope, tenure, 'regos')
+	last_years_campaign_regos = market_total(scope, tenure, 'regos_campaign_one_ago')
+	
+	if last_years_campaign_regos > 0:retention_ratio = total_regos / last_years_campaign_regos
+
+	return retention_ratio
+
+
 def target_rates_for_view(scope):
 
 	payment_country = country_key_from_name(scope.target_selected_country)
