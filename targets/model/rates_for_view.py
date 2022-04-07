@@ -41,8 +41,6 @@ def active_rate(scope, tenure):
 	active_rate = 0.0
 	total_regos =  market_total(scope, tenure, 'regos')
 	total_active =  market_total(scope, tenure, 'active')
-
-
 	
 	if total_regos > 0:active_rate = total_active / total_regos
 
@@ -59,7 +57,6 @@ def retention_rate(scope, tenure):
 	if last_years_campaign_regos > 0:retention_ratio = total_regos / last_years_campaign_regos
 
 	return retention_ratio
-
 
 def target_rates_for_view(scope):
 

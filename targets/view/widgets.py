@@ -4,7 +4,17 @@ import streamlit as st
 from targets.model.widget_key import create_widget_key
 from targets.model.can_edit import is_column_editable
 
-from targets.model.update_values import on_change_regos, on_change_active_regos, on_change_apam, on_change_funds, on_change_donations, on_change_ada
+from targets.model.update_values import on_change_regos
+from targets.model.update_values import on_change_active_regos
+from targets.model.update_values import on_change_apam
+from targets.model.update_values import on_change_funds
+from targets.model.update_values import on_change_donations
+from targets.model.update_values import on_change_ada
+from targets.model.update_values import on_change_country
+from targets.model.update_values import on_change_target_setting_method
+from targets.model.update_values import on_change_target_selected_tenure
+
+
 from targets.model.format_values import format_regos, format_dolls, format_percent, format_string
 
 
@@ -159,3 +169,53 @@ def render_ada_widget(scope, region):
 		st.markdown(format_dolls(scope.target_rates[region][metric], align='left'), unsafe_allow_html=True)
 		st.write('')
 		st.write('')
+
+
+def render_country_selector(scope):
+
+	list_of_countries = scope.dropdown_countries
+	index_pos = list_of_countries.index(scope.target_selected_country)
+	scope.target_selected_country = st.selectbox ( 
+													label=('Available Countries'), 
+													options=list_of_countries,
+													index=index_pos,
+													key='widget_target_selected_country',
+													help='Select the country to view and edit the rates.',
+													on_change=on_change_country,
+													args=(scope, ),
+													) 
+
+def render_target_setting_method(scope):
+
+	select_box_options = ['Region', 'Country']
+	
+	index_pos = select_box_options.index(scope.target_setting_method)
+
+	scope.target_setting_method = st.selectbox(
+													label='Budget By', 
+													options=select_box_options,
+													index=index_pos,
+													key='widget_target_setting_method',
+													on_change=on_change_target_setting_method,
+													args=(scope, ),
+													)
+
+def render_tenure_selector(scope):
+
+	col1,col2 = st.columns([1,3])
+
+	select_box_options = scope.dropdown_tenure
+
+	index_pos = select_box_options.index(scope.target_selected_tenure)
+
+	with col1:
+
+		scope.target_selected_tenure = st.selectbox ( 
+													label=('Tenure Category'), 
+													options=select_box_options,
+													index=index_pos,
+													help='Select the tenure level to view and edit the rates.',
+													key='widget_target_selected_tenure',
+													on_change=on_change_target_selected_tenure,
+													args=(scope, ),
+													) 

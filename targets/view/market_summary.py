@@ -8,7 +8,7 @@ from targets.model.rates_for_view import market_total, active_rate, retention_ra
 
 
 
-def render_target_totals(scope):
+def render_market_summary(scope):
 	
 	st.subheader('Market Summary')
 
@@ -17,8 +17,8 @@ def render_target_totals(scope):
 	with col1: 
 		st.markdown(format_string('Key Measures' ,align='Left'), unsafe_allow_html=True)
 		st.markdown(format_string('New' ,align='Left'), unsafe_allow_html=True)
+		st.markdown(format_string('Returned' ,align='Left'), unsafe_allow_html=True)
 		st.markdown(format_string('Retained' ,align='Left'), unsafe_allow_html=True)
-		st.markdown(format_string('Returning' ,align='Left'), unsafe_allow_html=True)
 		st.markdown(format_string('Total Peer to Peer' ,align='Left'), unsafe_allow_html=True)
 		st.markdown(format_string('Foundation Donations' ,align='Left'), unsafe_allow_html=True)
 		st.markdown(format_string('MARKET TOTALS' ,align='Right'), unsafe_allow_html=True)
@@ -26,7 +26,7 @@ def render_target_totals(scope):
 	with col2: 
 		st.markdown(format_string('Registrations' ,align='Right'), unsafe_allow_html=True)
 		st.markdown(format_regos(market_total(scope, 'New', 'regos'), align='right'), unsafe_allow_html=True)
-		st.markdown(format_regos(market_total(scope, 'Returning', 'regos'), align='right'), unsafe_allow_html=True)
+		st.markdown(format_regos(market_total(scope, 'Returned', 'regos'), align='right'), unsafe_allow_html=True)
 		st.markdown(format_regos(market_total(scope, 'Retained', 'regos'), align='right'), unsafe_allow_html=True)
 		st.markdown(format_regos(market_total(scope, 'p2p', 'regos'), align='right'), unsafe_allow_html=True)
 		st.markdown(format_string('-', align='right'), unsafe_allow_html=True)
@@ -44,7 +44,7 @@ def render_target_totals(scope):
 	with col4: 
 		st.markdown(format_string('Active Registrations' ,align='Right'), unsafe_allow_html=True)
 		st.markdown(format_regos(market_total(scope, 'New', 'active'), align='right'), unsafe_allow_html=True)
-		st.markdown(format_regos(market_total(scope, 'Returning', 'active'), align='right'), unsafe_allow_html=True)
+		st.markdown(format_regos(market_total(scope, 'Returned', 'active'), align='right'), unsafe_allow_html=True)
 		st.markdown(format_regos(market_total(scope, 'Retained', 'active'), align='right'), unsafe_allow_html=True)
 		st.markdown(format_regos(market_total(scope, 'p2p', 'active'), align='right'), unsafe_allow_html=True)
 		st.markdown(format_string('-', align='right'), unsafe_allow_html=True)
@@ -53,7 +53,7 @@ def render_target_totals(scope):
 	with col5: 
 		st.markdown(format_string('APAM' ,align='Right'), unsafe_allow_html=True)
 		st.markdown(format_dolls(market_total(scope, 'New', 'apam'), align='right'), unsafe_allow_html=True)
-		st.markdown(format_dolls(market_total(scope, 'Returning', 'apam'), align='right'), unsafe_allow_html=True)
+		st.markdown(format_dolls(market_total(scope, 'Returned', 'apam'), align='right'), unsafe_allow_html=True)
 		st.markdown(format_dolls(market_total(scope, 'Retained', 'apam'), align='right'), unsafe_allow_html=True)
 		st.markdown(format_dolls(market_total(scope, 'p2p', 'apam'), align='right'), unsafe_allow_html=True)
 		st.markdown(format_string('-', align='right'), unsafe_allow_html=True)
@@ -72,7 +72,7 @@ def render_target_totals(scope):
 	with col7: 
 		st.markdown(format_string('Funds Raised' ,align='Right'), unsafe_allow_html=True)
 		st.markdown(format_dolls(market_total(scope, 'New', 'funds'), align='right'), unsafe_allow_html=True)
-		st.markdown(format_dolls(market_total(scope, 'Returning', 'funds'), align='right'), unsafe_allow_html=True)
+		st.markdown(format_dolls(market_total(scope, 'Returned', 'funds'), align='right'), unsafe_allow_html=True)
 		st.markdown(format_dolls(market_total(scope, 'Retained', 'funds'), align='right'), unsafe_allow_html=True)
 		st.markdown(format_dolls(market_total(scope, 'p2p', 'funds'), align='right'), unsafe_allow_html=True)
 		st.markdown(format_dolls(market_total(scope, 'Foundation', 'funds'), align='right'), unsafe_allow_html=True)
@@ -81,7 +81,7 @@ def render_target_totals(scope):
 	with col8: 
 		st.markdown(format_string('Active Rate' ,align='Right'), unsafe_allow_html=True)
 		st.markdown(format_percent(active_rate(scope, 'New'), align='right'), unsafe_allow_html=True)
-		st.markdown(format_percent(active_rate(scope, 'Returning'), align='right'), unsafe_allow_html=True)
+		st.markdown(format_percent(active_rate(scope, 'Returned'), align='right'), unsafe_allow_html=True)
 		st.markdown(format_percent(active_rate(scope, 'Retained'), align='right'), unsafe_allow_html=True)
 		st.markdown(format_percent(active_rate(scope, 'Total'), align='right'), unsafe_allow_html=True)
 		st.markdown(format_string('-', align='right'), unsafe_allow_html=True)

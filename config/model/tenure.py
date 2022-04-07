@@ -17,8 +17,8 @@ ada = 'ada'								# Average Donation Amount
 
 tenure_levels = {
 					'New'		:[regos, active, funds, apam],
+					'Returned'	:[regos, active, funds, apam],
 					'Retained'	:[regos, active, funds, apam, regos_campaign_one_ago, regos_campaign_two_ago],
-					'Returning'	:[regos, active, funds, apam],
 					'Foundation':[donations,     funds, ada],
 				}
 

@@ -4,7 +4,7 @@ from config.model.tenure import tenure_levels
 from targets.model.widget_key import create_widget_key
 from targets.model.save import save_target_rates
 
-
+from config.model.regions import set_regions_for_country
 
 
 def store_changed_value_in_target_rates(scope, region, metric, changed_value):	
@@ -19,7 +19,7 @@ def on_change_regos(scope:dict, region:str):
 	store_changed_value_in_target_rates(scope, region, metric, changed_value)
 
 	if region == 'Total':
-		allocate_total_to_regions(metric)  # TODO - Rob needs to work on this one
+		allocate_total_to_regions(scope, metric)  # TODO - Rob needs to work on this one
 	else:
 		calc_total_for_metric(scope, metric)
 
@@ -33,7 +33,7 @@ def on_change_active_regos(scope:dict, region:str):
 	store_changed_value_in_target_rates(scope, region, metric, changed_value)
 
 	if region == 'Total':
-		allocate_total_to_regions(metric)  # TODO - Rob needs to work on this one
+		allocate_total_to_regions(scope, metric)  # TODO - Rob needs to work on this one
 	else:
 		calc_total_for_metric(scope, metric)
 		calc_funds_raised(scope, region)
@@ -51,7 +51,7 @@ def on_change_apam(scope:dict, region:str):
 	store_changed_value_in_target_rates(scope, region, metric, changed_value)
 
 	if region == 'Total':
-		allocate_total_to_regions(metric)  # TODO - Rob needs to work on this one
+		allocate_total_to_regions(scope, metric)  # TODO - Rob needs to work on this one
 	else:
 		calc_funds_raised(scope, region)
 		calc_total_for_metric(scope, 'funds')
@@ -67,7 +67,7 @@ def on_change_funds(scope:dict, region:str):
 	store_changed_value_in_target_rates(scope, region, metric, changed_value)
 
 	if region == 'Total':
-		allocate_total_to_regions(metric)  # TODO - Rob needs to work on this one
+		allocate_total_to_regions(scope, metric)  # TODO - Rob needs to work on this one
 	else:
 		calc_total_for_metric(scope, metric)
 
@@ -88,14 +88,13 @@ def on_change_donations(scope:dict, region:str):
 	store_changed_value_in_target_rates(scope, region, metric, changed_value)
 
 	if region == 'Total':
-		allocate_total_to_regions(metric)  # TODO - Rob needs to work on this one
+		allocate_total_to_regions(scope, metric)  # TODO - Rob needs to work on this one
 	else:
 		calc_total_for_metric(scope, metric)
 
 	save_target_rates(scope)
 
 def on_change_ada(scope:dict, region:str):	
-	print ('ADA has changed')
 
 	metric = 'ada'
 	changed_value = scope[create_widget_key(scope, region, metric)]
@@ -103,13 +102,30 @@ def on_change_ada(scope:dict, region:str):
 	store_changed_value_in_target_rates(scope, region, metric, changed_value)
 
 	if region == 'Total':
-		allocate_total_to_regions(metric)  # TODO - Rob needs to work on this one
+		allocate_total_to_regions(scope, metric)  # TODO - Rob needs to work on this one
 	else:
 		calc_funds_raised(scope, region)
 		calc_total_for_metric(scope, 'funds')
 		# calc_total_for_apam(scope, region)
 
 	save_target_rates(scope)
+
+
+def on_change_country(scope:dict):
+	changed_value = scope['widget_target_selected_country']
+	# Store the new Value
+	scope.target_selected_country = changed_value
+	set_regions_for_country(scope)
+
+def on_change_target_setting_method(scope:dict):
+	changed_value = scope['widget_target_setting_method']
+	# Store the new Value
+	scope.target_setting_method = changed_value
+
+def on_change_target_selected_tenure(scope:dict):
+	changed_value = scope['widget_target_selected_tenure']
+	# Store the new Value
+	scope.target_selected_tenure = changed_value
 
 
 
@@ -220,6 +236,14 @@ def calc_total_for_ada(scope, changed_region):
 
 
 def allocate_total_to_regions(scope, metric):
+
+	print('Allocating to regions')
+
+	# TODO - what if we dont have any values at all?
+	#			- allocate 100% to Other
+	#			- use last years allocation proportions
+
+
 	total_to_allocate = scope.target_rates['Total'][metric]
 	regional_values = {}
 

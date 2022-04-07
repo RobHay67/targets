@@ -3,7 +3,7 @@ import streamlit as st
 
 from config.model.target_rates import target_rates_for_view
 
-from targets.view.tenure_selector import tenure_group_header
+from targets.view.header import tenure_group_header
 from targets.model.format_values import format_regos, format_dolls, format_percent, format_string
 from targets.view.widgets import render_donations_widget, render_ada_widget, render_funds_widget
 
