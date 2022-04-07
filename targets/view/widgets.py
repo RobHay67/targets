@@ -16,10 +16,10 @@ from targets.model.update_values import on_change_target_selected_tenure
 
 
 from targets.model.format_values import format_regos, format_dolls, format_percent, format_string
+from config.model.countries import country_key_from_name
 
 
 
-# rates = scope.target_rates[region]
 
 
 def render_regos_widget(scope, region):

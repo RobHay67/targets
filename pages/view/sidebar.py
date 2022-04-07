@@ -1,6 +1,7 @@
 import streamlit as st
 
 from config.model.page import set_page
+from targets.model.export import convert_df
 
 
 def render_sidebar(scope):
@@ -31,3 +32,12 @@ def render_sidebar(scope):
 		st.sidebar.button('System Settings', on_click=set_page, args=('config', ))
 
 
+	# download_target_rates = st.sidebar.button('Export Target Rates')
+
+	# if download_target_rates:
+	# 	print('donwload rates')
+	# 	target_df = convert_df(scope.target_df)
+
+	# print(download_target_rates)
+
+	st.sidebar.download_button("Download Target Rates", data=convert_df(scope.target_df),file_name='target_rates_2022.csv', mime='text/csv', )
