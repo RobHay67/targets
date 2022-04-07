@@ -31,13 +31,4 @@ def render_sidebar(scope):
 	if scope.user_can_edit_config:
 		st.sidebar.button('System Settings', on_click=set_page, args=('config', ))
 
-
-	# download_target_rates = st.sidebar.button('Export Target Rates')
-
-	# if download_target_rates:
-	# 	print('donwload rates')
-	# 	target_df = convert_df(scope.target_df)
-
-	# print(download_target_rates)
-
 	st.sidebar.download_button("Download Target Rates", data=convert_df(scope.target_df),file_name='target_rates_2022.csv', mime='text/csv', )
