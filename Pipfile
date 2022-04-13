@@ -4,13 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pathlib = "==1.0.1"
 numpy = "==1.21.6"
 pandas = "==1.3.5"
 streamlit = "*"
-ez-setup = "*"
 pip = "*"
 setuptools = "*"
+pathlib = "*"
+watchdog = "==2.1.7"
 
 [dev-packages]
 
