@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "83c680df7c63f1a5762e1cdf880b9a462183d1c3b55f88f7589d94c21eda834b"
+            "sha256": "e278a32f92389fea9dde17144c2f80e31e2e7efb0fe11985c59625f649b097e9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -251,6 +251,13 @@
                 "sha256:d1eef132db1b83649a3905ca6dd8897f71ac6f8cac79a7e58a1a09cf137546c9"
             ],
             "version": "==0.8.3"
+        },
+        "ez-setup": {
+            "hashes": [
+                "sha256:303c5b17d552d1e3fb0505d80549f8579f557e13d8dc90e5ecef3c07d7f58642"
+            ],
+            "index": "pypi",
+            "version": "==0.9"
         },
         "fastjsonschema": {
             "hashes": [
