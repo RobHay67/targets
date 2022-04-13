@@ -96,7 +96,8 @@ def scope_countries(scope):
 
 		scope.dropdown_countries = dropdown_list
 		scope.target_selected_country = dropdown_list[0]
-		scope.page_to_display = 'targets'
+		# scope.page_to_display = 'targets'
+		scope.page_to_display = 'forex'
 
 	else:
 		print('\033[91mAPPLICATION ERROR - Scope does not contrain user_country_codes\033[0m')

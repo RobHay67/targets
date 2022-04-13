@@ -9,6 +9,7 @@
 # deactivate env	- exit
 # add a package 	- pipenv install django
 # specify ver   	- pipenv install django==2.2
+# latest ver		- pipenv update pandas
 # delete pkg		- pipenv uninstall django
 
 # ------------------------------------------------- Package Management
@@ -38,8 +39,11 @@ render_sidebar(scope)						# Render the Sidebar
 render_selected_page(scope)					# Render the selected Page
 
 
-
-
+import os
+project_parent = os.path.dirname(os.path.dirname(__file__))
+print(project_parent)
+# project_parent = os.path.abspath(os.path.join(project_parent, os.pardir))
+print('='*77)
 
 
 print('-'*100)

@@ -22,14 +22,13 @@ def load_target_rates(scope):
 	set_path_to_target_file(scope)
 
 	if os.path.exists( scope.path_target_file ):
-
 		taget_table = pd.read_csv( scope.path_target_file, 
 									dtype={'campaign':'int', 'payment_country':'str', 'region':'str', 'tenure':'str', 'metric':'str', 'value':'float64'},
 									# parse_dates=csv_dates(schema),
 									index_col=None,
 
 									)
-		st.write('Loaded Target Rates File > ' + str(scope.path_target_file))
+		
 		# ticker_index.set_index('share_code', inplace=True)
 
 		scope.target_df = taget_table
@@ -37,7 +36,6 @@ def load_target_rates(scope):
 		scope.loaded_target_table = True
 
 	else: 
-
 		taget_table = pd.DataFrame(columns=['campaign', 'payment_country', 'region', 'tenure', 'metric', 'value'])
 
 		scope.target_df = taget_table
