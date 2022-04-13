@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 pathlib = "*"
-numpy = "*"
+numpy = "==1.21.6"
 pandas = "*"
 streamlit = "*"
 
