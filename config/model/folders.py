@@ -30,4 +30,8 @@ def set_path_to_target_file(scope):
 
 
 
+# folder_data                              /Users/rob.hay/git_repo/targets/files
+# folder_project                           /Users/rob.hay/git_repo/targets
 
+# path_forex_file                          /Users/rob.hay/git_repo/targets/files/forex_rates.csv
+# path_target_file                         /Users/rob.hay/git_repo/targets/files/target_rates_2022.csv

@@ -1,7 +1,7 @@
 
 import pandas as pd
 import os
-
+import streamlit as st
 from forex.model.rates_for_view import forex_rates_for_view
 
 
@@ -13,7 +13,7 @@ def load_forex_rates(scope):
 									dtype={'campaign':'int', 'country':'str', 'forex_to_sub':'float64', 'forex_to_aud':'float64'},
 									# parse_dates=csv_dates(schema),
 									)
-
+		st.write('Loaded Forex Rates File > ' + str(scope.path_forex_file))
 		# ticker_index.set_index('share_code', inplace=True)
 
 		scope.forex_df = forex_table

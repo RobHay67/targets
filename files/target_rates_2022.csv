@@ -548,7 +548,7 @@ campaign,payment_country,region,tenure,metric,result
 2022,ca,Total,Retained,apam,176.10217364607638
 2022,ca,Total,Retained,regos_campaign_one_ago,0.0
 2022,ca,Total,Retained,regos_campaign_two_ago,0.0
-2022,au,Tas,New,regos,500000
+2022,au,Tas,New,regos,500002
 2022,au,Tas,New,active,0.0
 2022,au,Tas,New,funds,0.0
 2022,au,Tas,New,apam,0.0
@@ -584,7 +584,7 @@ campaign,payment_country,region,tenure,metric,result
 2022,au,Other,New,active,0.0
 2022,au,Other,New,funds,0.0
 2022,au,Other,New,apam,0.0
-2022,au,Total,New,regos,500000.0
+2022,au,Total,New,regos,500002.0
 2022,au,Total,New,active,0.0
 2022,au,Total,New,funds,0.0
 2022,au,Total,New,apam,0.0

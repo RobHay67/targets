@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-
+import streamlit as st
 
 from config.model.folders import set_path_to_target_file
 from config.model.regions import set_regions_for_country
@@ -29,7 +29,7 @@ def load_target_rates(scope):
 									index_col=None,
 
 									)
-
+		st.write('Loaded Target Rates File > ' + str(scope.path_target_file))
 		# ticker_index.set_index('share_code', inplace=True)
 
 		scope.target_df = taget_table
