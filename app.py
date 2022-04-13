@@ -3,7 +3,14 @@
 # streamlit run app.py
 # ------------------------------------------------- GitHub
 # git push -u origin <branch>
-# git branch -d <branch>   will delete local branch
+# ------------------------------------------------- Pipenv
+# cd into project folder 
+# activate Pipenv 	- pipenv shell
+# deactivate env	- exit
+# add a package 	- pipenv install django
+# specify ver   	- pipenv install django==2.2
+# delete pkg		- pipenv uninstall django
+
 # ------------------------------------------------- Package Management
 # pip3 install --user --upgrade django
 # pipenv install flask==0.12.1
@@ -12,7 +19,6 @@
 
 # Testing Code - TODO - delete later
 import pandas as pd
-
 pd.set_option('display.max_rows', 5000)
 pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
