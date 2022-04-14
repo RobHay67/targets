@@ -13,12 +13,13 @@ def render_foundation_donations(scope):
 	target_rates_for_view(scope)
 
 	header_string = tenure_group_header(scope)
-	no_of_columns = len(scope.target_regions)
+	no_of_columns = len(scope.target_columns)
+
 		
 	st.subheader(header_string)
 	cols = st.columns(no_of_columns)
 	for i, col in enumerate(cols):
-		region = scope.target_regions[i]
+		region = scope.target_columns[i]
 
 		if region == 'row_heading':
 			col.write('')	# This is an empty column to better align cols with the base rate cols
@@ -39,7 +40,7 @@ def render_foundation_donations(scope):
 
 	for i, col in enumerate(cols):
 
-		region = scope.target_regions[i]
+		region = scope.target_columns[i]
 		
 
 		if region == 'row_heading':

@@ -80,9 +80,8 @@ def target_rates_for_view(scope):
 	target_rates = {}
 
 	# Iterate through each region and extract the appropriate rates
-	print( '\033[91mfilter to the region in the loop so we get the correct rate\033[0m' )
-	for region in scope.target_regions:
-		
+	for region in scope.target_columns:
+
 		if region != 'row_heading':
 
 			# Filter for Region

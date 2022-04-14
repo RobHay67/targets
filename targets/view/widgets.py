@@ -20,8 +20,6 @@ from config.model.countries import country_key_from_name
 
 
 
-
-
 def render_regos_widget(scope, region):
 
 	col_name = 'Registrations'
