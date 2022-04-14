@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-from config.model.target_rates import target_rates_for_view
+from targets.model.rates_for_view import target_rates_for_view
 
 from targets.view.header import tenure_group_header
 from targets.model.format_values import format_regos, format_dolls, format_percent, format_string

@@ -142,13 +142,13 @@ def on_change_ada(scope:dict, region:str):
 def on_change_country(scope:dict):
 	changed_value = scope['widget_target_selected_country']
 	# Store the new Value
-	scope.target_selected_country = changed_value
+	scope.user_selected_country = changed_value
 	set_regions_for_country(scope)
 
 def on_change_target_setting_method(scope:dict):
 	changed_value = scope['widget_target_setting_method']
 	# Store the new Value
-	scope.target_setting_method = changed_value
+	scope.user_target_setting_method = changed_value
 
 def on_change_target_selected_tenure(scope:dict):
 	changed_value = scope['widget_target_selected_tenure']
@@ -322,7 +322,7 @@ def apply_allocation_variance(regional_values, total_to_allocate):
 
 # 	tenure_metrics = tenure_levels[scope.target_selected_tenure]
 
-# 	if scope.target_setting_method == 'Region':
+# 	if scope.user_target_setting_method == 'Region':
 
 # 		# Update Totals Records Only - add together each region
 # 		reset_totals(scope, tenure_metrics)
@@ -348,7 +348,7 @@ def apply_allocation_variance(regional_values, total_to_allocate):
 # 			calc_average(scope, 'ada')
 
 
-# 	if scope.target_setting_method == 'Country':
+# 	if scope.user_target_setting_method == 'Country':
 
 # 		print( 'Allocation based on proportion of total')
 

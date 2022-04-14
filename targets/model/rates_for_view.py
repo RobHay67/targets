@@ -10,7 +10,7 @@ def market_total(scope, tenure, metric):
 	
 	market_total = 0.0
 	
-	payment_country = country_key_from_name(scope.target_selected_country)
+	payment_country = country_key_from_name(scope.user_selected_country)
 
 	target_df = scope.target_df[scope.target_df['payment_country'] == payment_country].copy()
 
@@ -32,7 +32,8 @@ def market_total(scope, tenure, metric):
 		target_df = target_df[target_df['tenure'] == tenure]
 		target_df.set_index('metric', inplace = True)
 
-		if metric in target_df.index:market_total = target_df.loc[metric].at['result']
+		if metric in target_df.index:
+			market_total = target_df.loc[metric].at['result']
 
 	return market_total
 
@@ -60,7 +61,7 @@ def retention_rate(scope, tenure):
 
 def target_rates_for_view(scope):
 
-	payment_country = country_key_from_name(scope.target_selected_country)
+	payment_country = country_key_from_name(scope.user_selected_country)
 	tenure_metrics = tenure_levels[scope.target_selected_tenure]
 	campaign_year_base   = int(scope.campaign) - 1			# last years rates
 	campaign_year_target = int(scope.campaign)				# target year (this year)

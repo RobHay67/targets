@@ -27,38 +27,45 @@ pd.set_option('display.width', 1000)
 
 import streamlit as st
 
-
-
 from config.controller import set_scope
 from pages.view.sidebar import render_sidebar
 from pages.controller import render_selected_page
 
 print ( '\033[94m' + 'Target Setting App Re-Rendering Now ' + '>'*50 + '\033[0m')
+
 scope = set_scope(st.session_state)
-render_sidebar(scope)						# Render the Sidebar
-render_selected_page(scope)					# Render the selected Page
+render_sidebar(scope)
+render_selected_page(scope)
+
+
+
+# str_as_list = scope.user_country_codes
+# country_code_list = str_as_list.split()
+
+# print(str_as_list)
+# print(country_code_list)
 
 
 
 
 
-# print('-'*100)
-# print( 'List of all keys in the st.session_state')
-# print('-'*100)
-# if 'initial_load' in st.session_state:
-# 	to_much_data = ['target_df', 'forex_df', 'forex_rates', 'forex_rates_for_view', 'country_code_list']
-# 	folders_and_paths = ['folder_files', 'folder_project', 'path_forex_file', 'path_target_file']
-# 	status_vars = ['initial_load', 'loaded_data', 'loaded_forex_table', 'loaded_target_table']
-# 	dropdowns = ['dropdown_campaigns','dropdown_tenure']
+print('-'*100)
+print( 'List of all keys in the st.session_state')
+print('-'*100)
+if 'initial_load' in st.session_state:
+	to_much_data = ['target_df', 'forex_df', 'forex_rates', 'forex_rates_for_view', 'country_code_list', 'user_df']
+	folders_and_paths = ['folder_files', 'folder_project', 'path_forex_file', 'path_target_file']
+	status_vars = ['initial_load', 'loaded_data', 'loaded_forex_table', 'loaded_target_table']
+	dropdowns = ['dropdown_campaigns','dropdown_tenure']
 
-# 	ignore_params = to_much_data + folders_and_paths +  status_vars + dropdowns
-# 	for key in sorted(st.session_state):
-# 		if key not in  ignore_params:
-# 			print ( key.ljust(40), scope[key])
-# 		# else:
-# 		# 	print ( key.ljust(40), 'too much data to print')
-# 		# print(scope[key])
-# print ( '-'*100)
+	ignore_params = to_much_data + folders_and_paths +  status_vars + dropdowns
+	for key in sorted(st.session_state):
+		if key not in  ignore_params:
+			print ( key.ljust(40), scope[key])
+		# else:
+		# 	print ( key.ljust(40), 'too much data to print')
+		# print(scope[key])
+print ( '-'*100)
 
 
 

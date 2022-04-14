@@ -9,7 +9,7 @@ from config.model.tenure import tenure_levels
 def save_target_rates(scope):
 	
 	campaign = scope.campaign
-	payment_country = country_key_from_name(scope.target_selected_country)
+	payment_country = country_key_from_name(scope.user_selected_country)
 	tenure_group = scope.target_selected_tenure
 	tenure_metrics = tenure_levels[scope.target_selected_tenure]
 

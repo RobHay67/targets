@@ -18,8 +18,8 @@ def render_targets_header(scope):
 		render_country_selector(scope)
 
 			# list_of_countries = scope.dropdown_countries
-			# index_pos = list_of_countries.index(scope.target_selected_country)
-			# scope.target_selected_country = st.selectbox ( 
+			# index_pos = list_of_countries.index(scope.user_selected_country)
+			# scope.user_selected_country = st.selectbox ( 
 			# 												label=('Available Countries'), 
 			# 												options=list_of_countries,
 			# 												index=index_pos,
@@ -29,12 +29,12 @@ def render_targets_header(scope):
 			# 												args=(scope, ),
 			# 												) 
 
-			# if previous_country != scope.target_selected_country:
+			# if previous_country != scope.user_selected_country:
 			# 	set_regions_for_country(scope)
 
 	with col3: 
-		currency = currency_name(scope.target_selected_country)
-		dollar_symbol = currency_symbol(scope.target_selected_country)
+		currency = currency_name(scope.user_selected_country)
+		dollar_symbol = currency_symbol(scope.user_selected_country)
 
 		st.write('Currency = ' + currency +' ( ' + dollar_symbol + ' )')
 	with col4:
@@ -42,9 +42,9 @@ def render_targets_header(scope):
 		render_target_setting_method(scope)
 
 		# select_box_options = ['Region', 'Country']
-		# index_pos = select_box_options.index(scope.target_setting_method)
+		# index_pos = select_box_options.index(scope.user_target_setting_method)
 
-		# scope.target_setting_method = st.selectbox(
+		# scope.user_target_setting_method = st.selectbox(
 		# 												label='Budget By', 
 		# 												options=select_box_options,
 		# 												index=index_pos,

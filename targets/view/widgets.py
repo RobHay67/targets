@@ -172,8 +172,10 @@ def render_ada_widget(scope, region):
 def render_country_selector(scope):
 
 	list_of_countries = scope.dropdown_countries
-	index_pos = list_of_countries.index(scope.target_selected_country)
-	scope.target_selected_country = st.selectbox ( 
+	print(list_of_countries)
+	print(scope.user_selected_country)
+	index_pos = list_of_countries.index(scope.user_selected_country)
+	scope.user_selected_country = st.selectbox ( 
 													label=('Available Countries'), 
 													options=list_of_countries,
 													index=index_pos,
@@ -187,9 +189,9 @@ def render_target_setting_method(scope):
 
 	select_box_options = ['Region', 'Country']
 	
-	index_pos = select_box_options.index(scope.target_setting_method)
+	index_pos = select_box_options.index(scope.user_target_setting_method)
 
-	scope.target_setting_method = st.selectbox(
+	scope.user_target_setting_method = st.selectbox(
 													label='Budget By', 
 													options=select_box_options,
 													index=index_pos,

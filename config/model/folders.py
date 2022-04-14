@@ -20,6 +20,9 @@ def scope_folders(scope):
 	# scope.path_forex_file = pathlib.Path.home().joinpath( scope.folder_files, 'forex_rates.csv' )
 	scope.path_forex_file = os.path.join(scope.folder_files, 'forex_rates.csv')
 
+	scope.path_user_file = os.path.join(scope.folder_files, 'users.csv')
+
+
 def set_path_to_target_file(scope):
 	print('-'*70)
 	campaign_year = str(scope.campaign)

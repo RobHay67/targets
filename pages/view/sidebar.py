@@ -5,6 +5,8 @@ from targets.model.export import convert_df
 
 
 def render_sidebar(scope):
+
+	print('sidebar is being re-rendered')
 	st.sidebar.title('Target Setting Application')
 	st.sidebar.write('Peer to Peer and Foundation')
 	st.sidebar.write('Welcome : ' + '**' + scope.user_name + '**')
@@ -18,17 +20,61 @@ def render_sidebar(scope):
 	st.sidebar.write('---------')
 	
 	if len(scope.user_country_codes) > 0:
-		st.sidebar.button('Target Rates', on_click=set_page, args=('targets', ))
+		widget_key = scope.user_name + '_target_rates'
+		st.sidebar.button(	
+							'Target Rates',
+							 on_click=set_page, 
+							 args=('targets', ), 
+							 key=widget_key
+							 )
+		
+		
 		st.sidebar.write('---------')
 
 	if scope.user_can_edit_forex_rates:
-		st.sidebar.button('Forex Rates', on_click=set_page, args=('forex', ))
+		widget_key = scope.user_name + '_forex_rates'
+		st.sidebar.button(	
+							'Forex Rates', 
+							on_click=set_page, 
+							args=('forex', ), 
+							key=widget_key
+							)
 
 	if scope.user_can_edit_previous_rates:
+		widget_key = scope.user_name + '_campaign_rates'
 		help_string = 'Edit the rates for previous campaigns.'
-		st.sidebar.button('Campaign Rates', on_click=set_page, args=('rates', ), help=help_string)
+		st.sidebar.button(	
+							'Campaign Rates', 
+							on_click=set_page, 
+							args=('rates', ), 
+							key=widget_key, 
+							help=help_string
+							)
 
 	if scope.user_can_edit_config:
-		st.sidebar.button('System Settings', on_click=set_page, args=('config', ))
+		widget_key = scope.user_name + '_system_settings'
+		st.sidebar.button(	
+							'System Settings', 
+							on_click=set_page, 
+							args=('config', ), 
+							key=widget_key
+							)
 
-	st.sidebar.download_button("Download Target Rates", data=convert_df(scope.target_df),file_name='target_rates_2022.csv', mime='text/csv', )
+	if scope.user_can_edit_users:
+		widget_key = scope.user_name + '_users'
+		st.sidebar.button(	
+							'Users', 
+							on_click=set_page, 
+							args=('users', ), 
+							key=widget_key 
+							)
+
+	if scope.user_can_download_rates_table:
+		widget_key = scope.user_name + '_download_rates'
+		st.sidebar.download_button( 
+									"Download Target Rates", 
+									data=convert_df(scope.target_df),
+									file_name='target_rates_2022.csv', 
+									mime='text/csv', 
+									key=widget_key,
+									)

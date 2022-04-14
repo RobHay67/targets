@@ -47,10 +47,6 @@ def country_key_from_name(country_name):
 	return country_key
 
 
-
-
-
-
 def scope_countries(scope):
 	# This function depends on the user being assigned a country or list of countries
 
@@ -61,47 +57,3 @@ def scope_countries(scope):
 			country_code_list.append(country_code)
 
 	scope.country_code_list = country_code_list
-
-
-
-	if 'user_country_codes' in scope:
-		dropdown_list = []
-
-		if 'all' in scope.user_country_codes:
-			# Add every country to the list of dropdown_list countries
-			for key in country_dict.keys():
-				# prevent access to total Movember - this is 
-				# handled by scope.user_can_see_total_movember
-				if key != 'all':
-					country_name = country_dict[key]['country_name']
-					dropdown_list.append(country_name)
-		else:
-			# Add specific countries to the dropdown_list
-			for country in scope.user_country_codes:
-				# prevent access to total Movember - this is 
-				# handled by scope.user_can_see_total_movember
-				if country != 'all':
-					if country in country_dict.keys():
-						country_name = country_dict[country]['country_name']
-						dropdown_list.append(country_name)
-
-
-		# hierachy for the default country selection
-		# 1 > if you have access to total Movember 
-		# 2 > Just select the first country in the 
-
-		if scope.user_can_see_total_movember:
-			country_name = country_dict['all']['country_name']
-			dropdown_list.insert(0, country_name)
-
-		scope.dropdown_countries = dropdown_list
-		scope.target_selected_country = dropdown_list[0]
-		scope.page_to_display = 'targets'
-		# scope.page_to_display = 'forex'
-
-	else:
-		print('\033[91mAPPLICATION ERROR - Scope does not contrain user_country_codes\033[0m')
-
-		
-
-	
