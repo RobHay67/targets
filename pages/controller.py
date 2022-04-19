@@ -3,7 +3,7 @@
 from targets.controller import view_targets
 from forex.controller import view_forex
 from users.controller import login_page, user_maintenance_page
-
+from pages.view.welcome import render_welcome
 
 
 
@@ -21,6 +21,8 @@ def render_selected_page(scope):
 						'login'				:login_page,
 
 						'users'				:user_maintenance_page,
+
+						'welcome'			:render_welcome,
 
 					}
 

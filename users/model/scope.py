@@ -1,3 +1,4 @@
+from re import S
 import pandas as pd
 import os
 import streamlit as st
@@ -29,7 +30,9 @@ def scope_user(scope):
 
 
 
-def set_user_access(scope, login_name):
+def set_user_access(scope:dict, login_name:str):
+	
+	scope.page_to_display = 'welcome'
 
 	scope.user_name = login_name
 	# scope.user_pword = None
