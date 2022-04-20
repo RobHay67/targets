@@ -119,9 +119,6 @@ def render_new_user_name(scope, custom_label):
 					key=(widget_key)
 					)
 
-
-
-
 def render_true_or_false_control(scope, custom_label, user_name, current_value, df_col_name, widget_key):
 	st.write('')
 	st.checkbox(
@@ -168,7 +165,8 @@ def on_change_password(scope:dict, user_name:str, df_col_name:str, widget_key:st
 
 def on_add_new_user(scope:dict,widget_key:str ):
 	changed_value = scope[widget_key]
-	default_user_settings = ['password', '', False, False, False, False, False, False, False, '',  '' ]
+	
+	default_user_settings = ['password', 'all', False, True, False, False, False, False, False, 'Country',  'Australia' ]
 
 	if changed_value not in scope.user_df.index:
 		scope.user_df.loc[changed_value] = default_user_settings
@@ -176,9 +174,6 @@ def on_add_new_user(scope:dict,widget_key:str ):
 		st.error(changed_value + ' already exists in the users table. Try editing the user instead')
 
 
-	
-
-	
 
 
 def on_change_country_codes(scope:dict, user_name:str, df_col_name:str, widget_key:str ):
