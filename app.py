@@ -39,6 +39,8 @@ render_selected_page(scope)
 
 
 
+
+
 # str_as_list = scope.user_country_codes
 # country_code_list = str_as_list.split()
 

@@ -7,7 +7,9 @@ from config.model.countries import country_dict
 
 
 
-def scope_user(scope):
+def scope_user(scope:dict):
+	
+	scope.page_to_display = 'login'
 
 	scope.user_name = 'Login to Use the Application'
 	# scope.user_pword = None

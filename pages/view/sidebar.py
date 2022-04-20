@@ -1,6 +1,7 @@
 import streamlit as st
 
 from config.model.page import set_page
+from users.model.scope import scope_user
 from targets.model.export import convert_df
 
 
@@ -78,3 +79,13 @@ def render_sidebar(scope):
 									mime='text/csv', 
 									key=widget_key,
 									)
+
+	if scope.user_name != 'Login to Use the Application':
+		widget_key = 'logout_button'
+		st.sidebar.button( 
+							'Logout', 
+							on_click=scope_user, 
+							args=(scope, ), 
+							key=widget_key 
+							)
+

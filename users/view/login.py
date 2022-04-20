@@ -27,9 +27,11 @@ def render_login_form(scope, list_of_users):
 							key='login_button',
 							)
 			else:
-				login_message(login_name, 'invalid_pword')
+				if login_pword != '':
+					login_message(login_name, 'invalid_pword')
 		else:
-			login_message(login_name, 'invalid_user')
+			if login_name != '':
+				login_message(login_name, 'invalid_user')
 
 
 
