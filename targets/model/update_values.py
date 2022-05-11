@@ -7,6 +7,8 @@ from targets.model.save import save_target_rates
 from config.model.regions import set_regions_for_country
 
 
+from users.model.save import save_users_table
+
 # General code to record the change (makes the actual changing functions read better)
 
 def store_changed_value_in_target_rates(scope, region, metric, changed_value):
@@ -144,11 +146,13 @@ def on_change_country(scope:dict):
 	# Store the new Value
 	scope.user_selected_country = changed_value
 	set_regions_for_country(scope)
+	save_users_table(scope)
 
 def on_change_target_setting_method(scope:dict):
 	changed_value = scope['widget_target_setting_method']
 	# Store the new Value
 	scope.user_target_setting_method = changed_value
+	save_users_table(scope)
 
 def on_change_target_selected_tenure(scope:dict):
 	changed_value = scope['widget_target_selected_tenure']
