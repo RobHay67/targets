@@ -8,21 +8,15 @@
 # activate Pipenv 	- pipenv shell
 # deactivate env	- exit
 # add a package 	- pipenv install django
-# specify ver   	- pipenv install django==2.2
+# specify ver   	- pipenv install mplfinance===0.12.7a5
 # latest ver		- pipenv update pandas
 # delete pkg		- pipenv uninstall django
 
-# ------------------------------------------------- Package Management
-# pip3 install --user --upgrade django
-# pipenv install flask==0.12.1
-# pipenv install mplfinance===0.12.7a5
-# ------------------------------------------------- 
-
 # Testing Code - TODO - delete later
-import pandas as pd
-pd.set_option('display.max_rows', 5000)
-pd.set_option('display.max_columns', 500)
-pd.set_option('display.width', 1000)
+# import pandas as pd
+# pd.set_option('display.max_rows', 5000)
+# pd.set_option('display.max_columns', 500)
+# pd.set_option('display.width', 1000)
 
 
 import streamlit as st
@@ -114,3 +108,18 @@ print ( '-'*100)
 
 
 
+# ------------------------------------------------- Execute Application
+# python app.py -h
+
+# python app.py -c 2021 
+# python app.py -c 2022 -kc T -rp T -lf c -sr l -rl 200
+# download latest tables and save result locally
+# python app.py -c 2022 -kc T -lf c -sr l 
+# ------------------------------------------------- Pipenv
+# cd into project folder 
+# activate Pipenv 	- pipenv shell
+# deactivate env	- exit
+# add a package 	- pipenv install django
+# specify ver   	- pipenv install django==2.2
+# latest ver		- pipenv update pandas
+# delete pkg		- pipenv uninstall django

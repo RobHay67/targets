@@ -7,7 +7,6 @@ from targets.model.export import convert_df
 
 def render_sidebar(scope):
 
-	print('sidebar is being re-rendered')
 	st.sidebar.title('Target Setting Application')
 	st.sidebar.write('Peer to Peer and Foundation')
 	st.sidebar.write('Welcome : ' + '**' + scope.user_name + '**')

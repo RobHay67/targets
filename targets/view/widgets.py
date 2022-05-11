@@ -172,7 +172,6 @@ def render_ada_widget(scope, region):
 def render_country_selector(scope):
 
 	list_of_countries = scope.dropdown_countries
-	print(list_of_countries)
 	print(scope.user_selected_country)
 	index_pos = list_of_countries.index(scope.user_selected_country)
 	scope.user_selected_country = st.selectbox ( 

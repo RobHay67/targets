@@ -63,23 +63,18 @@ def set_user_access(scope:dict, login_name:str):
 	scope.user_country_codes = country_code_list
 
 	dropdown_list = []
-	print(type(scope.user_country_codes))
 
 	if 'all' in scope.user_country_codes:
-		print('all is in scope.user_country_codes')
 		# Add every country to the list of dropdown_list countries (not total Movember)
 		for key in scope.country_code_list:
 			country_name = country_dict[key]['country_name']
 			dropdown_list.append(country_name)
 	else:
-		print('else, all is not in the list')
 		# Add specific countries to the dropdown_list
 		for country in scope.user_country_codes:
-			print(country)
 			# prevent access to total Movember - this is 
 			# handled by scope.user_can_see_total_movember
 			if country in country_dict.keys():
-				print('adding country_name to the dropdown dict')
 				country_name = country_dict[country]['country_name']
 				dropdown_list.append(country_name)
 
