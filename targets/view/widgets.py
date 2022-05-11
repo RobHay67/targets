@@ -2,7 +2,7 @@
 import streamlit as st
 
 from targets.model.widget_key import create_widget_key
-from targets.model.can_edit import is_column_editable
+from targets.model.can_edit import is_widget_editable
 
 from targets.model.update_values import on_change_regos
 from targets.model.update_values import on_change_active_regos
@@ -22,12 +22,14 @@ from config.model.countries import country_key_from_name
 
 def render_regos_widget(scope, region):
 
+	# col_name = ''
 	col_name = 'Registrations'
 	metric = 'regos'
 	widget_key = create_widget_key(scope, region, metric)
 	max_value = int(scope.target_base_rates[region]['regos'] * 1.2)
 
-	editable_column = is_column_editable(scope, region)
+	editable_column = is_widget_editable(scope, region)
+	print('editable_column = ', editable_column)
 	if editable_column:
 		# scope.target_rates[region][metric] = st.number_input(
 		# 												label=col_name, 
@@ -39,7 +41,7 @@ def render_regos_widget(scope, region):
 		# 												key=(widget_key)
 		# 												)
 		scope.target_rates[region][metric] = st.slider(
-														label=col_name, 
+														label='',
 														min_value=0,
 														max_value=max_value,
 														value=int(scope.target_rates[region][metric]), 
@@ -50,7 +52,7 @@ def render_regos_widget(scope, region):
 														key=(widget_key)
 														)
 	else:
-		st.write(col_name)
+		# st.write(col_name)
 		st.markdown(format_regos(scope.target_rates[region][metric], align='left'), unsafe_allow_html=True)
 		st.write('')
 		st.write('')
@@ -67,7 +69,7 @@ def render_active_widget(scope, region):
 	# Cannot exceed the registrations number
 	max_value = int(scope.target_base_rates[region]['regos'] * 1.2)
 
-	editable_column = is_column_editable(scope, region)
+	editable_column = is_widget_editable(scope, region)
 	if editable_column:
 		# scope.target_rates[region][metric] = st.number_input(
 		# 												label=col_name, 
@@ -79,7 +81,7 @@ def render_active_widget(scope, region):
 		# 												key=(widget_key)
 		# 												)
 		scope.target_rates[region][metric] = st.slider(
-														label=col_name, 
+														label='',
 														min_value=0,
 														max_value=max_value,
 														value=int(scope.target_rates[region][metric]), 
@@ -90,7 +92,7 @@ def render_active_widget(scope, region):
 														key=(widget_key)
 														)
 	else:
-		st.write(col_name)
+		# st.write(col_name)
 		st.markdown(format_regos(scope.target_rates[region][metric], align='left'), unsafe_allow_html=True)
 		st.write('')
 		st.write('')
@@ -104,7 +106,7 @@ def render_apam_widget(scope, region):
 	metric = 'apam'
 	widget_key = create_widget_key(scope, region, metric)
 	max_value = float(scope.target_base_rates[region]['apam'] * 1.2)
-	editable_column = is_column_editable(scope, region)
+	editable_column = is_widget_editable(scope, region)
 
 	if editable_column:
 		# scope.target_rates[region][metric] = st.number_input(
@@ -117,18 +119,19 @@ def render_apam_widget(scope, region):
 		# 												key=(widget_key)
 		# 												)
 		scope.target_rates[region][metric] = st.slider(
-														label=col_name, 
+														label='',
 														min_value=0.0,
 														max_value=max_value,
-														value=scope.target_rates[region][metric], 
-														format="%.2f", # format="%.0f",
+														value=float(scope.target_rates[region][metric]), 
+														# format="%.2f", # format="%.0f",
+														format="$ %.2f",
 														step=0.01,
 														on_change=on_change_apam,
 														args=(scope, region, ),
 														key=(widget_key)
 														)
 	else:
-		st.write(col_name)
+		# st.write(col_name)
 		st.markdown(format_dolls(scope.target_rates[region][metric], align='left'), unsafe_allow_html=True)
 		st.write('')
 		st.write('')
@@ -140,7 +143,7 @@ def render_funds_widget(scope, region):
 	metric = 'funds'
 	widget_key = create_widget_key(scope, region, metric)
 	max_value = float(scope.target_base_rates[region]['funds'] * 1.2)
-	editable_column = is_column_editable(scope, region)
+	editable_column = is_widget_editable(scope, region)
 
 	if editable_column:
 		# scope.target_rates[region][metric] = st.number_input(
@@ -153,11 +156,12 @@ def render_funds_widget(scope, region):
 		# 												key=(widget_key)
 		# 												)
 		scope.target_rates[region][metric] = st.slider(
-														label=col_name, 
+														label='', 
 														min_value=0.0,
 														max_value=max_value,
-														value=scope.target_rates[region][metric], 
-														format='%.2f', # format="%.0f",
+														value=float(scope.target_rates[region][metric]), 
+														# format='%.2f', # format="%.0f", "$ {:,.2f}"
+														format="$ %.2f",
 														step=1.0,
 														on_change=on_change_funds,
 														args=(scope, region, ),
@@ -166,7 +170,7 @@ def render_funds_widget(scope, region):
 
 
 	else:
-		st.write(col_name)
+		# st.write(col_name)
 		st.markdown(format_dolls(scope.target_rates[region][metric], align='left'), unsafe_allow_html=True)
 		st.write('')
 		st.write('')
@@ -179,7 +183,7 @@ def render_donations_widget(scope, region):
 	metric = 'donations'
 	widget_key = create_widget_key(scope, region, metric)
 
-	editable_column = is_column_editable(scope, region)
+	editable_column = is_widget_editable(scope, region)
 	if editable_column:
 		scope.target_rates[region][metric] = st.number_input(
 														label=col_name, 
@@ -203,7 +207,7 @@ def render_ada_widget(scope, region):
 	col_name = 'ADA - Average Donation Amount'
 	metric = 'ada'
 	widget_key = create_widget_key(scope, region, metric)
-	editable_column = is_column_editable(scope, region)
+	editable_column = is_widget_editable(scope, region)
 
 	if editable_column:
 		scope.target_rates[region][metric] = st.number_input(

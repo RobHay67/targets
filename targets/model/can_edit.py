@@ -2,7 +2,7 @@
 
 
 
-def is_column_editable(scope, region):
+def is_widget_editable(scope, region):
 	if scope.user_target_setting_method == 'Region' and region == 'Total':
 		# We are updates rates for each Region, therefore
 		# the Total column is just an output of this process

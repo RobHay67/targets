@@ -15,6 +15,7 @@ def render_market_summary(scope):
 	col1,col2,col3,col4,col5,col6,col7,col8,col9 = st.columns(9)
 
 	with col1: 
+		# st.write('**Key Measures**')
 		st.markdown(format_string('Key Measures' ,align='Left'), unsafe_allow_html=True)
 		st.markdown(format_string('New' ,align='Left'), unsafe_allow_html=True)
 		st.markdown(format_string('Returned' ,align='Left'), unsafe_allow_html=True)
