@@ -4,7 +4,8 @@ import os
 import streamlit as st
 
 from config.model.countries import country_dict
-
+from config.model.regions import set_regions_for_country
+from targets.model.rates_for_view import target_rates_for_view
 
 
 def scope_user(scope:dict):
@@ -85,6 +86,10 @@ def set_user_access(scope:dict, login_name:str):
 		dropdown_list.insert(0, country_name)
 
 	scope.dropdown_countries = dropdown_list
+
+
+	set_regions_for_country(scope)
+	target_rates_for_view(scope)
 
 
 

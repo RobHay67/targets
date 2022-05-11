@@ -10,7 +10,8 @@ def render_sidebar(scope):
 	st.sidebar.title('Target Setting Application')
 	st.sidebar.write('Peer to Peer and Foundation')
 	st.sidebar.write('Welcome : ' + '**' + scope.user_name + '**')
-	st.sidebar.write('Does not split by Team')
+	st.sidebar.caption('Does not split by Team')
+	st.sidebar.caption('Teams and Fundraisers are combined')
 	st.sidebar.write('---------')
 	
 	st.sidebar.write('Financial Year : **1 May ' + str(scope.campaign) + ' to 30 April ' + str(scope.campaign + 1) + '**')

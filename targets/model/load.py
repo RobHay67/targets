@@ -4,6 +4,7 @@ import streamlit as st
 
 from config.model.folders import set_path_to_target_file
 from targets.model.rates_for_view import target_rates_for_view
+from config.model.regions import set_regions_for_country
 
 
 def load_target_rates(scope):
@@ -29,10 +30,4 @@ def load_target_rates(scope):
 	scope.target_df = taget_table
 	scope.loaded_target_table = loaded_status
 	
-		
-
 	
-
-	target_rates_for_view(scope)
-
-

@@ -21,7 +21,7 @@ def render_returned_fundraisers(scope):
 		region = scope.target_columns[i]
 
 		if region == 'row_heading':
-			col.write('')	# This is an empty column to better align cols with the base rate cols
+			col.write('Region')	# This is an empty column to better align cols with the base rate cols
 		else:
 			with col:
 				st.write('**'+region+'**')

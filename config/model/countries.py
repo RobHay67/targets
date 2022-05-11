@@ -27,13 +27,6 @@ country_dict =   {
                     }
 
 
-region_dict = {
-					'au' : [ 'Tas', 'VIC', 'ACT', 'NSW', 'QLD', 'NT', 'SA', 'WA', 'Other'],
-					'us' : [ 'CA', 'WV', 'TX', 'AZ', 'AK', 'FL', 'NY', 'DC', 'Other'],
-					'ca' : [ 'Ontario', 'Quebec', 'Other'],
-
-}
-
 
 def country_key_from_name(country_name):
 
