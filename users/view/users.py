@@ -2,33 +2,42 @@ import streamlit as st
 
 
 from users.model.save import save_users_table
+from targets.model.export import convert_df
 
 
 def render_user_maintenance(scope):
 
 	st.header('User Maintenance')
 
-	col1,col2,col3,col4 = st.columns([2,2,2,10])
+	col1,col2,col3,col4,col5 = st.columns([1,2,2,2,2])
 
-	with col1:
+	with col3:
 		st.button(	
 				'Save Changes to User Table', 
 				on_click=save_users_table, 
 				args=(scope, ), 
 				key='save_user_table',
 				)
-	with col2:
+	with col1:
 		add_user = st.button(	
 								'Add New User', 
 								key='add_user_button',
 								)
-	with col3:
+	with col2:
 		if add_user:
 			custom_label = 'Enter Name for the new User'
 			render_new_user_name(scope, custom_label)
-			# st.write('enter user name')
-
 	
+	with col4:
+		widget_key = scope.user_name + '_download_users'
+		st.download_button( 
+									"Download Users Table", 
+									data=convert_df(scope.user_df),
+									file_name='users.csv', 
+									mime='text/csv', 
+									key=widget_key,
+									)
+
 	st.write('---')
 
 	list_of_users = list(scope.user_df.index.values)
@@ -49,7 +58,7 @@ def render_user_maintenance(scope):
 			render_password_control(scope, custom_label, user_name, current_value, df_col_name, widget_key )
 
 		with col3: # Password
-			custom_label = 'Access to theses Country (codes)'
+			custom_label = 'View Countries (codes)'
 			df_col_name = 'country_codes'
 			widget_key = 'widget_' + user_name + '_' + df_col_name
 			current_value = scope.user_df.loc[user_name].at[df_col_name]
@@ -100,11 +109,11 @@ def render_user_maintenance(scope):
 			render_true_or_false_control(scope, custom_label, user_name, current_value, df_col_name, widget_key )
 
 		with col11: 
-			st.write('Users Target Setting Method')
+			st.write('Target Setting Method')
 			st.write(scope.user_df.loc[user_name].at['target_setting_method'])
 
 		with col12: 
-			st.write('Users Selected Country')
+			st.write('Selected Country')
 			st.write(scope.user_df.loc[user_name].at['selected_country'])
 
 	st.write('---')

@@ -47,6 +47,11 @@ def save_target_rates(scope):
 	# TODO Recalculate forex values???
 	print( '\033[91mTODO Recalculate Forex Values < save_target_rates > \033[0m' )
 
+	save_target_df(scope)
+
+
+def save_target_df(scope):
+
 	# Save the rates File
 	saving_df = scope.target_df.copy()
 

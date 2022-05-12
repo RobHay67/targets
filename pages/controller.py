@@ -4,6 +4,7 @@ from targets.controller import view_targets
 from forex.controller import view_forex
 from users.controller import login_page, user_maintenance_page
 from pages.view.welcome import render_welcome
+from targets.view.rates import render_rates_page
 
 
 
@@ -23,6 +24,8 @@ def render_selected_page(scope):
 						'users'				:user_maintenance_page,
 
 						'welcome'			:render_welcome,
+
+						'rates'				:render_rates_page
 
 					}
 

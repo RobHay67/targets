@@ -4,13 +4,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,au,Total,New,apam,429.59
 2021,au,Total,New,funds,11204473.58
 2021,au,Total,New,comment,
-2021,au,Total,Retained,regos_total_prior,97590.0
+2021,au,Total,Retained,regos_ret_prior,97590.0
+2021,au,Total,Retained,regos_total_prior,119373.0
 2021,au,Total,Retained,regos,17496.0
 2021,au,Total,Retained,active,11487.0
 2021,au,Total,Retained,apam,600.91
 2021,au,Total,Retained,funds,6902602.73
 2021,au,Total,Retained,comment,
-2021,au,Total,Retained,regos_total_curnt,119373.0
 2021,au,Total,Returned,regos,51626.0
 2021,au,Total,Returned,active,8134.0
 2021,au,Total,Returned,apam,679.0
@@ -25,13 +25,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,au,NSW,New,apam,444.24
 2021,au,NSW,New,funds,2461999.71
 2021,au,NSW,New,comment,
-2021,au,NSW,Retained,regos_total_prior,23955.0
+2021,au,NSW,Retained,regos_ret_prior,23955.0
+2021,au,NSW,Retained,regos_total_prior,17874.0
 2021,au,NSW,Retained,regos,4250.0
 2021,au,NSW,Retained,active,2682.0
 2021,au,NSW,Retained,apam,595.48
 2021,au,NSW,Retained,funds,1597072.14
 2021,au,NSW,Retained,comment,
-2021,au,NSW,Retained,regos_total_curnt,17874.0
 2021,au,NSW,Returned,regos,2500.0
 2021,au,NSW,Returned,active,1332.0
 2021,au,NSW,Returned,apam,506.59
@@ -46,13 +46,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,au,VIC,New,apam,418.3
 2021,au,VIC,New,funds,2109915.44
 2021,au,VIC,New,comment,
-2021,au,VIC,Retained,regos_total_prior,18709.0
+2021,au,VIC,Retained,regos_ret_prior,18709.0
+2021,au,VIC,Retained,regos_total_prior,16967.0
 2021,au,VIC,Retained,regos,3863.0
 2021,au,VIC,Retained,active,2510.0
 2021,au,VIC,Retained,apam,666.83
 2021,au,VIC,Retained,funds,1673736.29
 2021,au,VIC,Retained,comment,
-2021,au,VIC,Retained,regos_total_curnt,16967.0
 2021,au,VIC,Returned,regos,2533.0
 2021,au,VIC,Returned,active,1263.0
 2021,au,VIC,Returned,apam,540.66
@@ -67,13 +67,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,au,QLD,New,apam,358.34
 2021,au,QLD,New,funds,1847257.0
 2021,au,QLD,New,comment,
-2021,au,QLD,Retained,regos_total_prior,15814.0
+2021,au,QLD,Retained,regos_ret_prior,15814.0
+2021,au,QLD,Retained,regos_total_prior,15704.0
 2021,au,QLD,Retained,regos,3543.0
 2021,au,QLD,Retained,active,2340.0
 2021,au,QLD,Retained,apam,585.7
 2021,au,QLD,Retained,funds,1370539.65
 2021,au,QLD,Retained,comment,
-2021,au,QLD,Retained,regos_total_curnt,15704.0
 2021,au,QLD,Returned,regos,2301.0
 2021,au,QLD,Returned,active,1326.0
 2021,au,QLD,Returned,apam,387.64
@@ -88,13 +88,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,au,WA,New,apam,395.88
 2021,au,WA,New,funds,1066889.71
 2021,au,WA,New,comment,
-2021,au,WA,Retained,regos_total_prior,7719.0
+2021,au,WA,Retained,regos_ret_prior,7719.0
+2021,au,WA,Retained,regos_total_prior,7981.0
 2021,au,WA,Retained,regos,1687.0
 2021,au,WA,Retained,active,1119.0
 2021,au,WA,Retained,apam,607.92
 2021,au,WA,Retained,funds,680258.23
 2021,au,WA,Retained,comment,
-2021,au,WA,Retained,regos_total_curnt,7981.0
 2021,au,WA,Returned,regos,1158.0
 2021,au,WA,Returned,active,668.0
 2021,au,WA,Returned,apam,511.36
@@ -109,13 +109,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,au,SA,New,apam,400.39
 2021,au,SA,New,funds,752726.03
 2021,au,SA,New,comment,
-2021,au,SA,Retained,regos_total_prior,4887.0
+2021,au,SA,Retained,regos_ret_prior,4887.0
+2021,au,SA,Retained,regos_total_prior,5278.0
 2021,au,SA,Retained,regos,1031.0
 2021,au,SA,Retained,active,672.0
 2021,au,SA,Retained,apam,506.49
 2021,au,SA,Retained,funds,340362.75
 2021,au,SA,Retained,comment,
-2021,au,SA,Retained,regos_total_curnt,5278.0
 2021,au,SA,Returned,regos,714.0
 2021,au,SA,Returned,active,411.0
 2021,au,SA,Returned,apam,396.62
@@ -130,13 +130,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,au,ACT,New,apam,435.96
 2021,au,ACT,New,funds,203592.04
 2021,au,ACT,New,comment,
-2021,au,ACT,Retained,regos_total_prior,2198.0
+2021,au,ACT,Retained,regos_ret_prior,2198.0
+2021,au,ACT,Retained,regos_total_prior,1589.0
 2021,au,ACT,Retained,regos,431.0
 2021,au,ACT,Retained,active,281.0
 2021,au,ACT,Retained,apam,567.25
 2021,au,ACT,Retained,funds,159398.1
 2021,au,ACT,Retained,comment,
-2021,au,ACT,Retained,regos_total_curnt,1589.0
 2021,au,ACT,Returned,regos,241.0
 2021,au,ACT,Returned,active,137.0
 2021,au,ACT,Returned,apam,417.67
@@ -151,13 +151,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,au,TAS,New,apam,390.47
 2021,au,TAS,New,funds,192502.66
 2021,au,TAS,New,comment,
-2021,au,TAS,Retained,regos_total_prior,1566.0
+2021,au,TAS,Retained,regos_ret_prior,1566.0
+2021,au,TAS,Retained,regos_total_prior,1596.0
 2021,au,TAS,Retained,regos,383.0
 2021,au,TAS,Retained,active,270.0
 2021,au,TAS,Retained,apam,553.72
 2021,au,TAS,Retained,funds,149503.3
 2021,au,TAS,Retained,comment,
-2021,au,TAS,Retained,regos_total_curnt,1596.0
 2021,au,TAS,Returned,regos,251.0
 2021,au,TAS,Returned,active,137.0
 2021,au,TAS,Returned,apam,485.38
@@ -172,13 +172,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,au,NT,New,apam,255.49
 2021,au,NT,New,funds,46499.46
 2021,au,NT,New,comment,
-2021,au,NT,Retained,regos_total_prior,668.0
+2021,au,NT,Retained,regos_ret_prior,668.0
+2021,au,NT,Retained,regos_total_prior,563.0
 2021,au,NT,Retained,regos,96.0
 2021,au,NT,Retained,active,55.0
 2021,au,NT,Retained,apam,570.85
 2021,au,NT,Retained,funds,31396.71
 2021,au,NT,Retained,comment,
-2021,au,NT,Retained,regos_total_curnt,563.0
 2021,au,NT,Returned,regos,71.0
 2021,au,NT,Returned,active,31.0
 2021,au,NT,Returned,apam,657.74
@@ -193,13 +193,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,au,Other,New,apam,545.65
 2021,au,Other,New,funds,2523091.53
 2021,au,Other,New,comment,
-2021,au,Other,Retained,regos_total_prior,22074.0
+2021,au,Other,Retained,regos_ret_prior,22074.0
+2021,au,Other,Retained,regos_total_prior,51821.0
 2021,au,Other,Retained,regos,2212.0
 2021,au,Other,Retained,active,1558.0
 2021,au,Other,Retained,apam,577.88
 2021,au,Other,Retained,funds,900335.56
 2021,au,Other,Retained,comment,
-2021,au,Other,Retained,regos_total_curnt,51821.0
 2021,au,Other,Returned,regos,41857.0
 2021,au,Other,Returned,active,2829.0
 2021,au,Other,Returned,apam,1061.39
@@ -214,13 +214,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ca,Total,New,apam,362.68
 2021,ca,Total,New,funds,6328010.22
 2021,ca,Total,New,comment,
-2021,ca,Total,Retained,regos_total_prior,77754.0
+2021,ca,Total,Retained,regos_ret_prior,77754.0
+2021,ca,Total,Retained,regos_total_prior,94539.0
 2021,ca,Total,Retained,regos,19803.0
 2021,ca,Total,Retained,active,14015.0
 2021,ca,Total,Retained,apam,723.74
 2021,ca,Total,Retained,funds,10143154.89
 2021,ca,Total,Retained,comment,
-2021,ca,Total,Retained,regos_total_curnt,94539.0
 2021,ca,Total,Returned,regos,35923.0
 2021,ca,Total,Returned,active,6751.0
 2021,ca,Total,Returned,apam,624.42
@@ -235,13 +235,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ca,AB,New,apam,410.91
 2021,ca,AB,New,funds,992769.36
 2021,ca,AB,New,comment,
-2021,ca,AB,Retained,regos_total_prior,9698.0
+2021,ca,AB,Retained,regos_ret_prior,9698.0
+2021,ca,AB,Retained,regos_total_prior,9005.0
 2021,ca,AB,Retained,regos,2704.0
 2021,ca,AB,Retained,active,1990.0
 2021,ca,AB,Retained,apam,710.08
 2021,ca,AB,Retained,funds,1413055.27
 2021,ca,AB,Retained,comment,
-2021,ca,AB,Retained,regos_total_curnt,9005.0
 2021,ca,AB,Returned,regos,1385.0
 2021,ca,AB,Returned,active,760.0
 2021,ca,AB,Returned,apam,439.85
@@ -256,13 +256,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ca,BC,New,apam,396.44
 2021,ca,BC,New,funds,828156.1
 2021,ca,BC,New,comment,
-2021,ca,BC,Retained,regos_total_prior,9053.0
+2021,ca,BC,Retained,regos_ret_prior,9053.0
+2021,ca,BC,Retained,regos_total_prior,8530.0
 2021,ca,BC,Retained,regos,2632.0
 2021,ca,BC,Retained,active,1876.0
 2021,ca,BC,Retained,apam,735.69
 2021,ca,BC,Retained,funds,1380162.77
 2021,ca,BC,Retained,comment,
-2021,ca,BC,Retained,regos_total_curnt,8530.0
 2021,ca,BC,Returned,regos,1220.0
 2021,ca,BC,Returned,active,616.0
 2021,ca,BC,Returned,apam,480.65
@@ -277,13 +277,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ca,MB,New,apam,372.24
 2021,ca,MB,New,funds,121348.71
 2021,ca,MB,New,comment,
-2021,ca,MB,Retained,regos_total_prior,1700.0
+2021,ca,MB,Retained,regos_ret_prior,1700.0
+2021,ca,MB,Retained,regos_total_prior,1550.0
 2021,ca,MB,Retained,regos,462.0
 2021,ca,MB,Retained,active,312.0
 2021,ca,MB,Retained,apam,562.93
 2021,ca,MB,Retained,funds,175634.07
 2021,ca,MB,Retained,comment,
-2021,ca,MB,Retained,regos_total_curnt,1550.0
 2021,ca,MB,Returned,regos,223.0
 2021,ca,MB,Returned,active,113.0
 2021,ca,MB,Returned,apam,376.8
@@ -298,13 +298,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ca,NB,New,apam,184.6
 2021,ca,NB,New,funds,33411.86
 2021,ca,NB,New,comment,
-2021,ca,NB,Retained,regos_total_prior,767.0
+2021,ca,NB,Retained,regos_ret_prior,767.0
+2021,ca,NB,Retained,regos_total_prior,759.0
 2021,ca,NB,Retained,regos,186.0
 2021,ca,NB,Retained,active,134.0
 2021,ca,NB,Retained,apam,437.6
 2021,ca,NB,Retained,funds,58638.53
 2021,ca,NB,Retained,comment,
-2021,ca,NB,Retained,regos_total_curnt,759.0
 2021,ca,NB,Returned,regos,115.0
 2021,ca,NB,Returned,active,46.0
 2021,ca,NB,Returned,apam,265.61
@@ -319,13 +319,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ca,NL,New,apam,238.95
 2021,ca,NL,New,funds,36081.31
 2021,ca,NL,New,comment,
-2021,ca,NL,Retained,regos_total_prior,534.0
+2021,ca,NL,Retained,regos_ret_prior,534.0
+2021,ca,NL,Retained,regos_total_prior,627.0
 2021,ca,NL,Retained,regos,156.0
 2021,ca,NL,Retained,active,108.0
 2021,ca,NL,Retained,apam,362.12
 2021,ca,NL,Retained,funds,39109.07
 2021,ca,NL,Retained,comment,
-2021,ca,NL,Retained,regos_total_curnt,627.0
 2021,ca,NL,Returned,regos,111.0
 2021,ca,NL,Returned,active,56.0
 2021,ca,NL,Returned,apam,174.25
@@ -340,13 +340,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ca,NT,New,apam,210.0
 2021,ca,NT,New,funds,2730.0
 2021,ca,NT,New,comment,
-2021,ca,NT,Retained,regos_total_prior,111.0
+2021,ca,NT,Retained,regos_ret_prior,111.0
+2021,ca,NT,Retained,regos_total_prior,75.0
 2021,ca,NT,Retained,regos,34.0
 2021,ca,NT,Retained,active,26.0
 2021,ca,NT,Retained,apam,442.12
 2021,ca,NT,Retained,funds,11495.0
 2021,ca,NT,Retained,comment,
-2021,ca,NT,Retained,regos_total_curnt,75.0
 2021,ca,NT,Returned,regos,6.0
 2021,ca,NT,Returned,active,4.0
 2021,ca,NT,Returned,apam,237.59
@@ -361,13 +361,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ca,NS,New,apam,360.58
 2021,ca,NS,New,funds,121153.92
 2021,ca,NS,New,comment,
-2021,ca,NS,Retained,regos_total_prior,1369.0
+2021,ca,NS,Retained,regos_ret_prior,1369.0
+2021,ca,NS,Retained,regos_total_prior,1387.0
 2021,ca,NS,Retained,regos,366.0
 2021,ca,NS,Retained,active,239.0
 2021,ca,NS,Retained,apam,594.23
 2021,ca,NS,Retained,funds,142021.54
 2021,ca,NS,Retained,comment,
-2021,ca,NS,Retained,regos_total_curnt,1387.0
 2021,ca,NS,Returned,regos,187.0
 2021,ca,NS,Returned,active,88.0
 2021,ca,NS,Returned,apam,333.02
@@ -382,13 +382,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ca,ON,New,apam,332.38
 2021,ca,ON,New,funds,2043446.43
 2021,ca,ON,New,comment,
-2021,ca,ON,Retained,regos_total_prior,29946.0
+2021,ca,ON,Retained,regos_ret_prior,29946.0
+2021,ca,ON,Retained,regos_total_prior,26911.0
 2021,ca,ON,Retained,regos,9107.0
 2021,ca,ON,Retained,active,6505.0
 2021,ca,ON,Retained,apam,797.34
 2021,ca,ON,Retained,funds,5186717.54
 2021,ca,ON,Retained,comment,
-2021,ca,ON,Retained,regos_total_curnt,26911.0
 2021,ca,ON,Returned,regos,3892.0
 2021,ca,ON,Returned,active,1962.0
 2021,ca,ON,Returned,apam,413.41
@@ -403,13 +403,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ca,PE,New,apam,187.0
 2021,ca,PE,New,funds,3366.0
 2021,ca,PE,New,comment,
-2021,ca,PE,Retained,regos_total_prior,164.0
+2021,ca,PE,Retained,regos_ret_prior,164.0
+2021,ca,PE,Retained,regos_total_prior,136.0
 2021,ca,PE,Retained,regos,39.0
 2021,ca,PE,Retained,active,17.0
 2021,ca,PE,Retained,apam,204.24
 2021,ca,PE,Retained,funds,3472.0
 2021,ca,PE,Retained,comment,
-2021,ca,PE,Retained,regos_total_curnt,136.0
 2021,ca,PE,Returned,regos,23.0
 2021,ca,PE,Returned,active,8.0
 2021,ca,PE,Returned,apam,624.25
@@ -424,13 +424,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ca,QC,New,apam,303.68
 2021,ca,QC,New,funds,669622.42
 2021,ca,QC,New,comment,
-2021,ca,QC,Retained,regos_total_prior,9270.0
+2021,ca,QC,Retained,regos_ret_prior,9270.0
+2021,ca,QC,Retained,regos_total_prior,8922.0
 2021,ca,QC,Retained,regos,1736.0
 2021,ca,QC,Retained,active,1099.0
 2021,ca,QC,Retained,apam,597.03
 2021,ca,QC,Retained,funds,656135.6
 2021,ca,QC,Retained,comment,
-2021,ca,QC,Retained,regos_total_curnt,8922.0
 2021,ca,QC,Returned,regos,775.0
 2021,ca,QC,Returned,active,352.0
 2021,ca,QC,Returned,apam,362.92
@@ -445,13 +445,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ca,SK,New,apam,329.31
 2021,ca,SK,New,funds,143579.91
 2021,ca,SK,New,comment,
-2021,ca,SK,Retained,regos_total_prior,1790.0
+2021,ca,SK,Retained,regos_ret_prior,1790.0
+2021,ca,SK,Retained,regos_total_prior,1740.0
 2021,ca,SK,Retained,regos,525.0
 2021,ca,SK,Retained,active,377.0
 2021,ca,SK,Retained,apam,673.16
 2021,ca,SK,Retained,funds,253779.7
 2021,ca,SK,Retained,comment,
-2021,ca,SK,Retained,regos_total_curnt,1740.0
 2021,ca,SK,Returned,regos,270.0
 2021,ca,SK,Returned,active,160.0
 2021,ca,SK,Returned,apam,325.1
@@ -466,13 +466,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ca,YT,New,apam,463.64
 2021,ca,YT,New,funds,5100.0
 2021,ca,YT,New,comment,
-2021,ca,YT,Retained,regos_total_prior,73.0
+2021,ca,YT,Retained,regos_ret_prior,73.0
+2021,ca,YT,Retained,regos_total_prior,56.0
 2021,ca,YT,Retained,regos,24.0
 2021,ca,YT,Retained,active,16.0
 2021,ca,YT,Retained,apam,610.19
 2021,ca,YT,Retained,funds,9763.0
 2021,ca,YT,Retained,comment,
-2021,ca,YT,Retained,regos_total_curnt,56.0
 2021,ca,YT,Returned,regos,7.0
 2021,ca,YT,Returned,active,3.0
 2021,ca,YT,Returned,apam,220.0
@@ -487,13 +487,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ca,Other,New,apam,425.67
 2021,ca,Other,New,funds,1327244.2
 2021,ca,Other,New,comment,
-2021,ca,Other,Retained,regos_total_prior,13279.0
+2021,ca,Other,Retained,regos_ret_prior,13279.0
+2021,ca,Other,Retained,regos_total_prior,34841.0
 2021,ca,Other,Retained,regos,1832.0
 2021,ca,Other,Retained,active,1316.0
 2021,ca,Other,Retained,apam,617.91
 2021,ca,Other,Retained,funds,813170.8
 2021,ca,Other,Retained,comment,
-2021,ca,Other,Retained,regos_total_curnt,34841.0
 2021,ca,Other,Returned,regos,27709.0
 2021,ca,Other,Returned,active,2583.0
 2021,ca,Other,Returned,apam,965.43
@@ -508,13 +508,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,gb,Total,New,apam,162.26
 2021,gb,Total,New,funds,5191912.45
 2021,gb,Total,New,comment,
-2021,gb,Total,Retained,regos_total_prior,122684.0
+2021,gb,Total,Retained,regos_ret_prior,122684.0
+2021,gb,Total,Retained,regos_total_prior,126944.0
 2021,gb,Total,Retained,regos,19273.0
 2021,gb,Total,Retained,active,11675.0
 2021,gb,Total,Retained,apam,209.74
 2021,gb,Total,Retained,funds,2448661.02
 2021,gb,Total,Retained,comment,
-2021,gb,Total,Retained,regos_total_curnt,126944.0
 2021,gb,Total,Returned,regos,41247.0
 2021,gb,Total,Returned,active,6471.0
 2021,gb,Total,Returned,apam,238.05
@@ -529,13 +529,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,gb,Greater London,New,apam,201.09
 2021,gb,Greater London,New,funds,740221.6
 2021,gb,Greater London,New,comment,
-2021,gb,Greater London,Retained,regos_total_prior,13960.0
+2021,gb,Greater London,Retained,regos_ret_prior,13960.0
+2021,gb,Greater London,Retained,regos_total_prior,11776.0
 2021,gb,Greater London,Retained,regos,2597.0
 2021,gb,Greater London,Retained,active,1641.0
 2021,gb,Greater London,Retained,apam,308.99
 2021,gb,Greater London,Retained,funds,507056.1
 2021,gb,Greater London,Retained,comment,
-2021,gb,Greater London,Retained,regos_total_curnt,11776.0
 2021,gb,Greater London,Returned,regos,1261.0
 2021,gb,Greater London,Returned,active,638.0
 2021,gb,Greater London,Returned,apam,235.68
@@ -550,13 +550,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,gb,South East,New,apam,149.64
 2021,gb,South East,New,funds,590199.54
 2021,gb,South East,New,comment,
-2021,gb,South East,Retained,regos_total_prior,14050.0
+2021,gb,South East,Retained,regos_ret_prior,14050.0
+2021,gb,South East,Retained,regos_total_prior,12439.0
 2021,gb,South East,Retained,regos,2641.0
 2021,gb,South East,Retained,active,1627.0
 2021,gb,South East,Retained,apam,209.41
 2021,gb,South East,Retained,funds,340708.26
 2021,gb,South East,Retained,comment,
-2021,gb,South East,Retained,regos_total_curnt,12439.0
 2021,gb,South East,Returned,regos,1314.0
 2021,gb,South East,Returned,active,684.0
 2021,gb,South East,Returned,apam,199.08
@@ -571,13 +571,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,gb,South West,New,apam,129.67
 2021,gb,South West,New,funds,385902.47
 2021,gb,South West,New,comment,
-2021,gb,South West,Retained,regos_total_prior,10721.0
+2021,gb,South West,Retained,regos_ret_prior,10721.0
+2021,gb,South West,Retained,regos_total_prior,9469.0
 2021,gb,South West,Retained,regos,2041.0
 2021,gb,South West,Retained,active,1216.0
 2021,gb,South West,Retained,apam,191.88
 2021,gb,South West,Retained,funds,233321.84
 2021,gb,South West,Retained,comment,
-2021,gb,South West,Retained,regos_total_curnt,9469.0
 2021,gb,South West,Returned,regos,1037.0
 2021,gb,South West,Returned,active,571.0
 2021,gb,South West,Returned,apam,137.23
@@ -592,13 +592,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,gb,East of England,New,apam,158.17
 2021,gb,East of England,New,funds,318401.0
 2021,gb,East of England,New,comment,
-2021,gb,East of England,Retained,regos_total_prior,7194.0
+2021,gb,East of England,Retained,regos_ret_prior,7194.0
+2021,gb,East of England,Retained,regos_total_prior,6114.0
 2021,gb,East of England,Retained,regos,1210.0
 2021,gb,East of England,Retained,active,753.0
 2021,gb,East of England,Retained,apam,263.3
 2021,gb,East of England,Retained,funds,198261.16
 2021,gb,East of England,Retained,comment,
-2021,gb,East of England,Retained,regos_total_curnt,6114.0
 2021,gb,East of England,Returned,regos,682.0
 2021,gb,East of England,Returned,active,353.0
 2021,gb,East of England,Returned,apam,203.57
@@ -613,13 +613,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,gb,North West,New,apam,140.84
 2021,gb,North West,New,funds,282392.3
 2021,gb,North West,New,comment,
-2021,gb,North West,Retained,regos_total_prior,8483.0
+2021,gb,North West,Retained,regos_ret_prior,8483.0
+2021,gb,North West,Retained,regos_total_prior,6241.0
 2021,gb,North West,Retained,regos,1212.0
 2021,gb,North West,Retained,active,746.0
 2021,gb,North West,Retained,apam,193.58
 2021,gb,North West,Retained,funds,144408.84
 2021,gb,North West,Retained,comment,
-2021,gb,North West,Retained,regos_total_curnt,6241.0
 2021,gb,North West,Returned,regos,592.0
 2021,gb,North West,Returned,active,284.0
 2021,gb,North West,Returned,apam,185.73
@@ -634,13 +634,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,gb,North East,New,apam,110.73
 2021,gb,North East,New,funds,105745.32
 2021,gb,North East,New,comment,
-2021,gb,North East,Retained,regos_total_prior,3587.0
+2021,gb,North East,Retained,regos_ret_prior,3587.0
+2021,gb,North East,Retained,regos_total_prior,2951.0
 2021,gb,North East,Retained,regos,560.0
 2021,gb,North East,Retained,active,313.0
 2021,gb,North East,Retained,apam,150.98
 2021,gb,North East,Retained,funds,47258.23
 2021,gb,North East,Retained,comment,
-2021,gb,North East,Retained,regos_total_curnt,2951.0
 2021,gb,North East,Returned,regos,264.0
 2021,gb,North East,Returned,active,134.0
 2021,gb,North East,Returned,apam,142.41
@@ -655,13 +655,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,gb,West Midlands,New,apam,137.74
 2021,gb,West Midlands,New,funds,252885.31
 2021,gb,West Midlands,New,comment,
-2021,gb,West Midlands,Retained,regos_total_prior,7592.0
+2021,gb,West Midlands,Retained,regos_ret_prior,7592.0
+2021,gb,West Midlands,Retained,regos_total_prior,6075.0
 2021,gb,West Midlands,Retained,regos,1290.0
 2021,gb,West Midlands,Retained,active,781.0
 2021,gb,West Midlands,Retained,apam,217.41
 2021,gb,West Midlands,Retained,funds,169795.72
 2021,gb,West Midlands,Retained,comment,
-2021,gb,West Midlands,Retained,regos_total_curnt,6075.0
 2021,gb,West Midlands,Returned,regos,683.0
 2021,gb,West Midlands,Returned,active,370.0
 2021,gb,West Midlands,Returned,apam,179.32
@@ -676,13 +676,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,gb,Yorkshire and the Humber,New,apam,142.75
 2021,gb,Yorkshire and the Humber,New,funds,321319.22
 2021,gb,Yorkshire and the Humber,New,comment,
-2021,gb,Yorkshire and the Humber,Retained,regos_total_prior,9174.0
+2021,gb,Yorkshire and the Humber,Retained,regos_ret_prior,9174.0
+2021,gb,Yorkshire and the Humber,Retained,regos_total_prior,6908.0
 2021,gb,Yorkshire and the Humber,Retained,regos,1555.0
 2021,gb,Yorkshire and the Humber,Retained,active,964.0
 2021,gb,Yorkshire and the Humber,Retained,apam,147.65
 2021,gb,Yorkshire and the Humber,Retained,funds,142338.31
 2021,gb,Yorkshire and the Humber,Retained,comment,
-2021,gb,Yorkshire and the Humber,Retained,regos_total_curnt,6908.0
 2021,gb,Yorkshire and the Humber,Returned,regos,701.0
 2021,gb,Yorkshire and the Humber,Returned,active,330.0
 2021,gb,Yorkshire and the Humber,Returned,apam,148.88
@@ -697,13 +697,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,gb,Scotland,New,apam,148.49
 2021,gb,Scotland,New,funds,376265.19
 2021,gb,Scotland,New,comment,
-2021,gb,Scotland,Retained,regos_total_prior,9427.0
+2021,gb,Scotland,Retained,regos_ret_prior,9427.0
+2021,gb,Scotland,Retained,regos_total_prior,7706.0
 2021,gb,Scotland,Retained,regos,1771.0
 2021,gb,Scotland,Retained,active,1084.0
 2021,gb,Scotland,Retained,apam,178.55
 2021,gb,Scotland,Retained,funds,193545.24
 2021,gb,Scotland,Retained,comment,
-2021,gb,Scotland,Retained,regos_total_curnt,7706.0
 2021,gb,Scotland,Returned,regos,663.0
 2021,gb,Scotland,Returned,active,346.0
 2021,gb,Scotland,Returned,apam,160.96
@@ -718,13 +718,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,gb,Wales,New,apam,102.92
 2021,gb,Wales,New,funds,159631.6
 2021,gb,Wales,New,comment,
-2021,gb,Wales,Retained,regos_total_prior,7456.0
+2021,gb,Wales,Retained,regos_ret_prior,7456.0
+2021,gb,Wales,Retained,regos_total_prior,5206.0
 2021,gb,Wales,Retained,regos,1306.0
 2021,gb,Wales,Retained,active,750.0
 2021,gb,Wales,Retained,apam,143.68
 2021,gb,Wales,Retained,funds,107763.17
 2021,gb,Wales,Retained,comment,
-2021,gb,Wales,Retained,regos_total_curnt,5206.0
 2021,gb,Wales,Returned,regos,484.0
 2021,gb,Wales,Returned,active,228.0
 2021,gb,Wales,Returned,apam,123.98
@@ -739,13 +739,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,gb,East Midlands,New,apam,116.79
 2021,gb,East Midlands,New,funds,176709.26
 2021,gb,East Midlands,New,comment,
-2021,gb,East Midlands,Retained,regos_total_prior,5857.0
+2021,gb,East Midlands,Retained,regos_ret_prior,5857.0
+2021,gb,East Midlands,Retained,regos_total_prior,4846.0
 2021,gb,East Midlands,Retained,regos,1065.0
 2021,gb,East Midlands,Retained,active,629.0
 2021,gb,East Midlands,Retained,apam,154.08
 2021,gb,East Midlands,Retained,funds,96915.25
 2021,gb,East Midlands,Retained,comment,
-2021,gb,East Midlands,Retained,regos_total_curnt,4846.0
 2021,gb,East Midlands,Returned,regos,408.0
 2021,gb,East Midlands,Returned,active,199.0
 2021,gb,East Midlands,Returned,apam,128.97
@@ -760,13 +760,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,gb,Northern Ireland,New,apam,185.96
 2021,gb,Northern Ireland,New,funds,106552.98
 2021,gb,Northern Ireland,New,comment,
-2021,gb,Northern Ireland,Retained,regos_total_prior,2439.0
+2021,gb,Northern Ireland,Retained,regos_ret_prior,2439.0
+2021,gb,Northern Ireland,Retained,regos_total_prior,1723.0
 2021,gb,Northern Ireland,Retained,regos,376.0
 2021,gb,Northern Ireland,Retained,active,210.0
 2021,gb,Northern Ireland,Retained,apam,208.58
 2021,gb,Northern Ireland,Retained,funds,43800.98
 2021,gb,Northern Ireland,Retained,comment,
-2021,gb,Northern Ireland,Retained,regos_total_curnt,1723.0
 2021,gb,Northern Ireland,Returned,regos,162.0
 2021,gb,Northern Ireland,Returned,active,78.0
 2021,gb,Northern Ireland,Returned,apam,207.09
@@ -781,13 +781,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,gb,East England,New,apam,142.73
 2021,gb,East England,New,funds,33826.07
 2021,gb,East England,New,comment,
-2021,gb,East England,Retained,regos_total_prior,1026.0
+2021,gb,East England,Retained,regos_ret_prior,1026.0
+2021,gb,East England,Retained,regos_total_prior,731.0
 2021,gb,East England,Retained,regos,162.0
 2021,gb,East England,Retained,active,108.0
 2021,gb,East England,Retained,apam,194.66
 2021,gb,East England,Retained,funds,21022.93
 2021,gb,East England,Retained,comment,
-2021,gb,East England,Retained,regos_total_curnt,731.0
 2021,gb,East England,Returned,regos,80.0
 2021,gb,East England,Returned,active,41.0
 2021,gb,East England,Returned,apam,162.94
@@ -802,13 +802,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,gb,Channel Islands,New,apam,141.18
 2021,gb,Channel Islands,New,funds,16659.33
 2021,gb,Channel Islands,New,comment,
-2021,gb,Channel Islands,Retained,regos_total_prior,282.0
+2021,gb,Channel Islands,Retained,regos_ret_prior,282.0
+2021,gb,Channel Islands,Retained,regos_total_prior,332.0
 2021,gb,Channel Islands,Retained,regos,57.0
 2021,gb,Channel Islands,Retained,active,31.0
 2021,gb,Channel Islands,Retained,apam,232.93
 2021,gb,Channel Islands,Retained,funds,7220.84
 2021,gb,Channel Islands,Retained,comment,
-2021,gb,Channel Islands,Retained,regos_total_curnt,332.0
 2021,gb,Channel Islands,Returned,regos,40.0
 2021,gb,Channel Islands,Returned,active,20.0
 2021,gb,Channel Islands,Returned,apam,125.46
@@ -823,13 +823,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,gb,Isle of Man,New,apam,173.45
 2021,gb,Isle of Man,New,funds,11621.09
 2021,gb,Isle of Man,New,comment,
-2021,gb,Isle of Man,Retained,regos_total_prior,99.0
+2021,gb,Isle of Man,Retained,regos_ret_prior,99.0
+2021,gb,Isle of Man,Retained,regos_total_prior,148.0
 2021,gb,Isle of Man,Retained,regos,13.0
 2021,gb,Isle of Man,Retained,active,5.0
 2021,gb,Isle of Man,Retained,apam,214.0
 2021,gb,Isle of Man,Retained,funds,1070.0
 2021,gb,Isle of Man,Retained,comment,
-2021,gb,Isle of Man,Retained,regos_total_curnt,148.0
 2021,gb,Isle of Man,Returned,regos,14.0
 2021,gb,Isle of Man,Returned,active,7.0
 2021,gb,Isle of Man,Returned,apam,91.62
@@ -844,13 +844,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,gb,Other,New,apam,228.69
 2021,gb,Other,New,funds,1313580.17
 2021,gb,Other,New,comment,
-2021,gb,Other,Retained,regos_total_prior,21337.0
+2021,gb,Other,Retained,regos_ret_prior,21337.0
+2021,gb,Other,Retained,regos_total_prior,44279.0
 2021,gb,Other,Retained,regos,1417.0
 2021,gb,Other,Retained,active,817.0
 2021,gb,Other,Retained,apam,237.67
 2021,gb,Other,Retained,funds,194174.15
 2021,gb,Other,Retained,comment,
-2021,gb,Other,Retained,regos_total_curnt,44279.0
 2021,gb,Other,Returned,regos,32862.0
 2021,gb,Other,Returned,active,2188.0
 2021,gb,Other,Returned,apam,356.82
@@ -865,13 +865,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,us,Total,New,apam,299.73
 2021,us,Total,New,funds,3231122.05
 2021,us,Total,New,comment,
-2021,us,Total,Retained,regos_total_prior,62146.0
+2021,us,Total,Retained,regos_ret_prior,62146.0
+2021,us,Total,Retained,regos_total_prior,86870.0
 2021,us,Total,Retained,regos,11737.0
 2021,us,Total,Retained,active,7250.0
 2021,us,Total,Retained,apam,837.43
 2021,us,Total,Retained,funds,6071365.28
 2021,us,Total,Retained,comment,
-2021,us,Total,Retained,regos_total_curnt,86870.0
 2021,us,Total,Returned,regos,34341.0
 2021,us,Total,Returned,active,3881.0
 2021,us,Total,Returned,apam,743.53
@@ -886,13 +886,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,us,CA,New,apam,285.52
 2021,us,CA,New,funds,262961.34
 2021,us,CA,New,comment,
-2021,us,CA,Retained,regos_total_prior,6396.0
+2021,us,CA,Retained,regos_ret_prior,6396.0
+2021,us,CA,Retained,regos_total_prior,5516.0
 2021,us,CA,Retained,regos,1605.0
 2021,us,CA,Retained,active,1004.0
 2021,us,CA,Retained,apam,819.01
 2021,us,CA,Retained,funds,822286.05
 2021,us,CA,Retained,comment,
-2021,us,CA,Retained,regos_total_curnt,5516.0
 2021,us,CA,Returned,regos,797.0
 2021,us,CA,Returned,active,303.0
 2021,us,CA,Returned,apam,539.61
@@ -907,13 +907,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,us,CO,New,apam,244.42
 2021,us,CO,New,funds,75769.49
 2021,us,CO,New,comment,
-2021,us,CO,Retained,regos_total_prior,1844.0
+2021,us,CO,Retained,regos_ret_prior,1844.0
+2021,us,CO,Retained,regos_total_prior,1814.0
 2021,us,CO,Retained,regos,426.0
 2021,us,CO,Retained,active,265.0
 2021,us,CO,Retained,apam,779.51
 2021,us,CO,Retained,funds,206570.56
 2021,us,CO,Retained,comment,
-2021,us,CO,Retained,regos_total_curnt,1814.0
 2021,us,CO,Returned,regos,195.0
 2021,us,CO,Returned,active,81.0
 2021,us,CO,Returned,apam,236.7
@@ -928,13 +928,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,us,CT,New,apam,259.04
 2021,us,CT,New,funds,49735.02
 2021,us,CT,New,comment,
-2021,us,CT,Retained,regos_total_prior,939.0
+2021,us,CT,Retained,regos_ret_prior,939.0
+2021,us,CT,Retained,regos_total_prior,1008.0
 2021,us,CT,Retained,regos,207.0
 2021,us,CT,Retained,active,138.0
 2021,us,CT,Retained,apam,922.03
 2021,us,CT,Retained,funds,127240.58
 2021,us,CT,Retained,comment,
-2021,us,CT,Retained,regos_total_curnt,1008.0
 2021,us,CT,Returned,regos,124.0
 2021,us,CT,Returned,active,62.0
 2021,us,CT,Returned,apam,478.9
@@ -949,13 +949,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,us,DC,New,apam,297.34
 2021,us,DC,New,funds,10109.59
 2021,us,DC,New,comment,
-2021,us,DC,Retained,regos_total_prior,278.0
+2021,us,DC,Retained,regos_ret_prior,278.0
+2021,us,DC,Retained,regos_total_prior,254.0
 2021,us,DC,Retained,regos,67.0
 2021,us,DC,Retained,active,39.0
 2021,us,DC,Retained,apam,1210.17
 2021,us,DC,Retained,funds,47196.63
 2021,us,DC,Retained,comment,
-2021,us,DC,Retained,regos_total_curnt,254.0
 2021,us,DC,Returned,regos,33.0
 2021,us,DC,Returned,active,13.0
 2021,us,DC,Returned,apam,512.42
@@ -970,13 +970,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,us,FL,New,apam,230.2
 2021,us,FL,New,funds,84944.46
 2021,us,FL,New,comment,
-2021,us,FL,Retained,regos_total_prior,2168.0
+2021,us,FL,Retained,regos_ret_prior,2168.0
+2021,us,FL,Retained,regos_total_prior,2272.0
 2021,us,FL,Retained,regos,393.0
 2021,us,FL,Retained,active,230.0
 2021,us,FL,Retained,apam,766.35
 2021,us,FL,Retained,funds,176259.44
 2021,us,FL,Retained,comment,
-2021,us,FL,Retained,regos_total_curnt,2272.0
 2021,us,FL,Returned,regos,213.0
 2021,us,FL,Returned,active,65.0
 2021,us,FL,Returned,apam,406.72
@@ -991,13 +991,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,us,GA,New,apam,271.62
 2021,us,GA,New,funds,41285.51
 2021,us,GA,New,comment,
-2021,us,GA,Retained,regos_total_prior,1226.0
+2021,us,GA,Retained,regos_ret_prior,1226.0
+2021,us,GA,Retained,regos_total_prior,1159.0
 2021,us,GA,Retained,regos,207.0
 2021,us,GA,Retained,active,127.0
 2021,us,GA,Retained,apam,865.83
 2021,us,GA,Retained,funds,109960.54
 2021,us,GA,Retained,comment,
-2021,us,GA,Retained,regos_total_curnt,1159.0
 2021,us,GA,Returned,regos,109.0
 2021,us,GA,Returned,active,24.0
 2021,us,GA,Returned,apam,388.83
@@ -1012,13 +1012,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,us,IL,New,apam,329.82
 2021,us,IL,New,funds,150396.41
 2021,us,IL,New,comment,
-2021,us,IL,Retained,regos_total_prior,2477.0
+2021,us,IL,Retained,regos_ret_prior,2477.0
+2021,us,IL,Retained,regos_total_prior,2370.0
 2021,us,IL,Retained,regos,529.0
 2021,us,IL,Retained,active,349.0
 2021,us,IL,Retained,apam,893.05
 2021,us,IL,Retained,funds,311675.3
 2021,us,IL,Retained,comment,
-2021,us,IL,Retained,regos_total_curnt,2370.0
 2021,us,IL,Returned,regos,262.0
 2021,us,IL,Returned,active,103.0
 2021,us,IL,Returned,apam,417.51
@@ -1033,13 +1033,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,us,MA,New,apam,304.47
 2021,us,MA,New,funds,183289.77
 2021,us,MA,New,comment,
-2021,us,MA,Retained,regos_total_prior,2589.0
+2021,us,MA,Retained,regos_ret_prior,2589.0
+2021,us,MA,Retained,regos_total_prior,2708.0
 2021,us,MA,Retained,regos,647.0
 2021,us,MA,Retained,active,440.0
 2021,us,MA,Retained,apam,896.2
 2021,us,MA,Retained,funds,394325.98
 2021,us,MA,Retained,comment,
-2021,us,MA,Retained,regos_total_curnt,2708.0
 2021,us,MA,Returned,regos,231.0
 2021,us,MA,Returned,active,113.0
 2021,us,MA,Returned,apam,553.34
@@ -1054,13 +1054,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,us,MN,New,apam,319.22
 2021,us,MN,New,funds,49160.4
 2021,us,MN,New,comment,
-2021,us,MN,Retained,regos_total_prior,1029.0
+2021,us,MN,Retained,regos_ret_prior,1029.0
+2021,us,MN,Retained,regos_total_prior,1089.0
 2021,us,MN,Retained,regos,241.0
 2021,us,MN,Retained,active,163.0
 2021,us,MN,Retained,apam,944.55
 2021,us,MN,Retained,funds,153961.11
 2021,us,MN,Retained,comment,
-2021,us,MN,Retained,regos_total_curnt,1089.0
 2021,us,MN,Returned,regos,134.0
 2021,us,MN,Returned,active,48.0
 2021,us,MN,Returned,apam,352.82
@@ -1075,13 +1075,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,us,NJ,New,apam,454.72
 2021,us,NJ,New,funds,196438.84
 2021,us,NJ,New,comment,
-2021,us,NJ,Retained,regos_total_prior,2456.0
+2021,us,NJ,Retained,regos_ret_prior,2456.0
+2021,us,NJ,Retained,regos_total_prior,2331.0
 2021,us,NJ,Retained,regos,605.0
 2021,us,NJ,Retained,active,384.0
 2021,us,NJ,Retained,apam,716.07
 2021,us,NJ,Retained,funds,274972.46
 2021,us,NJ,Retained,comment,
-2021,us,NJ,Retained,regos_total_curnt,2331.0
 2021,us,NJ,Returned,regos,275.0
 2021,us,NJ,Returned,active,118.0
 2021,us,NJ,Returned,apam,341.3
@@ -1096,13 +1096,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,us,NY,New,apam,375.16
 2021,us,NY,New,funds,283246.15
 2021,us,NY,New,comment,
-2021,us,NY,Retained,regos_total_prior,4242.0
+2021,us,NY,Retained,regos_ret_prior,4242.0
+2021,us,NY,Retained,regos_total_prior,4052.0
 2021,us,NY,Retained,regos,984.0
 2021,us,NY,Retained,active,626.0
 2021,us,NY,Retained,apam,1005.64
 2021,us,NY,Retained,funds,629529.79
 2021,us,NY,Retained,comment,
-2021,us,NY,Retained,regos_total_curnt,4052.0
 2021,us,NY,Returned,regos,488.0
 2021,us,NY,Returned,active,195.0
 2021,us,NY,Returned,apam,462.45
@@ -1117,13 +1117,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,us,OH,New,apam,221.01
 2021,us,OH,New,funds,54147.68
 2021,us,OH,New,comment,
-2021,us,OH,Retained,regos_total_prior,1656.0
+2021,us,OH,Retained,regos_ret_prior,1656.0
+2021,us,OH,Retained,regos_total_prior,1779.0
 2021,us,OH,Retained,regos,322.0
 2021,us,OH,Retained,active,178.0
 2021,us,OH,Retained,apam,713.6
 2021,us,OH,Retained,funds,127020.78
 2021,us,OH,Retained,comment,
-2021,us,OH,Retained,regos_total_curnt,1779.0
 2021,us,OH,Returned,regos,157.0
 2021,us,OH,Returned,active,59.0
 2021,us,OH,Returned,apam,256.66
@@ -1138,13 +1138,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,us,PA,New,apam,220.54
 2021,us,PA,New,funds,96155.53
 2021,us,PA,New,comment,
-2021,us,PA,Retained,regos_total_prior,2230.0
+2021,us,PA,Retained,regos_ret_prior,2230.0
+2021,us,PA,Retained,regos_total_prior,2549.0
 2021,us,PA,Retained,regos,498.0
 2021,us,PA,Retained,active,293.0
 2021,us,PA,Retained,apam,937.56
 2021,us,PA,Retained,funds,274704.12
 2021,us,PA,Retained,comment,
-2021,us,PA,Retained,regos_total_curnt,2549.0
 2021,us,PA,Returned,regos,220.0
 2021,us,PA,Returned,active,81.0
 2021,us,PA,Returned,apam,381.39
@@ -1159,13 +1159,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,us,TX,New,apam,238.67
 2021,us,TX,New,funds,137236.15
 2021,us,TX,New,comment,
-2021,us,TX,Retained,regos_total_prior,3677.0
+2021,us,TX,Retained,regos_ret_prior,3677.0
+2021,us,TX,Retained,regos_total_prior,3516.0
 2021,us,TX,Retained,regos,676.0
 2021,us,TX,Retained,active,382.0
 2021,us,TX,Retained,apam,997.98
 2021,us,TX,Retained,funds,381227.1
 2021,us,TX,Retained,comment,
-2021,us,TX,Retained,regos_total_curnt,3516.0
 2021,us,TX,Returned,regos,327.0
 2021,us,TX,Returned,active,124.0
 2021,us,TX,Returned,apam,286.09
@@ -1180,13 +1180,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,us,WA,New,apam,254.64
 2021,us,WA,New,funds,57549.2
 2021,us,WA,New,comment,
-2021,us,WA,Retained,regos_total_prior,1779.0
+2021,us,WA,Retained,regos_ret_prior,1779.0
+2021,us,WA,Retained,regos_total_prior,1757.0
 2021,us,WA,Retained,regos,326.0
 2021,us,WA,Retained,active,209.0
 2021,us,WA,Retained,apam,916.04
 2021,us,WA,Retained,funds,191452.96
 2021,us,WA,Retained,comment,
-2021,us,WA,Retained,regos_total_curnt,1757.0
 2021,us,WA,Returned,regos,186.0
 2021,us,WA,Returned,active,66.0
 2021,us,WA,Returned,apam,455.24
@@ -1201,13 +1201,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,us,Other,New,apam,304.55
 2021,us,Other,New,funds,1498696.51
 2021,us,Other,New,comment,
-2021,us,Other,Retained,regos_total_prior,27160.0
+2021,us,Other,Retained,regos_ret_prior,27160.0
+2021,us,Other,Retained,regos_total_prior,52696.0
 2021,us,Other,Retained,regos,4004.0
 2021,us,Other,Retained,active,2423.0
 2021,us,Other,Retained,apam,760.62
 2021,us,Other,Retained,funds,1842981.88
 2021,us,Other,Retained,comment,
-2021,us,Other,Retained,regos_total_curnt,52696.0
 2021,us,Other,Returned,regos,30590.0
 2021,us,Other,Returned,active,2426.0
 2021,us,Other,Returned,apam,934.2
@@ -1222,13 +1222,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Total,New,apam,309.19
 2021,ie,Total,New,funds,1467705.3
 2021,ie,Total,New,comment,
-2021,ie,Total,Retained,regos_total_prior,22130.0
+2021,ie,Total,Retained,regos_ret_prior,22130.0
+2021,ie,Total,Retained,regos_total_prior,17133.0
 2021,ie,Total,Retained,regos,2807.0
 2021,ie,Total,Retained,active,1602.0
 2021,ie,Total,Retained,apam,361.28
 2021,ie,Total,Retained,funds,578770.92
 2021,ie,Total,Retained,comment,
-2021,ie,Total,Retained,regos_total_curnt,17133.0
 2021,ie,Total,Returned,regos,4806.0
 2021,ie,Total,Returned,active,775.0
 2021,ie,Total,Returned,apam,423.53
@@ -1243,13 +1243,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Carlow,New,apam,241.72
 2021,ie,Carlow,New,funds,11602.71
 2021,ie,Carlow,New,comment,
-2021,ie,Carlow,Retained,regos_total_prior,193.0
+2021,ie,Carlow,Retained,regos_ret_prior,193.0
+2021,ie,Carlow,Retained,regos_total_prior,136.0
 2021,ie,Carlow,Retained,regos,30.0
 2021,ie,Carlow,Retained,active,21.0
 2021,ie,Carlow,Retained,apam,311.43
 2021,ie,Carlow,Retained,funds,6540.0
 2021,ie,Carlow,Retained,comment,
-2021,ie,Carlow,Retained,regos_total_curnt,136.0
 2021,ie,Carlow,Returned,regos,3.0
 2021,ie,Carlow,Returned,active,1.0
 2021,ie,Carlow,Returned,apam,270.0
@@ -1264,13 +1264,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Cavan,New,apam,342.8
 2021,ie,Cavan,New,funds,23996.26
 2021,ie,Cavan,New,comment,
-2021,ie,Cavan,Retained,regos_total_prior,188.0
+2021,ie,Cavan,Retained,regos_ret_prior,188.0
+2021,ie,Cavan,Retained,regos_total_prior,165.0
 2021,ie,Cavan,Retained,regos,29.0
 2021,ie,Cavan,Retained,active,21.0
 2021,ie,Cavan,Retained,apam,349.81
 2021,ie,Cavan,Retained,funds,7346.0
 2021,ie,Cavan,Retained,comment,
-2021,ie,Cavan,Retained,regos_total_curnt,165.0
 2021,ie,Cavan,Returned,regos,8.0
 2021,ie,Cavan,Returned,active,2.0
 2021,ie,Cavan,Returned,apam,347.5
@@ -1285,13 +1285,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Clare,New,apam,270.75
 2021,ie,Clare,New,funds,17056.96
 2021,ie,Clare,New,comment,
-2021,ie,Clare,Retained,regos_total_prior,372.0
+2021,ie,Clare,Retained,regos_ret_prior,372.0
+2021,ie,Clare,Retained,regos_total_prior,180.0
 2021,ie,Clare,Retained,regos,38.0
 2021,ie,Clare,Retained,active,24.0
 2021,ie,Clare,Retained,apam,266.73
 2021,ie,Clare,Retained,funds,6401.6
 2021,ie,Clare,Retained,comment,
-2021,ie,Clare,Retained,regos_total_curnt,180.0
 2021,ie,Clare,Returned,regos,11.0
 2021,ie,Clare,Returned,active,6.0
 2021,ie,Clare,Returned,apam,399.5
@@ -1306,13 +1306,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Cork,New,apam,256.36
 2021,ie,Cork,New,funds,118182.22
 2021,ie,Cork,New,comment,
-2021,ie,Cork,Retained,regos_total_prior,2465.0
+2021,ie,Cork,Retained,regos_ret_prior,2465.0
+2021,ie,Cork,Retained,regos_total_prior,1482.0
 2021,ie,Cork,Retained,regos,345.0
 2021,ie,Cork,Retained,active,187.0
 2021,ie,Cork,Retained,apam,249.49
 2021,ie,Cork,Retained,funds,46654.76
 2021,ie,Cork,Retained,comment,
-2021,ie,Cork,Retained,regos_total_curnt,1482.0
 2021,ie,Cork,Returned,regos,128.0
 2021,ie,Cork,Returned,active,68.0
 2021,ie,Cork,Returned,apam,349.29
@@ -1327,13 +1327,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Donegal,New,apam,253.51
 2021,ie,Donegal,New,funds,18252.79
 2021,ie,Donegal,New,comment,
-2021,ie,Donegal,Retained,regos_total_prior,317.0
+2021,ie,Donegal,Retained,regos_ret_prior,317.0
+2021,ie,Donegal,Retained,regos_total_prior,205.0
 2021,ie,Donegal,Retained,regos,31.0
 2021,ie,Donegal,Retained,active,19.0
 2021,ie,Donegal,Retained,apam,289.48
 2021,ie,Donegal,Retained,funds,5500.1
 2021,ie,Donegal,Retained,comment,
-2021,ie,Donegal,Retained,regos_total_curnt,205.0
 2021,ie,Donegal,Returned,regos,18.0
 2021,ie,Donegal,Returned,active,6.0
 2021,ie,Donegal,Returned,apam,399.94
@@ -1348,13 +1348,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Dublin,New,apam,313.15
 2021,ie,Dublin,New,funds,452497.41
 2021,ie,Dublin,New,comment,
-2021,ie,Dublin,Retained,regos_total_prior,7500.0
+2021,ie,Dublin,Retained,regos_ret_prior,7500.0
+2021,ie,Dublin,Retained,regos_total_prior,4548.0
 2021,ie,Dublin,Retained,regos,1191.0
 2021,ie,Dublin,Retained,active,669.0
 2021,ie,Dublin,Retained,apam,468.36
 2021,ie,Dublin,Retained,funds,313335.87
 2021,ie,Dublin,Retained,comment,
-2021,ie,Dublin,Retained,regos_total_curnt,4548.0
 2021,ie,Dublin,Returned,regos,365.0
 2021,ie,Dublin,Returned,active,197.0
 2021,ie,Dublin,Returned,apam,297.8
@@ -1369,13 +1369,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Galway,New,apam,240.16
 2021,ie,Galway,New,funds,42268.98
 2021,ie,Galway,New,comment,
-2021,ie,Galway,Retained,regos_total_prior,924.0
+2021,ie,Galway,Retained,regos_ret_prior,924.0
+2021,ie,Galway,Retained,regos_total_prior,511.0
 2021,ie,Galway,Retained,regos,90.0
 2021,ie,Galway,Retained,active,45.0
 2021,ie,Galway,Retained,apam,239.55
 2021,ie,Galway,Retained,funds,10779.89
 2021,ie,Galway,Retained,comment,
-2021,ie,Galway,Retained,regos_total_curnt,511.0
 2021,ie,Galway,Returned,regos,50.0
 2021,ie,Galway,Returned,active,27.0
 2021,ie,Galway,Returned,apam,292.4
@@ -1390,13 +1390,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Kerry,New,apam,259.64
 2021,ie,Kerry,New,funds,19992.3
 2021,ie,Kerry,New,comment,
-2021,ie,Kerry,Retained,regos_total_prior,402.0
+2021,ie,Kerry,Retained,regos_ret_prior,402.0
+2021,ie,Kerry,Retained,regos_total_prior,248.0
 2021,ie,Kerry,Retained,regos,48.0
 2021,ie,Kerry,Retained,active,22.0
 2021,ie,Kerry,Retained,apam,115.77
 2021,ie,Kerry,Retained,funds,2547.0
 2021,ie,Kerry,Retained,comment,
-2021,ie,Kerry,Retained,regos_total_curnt,248.0
 2021,ie,Kerry,Returned,regos,13.0
 2021,ie,Kerry,Returned,active,8.0
 2021,ie,Kerry,Returned,apam,586.25
@@ -1411,13 +1411,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Kildare,New,apam,311.65
 2021,ie,Kildare,New,funds,66692.98
 2021,ie,Kildare,New,comment,
-2021,ie,Kildare,Retained,regos_total_prior,858.0
+2021,ie,Kildare,Retained,regos_ret_prior,858.0
+2021,ie,Kildare,Retained,regos_total_prior,585.0
 2021,ie,Kildare,Retained,regos,137.0
 2021,ie,Kildare,Retained,active,91.0
 2021,ie,Kildare,Retained,apam,332.05
 2021,ie,Kildare,Retained,funds,30216.57
 2021,ie,Kildare,Retained,comment,
-2021,ie,Kildare,Retained,regos_total_curnt,585.0
 2021,ie,Kildare,Returned,regos,52.0
 2021,ie,Kildare,Returned,active,28.0
 2021,ie,Kildare,Returned,apam,346.52
@@ -1432,13 +1432,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Kilkenny,New,apam,328.8
 2021,ie,Kilkenny,New,funds,17097.81
 2021,ie,Kilkenny,New,comment,
-2021,ie,Kilkenny,Retained,regos_total_prior,262.0
+2021,ie,Kilkenny,Retained,regos_ret_prior,262.0
+2021,ie,Kilkenny,Retained,regos_total_prior,149.0
 2021,ie,Kilkenny,Retained,regos,34.0
 2021,ie,Kilkenny,Retained,active,17.0
 2021,ie,Kilkenny,Retained,apam,244.0
 2021,ie,Kilkenny,Retained,funds,4148.0
 2021,ie,Kilkenny,Retained,comment,
-2021,ie,Kilkenny,Retained,regos_total_curnt,149.0
 2021,ie,Kilkenny,Returned,regos,9.0
 2021,ie,Kilkenny,Returned,active,3.0
 2021,ie,Kilkenny,Returned,apam,551.54
@@ -1453,13 +1453,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Laois,New,apam,0.0
 2021,ie,Laois,New,funds,0.0
 2021,ie,Laois,New,comment,
-2021,ie,Laois,Retained,regos_total_prior,12.0
+2021,ie,Laois,Retained,regos_ret_prior,12.0
+2021,ie,Laois,Retained,regos_total_prior,5.0
 2021,ie,Laois,Retained,regos,1.0
 2021,ie,Laois,Retained,active,1.0
 2021,ie,Laois,Retained,apam,20.0
 2021,ie,Laois,Retained,funds,20.0
 2021,ie,Laois,Retained,comment,
-2021,ie,Laois,Retained,regos_total_curnt,5.0
 2021,ie,Laois,Returned,regos,0.0
 2021,ie,Laois,Returned,active,0.0
 2021,ie,Laois,Returned,apam,0.0
@@ -1474,13 +1474,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Leitrim,New,apam,317.9
 2021,ie,Leitrim,New,funds,6040.13
 2021,ie,Leitrim,New,comment,
-2021,ie,Leitrim,Retained,regos_total_prior,76.0
+2021,ie,Leitrim,Retained,regos_ret_prior,76.0
+2021,ie,Leitrim,Retained,regos_total_prior,54.0
 2021,ie,Leitrim,Retained,regos,11.0
 2021,ie,Leitrim,Retained,active,5.0
 2021,ie,Leitrim,Retained,apam,227.2
 2021,ie,Leitrim,Retained,funds,1136.0
 2021,ie,Leitrim,Retained,comment,
-2021,ie,Leitrim,Retained,regos_total_curnt,54.0
 2021,ie,Leitrim,Returned,regos,5.0
 2021,ie,Leitrim,Returned,active,4.0
 2021,ie,Leitrim,Returned,apam,283.46
@@ -1495,13 +1495,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Limerick,New,apam,324.76
 2021,ie,Limerick,New,funds,71121.55
 2021,ie,Limerick,New,comment,
-2021,ie,Limerick,Retained,regos_total_prior,669.0
+2021,ie,Limerick,Retained,regos_ret_prior,669.0
+2021,ie,Limerick,Retained,regos_total_prior,567.0
 2021,ie,Limerick,Retained,regos,101.0
 2021,ie,Limerick,Retained,active,61.0
 2021,ie,Limerick,Retained,apam,295.68
 2021,ie,Limerick,Retained,funds,18036.29
 2021,ie,Limerick,Retained,comment,
-2021,ie,Limerick,Retained,regos_total_curnt,567.0
 2021,ie,Limerick,Returned,regos,47.0
 2021,ie,Limerick,Returned,active,27.0
 2021,ie,Limerick,Returned,apam,383.1
@@ -1516,13 +1516,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Longford,New,apam,208.2
 2021,ie,Longford,New,funds,5829.6
 2021,ie,Longford,New,comment,
-2021,ie,Longford,Retained,regos_total_prior,121.0
+2021,ie,Longford,Retained,regos_ret_prior,121.0
+2021,ie,Longford,Retained,regos_total_prior,64.0
 2021,ie,Longford,Retained,regos,7.0
 2021,ie,Longford,Retained,active,2.0
 2021,ie,Longford,Retained,apam,362.5
 2021,ie,Longford,Retained,funds,725.0
 2021,ie,Longford,Retained,comment,
-2021,ie,Longford,Retained,regos_total_curnt,64.0
 2021,ie,Longford,Returned,regos,5.0
 2021,ie,Longford,Returned,active,5.0
 2021,ie,Longford,Returned,apam,114.94
@@ -1537,13 +1537,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Louth,New,apam,288.97
 2021,ie,Louth,New,funds,25140.25
 2021,ie,Louth,New,comment,
-2021,ie,Louth,Retained,regos_total_prior,365.0
+2021,ie,Louth,Retained,regos_ret_prior,365.0
+2021,ie,Louth,Retained,regos_total_prior,260.0
 2021,ie,Louth,Retained,regos,40.0
 2021,ie,Louth,Retained,active,19.0
 2021,ie,Louth,Retained,apam,276.79
 2021,ie,Louth,Retained,funds,5259.0
 2021,ie,Louth,Retained,comment,
-2021,ie,Louth,Retained,regos_total_curnt,260.0
 2021,ie,Louth,Returned,regos,20.0
 2021,ie,Louth,Returned,active,12.0
 2021,ie,Louth,Returned,apam,410.08
@@ -1558,13 +1558,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Mayo,New,apam,350.73
 2021,ie,Mayo,New,funds,26655.54
 2021,ie,Mayo,New,comment,
-2021,ie,Mayo,Retained,regos_total_prior,382.0
+2021,ie,Mayo,Retained,regos_ret_prior,382.0
+2021,ie,Mayo,Retained,regos_total_prior,230.0
 2021,ie,Mayo,Retained,regos,36.0
 2021,ie,Mayo,Retained,active,21.0
 2021,ie,Mayo,Retained,apam,286.52
 2021,ie,Mayo,Retained,funds,6016.9
 2021,ie,Mayo,Retained,comment,
-2021,ie,Mayo,Retained,regos_total_curnt,230.0
 2021,ie,Mayo,Returned,regos,19.0
 2021,ie,Mayo,Returned,active,12.0
 2021,ie,Mayo,Returned,apam,610.29
@@ -1579,13 +1579,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Meath,New,apam,223.15
 2021,ie,Meath,New,funds,32133.85
 2021,ie,Meath,New,comment,
-2021,ie,Meath,Retained,regos_total_prior,670.0
+2021,ie,Meath,Retained,regos_ret_prior,670.0
+2021,ie,Meath,Retained,regos_total_prior,413.0
 2021,ie,Meath,Retained,regos,88.0
 2021,ie,Meath,Retained,active,52.0
 2021,ie,Meath,Retained,apam,236.0
 2021,ie,Meath,Retained,funds,12272.08
 2021,ie,Meath,Retained,comment,
-2021,ie,Meath,Retained,regos_total_curnt,413.0
 2021,ie,Meath,Returned,regos,26.0
 2021,ie,Meath,Returned,active,14.0
 2021,ie,Meath,Returned,apam,389.36
@@ -1600,13 +1600,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Monaghan,New,apam,426.46
 2021,ie,Monaghan,New,funds,21749.32
 2021,ie,Monaghan,New,comment,
-2021,ie,Monaghan,Retained,regos_total_prior,195.0
+2021,ie,Monaghan,Retained,regos_ret_prior,195.0
+2021,ie,Monaghan,Retained,regos_total_prior,107.0
 2021,ie,Monaghan,Retained,regos,15.0
 2021,ie,Monaghan,Retained,active,12.0
 2021,ie,Monaghan,Retained,apam,170.0
 2021,ie,Monaghan,Retained,funds,2040.0
 2021,ie,Monaghan,Retained,comment,
-2021,ie,Monaghan,Retained,regos_total_curnt,107.0
 2021,ie,Monaghan,Returned,regos,2.0
 2021,ie,Monaghan,Returned,active,2.0
 2021,ie,Monaghan,Returned,apam,122.5
@@ -1621,13 +1621,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Offaly,New,apam,196.24
 2021,ie,Offaly,New,funds,10792.98
 2021,ie,Offaly,New,comment,
-2021,ie,Offaly,Retained,regos_total_prior,187.0
+2021,ie,Offaly,Retained,regos_ret_prior,187.0
+2021,ie,Offaly,Retained,regos_total_prior,138.0
 2021,ie,Offaly,Retained,regos,22.0
 2021,ie,Offaly,Retained,active,13.0
 2021,ie,Offaly,Retained,apam,196.54
 2021,ie,Offaly,Retained,funds,2555.0
 2021,ie,Offaly,Retained,comment,
-2021,ie,Offaly,Retained,regos_total_curnt,138.0
 2021,ie,Offaly,Returned,regos,8.0
 2021,ie,Offaly,Returned,active,4.0
 2021,ie,Offaly,Returned,apam,126.25
@@ -1642,13 +1642,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Roscommon,New,apam,678.62
 2021,ie,Roscommon,New,funds,22394.46
 2021,ie,Roscommon,New,comment,
-2021,ie,Roscommon,Retained,regos_total_prior,151.0
+2021,ie,Roscommon,Retained,regos_ret_prior,151.0
+2021,ie,Roscommon,Retained,regos_total_prior,94.0
 2021,ie,Roscommon,Retained,regos,12.0
 2021,ie,Roscommon,Retained,active,10.0
 2021,ie,Roscommon,Retained,apam,434.0
 2021,ie,Roscommon,Retained,funds,4340.0
 2021,ie,Roscommon,Retained,comment,
-2021,ie,Roscommon,Retained,regos_total_curnt,94.0
 2021,ie,Roscommon,Returned,regos,9.0
 2021,ie,Roscommon,Returned,active,3.0
 2021,ie,Roscommon,Returned,apam,653.33
@@ -1663,13 +1663,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Sligo,New,apam,332.65
 2021,ie,Sligo,New,funds,23285.45
 2021,ie,Sligo,New,comment,
-2021,ie,Sligo,Retained,regos_total_prior,208.0
+2021,ie,Sligo,Retained,regos_ret_prior,208.0
+2021,ie,Sligo,Retained,regos_total_prior,165.0
 2021,ie,Sligo,Retained,regos,32.0
 2021,ie,Sligo,Retained,active,20.0
 2021,ie,Sligo,Retained,apam,180.75
 2021,ie,Sligo,Retained,funds,3615.0
 2021,ie,Sligo,Retained,comment,
-2021,ie,Sligo,Retained,regos_total_curnt,165.0
 2021,ie,Sligo,Returned,regos,6.0
 2021,ie,Sligo,Returned,active,6.0
 2021,ie,Sligo,Returned,apam,140.32
@@ -1684,13 +1684,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Tipperary,New,apam,372.47
 2021,ie,Tipperary,New,funds,41716.62
 2021,ie,Tipperary,New,comment,
-2021,ie,Tipperary,Retained,regos_total_prior,503.0
+2021,ie,Tipperary,Retained,regos_ret_prior,503.0
+2021,ie,Tipperary,Retained,regos_total_prior,311.0
 2021,ie,Tipperary,Retained,regos,69.0
 2021,ie,Tipperary,Retained,active,35.0
 2021,ie,Tipperary,Retained,apam,298.72
 2021,ie,Tipperary,Retained,funds,10455.26
 2021,ie,Tipperary,Retained,comment,
-2021,ie,Tipperary,Retained,regos_total_curnt,311.0
 2021,ie,Tipperary,Returned,regos,16.0
 2021,ie,Tipperary,Returned,active,6.0
 2021,ie,Tipperary,Returned,apam,449.53
@@ -1705,13 +1705,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Waterford,New,apam,194.98
 2021,ie,Waterford,New,funds,17743.01
 2021,ie,Waterford,New,comment,
-2021,ie,Waterford,Retained,regos_total_prior,312.0
+2021,ie,Waterford,Retained,regos_ret_prior,312.0
+2021,ie,Waterford,Retained,regos_total_prior,251.0
 2021,ie,Waterford,Retained,regos,48.0
 2021,ie,Waterford,Retained,active,31.0
 2021,ie,Waterford,Retained,apam,229.81
 2021,ie,Waterford,Retained,funds,7124.12
 2021,ie,Waterford,Retained,comment,
-2021,ie,Waterford,Retained,regos_total_curnt,251.0
 2021,ie,Waterford,Returned,regos,11.0
 2021,ie,Waterford,Returned,active,8.0
 2021,ie,Waterford,Returned,apam,162.5
@@ -1726,13 +1726,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Westmeath,New,apam,251.68
 2021,ie,Westmeath,New,funds,15604.45
 2021,ie,Westmeath,New,comment,
-2021,ie,Westmeath,Retained,regos_total_prior,283.0
+2021,ie,Westmeath,Retained,regos_ret_prior,283.0
+2021,ie,Westmeath,Retained,regos_total_prior,190.0
 2021,ie,Westmeath,Retained,regos,40.0
 2021,ie,Westmeath,Retained,active,28.0
 2021,ie,Westmeath,Retained,apam,246.38
 2021,ie,Westmeath,Retained,funds,6898.59
 2021,ie,Westmeath,Retained,comment,
-2021,ie,Westmeath,Retained,regos_total_curnt,190.0
 2021,ie,Westmeath,Returned,regos,13.0
 2021,ie,Westmeath,Returned,active,9.0
 2021,ie,Westmeath,Returned,apam,274.67
@@ -1747,13 +1747,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Wexford,New,apam,189.56
 2021,ie,Wexford,New,funds,13837.7
 2021,ie,Wexford,New,comment,
-2021,ie,Wexford,Retained,regos_total_prior,472.0
+2021,ie,Wexford,Retained,regos_ret_prior,472.0
+2021,ie,Wexford,Retained,regos_total_prior,270.0
 2021,ie,Wexford,Retained,regos,52.0
 2021,ie,Wexford,Retained,active,30.0
 2021,ie,Wexford,Retained,apam,332.02
 2021,ie,Wexford,Retained,funds,9960.67
 2021,ie,Wexford,Retained,comment,
-2021,ie,Wexford,Retained,regos_total_curnt,270.0
 2021,ie,Wexford,Returned,regos,30.0
 2021,ie,Wexford,Returned,active,16.0
 2021,ie,Wexford,Returned,apam,198.97
@@ -1768,13 +1768,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Wicklow,New,apam,322.42
 2021,ie,Wicklow,New,funds,42237.42
 2021,ie,Wicklow,New,comment,
-2021,ie,Wicklow,Retained,regos_total_prior,630.0
+2021,ie,Wicklow,Retained,regos_ret_prior,630.0
+2021,ie,Wicklow,Retained,regos_total_prior,359.0
 2021,ie,Wicklow,Retained,regos,74.0
 2021,ie,Wicklow,Retained,active,46.0
 2021,ie,Wicklow,Retained,apam,333.87
 2021,ie,Wicklow,Retained,funds,15358.23
 2021,ie,Wicklow,Retained,comment,
-2021,ie,Wicklow,Retained,regos_total_curnt,359.0
 2021,ie,Wicklow,Returned,regos,34.0
 2021,ie,Wicklow,Returned,active,18.0
 2021,ie,Wicklow,Returned,apam,379.95
@@ -1789,13 +1789,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ie,Other,New,apam,371.37
 2021,ie,Other,New,funds,303782.55
 2021,ie,Other,New,comment,
-2021,ie,Other,Retained,regos_total_prior,3413.0
+2021,ie,Other,Retained,regos_ret_prior,3413.0
+2021,ie,Other,Retained,regos_total_prior,5446.0
 2021,ie,Other,Retained,regos,186.0
 2021,ie,Other,Retained,active,100.0
 2021,ie,Other,Retained,apam,394.89
 2021,ie,Other,Retained,funds,39488.99
 2021,ie,Other,Retained,comment,
-2021,ie,Other,Retained,regos_total_curnt,5446.0
 2021,ie,Other,Returned,regos,3898.0
 2021,ie,Other,Returned,active,283.0
 2021,ie,Other,Returned,apam,587.71
@@ -1810,13 +1810,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nz,Total,New,apam,375.33
 2021,nz,Total,New,funds,2418240.25
 2021,nz,Total,New,comment,
-2021,nz,Total,Retained,regos_total_prior,12621.0
+2021,nz,Total,Retained,regos_ret_prior,12621.0
+2021,nz,Total,Retained,regos_total_prior,21247.0
 2021,nz,Total,Retained,regos,2247.0
 2021,nz,Total,Retained,active,1468.0
 2021,nz,Total,Retained,apam,490.86
 2021,nz,Total,Retained,funds,720587.49
 2021,nz,Total,Retained,comment,
-2021,nz,Total,Retained,regos_total_curnt,21247.0
 2021,nz,Total,Returned,regos,6712.0
 2021,nz,Total,Returned,active,1363.0
 2021,nz,Total,Returned,apam,457.9
@@ -1831,13 +1831,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nz,Auckland,New,apam,396.18
 2021,nz,Auckland,New,funds,851002.17
 2021,nz,Auckland,New,comment,
-2021,nz,Auckland,Retained,regos_total_prior,3747.0
+2021,nz,Auckland,Retained,regos_ret_prior,3747.0
+2021,nz,Auckland,Retained,regos_total_prior,5436.0
 2021,nz,Auckland,Retained,regos,803.0
 2021,nz,Auckland,Retained,active,537.0
 2021,nz,Auckland,Retained,apam,562.07
 2021,nz,Auckland,Retained,funds,301830.15
 2021,nz,Auckland,Retained,comment,
-2021,nz,Auckland,Retained,regos_total_curnt,5436.0
 2021,nz,Auckland,Returned,regos,641.0
 2021,nz,Auckland,Returned,active,391.0
 2021,nz,Auckland,Returned,apam,416.42
@@ -1852,13 +1852,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nz,Wellington,New,apam,287.28
 2021,nz,Wellington,New,funds,211438.6
 2021,nz,Wellington,New,comment,
-2021,nz,Wellington,Retained,regos_total_prior,1457.0
+2021,nz,Wellington,Retained,regos_ret_prior,1457.0
+2021,nz,Wellington,Retained,regos_total_prior,1869.0
 2021,nz,Wellington,Retained,regos,323.0
 2021,nz,Wellington,Retained,active,221.0
 2021,nz,Wellington,Retained,apam,515.77
 2021,nz,Wellington,Retained,funds,113985.68
 2021,nz,Wellington,Retained,comment,
-2021,nz,Wellington,Retained,regos_total_curnt,1869.0
 2021,nz,Wellington,Returned,regos,235.0
 2021,nz,Wellington,Returned,active,144.0
 2021,nz,Wellington,Returned,apam,394.28
@@ -1873,13 +1873,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nz,Canterbury,New,apam,318.23
 2021,nz,Canterbury,New,funds,201123.53
 2021,nz,Canterbury,New,comment,
-2021,nz,Canterbury,Retained,regos_total_prior,1486.0
+2021,nz,Canterbury,Retained,regos_ret_prior,1486.0
+2021,nz,Canterbury,Retained,regos_total_prior,1958.0
 2021,nz,Canterbury,Retained,regos,321.0
 2021,nz,Canterbury,Retained,active,208.0
 2021,nz,Canterbury,Retained,apam,492.21
 2021,nz,Canterbury,Retained,funds,102380.58
 2021,nz,Canterbury,Retained,comment,
-2021,nz,Canterbury,Retained,regos_total_curnt,1958.0
 2021,nz,Canterbury,Returned,regos,235.0
 2021,nz,Canterbury,Returned,active,130.0
 2021,nz,Canterbury,Returned,apam,589.52
@@ -1894,13 +1894,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nz,Waikato,New,apam,372.8
 2021,nz,Waikato,New,funds,165151.63
 2021,nz,Waikato,New,comment,
-2021,nz,Waikato,Retained,regos_total_prior,666.0
+2021,nz,Waikato,Retained,regos_ret_prior,666.0
+2021,nz,Waikato,Retained,regos_total_prior,1158.0
 2021,nz,Waikato,Retained,regos,126.0
 2021,nz,Waikato,Retained,active,78.0
 2021,nz,Waikato,Retained,apam,307.08
 2021,nz,Waikato,Retained,funds,23951.93
 2021,nz,Waikato,Retained,comment,
-2021,nz,Waikato,Retained,regos_total_curnt,1158.0
 2021,nz,Waikato,Returned,regos,134.0
 2021,nz,Waikato,Returned,active,74.0
 2021,nz,Waikato,Returned,apam,243.98
@@ -1915,13 +1915,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nz,Bay of Plenty,New,apam,274.92
 2021,nz,Bay of Plenty,New,funds,107768.54
 2021,nz,Bay of Plenty,New,comment,
-2021,nz,Bay of Plenty,Retained,regos_total_prior,625.0
+2021,nz,Bay of Plenty,Retained,regos_ret_prior,625.0
+2021,nz,Bay of Plenty,Retained,regos_total_prior,1025.0
 2021,nz,Bay of Plenty,Retained,regos,126.0
 2021,nz,Bay of Plenty,Retained,active,75.0
 2021,nz,Bay of Plenty,Retained,apam,279.3
 2021,nz,Bay of Plenty,Retained,funds,20947.42
 2021,nz,Bay of Plenty,Retained,comment,
-2021,nz,Bay of Plenty,Retained,regos_total_curnt,1025.0
 2021,nz,Bay of Plenty,Returned,regos,130.0
 2021,nz,Bay of Plenty,Returned,active,71.0
 2021,nz,Bay of Plenty,Returned,apam,309.36
@@ -1936,13 +1936,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nz,Otago,New,apam,328.12
 2021,nz,Otago,New,funds,75796.06
 2021,nz,Otago,New,comment,
-2021,nz,Otago,Retained,regos_total_prior,527.0
+2021,nz,Otago,Retained,regos_ret_prior,527.0
+2021,nz,Otago,Retained,regos_total_prior,656.0
 2021,nz,Otago,Retained,regos,81.0
 2021,nz,Otago,Retained,active,55.0
 2021,nz,Otago,Retained,apam,424.26
 2021,nz,Otago,Retained,funds,23334.26
 2021,nz,Otago,Retained,comment,
-2021,nz,Otago,Retained,regos_total_curnt,656.0
 2021,nz,Otago,Returned,regos,73.0
 2021,nz,Otago,Returned,active,36.0
 2021,nz,Otago,Returned,apam,391.36
@@ -1957,13 +1957,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nz,Manawatu-Wanganui,New,apam,262.84
 2021,nz,Manawatu-Wanganui,New,funds,42316.62
 2021,nz,Manawatu-Wanganui,New,comment,
-2021,nz,Manawatu-Wanganui,Retained,regos_total_prior,307.0
+2021,nz,Manawatu-Wanganui,Retained,regos_ret_prior,307.0
+2021,nz,Manawatu-Wanganui,Retained,regos_total_prior,418.0
 2021,nz,Manawatu-Wanganui,Retained,regos,53.0
 2021,nz,Manawatu-Wanganui,Retained,active,29.0
 2021,nz,Manawatu-Wanganui,Retained,apam,324.33
 2021,nz,Manawatu-Wanganui,Retained,funds,9405.57
 2021,nz,Manawatu-Wanganui,Retained,comment,
-2021,nz,Manawatu-Wanganui,Retained,regos_total_curnt,418.0
 2021,nz,Manawatu-Wanganui,Returned,regos,40.0
 2021,nz,Manawatu-Wanganui,Returned,active,19.0
 2021,nz,Manawatu-Wanganui,Returned,apam,273.86
@@ -1978,13 +1978,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nz,Hawke's Bay,New,apam,0.0
 2021,nz,Hawke's Bay,New,funds,0.0
 2021,nz,Hawke's Bay,New,comment,
+2021,nz,Hawke's Bay,Retained,regos_ret_prior,0.0
 2021,nz,Hawke's Bay,Retained,regos_total_prior,0.0
 2021,nz,Hawke's Bay,Retained,regos,0.0
 2021,nz,Hawke's Bay,Retained,active,0.0
 2021,nz,Hawke's Bay,Retained,apam,0.0
 2021,nz,Hawke's Bay,Retained,funds,0.0
 2021,nz,Hawke's Bay,Retained,comment,
-2021,nz,Hawke's Bay,Retained,regos_total_curnt,0.0
 2021,nz,Hawke's Bay,Returned,regos,0.0
 2021,nz,Hawke's Bay,Returned,active,0.0
 2021,nz,Hawke's Bay,Returned,apam,0.0
@@ -1999,13 +1999,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nz,Taranaki,New,apam,336.09
 2021,nz,Taranaki,New,funds,37305.91
 2021,nz,Taranaki,New,comment,
-2021,nz,Taranaki,Retained,regos_total_prior,176.0
+2021,nz,Taranaki,Retained,regos_ret_prior,176.0
+2021,nz,Taranaki,Retained,regos_total_prior,265.0
 2021,nz,Taranaki,Retained,regos,40.0
 2021,nz,Taranaki,Retained,active,30.0
 2021,nz,Taranaki,Retained,apam,366.91
 2021,nz,Taranaki,Retained,funds,11007.24
 2021,nz,Taranaki,Retained,comment,
-2021,nz,Taranaki,Retained,regos_total_curnt,265.0
 2021,nz,Taranaki,Returned,regos,27.0
 2021,nz,Taranaki,Returned,active,15.0
 2021,nz,Taranaki,Returned,apam,328.13
@@ -2020,13 +2020,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nz,Northland,New,apam,358.86
 2021,nz,Northland,New,funds,36244.66
 2021,nz,Northland,New,comment,
-2021,nz,Northland,Retained,regos_total_prior,132.0
+2021,nz,Northland,Retained,regos_ret_prior,132.0
+2021,nz,Northland,Retained,regos_total_prior,276.0
 2021,nz,Northland,Retained,regos,18.0
 2021,nz,Northland,Retained,active,12.0
 2021,nz,Northland,Retained,apam,204.5
 2021,nz,Northland,Retained,funds,2454.0
 2021,nz,Northland,Retained,comment,
-2021,nz,Northland,Retained,regos_total_curnt,276.0
 2021,nz,Northland,Returned,regos,31.0
 2021,nz,Northland,Returned,active,18.0
 2021,nz,Northland,Returned,apam,344.76
@@ -2041,13 +2041,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nz,Southland,New,apam,420.75
 2021,nz,Southland,New,funds,39971.6
 2021,nz,Southland,New,comment,
-2021,nz,Southland,Retained,regos_total_prior,152.0
+2021,nz,Southland,Retained,regos_ret_prior,152.0
+2021,nz,Southland,Retained,regos_total_prior,209.0
 2021,nz,Southland,Retained,regos,26.0
 2021,nz,Southland,Retained,active,17.0
 2021,nz,Southland,Retained,apam,965.71
 2021,nz,Southland,Retained,funds,16417.0
 2021,nz,Southland,Retained,comment,
-2021,nz,Southland,Retained,regos_total_curnt,209.0
 2021,nz,Southland,Returned,regos,10.0
 2021,nz,Southland,Returned,active,6.0
 2021,nz,Southland,Returned,apam,225.83
@@ -2062,13 +2062,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nz,Tasman,New,apam,251.72
 2021,nz,Tasman,New,funds,8306.7
 2021,nz,Tasman,New,comment,
-2021,nz,Tasman,Retained,regos_total_prior,58.0
+2021,nz,Tasman,Retained,regos_ret_prior,58.0
+2021,nz,Tasman,Retained,regos_total_prior,82.0
 2021,nz,Tasman,Retained,regos,12.0
 2021,nz,Tasman,Retained,active,7.0
 2021,nz,Tasman,Retained,apam,528.0
 2021,nz,Tasman,Retained,funds,3696.0
 2021,nz,Tasman,Retained,comment,
-2021,nz,Tasman,Retained,regos_total_curnt,82.0
 2021,nz,Tasman,Returned,regos,8.0
 2021,nz,Tasman,Returned,active,5.0
 2021,nz,Tasman,Returned,apam,301.0
@@ -2083,13 +2083,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nz,Marlborough,New,apam,191.03
 2021,nz,Marlborough,New,funds,10888.96
 2021,nz,Marlborough,New,comment,
-2021,nz,Marlborough,Retained,regos_total_prior,91.0
+2021,nz,Marlborough,Retained,regos_ret_prior,91.0
+2021,nz,Marlborough,Retained,regos_total_prior,146.0
 2021,nz,Marlborough,Retained,regos,19.0
 2021,nz,Marlborough,Retained,active,8.0
 2021,nz,Marlborough,Retained,apam,281.25
 2021,nz,Marlborough,Retained,funds,2250.0
 2021,nz,Marlborough,Retained,comment,
-2021,nz,Marlborough,Retained,regos_total_curnt,146.0
 2021,nz,Marlborough,Returned,regos,13.0
 2021,nz,Marlborough,Returned,active,7.0
 2021,nz,Marlborough,Returned,apam,241.43
@@ -2104,13 +2104,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nz,Nelson,New,apam,188.28
 2021,nz,Nelson,New,funds,5460.05
 2021,nz,Nelson,New,comment,
-2021,nz,Nelson,Retained,regos_total_prior,98.0
+2021,nz,Nelson,Retained,regos_ret_prior,98.0
+2021,nz,Nelson,Retained,regos_total_prior,93.0
 2021,nz,Nelson,Retained,regos,16.0
 2021,nz,Nelson,Retained,active,8.0
 2021,nz,Nelson,Retained,apam,303.19
 2021,nz,Nelson,Retained,funds,2425.49
 2021,nz,Nelson,Retained,comment,
-2021,nz,Nelson,Retained,regos_total_curnt,93.0
 2021,nz,Nelson,Returned,regos,13.0
 2021,nz,Nelson,Returned,active,8.0
 2021,nz,Nelson,Returned,apam,552.9
@@ -2125,13 +2125,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nz,Gisborne,New,apam,279.65
 2021,nz,Gisborne,New,funds,8389.4
 2021,nz,Gisborne,New,comment,
-2021,nz,Gisborne,Retained,regos_total_prior,65.0
+2021,nz,Gisborne,Retained,regos_ret_prior,65.0
+2021,nz,Gisborne,Retained,regos_total_prior,80.0
 2021,nz,Gisborne,Retained,regos,8.0
 2021,nz,Gisborne,Retained,active,7.0
 2021,nz,Gisborne,Retained,apam,407.14
 2021,nz,Gisborne,Retained,funds,2850.0
 2021,nz,Gisborne,Retained,comment,
-2021,nz,Gisborne,Retained,regos_total_curnt,80.0
 2021,nz,Gisborne,Returned,regos,8.0
 2021,nz,Gisborne,Returned,active,4.0
 2021,nz,Gisborne,Returned,apam,592.5
@@ -2146,13 +2146,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nz,West Coast,New,apam,203.78
 2021,nz,West Coast,New,funds,1834.0
 2021,nz,West Coast,New,comment,
-2021,nz,West Coast,Retained,regos_total_prior,29.0
+2021,nz,West Coast,Retained,regos_ret_prior,29.0
+2021,nz,West Coast,Retained,regos_total_prior,35.0
 2021,nz,West Coast,Retained,regos,7.0
 2021,nz,West Coast,Retained,active,4.0
 2021,nz,West Coast,Retained,apam,638.67
 2021,nz,West Coast,Retained,funds,2554.7
 2021,nz,West Coast,Retained,comment,
-2021,nz,West Coast,Retained,regos_total_curnt,35.0
 2021,nz,West Coast,Returned,regos,2.0
 2021,nz,West Coast,Returned,active,0.0
 2021,nz,West Coast,Returned,apam,0.0
@@ -2167,13 +2167,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nz,Other,New,apam,498.17
 2021,nz,Other,New,funds,615241.82
 2021,nz,Other,New,comment,
-2021,nz,Other,Retained,regos_total_prior,3005.0
+2021,nz,Other,Retained,regos_ret_prior,3005.0
+2021,nz,Other,Retained,regos_total_prior,7541.0
 2021,nz,Other,Retained,regos,268.0
 2021,nz,Other,Retained,active,172.0
 2021,nz,Other,Retained,apam,471.5
 2021,nz,Other,Retained,funds,81097.47
 2021,nz,Other,Retained,comment,
-2021,nz,Other,Retained,regos_total_curnt,7541.0
 2021,nz,Other,Returned,regos,5112.0
 2021,nz,Other,Returned,active,435.0
 2021,nz,Other,Returned,apam,565.76
@@ -2188,13 +2188,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,at,Total,New,apam,117.37
 2021,at,Total,New,funds,15610.71
 2021,at,Total,New,comment,
-2021,at,Total,Retained,regos_total_prior,1236.0
+2021,at,Total,Retained,regos_ret_prior,1236.0
+2021,at,Total,Retained,regos_total_prior,1666.0
 2021,at,Total,Retained,regos,246.0
 2021,at,Total,Retained,active,80.0
 2021,at,Total,Retained,apam,123.45
 2021,at,Total,Retained,funds,9875.79
 2021,at,Total,Retained,comment,
-2021,at,Total,Retained,regos_total_curnt,1666.0
 2021,at,Total,Returned,regos,706.0
 2021,at,Total,Returned,active,56.0
 2021,at,Total,Returned,apam,286.23
@@ -2209,13 +2209,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,at,Other,New,apam,117.37
 2021,at,Other,New,funds,15610.71
 2021,at,Other,New,comment,
-2021,at,Other,Retained,regos_total_prior,1236.0
+2021,at,Other,Retained,regos_ret_prior,1236.0
+2021,at,Other,Retained,regos_total_prior,1666.0
 2021,at,Other,Retained,regos,246.0
 2021,at,Other,Retained,active,80.0
 2021,at,Other,Retained,apam,123.45
 2021,at,Other,Retained,funds,9875.79
 2021,at,Other,Retained,comment,
-2021,at,Other,Retained,regos_total_curnt,1666.0
 2021,at,Other,Returned,regos,706.0
 2021,at,Other,Returned,active,56.0
 2021,at,Other,Returned,apam,286.23
@@ -2230,13 +2230,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,be,Total,New,apam,133.44
 2021,be,Total,New,funds,14677.87
 2021,be,Total,New,comment,
-2021,be,Total,Retained,regos_total_prior,999.0
+2021,be,Total,Retained,regos_ret_prior,999.0
+2021,be,Total,Retained,regos_total_prior,1326.0
 2021,be,Total,Retained,regos,164.0
 2021,be,Total,Retained,active,47.0
 2021,be,Total,Retained,apam,420.31
 2021,be,Total,Retained,funds,19754.79
 2021,be,Total,Retained,comment,
-2021,be,Total,Retained,regos_total_curnt,1326.0
 2021,be,Total,Returned,regos,651.0
 2021,be,Total,Returned,active,44.0
 2021,be,Total,Returned,apam,281.6
@@ -2251,13 +2251,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,be,Other,New,apam,133.44
 2021,be,Other,New,funds,14677.87
 2021,be,Other,New,comment,
-2021,be,Other,Retained,regos_total_prior,999.0
+2021,be,Other,Retained,regos_ret_prior,999.0
+2021,be,Other,Retained,regos_total_prior,1326.0
 2021,be,Other,Retained,regos,164.0
 2021,be,Other,Retained,active,47.0
 2021,be,Other,Retained,apam,420.31
 2021,be,Other,Retained,funds,19754.79
 2021,be,Other,Retained,comment,
-2021,be,Other,Retained,regos_total_curnt,1326.0
 2021,be,Other,Returned,regos,651.0
 2021,be,Other,Returned,active,44.0
 2021,be,Other,Returned,apam,281.6
@@ -2272,13 +2272,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,cz,Total,New,apam,1577.95
 2021,cz,Total,New,funds,378707.11
 2021,cz,Total,New,comment,
-2021,cz,Total,Retained,regos_total_prior,3285.0
+2021,cz,Total,Retained,regos_ret_prior,3285.0
+2021,cz,Total,Retained,regos_total_prior,4241.0
 2021,cz,Total,Retained,regos,942.0
 2021,cz,Total,Retained,active,309.0
 2021,cz,Total,Retained,apam,3848.98
 2021,cz,Total,Retained,funds,1189333.77
 2021,cz,Total,Retained,comment,
-2021,cz,Total,Retained,regos_total_curnt,4241.0
 2021,cz,Total,Returned,regos,1987.0
 2021,cz,Total,Returned,active,193.0
 2021,cz,Total,Returned,apam,8370.76
@@ -2293,13 +2293,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,cz,Other,New,apam,1577.95
 2021,cz,Other,New,funds,378707.11
 2021,cz,Other,New,comment,
-2021,cz,Other,Retained,regos_total_prior,3285.0
+2021,cz,Other,Retained,regos_ret_prior,3285.0
+2021,cz,Other,Retained,regos_total_prior,4241.0
 2021,cz,Other,Retained,regos,942.0
 2021,cz,Other,Retained,active,309.0
 2021,cz,Other,Retained,apam,3848.98
 2021,cz,Other,Retained,funds,1189333.77
 2021,cz,Other,Retained,comment,
-2021,cz,Other,Retained,regos_total_curnt,4241.0
 2021,cz,Other,Returned,regos,1987.0
 2021,cz,Other,Returned,active,193.0
 2021,cz,Other,Returned,apam,8370.76
@@ -2314,13 +2314,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,dk,Total,New,apam,784.63
 2021,dk,Total,New,funds,94156.0
 2021,dk,Total,New,comment,
-2021,dk,Total,Retained,regos_total_prior,932.0
+2021,dk,Total,Retained,regos_ret_prior,932.0
+2021,dk,Total,Retained,regos_total_prior,1501.0
 2021,dk,Total,Retained,regos,67.0
 2021,dk,Total,Retained,active,36.0
 2021,dk,Total,Retained,apam,3681.94
 2021,dk,Total,Retained,funds,132550.0
 2021,dk,Total,Retained,comment,
-2021,dk,Total,Retained,regos_total_curnt,1501.0
 2021,dk,Total,Returned,regos,746.0
 2021,dk,Total,Returned,active,31.0
 2021,dk,Total,Returned,apam,892.2
@@ -2335,13 +2335,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,dk,Other,New,apam,784.63
 2021,dk,Other,New,funds,94156.0
 2021,dk,Other,New,comment,
-2021,dk,Other,Retained,regos_total_prior,932.0
+2021,dk,Other,Retained,regos_ret_prior,932.0
+2021,dk,Other,Retained,regos_total_prior,1501.0
 2021,dk,Other,Retained,regos,67.0
 2021,dk,Other,Retained,active,36.0
 2021,dk,Other,Retained,apam,3681.94
 2021,dk,Other,Retained,funds,132550.0
 2021,dk,Other,Retained,comment,
-2021,dk,Other,Retained,regos_total_curnt,1501.0
 2021,dk,Other,Returned,regos,746.0
 2021,dk,Other,Returned,active,31.0
 2021,dk,Other,Returned,apam,892.2
@@ -2356,13 +2356,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,fi,Total,New,apam,0.0
 2021,fi,Total,New,funds,0.0
 2021,fi,Total,New,comment,
-2021,fi,Total,Retained,regos_total_prior,10.0
+2021,fi,Total,Retained,regos_ret_prior,10.0
+2021,fi,Total,Retained,regos_total_prior,402.0
 2021,fi,Total,Retained,regos,2.0
 2021,fi,Total,Retained,active,0.0
 2021,fi,Total,Retained,apam,0.0
 2021,fi,Total,Retained,funds,0.0
 2021,fi,Total,Retained,comment,
-2021,fi,Total,Retained,regos_total_curnt,402.0
 2021,fi,Total,Returned,regos,400.0
 2021,fi,Total,Returned,active,0.0
 2021,fi,Total,Returned,apam,0.0
@@ -2377,13 +2377,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,fi,Other,New,apam,0.0
 2021,fi,Other,New,funds,0.0
 2021,fi,Other,New,comment,
-2021,fi,Other,Retained,regos_total_prior,10.0
+2021,fi,Other,Retained,regos_ret_prior,10.0
+2021,fi,Other,Retained,regos_total_prior,402.0
 2021,fi,Other,Retained,regos,2.0
 2021,fi,Other,Retained,active,0.0
 2021,fi,Other,Retained,apam,0.0
 2021,fi,Other,Retained,funds,0.0
 2021,fi,Other,Retained,comment,
-2021,fi,Other,Retained,regos_total_curnt,402.0
 2021,fi,Other,Returned,regos,400.0
 2021,fi,Other,Returned,active,0.0
 2021,fi,Other,Returned,apam,0.0
@@ -2398,13 +2398,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,fr,Total,New,apam,106.51
 2021,fr,Total,New,funds,71359.59
 2021,fr,Total,New,comment,
-2021,fr,Total,Retained,regos_total_prior,10378.0
+2021,fr,Total,Retained,regos_ret_prior,10378.0
+2021,fr,Total,Retained,regos_total_prior,14142.0
 2021,fr,Total,Retained,regos,1427.0
 2021,fr,Total,Retained,active,409.0
 2021,fr,Total,Retained,apam,239.87
 2021,fr,Total,Retained,funds,98108.36
 2021,fr,Total,Retained,comment,
-2021,fr,Total,Retained,regos_total_curnt,14142.0
 2021,fr,Total,Returned,regos,5761.0
 2021,fr,Total,Returned,active,283.0
 2021,fr,Total,Returned,apam,315.18
@@ -2419,13 +2419,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,fr,Other,New,apam,106.51
 2021,fr,Other,New,funds,71359.59
 2021,fr,Other,New,comment,
-2021,fr,Other,Retained,regos_total_prior,10378.0
+2021,fr,Other,Retained,regos_ret_prior,10378.0
+2021,fr,Other,Retained,regos_total_prior,14142.0
 2021,fr,Other,Retained,regos,1427.0
 2021,fr,Other,Retained,active,409.0
 2021,fr,Other,Retained,apam,239.87
 2021,fr,Other,Retained,funds,98108.36
 2021,fr,Other,Retained,comment,
-2021,fr,Other,Retained,regos_total_curnt,14142.0
 2021,fr,Other,Returned,regos,5761.0
 2021,fr,Other,Returned,active,283.0
 2021,fr,Other,Returned,apam,315.18
@@ -2440,13 +2440,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,de,Total,New,apam,122.28
 2021,de,Total,New,funds,176456.89
 2021,de,Total,New,comment,
-2021,de,Total,Retained,regos_total_prior,10469.0
+2021,de,Total,Retained,regos_ret_prior,10469.0
+2021,de,Total,Retained,regos_total_prior,11936.0
 2021,de,Total,Retained,regos,1923.0
 2021,de,Total,Retained,active,842.0
 2021,de,Total,Retained,apam,279.52
 2021,de,Total,Retained,funds,235359.13
 2021,de,Total,Retained,comment,
-2021,de,Total,Retained,regos_total_curnt,11936.0
 2021,de,Total,Returned,regos,3996.0
 2021,de,Total,Returned,active,446.0
 2021,de,Total,Returned,apam,301.24
@@ -2461,13 +2461,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,de,Other,New,apam,122.28
 2021,de,Other,New,funds,176456.89
 2021,de,Other,New,comment,
-2021,de,Other,Retained,regos_total_prior,10469.0
+2021,de,Other,Retained,regos_ret_prior,10469.0
+2021,de,Other,Retained,regos_total_prior,11936.0
 2021,de,Other,Retained,regos,1923.0
 2021,de,Other,Retained,active,842.0
 2021,de,Other,Retained,apam,279.52
 2021,de,Other,Retained,funds,235359.13
 2021,de,Other,Retained,comment,
-2021,de,Other,Retained,regos_total_curnt,11936.0
 2021,de,Other,Returned,regos,3996.0
 2021,de,Other,Returned,active,446.0
 2021,de,Other,Returned,apam,301.24
@@ -2482,13 +2482,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,it,Total,New,apam,0.0
 2021,it,Total,New,funds,0.0
 2021,it,Total,New,comment,
+2021,it,Total,Retained,regos_ret_prior,0.0
 2021,it,Total,Retained,regos_total_prior,0.0
 2021,it,Total,Retained,regos,0.0
 2021,it,Total,Retained,active,0.0
 2021,it,Total,Retained,apam,0.0
 2021,it,Total,Retained,funds,0.0
 2021,it,Total,Retained,comment,
-2021,it,Total,Retained,regos_total_curnt,0.0
 2021,it,Total,Returned,regos,0.0
 2021,it,Total,Returned,active,0.0
 2021,it,Total,Returned,apam,0.0
@@ -2503,13 +2503,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,it,Other,New,apam,0.0
 2021,it,Other,New,funds,0.0
 2021,it,Other,New,comment,
+2021,it,Other,Retained,regos_ret_prior,0.0
 2021,it,Other,Retained,regos_total_prior,0.0
 2021,it,Other,Retained,regos,0.0
 2021,it,Other,Retained,active,0.0
 2021,it,Other,Retained,apam,0.0
 2021,it,Other,Retained,funds,0.0
 2021,it,Other,Retained,comment,
-2021,it,Other,Retained,regos_total_curnt,0.0
 2021,it,Other,Returned,regos,0.0
 2021,it,Other,Returned,active,0.0
 2021,it,Other,Returned,apam,0.0
@@ -2524,13 +2524,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nl,Total,New,apam,178.23
 2021,nl,Total,New,funds,153993.72
 2021,nl,Total,New,comment,
-2021,nl,Total,Retained,regos_total_prior,3101.0
+2021,nl,Total,Retained,regos_ret_prior,3101.0
+2021,nl,Total,Retained,regos_total_prior,4113.0
 2021,nl,Total,Retained,regos,494.0
 2021,nl,Total,Retained,active,307.0
 2021,nl,Total,Retained,apam,334.33
 2021,nl,Total,Retained,funds,102638.75
 2021,nl,Total,Retained,comment,
-2021,nl,Total,Retained,regos_total_curnt,4113.0
 2021,nl,Total,Returned,regos,1483.0
 2021,nl,Total,Returned,active,172.0
 2021,nl,Total,Returned,apam,346.57
@@ -2545,13 +2545,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,nl,Other,New,apam,178.23
 2021,nl,Other,New,funds,153993.72
 2021,nl,Other,New,comment,
-2021,nl,Other,Retained,regos_total_prior,3101.0
+2021,nl,Other,Retained,regos_ret_prior,3101.0
+2021,nl,Other,Retained,regos_total_prior,4113.0
 2021,nl,Other,Retained,regos,494.0
 2021,nl,Other,Retained,active,307.0
 2021,nl,Other,Retained,apam,334.33
 2021,nl,Other,Retained,funds,102638.75
 2021,nl,Other,Retained,comment,
-2021,nl,Other,Retained,regos_total_curnt,4113.0
 2021,nl,Other,Returned,regos,1483.0
 2021,nl,Other,Returned,active,172.0
 2021,nl,Other,Returned,apam,346.57
@@ -2566,13 +2566,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,no,Total,New,apam,1409.29
 2021,no,Total,New,funds,346685.22
 2021,no,Total,New,comment,
-2021,no,Total,Retained,regos_total_prior,1972.0
+2021,no,Total,Retained,regos_ret_prior,1972.0
+2021,no,Total,Retained,regos_total_prior,2972.0
 2021,no,Total,Retained,regos,312.0
 2021,no,Total,Retained,active,160.0
 2021,no,Total,Retained,apam,3292.68
 2021,no,Total,Retained,funds,526828.61
 2021,no,Total,Retained,comment,
-2021,no,Total,Retained,regos_total_curnt,2972.0
 2021,no,Total,Returned,regos,1706.0
 2021,no,Total,Returned,active,110.0
 2021,no,Total,Returned,apam,2901.83
@@ -2587,13 +2587,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,no,Other,New,apam,1409.29
 2021,no,Other,New,funds,346685.22
 2021,no,Other,New,comment,
-2021,no,Other,Retained,regos_total_prior,1972.0
+2021,no,Other,Retained,regos_ret_prior,1972.0
+2021,no,Other,Retained,regos_total_prior,2972.0
 2021,no,Other,Retained,regos,312.0
 2021,no,Other,Retained,active,160.0
 2021,no,Other,Retained,apam,3292.68
 2021,no,Other,Retained,funds,526828.61
 2021,no,Other,Retained,comment,
-2021,no,Other,Retained,regos_total_curnt,2972.0
 2021,no,Other,Returned,regos,1706.0
 2021,no,Other,Returned,active,110.0
 2021,no,Other,Returned,apam,2901.83
@@ -2608,13 +2608,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,es,Total,New,apam,114.28
 2021,es,Total,New,funds,56684.27
 2021,es,Total,New,comment,
-2021,es,Total,Retained,regos_total_prior,5238.0
+2021,es,Total,Retained,regos_ret_prior,5238.0
+2021,es,Total,Retained,regos_total_prior,6391.0
 2021,es,Total,Retained,regos,1085.0
 2021,es,Total,Retained,active,480.0
 2021,es,Total,Retained,apam,246.0
 2021,es,Total,Retained,funds,118079.0
 2021,es,Total,Retained,comment,
-2021,es,Total,Retained,regos_total_curnt,6391.0
 2021,es,Total,Returned,regos,2649.0
 2021,es,Total,Returned,active,252.0
 2021,es,Total,Returned,apam,231.91
@@ -2629,13 +2629,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,es,Other,New,apam,114.28
 2021,es,Other,New,funds,56684.27
 2021,es,Other,New,comment,
-2021,es,Other,Retained,regos_total_prior,5238.0
+2021,es,Other,Retained,regos_ret_prior,5238.0
+2021,es,Other,Retained,regos_total_prior,6391.0
 2021,es,Other,Retained,regos,1085.0
 2021,es,Other,Retained,active,480.0
 2021,es,Other,Retained,apam,246.0
 2021,es,Other,Retained,funds,118079.0
 2021,es,Other,Retained,comment,
-2021,es,Other,Retained,regos_total_curnt,6391.0
 2021,es,Other,Returned,regos,2649.0
 2021,es,Other,Returned,active,252.0
 2021,es,Other,Returned,apam,231.91
@@ -2650,13 +2650,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,se,Total,New,apam,1702.48
 2021,se,Total,New,funds,326875.7
 2021,se,Total,New,comment,
-2021,se,Total,Retained,regos_total_prior,1721.0
+2021,se,Total,Retained,regos_ret_prior,1721.0
+2021,se,Total,Retained,regos_total_prior,2955.0
 2021,se,Total,Retained,regos,228.0
 2021,se,Total,Retained,active,96.0
 2021,se,Total,Retained,apam,6408.33
 2021,se,Total,Retained,funds,615200.1
 2021,se,Total,Retained,comment,
-2021,se,Total,Retained,regos_total_curnt,2955.0
 2021,se,Total,Returned,regos,1729.0
 2021,se,Total,Returned,active,92.0
 2021,se,Total,Returned,apam,6193.93
@@ -2671,13 +2671,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,se,Other,New,apam,1702.48
 2021,se,Other,New,funds,326875.7
 2021,se,Other,New,comment,
-2021,se,Other,Retained,regos_total_prior,1721.0
+2021,se,Other,Retained,regos_ret_prior,1721.0
+2021,se,Other,Retained,regos_total_prior,2955.0
 2021,se,Other,Retained,regos,228.0
 2021,se,Other,Retained,active,96.0
 2021,se,Other,Retained,apam,6408.33
 2021,se,Other,Retained,funds,615200.1
 2021,se,Other,Retained,comment,
-2021,se,Other,Retained,regos_total_curnt,2955.0
 2021,se,Other,Returned,regos,1729.0
 2021,se,Other,Returned,active,92.0
 2021,se,Other,Returned,apam,6193.93
@@ -2692,13 +2692,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ch,Total,New,apam,168.17
 2021,ch,Total,New,funds,113850.35
 2021,ch,Total,New,comment,
-2021,ch,Total,Retained,regos_total_prior,3845.0
+2021,ch,Total,Retained,regos_ret_prior,3845.0
+2021,ch,Total,Retained,regos_total_prior,4451.0
 2021,ch,Total,Retained,regos,761.0
 2021,ch,Total,Retained,active,408.0
 2021,ch,Total,Retained,apam,368.13
 2021,ch,Total,Retained,funds,150195.19
 2021,ch,Total,Retained,comment,
-2021,ch,Total,Retained,regos_total_curnt,4451.0
 2021,ch,Total,Returned,regos,1614.0
 2021,ch,Total,Returned,active,219.0
 2021,ch,Total,Returned,apam,427.21
@@ -2713,13 +2713,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ch,Other,New,apam,168.17
 2021,ch,Other,New,funds,113850.35
 2021,ch,Other,New,comment,
-2021,ch,Other,Retained,regos_total_prior,3845.0
+2021,ch,Other,Retained,regos_ret_prior,3845.0
+2021,ch,Other,Retained,regos_total_prior,4451.0
 2021,ch,Other,Retained,regos,761.0
 2021,ch,Other,Retained,active,408.0
 2021,ch,Other,Retained,apam,368.13
 2021,ch,Other,Retained,funds,150195.19
 2021,ch,Other,Retained,comment,
-2021,ch,Other,Retained,regos_total_curnt,4451.0
 2021,ch,Other,Returned,regos,1614.0
 2021,ch,Other,Returned,active,219.0
 2021,ch,Other,Returned,apam,427.21
@@ -2734,13 +2734,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,hk,Total,New,apam,5200.72
 2021,hk,Total,New,funds,1289778.0
 2021,hk,Total,New,comment,
-2021,hk,Total,Retained,regos_total_prior,944.0
+2021,hk,Total,Retained,regos_ret_prior,944.0
+2021,hk,Total,Retained,regos_total_prior,1430.0
 2021,hk,Total,Retained,regos,222.0
 2021,hk,Total,Retained,active,119.0
 2021,hk,Total,Retained,apam,6666.33
 2021,hk,Total,Retained,funds,793293.0
 2021,hk,Total,Retained,comment,
-2021,hk,Total,Retained,regos_total_curnt,1430.0
 2021,hk,Total,Returned,regos,509.0
 2021,hk,Total,Returned,active,109.0
 2021,hk,Total,Returned,apam,6666.32
@@ -2755,13 +2755,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,hk,Other,New,apam,5200.72
 2021,hk,Other,New,funds,1289778.0
 2021,hk,Other,New,comment,
-2021,hk,Other,Retained,regos_total_prior,944.0
+2021,hk,Other,Retained,regos_ret_prior,944.0
+2021,hk,Other,Retained,regos_total_prior,1430.0
 2021,hk,Other,Retained,regos,222.0
 2021,hk,Other,Retained,active,119.0
 2021,hk,Other,Retained,apam,6666.33
 2021,hk,Other,Retained,funds,793293.0
 2021,hk,Other,Retained,comment,
-2021,hk,Other,Retained,regos_total_curnt,1430.0
 2021,hk,Other,Returned,regos,509.0
 2021,hk,Other,Returned,active,109.0
 2021,hk,Other,Returned,apam,6666.32
@@ -2776,13 +2776,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ex,Total,New,apam,221.43
 2021,ex,Total,New,funds,158319.79
 2021,ex,Total,New,comment,
-2021,ex,Total,Retained,regos_total_prior,5662.0
+2021,ex,Total,Retained,regos_ret_prior,5662.0
+2021,ex,Total,Retained,regos_total_prior,7965.0
 2021,ex,Total,Retained,regos,679.0
 2021,ex,Total,Retained,active,177.0
 2021,ex,Total,Retained,apam,340.03
 2021,ex,Total,Retained,funds,60185.99
 2021,ex,Total,Retained,comment,
-2021,ex,Total,Retained,regos_total_curnt,7965.0
 2021,ex,Total,Returned,regos,2844.0
 2021,ex,Total,Returned,active,148.0
 2021,ex,Total,Returned,apam,377.34
@@ -2797,13 +2797,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,ex,Other,New,apam,221.43
 2021,ex,Other,New,funds,158319.79
 2021,ex,Other,New,comment,
-2021,ex,Other,Retained,regos_total_prior,5662.0
+2021,ex,Other,Retained,regos_ret_prior,5662.0
+2021,ex,Other,Retained,regos_total_prior,7965.0
 2021,ex,Other,Retained,regos,679.0
 2021,ex,Other,Retained,active,177.0
 2021,ex,Other,Retained,apam,340.03
 2021,ex,Other,Retained,funds,60185.99
 2021,ex,Other,Retained,comment,
-2021,ex,Other,Retained,regos_total_curnt,7965.0
 2021,ex,Other,Returned,regos,2844.0
 2021,ex,Other,Returned,active,148.0
 2021,ex,Other,Returned,apam,377.34
@@ -2818,13 +2818,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,sg,Total,New,apam,662.93
 2021,sg,Total,New,funds,129934.94
 2021,sg,Total,New,comment,
-2021,sg,Total,Retained,regos_total_prior,1562.0
+2021,sg,Total,Retained,regos_ret_prior,1562.0
+2021,sg,Total,Retained,regos_total_prior,1314.0
 2021,sg,Total,Retained,regos,196.0
 2021,sg,Total,Retained,active,109.0
 2021,sg,Total,Retained,apam,651.0
 2021,sg,Total,Retained,funds,70958.58
 2021,sg,Total,Retained,comment,
-2021,sg,Total,Retained,regos_total_curnt,1314.0
 2021,sg,Total,Returned,regos,481.0
 2021,sg,Total,Returned,active,56.0
 2021,sg,Total,Returned,apam,860.02
@@ -2839,13 +2839,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,sg,Other,New,apam,662.93
 2021,sg,Other,New,funds,129934.94
 2021,sg,Other,New,comment,
-2021,sg,Other,Retained,regos_total_prior,1562.0
+2021,sg,Other,Retained,regos_ret_prior,1562.0
+2021,sg,Other,Retained,regos_total_prior,1314.0
 2021,sg,Other,Retained,regos,196.0
 2021,sg,Other,Retained,active,109.0
 2021,sg,Other,Retained,apam,651.0
 2021,sg,Other,Retained,funds,70958.58
 2021,sg,Other,Retained,comment,
-2021,sg,Other,Retained,regos_total_curnt,1314.0
 2021,sg,Other,Returned,regos,481.0
 2021,sg,Other,Returned,active,56.0
 2021,sg,Other,Returned,apam,860.02
@@ -2860,13 +2860,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,za,Total,New,apam,1520.0
 2021,za,Total,New,funds,4560.0
 2021,za,Total,New,comment,
-2021,za,Total,Retained,regos_total_prior,3403.0
+2021,za,Total,Retained,regos_ret_prior,3403.0
+2021,za,Total,Retained,regos_total_prior,2520.0
 2021,za,Total,Retained,regos,0.0
 2021,za,Total,Retained,active,0.0
 2021,za,Total,Retained,apam,0.0
 2021,za,Total,Retained,funds,0.0
 2021,za,Total,Retained,comment,
-2021,za,Total,Retained,regos_total_curnt,2520.0
 2021,za,Total,Returned,regos,2473.0
 2021,za,Total,Returned,active,2.0
 2021,za,Total,Returned,apam,1300.0
@@ -2881,13 +2881,13 @@ campaign,payment_country,region,tenure,metric,result
 2021,za,Other,New,apam,1520.0
 2021,za,Other,New,funds,4560.0
 2021,za,Other,New,comment,
-2021,za,Other,Retained,regos_total_prior,3403.0
+2021,za,Other,Retained,regos_ret_prior,3403.0
+2021,za,Other,Retained,regos_total_prior,2520.0
 2021,za,Other,Retained,regos,0.0
 2021,za,Other,Retained,active,0.0
 2021,za,Other,Retained,apam,0.0
 2021,za,Other,Retained,funds,0.0
 2021,za,Other,Retained,comment,
-2021,za,Other,Retained,regos_total_curnt,2520.0
 2021,za,Other,Returned,regos,2473.0
 2021,za,Other,Returned,active,2.0
 2021,za,Other,Returned,apam,1300.0
@@ -2897,110 +2897,80 @@ campaign,payment_country,region,tenure,metric,result
 2021,za,Other,Foundation,funds,3070.0
 2021,za,Other,Foundation,ada,511.67
 2021,za,Other,Foundation,comment,
-2022,au,NSW,Retained,regos,10000
-2022,au,NSW,Retained,active,4250
-2022,au,NSW,Retained,funds,2530790.0
-2022,au,NSW,Retained,apam,595.48
-2022,au,NSW,Retained,regos_total_prior,17874.0
-2022,au,NSW,Retained,regos_total_curnt,0.0
-2022,au,VIC,Retained,regos,3863
-2022,au,VIC,Retained,active,2510
-2022,au,VIC,Retained,funds,1673736.29
-2022,au,VIC,Retained,apam,666.83
-2022,au,VIC,Retained,regos_total_prior,16967.0
-2022,au,VIC,Retained,regos_total_curnt,0.0
-2022,au,QLD,Retained,regos,3543
-2022,au,QLD,Retained,active,3000
-2022,au,QLD,Retained,funds,1757100.0
-2022,au,QLD,Retained,apam,585.7
-2022,au,QLD,Retained,regos_total_prior,15704.0
-2022,au,QLD,Retained,regos_total_curnt,0.0
-2022,au,WA,Retained,regos,1687
-2022,au,WA,Retained,active,1119
-2022,au,WA,Retained,funds,680258.23
-2022,au,WA,Retained,apam,607.92
-2022,au,WA,Retained,regos_total_prior,7981.0
-2022,au,WA,Retained,regos_total_curnt,0.0
-2022,au,SA,Retained,regos,1031
-2022,au,SA,Retained,active,672
-2022,au,SA,Retained,funds,340362.75
-2022,au,SA,Retained,apam,506.49
-2022,au,SA,Retained,regos_total_prior,5278.0
-2022,au,SA,Retained,regos_total_curnt,0.0
-2022,au,ACT,Retained,regos,431
-2022,au,ACT,Retained,active,281
-2022,au,ACT,Retained,funds,159398.1
-2022,au,ACT,Retained,apam,567.25
-2022,au,ACT,Retained,regos_total_prior,1589.0
-2022,au,ACT,Retained,regos_total_curnt,0.0
-2022,au,TAS,Retained,regos,383
-2022,au,TAS,Retained,active,270
-2022,au,TAS,Retained,funds,149503.3
-2022,au,TAS,Retained,apam,553.72
-2022,au,TAS,Retained,regos_total_prior,1596.0
-2022,au,TAS,Retained,regos_total_curnt,0.0
-2022,au,NT,Retained,regos,96
-2022,au,NT,Retained,active,55
-2022,au,NT,Retained,funds,31396.71
-2022,au,NT,Retained,apam,570.85
-2022,au,NT,Retained,regos_total_prior,563.0
-2022,au,NT,Retained,regos_total_curnt,0.0
-2022,au,Other,Retained,regos,2212
-2022,au,Other,Retained,active,1558
-2022,au,Other,Retained,funds,900335.56
-2022,au,Other,Retained,apam,577.88
-2022,au,Other,Retained,regos_total_prior,51821.0
-2022,au,Other,Retained,regos_total_curnt,0.0
-2022,au,Total,Retained,regos,23246
-2022,au,Total,Retained,active,13715
-2022,au,Total,Retained,funds,8222880.9399999995
-2022,au,Total,Retained,apam,600.91
-2022,au,Total,Retained,regos_total_prior,119373.0
-2022,au,Total,Retained,regos_total_curnt,0.0
-2022,au,NSW,Returned,regos,2500.0
-2022,au,NSW,Returned,active,1332.0
-2022,au,NSW,Returned,funds,674782.63
-2022,au,NSW,Returned,apam,506.59
-2022,au,VIC,Returned,regos,2533.0
-2022,au,VIC,Returned,active,1263.0
-2022,au,VIC,Returned,funds,682854.37
-2022,au,VIC,Returned,apam,540.66
-2022,au,QLD,Returned,regos,2301.0
-2022,au,QLD,Returned,active,1326.0
-2022,au,QLD,Returned,funds,514010.12
-2022,au,QLD,Returned,apam,387.64
-2022,au,WA,Returned,regos,1158.0
-2022,au,WA,Returned,active,668.0
-2022,au,WA,Returned,funds,341586.4
-2022,au,WA,Returned,apam,511.36
-2022,au,SA,Returned,regos,714.0
-2022,au,SA,Returned,active,411.0
-2022,au,SA,Returned,funds,163009.25
-2022,au,SA,Returned,apam,396.62
-2022,au,ACT,Returned,regos,241.0
-2022,au,ACT,Returned,active,137.0
-2022,au,ACT,Returned,funds,57221.03
-2022,au,ACT,Returned,apam,417.67
-2022,au,TAS,Returned,regos,251.0
-2022,au,TAS,Returned,active,137.0
-2022,au,TAS,Returned,funds,66497.24
-2022,au,TAS,Returned,apam,485.38
-2022,au,NT,Returned,regos,71.0
-2022,au,NT,Returned,active,31.0
-2022,au,NT,Returned,funds,20390.0
-2022,au,NT,Returned,apam,657.74
-2022,au,Other,Returned,regos,41857.0
-2022,au,Other,Returned,active,2829.0
-2022,au,Other,Returned,funds,3002661.38
-2022,au,Other,Returned,apam,1061.39
-2022,au,Total,Returned,regos,51626.0
-2022,au,Total,Returned,active,8134.0
-2022,au,Total,Returned,funds,5523012.42
-2022,au,Total,Returned,apam,679.0
-2022,au,NSW,New,regos,11124.0
-2022,au,NSW,New,active,5542.0
-2022,au,NSW,New,funds,2461999.71
-2022,au,NSW,New,apam,444.24
+2022,au,NSW,Returned,regos,0.0
+2022,au,NSW,Returned,active,0.0
+2022,au,NSW,Returned,funds,0.0
+2022,au,NSW,Returned,apam,0.0
+2022,au,VIC,Returned,regos,0.0
+2022,au,VIC,Returned,active,0.0
+2022,au,VIC,Returned,funds,0.0
+2022,au,VIC,Returned,apam,0.0
+2022,au,QLD,Returned,regos,0.0
+2022,au,QLD,Returned,active,0.0
+2022,au,QLD,Returned,funds,0.0
+2022,au,QLD,Returned,apam,0.0
+2022,au,WA,Returned,regos,0.0
+2022,au,WA,Returned,active,0.0
+2022,au,WA,Returned,funds,0.0
+2022,au,WA,Returned,apam,0.0
+2022,au,SA,Returned,regos,35433.0
+2022,au,SA,Returned,active,28369.0
+2022,au,SA,Returned,funds,0.0
+2022,au,SA,Returned,apam,0.0
+2022,au,ACT,Returned,regos,0.0
+2022,au,ACT,Returned,active,0.0
+2022,au,ACT,Returned,funds,0.0
+2022,au,ACT,Returned,apam,0.0
+2022,au,TAS,Returned,regos,0.0
+2022,au,TAS,Returned,active,0.0
+2022,au,TAS,Returned,funds,0.0
+2022,au,TAS,Returned,apam,0.0
+2022,au,NT,Returned,regos,0.0
+2022,au,NT,Returned,active,0.0
+2022,au,NT,Returned,funds,0.0
+2022,au,NT,Returned,apam,0.0
+2022,au,Other,Returned,regos,0.0
+2022,au,Other,Returned,active,0.0
+2022,au,Other,Returned,funds,0.0
+2022,au,Other,Returned,apam,0.0
+2022,au,Total,Returned,regos,35433.0
+2022,au,Total,Returned,active,28369.0
+2022,au,Total,Returned,funds,0.0
+2022,au,Total,Returned,apam,0.0
+2022,au,NSW,Foundation,donations,5001.0
+2022,au,NSW,Foundation,funds,600120.0
+2022,au,NSW,Foundation,ada,120.0
+2022,au,VIC,Foundation,donations,0.0
+2022,au,VIC,Foundation,funds,0.0
+2022,au,VIC,Foundation,ada,0.0
+2022,au,QLD,Foundation,donations,0.0
+2022,au,QLD,Foundation,funds,0.0
+2022,au,QLD,Foundation,ada,0.0
+2022,au,WA,Foundation,donations,0.0
+2022,au,WA,Foundation,funds,0.0
+2022,au,WA,Foundation,ada,0.0
+2022,au,SA,Foundation,donations,0.0
+2022,au,SA,Foundation,funds,0.0
+2022,au,SA,Foundation,ada,0.0
+2022,au,ACT,Foundation,donations,0.0
+2022,au,ACT,Foundation,funds,0.0
+2022,au,ACT,Foundation,ada,0.0
+2022,au,TAS,Foundation,donations,0.0
+2022,au,TAS,Foundation,funds,0.0
+2022,au,TAS,Foundation,ada,0.0
+2022,au,NT,Foundation,donations,0.0
+2022,au,NT,Foundation,funds,0.0
+2022,au,NT,Foundation,ada,0.0
+2022,au,Other,Foundation,donations,0.0
+2022,au,Other,Foundation,funds,0.0
+2022,au,Other,Foundation,ada,0.0
+2022,au,Total,Foundation,donations,5001.0
+2022,au,Total,Foundation,funds,600120.0
+2022,au,Total,Foundation,ada,120.0
+2022,au,NSW,New,regos,11680.0
+2022,au,NSW,New,active,11550.0
+2022,au,NSW,New,funds,5387497.5
+2022,au,NSW,New,apam,466.45
 2022,au,VIC,New,regos,10571.0
 2022,au,VIC,New,active,5044.0
 2022,au,VIC,New,funds,2109915.44
@@ -3033,37 +3003,243 @@ campaign,payment_country,region,tenure,metric,result
 2022,au,Other,New,active,4624.0
 2022,au,Other,New,funds,2523091.53
 2022,au,Other,New,apam,545.65
-2022,au,Total,New,regos,50251.0
-2022,au,Total,New,active,26082.0
-2022,au,Total,New,funds,11204473.58
-2022,au,Total,New,apam,429.59
-2022,au,NSW,Foundation,donations,1617
-2022,au,NSW,Foundation,funds,196048.19
-2022,au,NSW,Foundation,ada,121.24192331478046
-2022,au,VIC,Foundation,donations,1485
-2022,au,VIC,Foundation,funds,124675.6
-2022,au,VIC,Foundation,ada,83.96
-2022,au,QLD,Foundation,donations,1066
-2022,au,QLD,Foundation,funds,115313.64
-2022,au,QLD,Foundation,ada,108.17
-2022,au,WA,Foundation,donations,685
-2022,au,WA,Foundation,funds,58778.35
-2022,au,WA,Foundation,ada,85.81
-2022,au,SA,Foundation,donations,398
-2022,au,SA,Foundation,funds,27712.11
-2022,au,SA,Foundation,ada,69.63
-2022,au,ACT,Foundation,donations,127
-2022,au,ACT,Foundation,funds,7121.0
-2022,au,ACT,Foundation,ada,56.07
-2022,au,TAS,Foundation,donations,138
-2022,au,TAS,Foundation,funds,11521.48
-2022,au,TAS,Foundation,ada,83.49
-2022,au,NT,Foundation,donations,23
-2022,au,NT,Foundation,funds,1626.0
-2022,au,NT,Foundation,ada,70.7
-2022,au,Other,Foundation,donations,4628
-2022,au,Other,Foundation,funds,1143008.47
-2022,au,Other,Foundation,ada,246.98
-2022,au,Total,Foundation,donations,10167.0
-2022,au,Total,Foundation,funds,1685804.8399999999
-2022,au,Total,Foundation,ada,165.81143306776826
+2022,au,Total,New,regos,50807.0
+2022,au,Total,New,active,32090.0
+2022,au,Total,New,funds,14129971.369999995
+2022,au,Total,New,apam,440.3231963228419
+2022,ca,AB,New,regos,4916.0
+2022,ca,AB,New,active,2416.0
+2022,ca,AB,New,funds,992769.36
+2022,ca,AB,New,apam,410.91
+2022,ca,BC,New,regos,4678.0
+2022,ca,BC,New,active,2089.0
+2022,ca,BC,New,funds,828156.1
+2022,ca,BC,New,apam,396.44
+2022,ca,MB,New,regos,865.0
+2022,ca,MB,New,active,326.0
+2022,ca,MB,New,funds,121348.71
+2022,ca,MB,New,apam,372.24
+2022,ca,NB,New,regos,458.0
+2022,ca,NB,New,active,181.0
+2022,ca,NB,New,funds,33411.86
+2022,ca,NB,New,apam,184.6
+2022,ca,NL,New,regos,360.0
+2022,ca,NL,New,active,151.0
+2022,ca,NL,New,funds,36081.31
+2022,ca,NL,New,apam,238.95
+2022,ca,NT,New,regos,35.0
+2022,ca,NT,New,active,13.0
+2022,ca,NT,New,funds,2730.0
+2022,ca,NT,New,apam,210.0
+2022,ca,NS,New,regos,834.0
+2022,ca,NS,New,active,336.0
+2022,ca,NS,New,funds,121153.92
+2022,ca,NS,New,apam,360.58
+2022,ca,ON,New,regos,13912.0
+2022,ca,ON,New,active,6148.0
+2022,ca,ON,New,funds,2043446.43
+2022,ca,ON,New,apam,332.38
+2022,ca,PE,New,regos,74.0
+2022,ca,PE,New,active,18.0
+2022,ca,PE,New,funds,3366.0
+2022,ca,PE,New,apam,187.0
+2022,ca,QC,New,regos,6411.0
+2022,ca,QC,New,active,2205.0
+2022,ca,QC,New,funds,669622.42
+2022,ca,QC,New,apam,303.68
+2022,ca,SK,New,regos,945.0
+2022,ca,SK,New,active,436.0
+2022,ca,SK,New,funds,143579.91
+2022,ca,SK,New,apam,329.31
+2022,ca,YT,New,regos,25.0
+2022,ca,YT,New,active,11.0
+2022,ca,YT,New,funds,5100.0
+2022,ca,YT,New,apam,463.64
+2022,ca,Other,New,regos,5300.0
+2022,ca,Other,New,active,3118.0
+2022,ca,Other,New,funds,1327244.2
+2022,ca,Other,New,apam,425.67
+2022,ca,Total,New,regos,38813.0
+2022,ca,Total,New,active,17448.0
+2022,ca,Total,New,funds,6328010.22
+2022,ca,Total,New,apam,362.68
+2022,ie,Carlow,New,regos,113
+2022,ie,Carlow,New,active,103
+2022,ie,Carlow,New,funds,24897.16
+2022,ie,Carlow,New,apam,241.72
+2022,ie,Cavan,New,regos,128
+2022,ie,Cavan,New,active,70
+2022,ie,Cavan,New,funds,23996.26
+2022,ie,Cavan,New,apam,342.80371428571425
+2022,ie,Clare,New,regos,131
+2022,ie,Clare,New,active,63
+2022,ie,Clare,New,funds,17056.96
+2022,ie,Clare,New,apam,270.7453968253968
+2022,ie,Cork,New,regos,1009
+2022,ie,Cork,New,active,461
+2022,ie,Cork,New,funds,118182.22
+2022,ie,Cork,New,apam,256.3605639913232
+2022,ie,Donegal,New,regos,156
+2022,ie,Donegal,New,active,72
+2022,ie,Donegal,New,funds,18252.79
+2022,ie,Donegal,New,apam,253.51097222222222
+2022,ie,Dublin,New,regos,2992
+2022,ie,Dublin,New,active,1445
+2022,ie,Dublin,New,funds,452497.41
+2022,ie,Dublin,New,apam,313.1469965397924
+2022,ie,Galway,New,regos,371
+2022,ie,Galway,New,active,176
+2022,ie,Galway,New,funds,42268.98
+2022,ie,Galway,New,apam,240.1646590909091
+2022,ie,Kerry,New,regos,187
+2022,ie,Kerry,New,active,77
+2022,ie,Kerry,New,funds,19992.3
+2022,ie,Kerry,New,apam,259.64025974025975
+2022,ie,Kildare,New,regos,396
+2022,ie,Kildare,New,active,214
+2022,ie,Kildare,New,funds,66692.98
+2022,ie,Kildare,New,apam,311.64943925233644
+2022,ie,Kilkenny,New,regos,106
+2022,ie,Kilkenny,New,active,52
+2022,ie,Kilkenny,New,funds,17097.81
+2022,ie,Kilkenny,New,apam,328.8040384615385
+2022,ie,Laois,New,regos,4
+2022,ie,Laois,New,active,0
+2022,ie,Laois,New,funds,0.0
+2022,ie,Laois,New,apam,0.0
+2022,ie,Leitrim,New,regos,38
+2022,ie,Leitrim,New,active,19
+2022,ie,Leitrim,New,funds,6040.13
+2022,ie,Leitrim,New,apam,317.9015789473684
+2022,ie,Limerick,New,regos,419
+2022,ie,Limerick,New,active,219
+2022,ie,Limerick,New,funds,71121.55
+2022,ie,Limerick,New,apam,324.7559360730594
+2022,ie,Longford,New,regos,52
+2022,ie,Longford,New,active,28
+2022,ie,Longford,New,funds,5829.6
+2022,ie,Longford,New,apam,208.20000000000002
+2022,ie,Louth,New,regos,200
+2022,ie,Louth,New,active,87
+2022,ie,Louth,New,funds,25140.25
+2022,ie,Louth,New,apam,288.9683908045977
+2022,ie,Mayo,New,regos,175
+2022,ie,Mayo,New,active,76
+2022,ie,Mayo,New,funds,26655.54
+2022,ie,Mayo,New,apam,350.73078947368424
+2022,ie,Meath,New,regos,299
+2022,ie,Meath,New,active,144
+2022,ie,Meath,New,funds,32133.85
+2022,ie,Meath,New,apam,223.1517361111111
+2022,ie,Monaghan,New,regos,90
+2022,ie,Monaghan,New,active,51
+2022,ie,Monaghan,New,funds,21749.32
+2022,ie,Monaghan,New,apam,426.45725490196077
+2022,ie,Offaly,New,regos,108
+2022,ie,Offaly,New,active,55
+2022,ie,Offaly,New,funds,10792.98
+2022,ie,Offaly,New,apam,196.236
+2022,ie,Roscommon,New,regos,73
+2022,ie,Roscommon,New,active,33
+2022,ie,Roscommon,New,funds,22394.46
+2022,ie,Roscommon,New,apam,678.62
+2022,ie,Sligo,New,regos,127
+2022,ie,Sligo,New,active,70
+2022,ie,Sligo,New,funds,23285.45
+2022,ie,Sligo,New,apam,332.6492857142857
+2022,ie,Tipperary,New,regos,226
+2022,ie,Tipperary,New,active,112
+2022,ie,Tipperary,New,funds,41716.62
+2022,ie,Tipperary,New,apam,372.46982142857144
+2022,ie,Waterford,New,regos,192
+2022,ie,Waterford,New,active,91
+2022,ie,Waterford,New,funds,17743.01
+2022,ie,Waterford,New,apam,194.97813186813184
+2022,ie,Westmeath,New,regos,137
+2022,ie,Westmeath,New,active,62
+2022,ie,Westmeath,New,funds,15604.45
+2022,ie,Westmeath,New,apam,251.68467741935484
+2022,ie,Wexford,New,regos,188
+2022,ie,Wexford,New,active,73
+2022,ie,Wexford,New,funds,13837.7
+2022,ie,Wexford,New,apam,189.55753424657536
+2022,ie,Wicklow,New,regos,251
+2022,ie,Wicklow,New,active,131
+2022,ie,Wicklow,New,funds,42237.42
+2022,ie,Wicklow,New,apam,322.42305343511447
+2022,ie,Other,New,regos,1362
+2022,ie,Other,New,active,818
+2022,ie,Other,New,funds,303782.55
+2022,ie,Other,New,apam,371.3723105134474
+2022,ie,Total,New,regos,9530
+2022,ie,Total,New,active,4802
+2022,ie,Total,New,funds,1480999.75
+2022,ie,Total,New,apam,308.4131091211995
+2022,us,CA,New,regos,3269
+2022,us,CA,New,active,922
+2022,us,CA,New,funds,304744.79
+2022,us,CA,New,apam,330.5258026030369
+2022,us,CO,New,regos,1194
+2022,us,CO,New,active,1190
+2022,us,CO,New,funds,305401.6
+2022,us,CO,New,apam,256.64
+2022,us,CT,New,regos,677
+2022,us,CT,New,active,192
+2022,us,CT,New,funds,49735.68
+2022,us,CT,New,apam,259.04
+2022,us,DC,New,regos,161
+2022,us,DC,New,active,34
+2022,us,DC,New,funds,10109.56
+2022,us,DC,New,apam,297.34
+2022,us,FL,New,regos,1666
+2022,us,FL,New,active,369
+2022,us,FL,New,funds,84943.8
+2022,us,FL,New,apam,230.20000000000002
+2022,us,GA,New,regos,843
+2022,us,GA,New,active,152
+2022,us,GA,New,funds,41286.24
+2022,us,GA,New,apam,271.62
+2022,us,IL,New,regos,1579
+2022,us,IL,New,active,456
+2022,us,IL,New,funds,150397.92
+2022,us,IL,New,apam,329.82000000000005
+2022,us,MA,New,regos,1830
+2022,us,MA,New,active,602
+2022,us,MA,New,funds,183290.94
+2022,us,MA,New,apam,304.47
+2022,us,MN,New,regos,714
+2022,us,MN,New,active,154
+2022,us,MN,New,funds,49159.88
+2022,us,MN,New,apam,319.21999999999997
+2022,us,NJ,New,regos,1451
+2022,us,NJ,New,active,432
+2022,us,NJ,New,funds,196439.04
+2022,us,NJ,New,apam,454.72
+2022,us,NY,New,regos,2580
+2022,us,NY,New,active,755
+2022,us,NY,New,funds,283245.8
+2022,us,NY,New,apam,375.15999999999997
+2022,us,OH,New,regos,1300
+2022,us,OH,New,active,245
+2022,us,OH,New,funds,54147.45
+2022,us,OH,New,apam,221.01
+2022,us,PA,New,regos,1831
+2022,us,PA,New,active,436
+2022,us,PA,New,funds,96155.44
+2022,us,PA,New,apam,220.54
+2022,us,TX,New,regos,2513
+2022,us,TX,New,active,575
+2022,us,TX,New,funds,137235.25
+2022,us,TX,New,apam,238.67
+2022,us,WA,New,regos,1245
+2022,us,WA,New,active,226
+2022,us,WA,New,funds,57548.64
+2022,us,WA,New,apam,254.64
+2022,us,Other,New,regos,18108
+2022,us,Other,New,active,4921
+2022,us,Other,New,funds,1573637.38
+2022,us,Other,New,apam,319.78
+2022,us,Total,New,regos,40961
+2022,us,Total,New,active,11661
+2022,us,Total,New,funds,3577479.4099999997
+2022,us,Total,New,apam,306.79010462224505

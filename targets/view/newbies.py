@@ -2,47 +2,44 @@ import streamlit as st
 
 
 from targets.model.rates_for_view import target_rates_for_view
-from targets.model.save import save_target_rates
+# from targets.model.save import save_target_rates
+from targets.model.copy import copy_prior_year_tenure_rates
 
 from targets.view.header import tenure_group_header
 from targets.model.format_values import format_regos, format_dolls, format_percent, format_string
-from targets.view.widgets import render_regos_widget, render_active_widget, render_apam_widget, render_funds_widget
-
-
-
-
+from targets.view.widgets import render_regos_widget, render_active_widget, render_apam_widget, render_funds_widget, render_active_ratio
 
 
 def render_new_fundraisers(scope):
 
 	target_rates_for_view(scope)
 
-	header_string = tenure_group_header(scope)
-	# no_of_columns = len(scope.target_columns)
-	
-
-	st.subheader(header_string)
-
+	st.subheader(tenure_group_header(scope))
 
 	for region in scope.target_columns:
 		col1,col2,col3,col4,col5,col6 = st.columns([2,2,2,2,2,2])
 		if region == 'row_heading':
 			tenure_headings(col1,col2,col3,col4,col5,col6)
 		else:
-			with col1: st.write('**'+region+'**')
+			with col1: 
+				st.write('')
+				st.write('')
+				st.write('**'+region+'**')
 			with col2: render_regos_widget(scope, region)
 			with col3: render_active_widget(scope, region)
 			with col4: render_apam_widget(scope, region)
 			with col5: render_funds_widget(scope, region)
+			with col6: render_active_ratio(scope, region)
 
-	copy_rates = st.button('Copy Last Years Rates')
-
-
+	st.button( 	label='Copy Last Years Rates ( over-writes all of the above rates )', 
+				on_click=copy_prior_year_tenure_rates, 
+				args=(scope, )
+				)
 
 	st.markdown("""---""")
 
 	previous_campaign = str(scope.campaign - 1)
-	st.subheader(header_string + ' ( base values from ' + previous_campaign + ')')
+	st.subheader(tenure_group_header(scope) + ' ( base values from ' + previous_campaign + ')')
 
 	for region in scope.target_columns:
 		col1,col2,col3,col4,col5,col6 = st.columns([2,2,2,2,2,2])
@@ -64,22 +61,6 @@ def render_new_fundraisers(scope):
 
 
 
-
-
-	if copy_rates:
-		print('lets copy last years rates')
-		scope.target_rates = scope.target_base_rates
-		save_target_rates(scope)
-
-
-
-
-
-
-
-
-
-
 def tenure_headings(col1,col2,col3,col4,col5,col6):
 	with col1: st.write('**Region**')
 	with col2: st.markdown(format_string('Registrations',align='Center'), unsafe_allow_html=True)
@@ -90,4 +71,7 @@ def tenure_headings(col1,col2,col3,col4,col5,col6):
 
 	
 
-
+# def copy_prior_year_tenure_rates(scope):
+# 	print('lets copy last years rates')
+# 	scope.target_rates = scope.target_base_rates
+# 	save_target_rates(scope)

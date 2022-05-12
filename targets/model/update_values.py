@@ -145,6 +145,7 @@ def on_change_country(scope:dict):
 	changed_value = scope['widget_target_selected_country']
 	# Store the new Value
 	scope.user_selected_country = changed_value
+	scope.user_df.at[scope.user_name, 'selected_country'] = changed_value
 	set_regions_for_country(scope)
 	save_users_table(scope)
 
@@ -152,6 +153,7 @@ def on_change_target_setting_method(scope:dict):
 	changed_value = scope['widget_target_setting_method']
 	# Store the new Value
 	scope.user_target_setting_method = changed_value
+	scope.user_df.at[scope.user_name, 'target_setting_method'] = changed_value
 	save_users_table(scope)
 
 def on_change_target_selected_tenure(scope:dict):
@@ -314,75 +316,6 @@ def apply_allocation_variance(regional_values, total_to_allocate):
 
 	return regional_values
 
-
-
-
-
-
-
-
-
-# def update_totals(scope):
-
-# 	tenure_metrics = tenure_levels[scope.target_selected_tenure]
-
-# 	if scope.user_target_setting_method == 'Region':
-
-# 		# Update Totals Records Only - add together each region
-# 		reset_totals(scope, tenure_metrics)
-
-# 		# Calculate Line total first - basic cumulative for each metric in each region
-# 		if 'regos' in tenure_metrics:
-# 			calc_total_for_metric(scope, 'regos')
-
-# 		if 'active' in tenure_metrics:
-# 			calc_total_for_metric(scope, 'active')
-
-# 		if 'funds' in tenure_metrics:
-# 			calc_total_for_metric(scope, 'funds')
-
-# 		if 'donations' in tenure_metrics:
-# 			calc_total_for_metric(scope, 'donations')
-
-# 		# Calculate Ratios after all the Line totals have been calculated	
-# 		if 'apam' in tenure_metrics:
-# 			calc_average(scope, 'apam')
-
-# 		if 'ada' in tenure_metrics:
-# 			calc_average(scope, 'ada')
-
-
-# 	if scope.user_target_setting_method == 'Country':
-
-# 		print( 'Allocation based on proportion of total')
-
-# 		if 'regos' in tenure_metrics:
-# 			allocate_total_to_regions(scope, 'regos')
-
-
-
-
-
-
-
-
-
-# def calc_average(scope, metric):
-
-# 	average = 0.0
-
-# 	if metric == 'apam':
-# 		numerator = scope.target_rates['Total']['funds']
-# 		denominator = scope.target_rates['Total']['active']
-
-# 	if metric == 'ada':
-# 		numerator = scope.target_rates['Total']['funds']
-# 		denominator = scope.target_rates['Total']['donations']
-
-# 	if numerator > 0 and denominator > 0:
-# 		average = numerator / denominator
-
-# 	scope.target_rates['Total'][metric] = average
 
 
 

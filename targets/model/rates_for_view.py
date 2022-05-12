@@ -14,7 +14,8 @@ def market_total(scope, tenure, metric):
 
 	target_df = scope.target_df[scope.target_df['payment_country'] == payment_country].copy()
 
-	if metric != 'regos_campaign_one_ago':
+	# if metric != 'regos_campaign_one_ago':
+	if metric != 'regos_total_prior':
 		target_df = target_df[target_df['campaign'] == int(scope.campaign)].copy()
 	else:
 		target_df = target_df[target_df['campaign'] == int(scope.campaign-1)].copy()	
@@ -53,9 +54,11 @@ def retention_rate(scope, tenure):
 	retention_ratio = 0.0
 
 	total_regos =  market_total(scope, tenure, 'regos')
-	last_years_campaign_regos = market_total(scope, tenure, 'regos_campaign_one_ago')
+	print(total_regos)
+	last_years_campaign_regos = market_total(scope, tenure, 'regos_total_prior')
 	
-	if last_years_campaign_regos > 0:retention_ratio = total_regos / last_years_campaign_regos
+	if last_years_campaign_regos > 0:
+		retention_ratio = total_regos / last_years_campaign_regos
 
 	return retention_ratio
 
