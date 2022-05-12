@@ -141,6 +141,14 @@ def on_change_ada(scope:dict, region:str):
 
 	save_target_rates(scope)
 
+def on_change_comment(scope:dict, region:str):
+	metric = 'comment'
+	changed_value = scope[create_widget_key(scope, region, metric)]
+
+	store_changed_value_in_target_rates(scope, region, metric, changed_value)
+
+	save_target_rates(scope)
+
 def on_change_country(scope:dict):
 	changed_value = scope['widget_target_selected_country']
 	# Store the new Value
@@ -160,6 +168,8 @@ def on_change_target_selected_tenure(scope:dict):
 	changed_value = scope['widget_target_selected_tenure']
 	# Store the new Value
 	scope.target_selected_tenure = changed_value
+
+
 
 
 # These are column specific

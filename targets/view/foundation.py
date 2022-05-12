@@ -5,7 +5,7 @@ from targets.model.rates_for_view import target_rates_for_view
 from targets.model.copy import copy_prior_year_tenure_rates
 from targets.view.header import tenure_group_header
 from targets.model.format_values import format_regos, format_dolls, format_percent, format_string
-from targets.view.widgets import render_donations_widget, render_ada_widget, render_funds_widget
+from targets.view.widgets import render_donations_widget, render_ada_widget, render_funds_widget, render_comment
 
 
 def render_foundation_donations(scope):
@@ -15,9 +15,9 @@ def render_foundation_donations(scope):
 	st.subheader(tenure_group_header(scope))
 
 	for region in scope.target_columns:
-		col1,col2,col3,col4 = st.columns([2,2,2,2])
+		col1,col2,col3,col4,col5 = st.columns([2,2,2,2,4])
 		if region == 'row_heading':
-			tenure_headings(col1,col2,col3,col4)
+			tenure_headings(col1,col2,col3,col4,col5)
 		else:
 			with col1: 
 				st.write('')
@@ -26,6 +26,7 @@ def render_foundation_donations(scope):
 			with col2: render_donations_widget(scope, region)
 			with col3: render_ada_widget(scope, region)
 			with col4: render_funds_widget(scope, region)
+			with col5: render_comment(scope, region)
 
 	st.button( 	label='Copy Last Years Rates ( over-writes all of the above rates )', 
 				on_click=copy_prior_year_tenure_rates, 
@@ -39,9 +40,9 @@ def render_foundation_donations(scope):
 	st.subheader(tenure_group_header(scope) + ' ( base values from ' + previous_campaign + ')')
 
 	for region in scope.target_columns:
-		col1,col2,col3,col4 = st.columns([2,2,2,2])
+		col1,col2,col3,col4,col5 = st.columns([2,2,2,2,4])
 		if region == 'row_heading':
-			tenure_headings(col1,col2,col3,col4)
+			tenure_headings(col1,col2,col3,col4,col5)
 		else:
 			rates = scope.target_base_rates[region]
 
@@ -52,12 +53,12 @@ def render_foundation_donations(scope):
 
 
 
-def tenure_headings(col1,col2,col3,col4):
+def tenure_headings(col1,col2,col3,col4,col5):
 	with col1: st.write('**Region**')
 	with col2: st.markdown(format_string('Donations',align='Right'), unsafe_allow_html=True)
 	with col3: st.markdown(format_string('Average Donation Amount (ADA)',align='Right'), unsafe_allow_html=True)
 	with col4: st.markdown(format_string('Funds Raised', align='Right'), unsafe_allow_html=True)
-
+	with col5: st.markdown(format_string('Comments', align='Left'), unsafe_allow_html=True)
 
 
 

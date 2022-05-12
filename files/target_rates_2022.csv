@@ -1,3069 +1,3099 @@
 campaign,payment_country,region,tenure,metric,result
-2021,au,Total,New,regos,50251.0
-2021,au,Total,New,active,26082.0
+2021,au,Total,New,regos,50251
+2021,au,Total,New,active,26082
 2021,au,Total,New,apam,429.59
 2021,au,Total,New,funds,11204473.58
-2021,au,Total,New,comment,
-2021,au,Total,Retained,regos_total_prior,97590.0
-2021,au,Total,Retained,regos,17496.0
-2021,au,Total,Retained,active,11487.0
+2021,au,Total,New,comment,test string
+2021,au,Total,Retained,regos_total_prior,97590
+2021,au,Total,Retained,regos,17496
+2021,au,Total,Retained,active,11487
 2021,au,Total,Retained,apam,600.91
 2021,au,Total,Retained,funds,6902602.73
 2021,au,Total,Retained,comment,
-2021,au,Total,Retained,regos_total_curnt,119373.0
-2021,au,Total,Returned,regos,51626.0
-2021,au,Total,Returned,active,8134.0
-2021,au,Total,Returned,apam,679.0
+2021,au,Total,Retained,regos_total_curnt,119373
+2021,au,Total,Returned,regos,51626
+2021,au,Total,Returned,active,8134
+2021,au,Total,Returned,apam,679
 2021,au,Total,Returned,funds,5523012.42
 2021,au,Total,Returned,comment,
-2021,au,Total,Foundation,donations,10090.0
+2021,au,Total,Foundation,donations,10090
 2021,au,Total,Foundation,funds,1643356.67
 2021,au,Total,Foundation,ada,162.87
 2021,au,Total,Foundation,comment,
-2021,au,NSW,New,regos,11124.0
-2021,au,NSW,New,active,5542.0
+2021,au,NSW,New,regos,11124
+2021,au,NSW,New,active,5542
 2021,au,NSW,New,apam,444.24
 2021,au,NSW,New,funds,2461999.71
 2021,au,NSW,New,comment,
-2021,au,NSW,Retained,regos_total_prior,23955.0
-2021,au,NSW,Retained,regos,4250.0
-2021,au,NSW,Retained,active,2682.0
+2021,au,NSW,Retained,regos_total_prior,23955
+2021,au,NSW,Retained,regos,4250
+2021,au,NSW,Retained,active,2682
 2021,au,NSW,Retained,apam,595.48
 2021,au,NSW,Retained,funds,1597072.14
 2021,au,NSW,Retained,comment,
-2021,au,NSW,Retained,regos_total_curnt,17874.0
-2021,au,NSW,Returned,regos,2500.0
-2021,au,NSW,Returned,active,1332.0
+2021,au,NSW,Retained,regos_total_curnt,17874
+2021,au,NSW,Returned,regos,2500
+2021,au,NSW,Returned,active,1332
 2021,au,NSW,Returned,apam,506.59
 2021,au,NSW,Returned,funds,674782.63
 2021,au,NSW,Returned,comment,
-2021,au,NSW,Foundation,donations,1540.0
+2021,au,NSW,Foundation,donations,1540
 2021,au,NSW,Foundation,funds,153600.02
 2021,au,NSW,Foundation,ada,99.74
 2021,au,NSW,Foundation,comment,
-2021,au,VIC,New,regos,10571.0
-2021,au,VIC,New,active,5044.0
+2021,au,VIC,New,regos,10571
+2021,au,VIC,New,active,5044
 2021,au,VIC,New,apam,418.3
 2021,au,VIC,New,funds,2109915.44
 2021,au,VIC,New,comment,
-2021,au,VIC,Retained,regos_total_prior,18709.0
-2021,au,VIC,Retained,regos,3863.0
-2021,au,VIC,Retained,active,2510.0
+2021,au,VIC,Retained,regos_total_prior,18709
+2021,au,VIC,Retained,regos,3863
+2021,au,VIC,Retained,active,2510
 2021,au,VIC,Retained,apam,666.83
 2021,au,VIC,Retained,funds,1673736.29
 2021,au,VIC,Retained,comment,
-2021,au,VIC,Retained,regos_total_curnt,16967.0
-2021,au,VIC,Returned,regos,2533.0
-2021,au,VIC,Returned,active,1263.0
+2021,au,VIC,Retained,regos_total_curnt,16967
+2021,au,VIC,Returned,regos,2533
+2021,au,VIC,Returned,active,1263
 2021,au,VIC,Returned,apam,540.66
 2021,au,VIC,Returned,funds,682854.37
 2021,au,VIC,Returned,comment,
-2021,au,VIC,Foundation,donations,1485.0
+2021,au,VIC,Foundation,donations,1485
 2021,au,VIC,Foundation,funds,124675.6
 2021,au,VIC,Foundation,ada,83.96
 2021,au,VIC,Foundation,comment,
-2021,au,QLD,New,regos,9860.0
-2021,au,QLD,New,active,5155.0
+2021,au,QLD,New,regos,9860
+2021,au,QLD,New,active,5155
 2021,au,QLD,New,apam,358.34
-2021,au,QLD,New,funds,1847257.0
+2021,au,QLD,New,funds,1847257
 2021,au,QLD,New,comment,
-2021,au,QLD,Retained,regos_total_prior,15814.0
-2021,au,QLD,Retained,regos,3543.0
-2021,au,QLD,Retained,active,2340.0
+2021,au,QLD,Retained,regos_total_prior,15814
+2021,au,QLD,Retained,regos,3543
+2021,au,QLD,Retained,active,2340
 2021,au,QLD,Retained,apam,585.7
 2021,au,QLD,Retained,funds,1370539.65
 2021,au,QLD,Retained,comment,
-2021,au,QLD,Retained,regos_total_curnt,15704.0
-2021,au,QLD,Returned,regos,2301.0
-2021,au,QLD,Returned,active,1326.0
+2021,au,QLD,Retained,regos_total_curnt,15704
+2021,au,QLD,Returned,regos,2301
+2021,au,QLD,Returned,active,1326
 2021,au,QLD,Returned,apam,387.64
 2021,au,QLD,Returned,funds,514010.12
 2021,au,QLD,Returned,comment,
-2021,au,QLD,Foundation,donations,1066.0
+2021,au,QLD,Foundation,donations,1066
 2021,au,QLD,Foundation,funds,115313.64
 2021,au,QLD,Foundation,ada,108.17
 2021,au,QLD,Foundation,comment,
-2021,au,WA,New,regos,5136.0
-2021,au,WA,New,active,2695.0
+2021,au,WA,New,regos,5136
+2021,au,WA,New,active,2695
 2021,au,WA,New,apam,395.88
 2021,au,WA,New,funds,1066889.71
 2021,au,WA,New,comment,
-2021,au,WA,Retained,regos_total_prior,7719.0
-2021,au,WA,Retained,regos,1687.0
-2021,au,WA,Retained,active,1119.0
+2021,au,WA,Retained,regos_total_prior,7719
+2021,au,WA,Retained,regos,1687
+2021,au,WA,Retained,active,1119
 2021,au,WA,Retained,apam,607.92
 2021,au,WA,Retained,funds,680258.23
 2021,au,WA,Retained,comment,
-2021,au,WA,Retained,regos_total_curnt,7981.0
-2021,au,WA,Returned,regos,1158.0
-2021,au,WA,Returned,active,668.0
+2021,au,WA,Retained,regos_total_curnt,7981
+2021,au,WA,Returned,regos,1158
+2021,au,WA,Returned,active,668
 2021,au,WA,Returned,apam,511.36
 2021,au,WA,Returned,funds,341586.4
 2021,au,WA,Returned,comment,
-2021,au,WA,Foundation,donations,685.0
+2021,au,WA,Foundation,donations,685
 2021,au,WA,Foundation,funds,58778.35
 2021,au,WA,Foundation,ada,85.81
 2021,au,WA,Foundation,comment,
-2021,au,SA,New,regos,3533.0
-2021,au,SA,New,active,1880.0
+2021,au,SA,New,regos,3533
+2021,au,SA,New,active,1880
 2021,au,SA,New,apam,400.39
 2021,au,SA,New,funds,752726.03
 2021,au,SA,New,comment,
-2021,au,SA,Retained,regos_total_prior,4887.0
-2021,au,SA,Retained,regos,1031.0
-2021,au,SA,Retained,active,672.0
+2021,au,SA,Retained,regos_total_prior,4887
+2021,au,SA,Retained,regos,1031
+2021,au,SA,Retained,active,672
 2021,au,SA,Retained,apam,506.49
 2021,au,SA,Retained,funds,340362.75
 2021,au,SA,Retained,comment,
-2021,au,SA,Retained,regos_total_curnt,5278.0
-2021,au,SA,Returned,regos,714.0
-2021,au,SA,Returned,active,411.0
+2021,au,SA,Retained,regos_total_curnt,5278
+2021,au,SA,Returned,regos,714
+2021,au,SA,Returned,active,411
 2021,au,SA,Returned,apam,396.62
 2021,au,SA,Returned,funds,163009.25
 2021,au,SA,Returned,comment,
-2021,au,SA,Foundation,donations,398.0
+2021,au,SA,Foundation,donations,398
 2021,au,SA,Foundation,funds,27712.11
 2021,au,SA,Foundation,ada,69.63
 2021,au,SA,Foundation,comment,
-2021,au,ACT,New,regos,917.0
-2021,au,ACT,New,active,467.0
+2021,au,ACT,New,regos,917
+2021,au,ACT,New,active,467
 2021,au,ACT,New,apam,435.96
 2021,au,ACT,New,funds,203592.04
 2021,au,ACT,New,comment,
-2021,au,ACT,Retained,regos_total_prior,2198.0
-2021,au,ACT,Retained,regos,431.0
-2021,au,ACT,Retained,active,281.0
+2021,au,ACT,Retained,regos_total_prior,2198
+2021,au,ACT,Retained,regos,431
+2021,au,ACT,Retained,active,281
 2021,au,ACT,Retained,apam,567.25
 2021,au,ACT,Retained,funds,159398.1
 2021,au,ACT,Retained,comment,
-2021,au,ACT,Retained,regos_total_curnt,1589.0
-2021,au,ACT,Returned,regos,241.0
-2021,au,ACT,Returned,active,137.0
+2021,au,ACT,Retained,regos_total_curnt,1589
+2021,au,ACT,Returned,regos,241
+2021,au,ACT,Returned,active,137
 2021,au,ACT,Returned,apam,417.67
 2021,au,ACT,Returned,funds,57221.03
 2021,au,ACT,Returned,comment,
-2021,au,ACT,Foundation,donations,127.0
-2021,au,ACT,Foundation,funds,7121.0
+2021,au,ACT,Foundation,donations,127
+2021,au,ACT,Foundation,funds,7121
 2021,au,ACT,Foundation,ada,56.07
 2021,au,ACT,Foundation,comment,
-2021,au,TAS,New,regos,962.0
-2021,au,TAS,New,active,493.0
+2021,au,TAS,New,regos,962
+2021,au,TAS,New,active,493
 2021,au,TAS,New,apam,390.47
 2021,au,TAS,New,funds,192502.66
 2021,au,TAS,New,comment,
-2021,au,TAS,Retained,regos_total_prior,1566.0
-2021,au,TAS,Retained,regos,383.0
-2021,au,TAS,Retained,active,270.0
+2021,au,TAS,Retained,regos_total_prior,1566
+2021,au,TAS,Retained,regos,383
+2021,au,TAS,Retained,active,270
 2021,au,TAS,Retained,apam,553.72
 2021,au,TAS,Retained,funds,149503.3
 2021,au,TAS,Retained,comment,
-2021,au,TAS,Retained,regos_total_curnt,1596.0
-2021,au,TAS,Returned,regos,251.0
-2021,au,TAS,Returned,active,137.0
+2021,au,TAS,Retained,regos_total_curnt,1596
+2021,au,TAS,Returned,regos,251
+2021,au,TAS,Returned,active,137
 2021,au,TAS,Returned,apam,485.38
 2021,au,TAS,Returned,funds,66497.24
 2021,au,TAS,Returned,comment,
-2021,au,TAS,Foundation,donations,138.0
+2021,au,TAS,Foundation,donations,138
 2021,au,TAS,Foundation,funds,11521.48
 2021,au,TAS,Foundation,ada,83.49
 2021,au,TAS,Foundation,comment,
-2021,au,NT,New,regos,396.0
-2021,au,NT,New,active,182.0
+2021,au,NT,New,regos,396
+2021,au,NT,New,active,182
 2021,au,NT,New,apam,255.49
 2021,au,NT,New,funds,46499.46
 2021,au,NT,New,comment,
-2021,au,NT,Retained,regos_total_prior,668.0
-2021,au,NT,Retained,regos,96.0
-2021,au,NT,Retained,active,55.0
+2021,au,NT,Retained,regos_total_prior,668
+2021,au,NT,Retained,regos,96
+2021,au,NT,Retained,active,55
 2021,au,NT,Retained,apam,570.85
 2021,au,NT,Retained,funds,31396.71
 2021,au,NT,Retained,comment,
-2021,au,NT,Retained,regos_total_curnt,563.0
-2021,au,NT,Returned,regos,71.0
-2021,au,NT,Returned,active,31.0
+2021,au,NT,Retained,regos_total_curnt,563
+2021,au,NT,Returned,regos,71
+2021,au,NT,Returned,active,31
 2021,au,NT,Returned,apam,657.74
-2021,au,NT,Returned,funds,20390.0
+2021,au,NT,Returned,funds,20390
 2021,au,NT,Returned,comment,
-2021,au,NT,Foundation,donations,23.0
-2021,au,NT,Foundation,funds,1626.0
+2021,au,NT,Foundation,donations,23
+2021,au,NT,Foundation,funds,1626
 2021,au,NT,Foundation,ada,70.7
 2021,au,NT,Foundation,comment,
-2021,au,Other,New,regos,7752.0
-2021,au,Other,New,active,4624.0
+2021,au,Other,New,regos,7752
+2021,au,Other,New,active,4624
 2021,au,Other,New,apam,545.65
 2021,au,Other,New,funds,2523091.53
 2021,au,Other,New,comment,
-2021,au,Other,Retained,regos_total_prior,22074.0
-2021,au,Other,Retained,regos,2212.0
-2021,au,Other,Retained,active,1558.0
+2021,au,Other,Retained,regos_total_prior,22074
+2021,au,Other,Retained,regos,2212
+2021,au,Other,Retained,active,1558
 2021,au,Other,Retained,apam,577.88
 2021,au,Other,Retained,funds,900335.56
 2021,au,Other,Retained,comment,
-2021,au,Other,Retained,regos_total_curnt,51821.0
-2021,au,Other,Returned,regos,41857.0
-2021,au,Other,Returned,active,2829.0
+2021,au,Other,Retained,regos_total_curnt,51821
+2021,au,Other,Returned,regos,41857
+2021,au,Other,Returned,active,2829
 2021,au,Other,Returned,apam,1061.39
 2021,au,Other,Returned,funds,3002661.38
 2021,au,Other,Returned,comment,
-2021,au,Other,Foundation,donations,4628.0
+2021,au,Other,Foundation,donations,4628
 2021,au,Other,Foundation,funds,1143008.47
 2021,au,Other,Foundation,ada,246.98
 2021,au,Other,Foundation,comment,
-2021,ca,Total,New,regos,38813.0
-2021,ca,Total,New,active,17448.0
+2021,ca,Total,New,regos,38813
+2021,ca,Total,New,active,17448
 2021,ca,Total,New,apam,362.68
 2021,ca,Total,New,funds,6328010.22
 2021,ca,Total,New,comment,
-2021,ca,Total,Retained,regos_total_prior,77754.0
-2021,ca,Total,Retained,regos,19803.0
-2021,ca,Total,Retained,active,14015.0
+2021,ca,Total,Retained,regos_total_prior,77754
+2021,ca,Total,Retained,regos,19803
+2021,ca,Total,Retained,active,14015
 2021,ca,Total,Retained,apam,723.74
 2021,ca,Total,Retained,funds,10143154.89
 2021,ca,Total,Retained,comment,
-2021,ca,Total,Retained,regos_total_curnt,94539.0
-2021,ca,Total,Returned,regos,35923.0
-2021,ca,Total,Returned,active,6751.0
+2021,ca,Total,Retained,regos_total_curnt,94539
+2021,ca,Total,Returned,regos,35923
+2021,ca,Total,Returned,active,6751
 2021,ca,Total,Returned,apam,624.42
 2021,ca,Total,Returned,funds,4215426.54
 2021,ca,Total,Returned,comment,
-2021,ca,Total,Foundation,donations,11871.0
+2021,ca,Total,Foundation,donations,11871
 2021,ca,Total,Foundation,funds,1923785.66
 2021,ca,Total,Foundation,ada,162.06
 2021,ca,Total,Foundation,comment,
-2021,ca,AB,New,regos,4916.0
-2021,ca,AB,New,active,2416.0
+2021,ca,AB,New,regos,4916
+2021,ca,AB,New,active,2416
 2021,ca,AB,New,apam,410.91
 2021,ca,AB,New,funds,992769.36
 2021,ca,AB,New,comment,
-2021,ca,AB,Retained,regos_total_prior,9698.0
-2021,ca,AB,Retained,regos,2704.0
-2021,ca,AB,Retained,active,1990.0
+2021,ca,AB,Retained,regos_total_prior,9698
+2021,ca,AB,Retained,regos,2704
+2021,ca,AB,Retained,active,1990
 2021,ca,AB,Retained,apam,710.08
 2021,ca,AB,Retained,funds,1413055.27
 2021,ca,AB,Retained,comment,
-2021,ca,AB,Retained,regos_total_curnt,9005.0
-2021,ca,AB,Returned,regos,1385.0
-2021,ca,AB,Returned,active,760.0
+2021,ca,AB,Retained,regos_total_curnt,9005
+2021,ca,AB,Returned,regos,1385
+2021,ca,AB,Returned,active,760
 2021,ca,AB,Returned,apam,439.85
 2021,ca,AB,Returned,funds,334284.11
 2021,ca,AB,Returned,comment,
-2021,ca,AB,Foundation,donations,1465.0
+2021,ca,AB,Foundation,donations,1465
 2021,ca,AB,Foundation,funds,143925.5
 2021,ca,AB,Foundation,ada,98.24
 2021,ca,AB,Foundation,comment,
-2021,ca,BC,New,regos,4678.0
-2021,ca,BC,New,active,2089.0
+2021,ca,BC,New,regos,4678
+2021,ca,BC,New,active,2089
 2021,ca,BC,New,apam,396.44
 2021,ca,BC,New,funds,828156.1
 2021,ca,BC,New,comment,
-2021,ca,BC,Retained,regos_total_prior,9053.0
-2021,ca,BC,Retained,regos,2632.0
-2021,ca,BC,Retained,active,1876.0
+2021,ca,BC,Retained,regos_total_prior,9053
+2021,ca,BC,Retained,regos,2632
+2021,ca,BC,Retained,active,1876
 2021,ca,BC,Retained,apam,735.69
 2021,ca,BC,Retained,funds,1380162.77
 2021,ca,BC,Retained,comment,
-2021,ca,BC,Retained,regos_total_curnt,8530.0
-2021,ca,BC,Returned,regos,1220.0
-2021,ca,BC,Returned,active,616.0
+2021,ca,BC,Retained,regos_total_curnt,8530
+2021,ca,BC,Returned,regos,1220
+2021,ca,BC,Returned,active,616
 2021,ca,BC,Returned,apam,480.65
 2021,ca,BC,Returned,funds,296082.83
 2021,ca,BC,Returned,comment,
-2021,ca,BC,Foundation,donations,1665.0
+2021,ca,BC,Foundation,donations,1665
 2021,ca,BC,Foundation,funds,156043.48
 2021,ca,BC,Foundation,ada,93.72
 2021,ca,BC,Foundation,comment,
-2021,ca,MB,New,regos,865.0
-2021,ca,MB,New,active,326.0
+2021,ca,MB,New,regos,865
+2021,ca,MB,New,active,326
 2021,ca,MB,New,apam,372.24
 2021,ca,MB,New,funds,121348.71
 2021,ca,MB,New,comment,
-2021,ca,MB,Retained,regos_total_prior,1700.0
-2021,ca,MB,Retained,regos,462.0
-2021,ca,MB,Retained,active,312.0
+2021,ca,MB,Retained,regos_total_prior,1700
+2021,ca,MB,Retained,regos,462
+2021,ca,MB,Retained,active,312
 2021,ca,MB,Retained,apam,562.93
 2021,ca,MB,Retained,funds,175634.07
 2021,ca,MB,Retained,comment,
-2021,ca,MB,Retained,regos_total_curnt,1550.0
-2021,ca,MB,Returned,regos,223.0
-2021,ca,MB,Returned,active,113.0
+2021,ca,MB,Retained,regos_total_curnt,1550
+2021,ca,MB,Returned,regos,223
+2021,ca,MB,Returned,active,113
 2021,ca,MB,Returned,apam,376.8
 2021,ca,MB,Returned,funds,42578.9
 2021,ca,MB,Returned,comment,
-2021,ca,MB,Foundation,donations,275.0
+2021,ca,MB,Foundation,donations,275
 2021,ca,MB,Foundation,funds,23214.13
 2021,ca,MB,Foundation,ada,84.42
 2021,ca,MB,Foundation,comment,
-2021,ca,NB,New,regos,458.0
-2021,ca,NB,New,active,181.0
+2021,ca,NB,New,regos,458
+2021,ca,NB,New,active,181
 2021,ca,NB,New,apam,184.6
 2021,ca,NB,New,funds,33411.86
 2021,ca,NB,New,comment,
-2021,ca,NB,Retained,regos_total_prior,767.0
-2021,ca,NB,Retained,regos,186.0
-2021,ca,NB,Retained,active,134.0
+2021,ca,NB,Retained,regos_total_prior,767
+2021,ca,NB,Retained,regos,186
+2021,ca,NB,Retained,active,134
 2021,ca,NB,Retained,apam,437.6
 2021,ca,NB,Retained,funds,58638.53
 2021,ca,NB,Retained,comment,
-2021,ca,NB,Retained,regos_total_curnt,759.0
-2021,ca,NB,Returned,regos,115.0
-2021,ca,NB,Returned,active,46.0
+2021,ca,NB,Retained,regos_total_curnt,759
+2021,ca,NB,Returned,regos,115
+2021,ca,NB,Returned,active,46
 2021,ca,NB,Returned,apam,265.61
-2021,ca,NB,Returned,funds,12218.0
+2021,ca,NB,Returned,funds,12218
 2021,ca,NB,Returned,comment,
-2021,ca,NB,Foundation,donations,105.0
+2021,ca,NB,Foundation,donations,105
 2021,ca,NB,Foundation,funds,23182.77
 2021,ca,NB,Foundation,ada,220.79
 2021,ca,NB,Foundation,comment,
-2021,ca,NL,New,regos,360.0
-2021,ca,NL,New,active,151.0
+2021,ca,NL,New,regos,360
+2021,ca,NL,New,active,151
 2021,ca,NL,New,apam,238.95
 2021,ca,NL,New,funds,36081.31
 2021,ca,NL,New,comment,
-2021,ca,NL,Retained,regos_total_prior,534.0
-2021,ca,NL,Retained,regos,156.0
-2021,ca,NL,Retained,active,108.0
+2021,ca,NL,Retained,regos_total_prior,534
+2021,ca,NL,Retained,regos,156
+2021,ca,NL,Retained,active,108
 2021,ca,NL,Retained,apam,362.12
 2021,ca,NL,Retained,funds,39109.07
 2021,ca,NL,Retained,comment,
-2021,ca,NL,Retained,regos_total_curnt,627.0
-2021,ca,NL,Returned,regos,111.0
-2021,ca,NL,Returned,active,56.0
+2021,ca,NL,Retained,regos_total_curnt,627
+2021,ca,NL,Returned,regos,111
+2021,ca,NL,Returned,active,56
 2021,ca,NL,Returned,apam,174.25
 2021,ca,NL,Returned,funds,9758.02
 2021,ca,NL,Returned,comment,
-2021,ca,NL,Foundation,donations,73.0
-2021,ca,NL,Foundation,funds,3587.0
+2021,ca,NL,Foundation,donations,73
+2021,ca,NL,Foundation,funds,3587
 2021,ca,NL,Foundation,ada,49.14
 2021,ca,NL,Foundation,comment,
-2021,ca,NT,New,regos,35.0
-2021,ca,NT,New,active,13.0
-2021,ca,NT,New,apam,210.0
-2021,ca,NT,New,funds,2730.0
+2021,ca,NT,New,regos,35
+2021,ca,NT,New,active,13
+2021,ca,NT,New,apam,210
+2021,ca,NT,New,funds,2730
 2021,ca,NT,New,comment,
-2021,ca,NT,Retained,regos_total_prior,111.0
-2021,ca,NT,Retained,regos,34.0
-2021,ca,NT,Retained,active,26.0
+2021,ca,NT,Retained,regos_total_prior,111
+2021,ca,NT,Retained,regos,34
+2021,ca,NT,Retained,active,26
 2021,ca,NT,Retained,apam,442.12
-2021,ca,NT,Retained,funds,11495.0
+2021,ca,NT,Retained,funds,11495
 2021,ca,NT,Retained,comment,
-2021,ca,NT,Retained,regos_total_curnt,75.0
-2021,ca,NT,Returned,regos,6.0
-2021,ca,NT,Returned,active,4.0
+2021,ca,NT,Retained,regos_total_curnt,75
+2021,ca,NT,Returned,regos,6
+2021,ca,NT,Returned,active,4
 2021,ca,NT,Returned,apam,237.59
 2021,ca,NT,Returned,funds,950.35
 2021,ca,NT,Returned,comment,
-2021,ca,NT,Foundation,donations,12.0
-2021,ca,NT,Foundation,funds,905.0
+2021,ca,NT,Foundation,donations,12
+2021,ca,NT,Foundation,funds,905
 2021,ca,NT,Foundation,ada,75.42
 2021,ca,NT,Foundation,comment,
-2021,ca,NS,New,regos,834.0
-2021,ca,NS,New,active,336.0
+2021,ca,NS,New,regos,834
+2021,ca,NS,New,active,336
 2021,ca,NS,New,apam,360.58
 2021,ca,NS,New,funds,121153.92
 2021,ca,NS,New,comment,
-2021,ca,NS,Retained,regos_total_prior,1369.0
-2021,ca,NS,Retained,regos,366.0
-2021,ca,NS,Retained,active,239.0
+2021,ca,NS,Retained,regos_total_prior,1369
+2021,ca,NS,Retained,regos,366
+2021,ca,NS,Retained,active,239
 2021,ca,NS,Retained,apam,594.23
 2021,ca,NS,Retained,funds,142021.54
 2021,ca,NS,Retained,comment,
-2021,ca,NS,Retained,regos_total_curnt,1387.0
-2021,ca,NS,Returned,regos,187.0
-2021,ca,NS,Returned,active,88.0
+2021,ca,NS,Retained,regos_total_curnt,1387
+2021,ca,NS,Returned,regos,187
+2021,ca,NS,Returned,active,88
 2021,ca,NS,Returned,apam,333.02
-2021,ca,NS,Returned,funds,29306.0
+2021,ca,NS,Returned,funds,29306
 2021,ca,NS,Returned,comment,
-2021,ca,NS,Foundation,donations,213.0
+2021,ca,NS,Foundation,donations,213
 2021,ca,NS,Foundation,funds,14301.97
 2021,ca,NS,Foundation,ada,67.15
 2021,ca,NS,Foundation,comment,
-2021,ca,ON,New,regos,13912.0
-2021,ca,ON,New,active,6148.0
+2021,ca,ON,New,regos,13912
+2021,ca,ON,New,active,6148
 2021,ca,ON,New,apam,332.38
 2021,ca,ON,New,funds,2043446.43
 2021,ca,ON,New,comment,
-2021,ca,ON,Retained,regos_total_prior,29946.0
-2021,ca,ON,Retained,regos,9107.0
-2021,ca,ON,Retained,active,6505.0
+2021,ca,ON,Retained,regos_total_prior,29946
+2021,ca,ON,Retained,regos,9107
+2021,ca,ON,Retained,active,6505
 2021,ca,ON,Retained,apam,797.34
 2021,ca,ON,Retained,funds,5186717.54
 2021,ca,ON,Retained,comment,
-2021,ca,ON,Retained,regos_total_curnt,26911.0
-2021,ca,ON,Returned,regos,3892.0
-2021,ca,ON,Returned,active,1962.0
+2021,ca,ON,Retained,regos_total_curnt,26911
+2021,ca,ON,Returned,regos,3892
+2021,ca,ON,Returned,active,1962
 2021,ca,ON,Returned,apam,413.41
 2021,ca,ON,Returned,funds,811114.77
 2021,ca,ON,Returned,comment,
-2021,ca,ON,Foundation,donations,5132.0
+2021,ca,ON,Foundation,donations,5132
 2021,ca,ON,Foundation,funds,467267.19
 2021,ca,ON,Foundation,ada,91.05
 2021,ca,ON,Foundation,comment,
-2021,ca,PE,New,regos,74.0
-2021,ca,PE,New,active,18.0
-2021,ca,PE,New,apam,187.0
-2021,ca,PE,New,funds,3366.0
+2021,ca,PE,New,regos,74
+2021,ca,PE,New,active,18
+2021,ca,PE,New,apam,187
+2021,ca,PE,New,funds,3366
 2021,ca,PE,New,comment,
-2021,ca,PE,Retained,regos_total_prior,164.0
-2021,ca,PE,Retained,regos,39.0
-2021,ca,PE,Retained,active,17.0
+2021,ca,PE,Retained,regos_total_prior,164
+2021,ca,PE,Retained,regos,39
+2021,ca,PE,Retained,active,17
 2021,ca,PE,Retained,apam,204.24
-2021,ca,PE,Retained,funds,3472.0
+2021,ca,PE,Retained,funds,3472
 2021,ca,PE,Retained,comment,
-2021,ca,PE,Retained,regos_total_curnt,136.0
-2021,ca,PE,Returned,regos,23.0
-2021,ca,PE,Returned,active,8.0
+2021,ca,PE,Retained,regos_total_curnt,136
+2021,ca,PE,Returned,regos,23
+2021,ca,PE,Returned,active,8
 2021,ca,PE,Returned,apam,624.25
-2021,ca,PE,Returned,funds,4994.0
+2021,ca,PE,Returned,funds,4994
 2021,ca,PE,Returned,comment,
-2021,ca,PE,Foundation,donations,28.0
-2021,ca,PE,Foundation,funds,2697.0
+2021,ca,PE,Foundation,donations,28
+2021,ca,PE,Foundation,funds,2697
 2021,ca,PE,Foundation,ada,96.32
 2021,ca,PE,Foundation,comment,
-2021,ca,QC,New,regos,6411.0
-2021,ca,QC,New,active,2205.0
+2021,ca,QC,New,regos,6411
+2021,ca,QC,New,active,2205
 2021,ca,QC,New,apam,303.68
 2021,ca,QC,New,funds,669622.42
 2021,ca,QC,New,comment,
-2021,ca,QC,Retained,regos_total_prior,9270.0
-2021,ca,QC,Retained,regos,1736.0
-2021,ca,QC,Retained,active,1099.0
+2021,ca,QC,Retained,regos_total_prior,9270
+2021,ca,QC,Retained,regos,1736
+2021,ca,QC,Retained,active,1099
 2021,ca,QC,Retained,apam,597.03
 2021,ca,QC,Retained,funds,656135.6
 2021,ca,QC,Retained,comment,
-2021,ca,QC,Retained,regos_total_curnt,8922.0
-2021,ca,QC,Returned,regos,775.0
-2021,ca,QC,Returned,active,352.0
+2021,ca,QC,Retained,regos_total_curnt,8922
+2021,ca,QC,Returned,regos,775
+2021,ca,QC,Returned,active,352
 2021,ca,QC,Returned,apam,362.92
 2021,ca,QC,Returned,funds,127747.51
 2021,ca,QC,Returned,comment,
-2021,ca,QC,Foundation,donations,1936.0
+2021,ca,QC,Foundation,donations,1936
 2021,ca,QC,Foundation,funds,158547.72
 2021,ca,QC,Foundation,ada,81.89
 2021,ca,QC,Foundation,comment,
-2021,ca,SK,New,regos,945.0
-2021,ca,SK,New,active,436.0
+2021,ca,SK,New,regos,945
+2021,ca,SK,New,active,436
 2021,ca,SK,New,apam,329.31
 2021,ca,SK,New,funds,143579.91
 2021,ca,SK,New,comment,
-2021,ca,SK,Retained,regos_total_prior,1790.0
-2021,ca,SK,Retained,regos,525.0
-2021,ca,SK,Retained,active,377.0
+2021,ca,SK,Retained,regos_total_prior,1790
+2021,ca,SK,Retained,regos,525
+2021,ca,SK,Retained,active,377
 2021,ca,SK,Retained,apam,673.16
 2021,ca,SK,Retained,funds,253779.7
 2021,ca,SK,Retained,comment,
-2021,ca,SK,Retained,regos_total_curnt,1740.0
-2021,ca,SK,Returned,regos,270.0
-2021,ca,SK,Returned,active,160.0
+2021,ca,SK,Retained,regos_total_curnt,1740
+2021,ca,SK,Returned,regos,270
+2021,ca,SK,Returned,active,160
 2021,ca,SK,Returned,apam,325.1
 2021,ca,SK,Returned,funds,52015.52
 2021,ca,SK,Returned,comment,
-2021,ca,SK,Foundation,donations,266.0
+2021,ca,SK,Foundation,donations,266
 2021,ca,SK,Foundation,funds,22293.45
 2021,ca,SK,Foundation,ada,83.81
 2021,ca,SK,Foundation,comment,
-2021,ca,YT,New,regos,25.0
-2021,ca,YT,New,active,11.0
+2021,ca,YT,New,regos,25
+2021,ca,YT,New,active,11
 2021,ca,YT,New,apam,463.64
-2021,ca,YT,New,funds,5100.0
+2021,ca,YT,New,funds,5100
 2021,ca,YT,New,comment,
-2021,ca,YT,Retained,regos_total_prior,73.0
-2021,ca,YT,Retained,regos,24.0
-2021,ca,YT,Retained,active,16.0
+2021,ca,YT,Retained,regos_total_prior,73
+2021,ca,YT,Retained,regos,24
+2021,ca,YT,Retained,active,16
 2021,ca,YT,Retained,apam,610.19
-2021,ca,YT,Retained,funds,9763.0
+2021,ca,YT,Retained,funds,9763
 2021,ca,YT,Retained,comment,
-2021,ca,YT,Retained,regos_total_curnt,56.0
-2021,ca,YT,Returned,regos,7.0
-2021,ca,YT,Returned,active,3.0
-2021,ca,YT,Returned,apam,220.0
-2021,ca,YT,Returned,funds,660.0
+2021,ca,YT,Retained,regos_total_curnt,56
+2021,ca,YT,Returned,regos,7
+2021,ca,YT,Returned,active,3
+2021,ca,YT,Returned,apam,220
+2021,ca,YT,Returned,funds,660
 2021,ca,YT,Returned,comment,
-2021,ca,YT,Foundation,donations,13.0
-2021,ca,YT,Foundation,funds,705.0
+2021,ca,YT,Foundation,donations,13
+2021,ca,YT,Foundation,funds,705
 2021,ca,YT,Foundation,ada,54.23
 2021,ca,YT,Foundation,comment,
-2021,ca,Other,New,regos,5300.0
-2021,ca,Other,New,active,3118.0
+2021,ca,Other,New,regos,5300
+2021,ca,Other,New,active,3118
 2021,ca,Other,New,apam,425.67
 2021,ca,Other,New,funds,1327244.2
 2021,ca,Other,New,comment,
-2021,ca,Other,Retained,regos_total_prior,13279.0
-2021,ca,Other,Retained,regos,1832.0
-2021,ca,Other,Retained,active,1316.0
+2021,ca,Other,Retained,regos_total_prior,13279
+2021,ca,Other,Retained,regos,1832
+2021,ca,Other,Retained,active,1316
 2021,ca,Other,Retained,apam,617.91
 2021,ca,Other,Retained,funds,813170.8
 2021,ca,Other,Retained,comment,
-2021,ca,Other,Retained,regos_total_curnt,34841.0
-2021,ca,Other,Returned,regos,27709.0
-2021,ca,Other,Returned,active,2583.0
+2021,ca,Other,Retained,regos_total_curnt,34841
+2021,ca,Other,Returned,regos,27709
+2021,ca,Other,Returned,active,2583
 2021,ca,Other,Returned,apam,965.43
 2021,ca,Other,Returned,funds,2493716.53
 2021,ca,Other,Returned,comment,
-2021,ca,Other,Foundation,donations,688.0
+2021,ca,Other,Foundation,donations,688
 2021,ca,Other,Foundation,funds,907115.45
 2021,ca,Other,Foundation,ada,1318.48
 2021,ca,Other,Foundation,comment,
-2021,gb,Total,New,regos,66424.0
-2021,gb,Total,New,active,31998.0
+2021,gb,Total,New,regos,66424
+2021,gb,Total,New,active,31998
 2021,gb,Total,New,apam,162.26
 2021,gb,Total,New,funds,5191912.45
 2021,gb,Total,New,comment,
-2021,gb,Total,Retained,regos_total_prior,122684.0
-2021,gb,Total,Retained,regos,19273.0
-2021,gb,Total,Retained,active,11675.0
+2021,gb,Total,Retained,regos_total_prior,122684
+2021,gb,Total,Retained,regos,19273
+2021,gb,Total,Retained,active,11675
 2021,gb,Total,Retained,apam,209.74
 2021,gb,Total,Retained,funds,2448661.02
 2021,gb,Total,Retained,comment,
-2021,gb,Total,Retained,regos_total_curnt,126944.0
-2021,gb,Total,Returned,regos,41247.0
-2021,gb,Total,Returned,active,6471.0
+2021,gb,Total,Retained,regos_total_curnt,126944
+2021,gb,Total,Returned,regos,41247
+2021,gb,Total,Returned,active,6471
 2021,gb,Total,Returned,apam,238.05
 2021,gb,Total,Returned,funds,1540393.65
 2021,gb,Total,Returned,comment,
-2021,gb,Total,Foundation,donations,12121.0
+2021,gb,Total,Foundation,donations,12121
 2021,gb,Total,Foundation,funds,804004.34
 2021,gb,Total,Foundation,ada,66.33
 2021,gb,Total,Foundation,comment,
-2021,gb,Greater London,New,regos,7918.0
-2021,gb,Greater London,New,active,3681.0
+2021,gb,Greater London,New,regos,7918
+2021,gb,Greater London,New,active,3681
 2021,gb,Greater London,New,apam,201.09
 2021,gb,Greater London,New,funds,740221.6
 2021,gb,Greater London,New,comment,
-2021,gb,Greater London,Retained,regos_total_prior,13960.0
-2021,gb,Greater London,Retained,regos,2597.0
-2021,gb,Greater London,Retained,active,1641.0
+2021,gb,Greater London,Retained,regos_total_prior,13960
+2021,gb,Greater London,Retained,regos,2597
+2021,gb,Greater London,Retained,active,1641
 2021,gb,Greater London,Retained,apam,308.99
 2021,gb,Greater London,Retained,funds,507056.1
 2021,gb,Greater London,Retained,comment,
-2021,gb,Greater London,Retained,regos_total_curnt,11776.0
-2021,gb,Greater London,Returned,regos,1261.0
-2021,gb,Greater London,Returned,active,638.0
+2021,gb,Greater London,Retained,regos_total_curnt,11776
+2021,gb,Greater London,Returned,regos,1261
+2021,gb,Greater London,Returned,active,638
 2021,gb,Greater London,Returned,apam,235.68
 2021,gb,Greater London,Returned,funds,150366.06
 2021,gb,Greater London,Returned,comment,
-2021,gb,Greater London,Foundation,donations,1873.0
+2021,gb,Greater London,Foundation,donations,1873
 2021,gb,Greater London,Foundation,funds,64531.84
 2021,gb,Greater London,Foundation,ada,34.45
 2021,gb,Greater London,Foundation,comment,
-2021,gb,South East,New,regos,8484.0
-2021,gb,South East,New,active,3944.0
+2021,gb,South East,New,regos,8484
+2021,gb,South East,New,active,3944
 2021,gb,South East,New,apam,149.64
 2021,gb,South East,New,funds,590199.54
 2021,gb,South East,New,comment,
-2021,gb,South East,Retained,regos_total_prior,14050.0
-2021,gb,South East,Retained,regos,2641.0
-2021,gb,South East,Retained,active,1627.0
+2021,gb,South East,Retained,regos_total_prior,14050
+2021,gb,South East,Retained,regos,2641
+2021,gb,South East,Retained,active,1627
 2021,gb,South East,Retained,apam,209.41
 2021,gb,South East,Retained,funds,340708.26
 2021,gb,South East,Retained,comment,
-2021,gb,South East,Retained,regos_total_curnt,12439.0
-2021,gb,South East,Returned,regos,1314.0
-2021,gb,South East,Returned,active,684.0
+2021,gb,South East,Retained,regos_total_curnt,12439
+2021,gb,South East,Returned,regos,1314
+2021,gb,South East,Returned,active,684
 2021,gb,South East,Returned,apam,199.08
 2021,gb,South East,Returned,funds,136172.56
 2021,gb,South East,Returned,comment,
-2021,gb,South East,Foundation,donations,1806.0
+2021,gb,South East,Foundation,donations,1806
 2021,gb,South East,Foundation,funds,51376.25
 2021,gb,South East,Foundation,ada,28.45
 2021,gb,South East,Foundation,comment,
-2021,gb,South West,New,regos,6391.0
-2021,gb,South West,New,active,2976.0
+2021,gb,South West,New,regos,6391
+2021,gb,South West,New,active,2976
 2021,gb,South West,New,apam,129.67
 2021,gb,South West,New,funds,385902.47
 2021,gb,South West,New,comment,
-2021,gb,South West,Retained,regos_total_prior,10721.0
-2021,gb,South West,Retained,regos,2041.0
-2021,gb,South West,Retained,active,1216.0
+2021,gb,South West,Retained,regos_total_prior,10721
+2021,gb,South West,Retained,regos,2041
+2021,gb,South West,Retained,active,1216
 2021,gb,South West,Retained,apam,191.88
 2021,gb,South West,Retained,funds,233321.84
 2021,gb,South West,Retained,comment,
-2021,gb,South West,Retained,regos_total_curnt,9469.0
-2021,gb,South West,Returned,regos,1037.0
-2021,gb,South West,Returned,active,571.0
+2021,gb,South West,Retained,regos_total_curnt,9469
+2021,gb,South West,Returned,regos,1037
+2021,gb,South West,Returned,active,571
 2021,gb,South West,Returned,apam,137.23
 2021,gb,South West,Returned,funds,78357.65
 2021,gb,South West,Returned,comment,
-2021,gb,South West,Foundation,donations,1166.0
+2021,gb,South West,Foundation,donations,1166
 2021,gb,South West,Foundation,funds,38654.17
 2021,gb,South West,Foundation,ada,33.15
 2021,gb,South West,Foundation,comment,
-2021,gb,East of England,New,regos,4222.0
-2021,gb,East of England,New,active,2013.0
+2021,gb,East of England,New,regos,4222
+2021,gb,East of England,New,active,2013
 2021,gb,East of England,New,apam,158.17
-2021,gb,East of England,New,funds,318401.0
+2021,gb,East of England,New,funds,318401
 2021,gb,East of England,New,comment,
-2021,gb,East of England,Retained,regos_total_prior,7194.0
-2021,gb,East of England,Retained,regos,1210.0
-2021,gb,East of England,Retained,active,753.0
+2021,gb,East of England,Retained,regos_total_prior,7194
+2021,gb,East of England,Retained,regos,1210
+2021,gb,East of England,Retained,active,753
 2021,gb,East of England,Retained,apam,263.3
 2021,gb,East of England,Retained,funds,198261.16
 2021,gb,East of England,Retained,comment,
-2021,gb,East of England,Retained,regos_total_curnt,6114.0
-2021,gb,East of England,Returned,regos,682.0
-2021,gb,East of England,Returned,active,353.0
+2021,gb,East of England,Retained,regos_total_curnt,6114
+2021,gb,East of England,Returned,regos,682
+2021,gb,East of England,Returned,active,353
 2021,gb,East of England,Returned,apam,203.57
 2021,gb,East of England,Returned,funds,71859.02
 2021,gb,East of England,Returned,comment,
-2021,gb,East of England,Foundation,donations,1044.0
+2021,gb,East of England,Foundation,donations,1044
 2021,gb,East of England,Foundation,funds,30302.91
 2021,gb,East of England,Foundation,ada,29.03
 2021,gb,East of England,Foundation,comment,
-2021,gb,North West,New,regos,4437.0
-2021,gb,North West,New,active,2005.0
+2021,gb,North West,New,regos,4437
+2021,gb,North West,New,active,2005
 2021,gb,North West,New,apam,140.84
 2021,gb,North West,New,funds,282392.3
 2021,gb,North West,New,comment,
-2021,gb,North West,Retained,regos_total_prior,8483.0
-2021,gb,North West,Retained,regos,1212.0
-2021,gb,North West,Retained,active,746.0
+2021,gb,North West,Retained,regos_total_prior,8483
+2021,gb,North West,Retained,regos,1212
+2021,gb,North West,Retained,active,746
 2021,gb,North West,Retained,apam,193.58
 2021,gb,North West,Retained,funds,144408.84
 2021,gb,North West,Retained,comment,
-2021,gb,North West,Retained,regos_total_curnt,6241.0
-2021,gb,North West,Returned,regos,592.0
-2021,gb,North West,Returned,active,284.0
+2021,gb,North West,Retained,regos_total_curnt,6241
+2021,gb,North West,Returned,regos,592
+2021,gb,North West,Returned,active,284
 2021,gb,North West,Returned,apam,185.73
 2021,gb,North West,Returned,funds,52748.58
 2021,gb,North West,Returned,comment,
-2021,gb,North West,Foundation,donations,819.0
+2021,gb,North West,Foundation,donations,819
 2021,gb,North West,Foundation,funds,25046.47
 2021,gb,North West,Foundation,ada,30.58
 2021,gb,North West,Foundation,comment,
-2021,gb,North East,New,regos,2127.0
-2021,gb,North East,New,active,955.0
+2021,gb,North East,New,regos,2127
+2021,gb,North East,New,active,955
 2021,gb,North East,New,apam,110.73
 2021,gb,North East,New,funds,105745.32
 2021,gb,North East,New,comment,
-2021,gb,North East,Retained,regos_total_prior,3587.0
-2021,gb,North East,Retained,regos,560.0
-2021,gb,North East,Retained,active,313.0
+2021,gb,North East,Retained,regos_total_prior,3587
+2021,gb,North East,Retained,regos,560
+2021,gb,North East,Retained,active,313
 2021,gb,North East,Retained,apam,150.98
 2021,gb,North East,Retained,funds,47258.23
 2021,gb,North East,Retained,comment,
-2021,gb,North East,Retained,regos_total_curnt,2951.0
-2021,gb,North East,Returned,regos,264.0
-2021,gb,North East,Returned,active,134.0
+2021,gb,North East,Retained,regos_total_curnt,2951
+2021,gb,North East,Returned,regos,264
+2021,gb,North East,Returned,active,134
 2021,gb,North East,Returned,apam,142.41
 2021,gb,North East,Returned,funds,19082.74
 2021,gb,North East,Returned,comment,
-2021,gb,North East,Foundation,donations,275.0
+2021,gb,North East,Foundation,donations,275
 2021,gb,North East,Foundation,funds,7515.05
 2021,gb,North East,Foundation,ada,27.33
 2021,gb,North East,Foundation,comment,
-2021,gb,West Midlands,New,regos,4102.0
-2021,gb,West Midlands,New,active,1836.0
+2021,gb,West Midlands,New,regos,4102
+2021,gb,West Midlands,New,active,1836
 2021,gb,West Midlands,New,apam,137.74
 2021,gb,West Midlands,New,funds,252885.31
 2021,gb,West Midlands,New,comment,
-2021,gb,West Midlands,Retained,regos_total_prior,7592.0
-2021,gb,West Midlands,Retained,regos,1290.0
-2021,gb,West Midlands,Retained,active,781.0
+2021,gb,West Midlands,Retained,regos_total_prior,7592
+2021,gb,West Midlands,Retained,regos,1290
+2021,gb,West Midlands,Retained,active,781
 2021,gb,West Midlands,Retained,apam,217.41
 2021,gb,West Midlands,Retained,funds,169795.72
 2021,gb,West Midlands,Retained,comment,
-2021,gb,West Midlands,Retained,regos_total_curnt,6075.0
-2021,gb,West Midlands,Returned,regos,683.0
-2021,gb,West Midlands,Returned,active,370.0
+2021,gb,West Midlands,Retained,regos_total_curnt,6075
+2021,gb,West Midlands,Returned,regos,683
+2021,gb,West Midlands,Returned,active,370
 2021,gb,West Midlands,Returned,apam,179.32
 2021,gb,West Midlands,Returned,funds,66347.41
 2021,gb,West Midlands,Returned,comment,
-2021,gb,West Midlands,Foundation,donations,853.0
+2021,gb,West Midlands,Foundation,donations,853
 2021,gb,West Midlands,Foundation,funds,21201.71
 2021,gb,West Midlands,Foundation,ada,24.86
 2021,gb,West Midlands,Foundation,comment,
-2021,gb,Yorkshire and the Humber,New,regos,4652.0
-2021,gb,Yorkshire and the Humber,New,active,2251.0
+2021,gb,Yorkshire and the Humber,New,regos,4652
+2021,gb,Yorkshire and the Humber,New,active,2251
 2021,gb,Yorkshire and the Humber,New,apam,142.75
 2021,gb,Yorkshire and the Humber,New,funds,321319.22
 2021,gb,Yorkshire and the Humber,New,comment,
-2021,gb,Yorkshire and the Humber,Retained,regos_total_prior,9174.0
-2021,gb,Yorkshire and the Humber,Retained,regos,1555.0
-2021,gb,Yorkshire and the Humber,Retained,active,964.0
+2021,gb,Yorkshire and the Humber,Retained,regos_total_prior,9174
+2021,gb,Yorkshire and the Humber,Retained,regos,1555
+2021,gb,Yorkshire and the Humber,Retained,active,964
 2021,gb,Yorkshire and the Humber,Retained,apam,147.65
 2021,gb,Yorkshire and the Humber,Retained,funds,142338.31
 2021,gb,Yorkshire and the Humber,Retained,comment,
-2021,gb,Yorkshire and the Humber,Retained,regos_total_curnt,6908.0
-2021,gb,Yorkshire and the Humber,Returned,regos,701.0
-2021,gb,Yorkshire and the Humber,Returned,active,330.0
+2021,gb,Yorkshire and the Humber,Retained,regos_total_curnt,6908
+2021,gb,Yorkshire and the Humber,Returned,regos,701
+2021,gb,Yorkshire and the Humber,Returned,active,330
 2021,gb,Yorkshire and the Humber,Returned,apam,148.88
 2021,gb,Yorkshire and the Humber,Returned,funds,49130.11
 2021,gb,Yorkshire and the Humber,Returned,comment,
-2021,gb,Yorkshire and the Humber,Foundation,donations,763.0
+2021,gb,Yorkshire and the Humber,Foundation,donations,763
 2021,gb,Yorkshire and the Humber,Foundation,funds,25159.92
 2021,gb,Yorkshire and the Humber,Foundation,ada,32.97
 2021,gb,Yorkshire and the Humber,Foundation,comment,
-2021,gb,Scotland,New,regos,5272.0
-2021,gb,Scotland,New,active,2534.0
+2021,gb,Scotland,New,regos,5272
+2021,gb,Scotland,New,active,2534
 2021,gb,Scotland,New,apam,148.49
 2021,gb,Scotland,New,funds,376265.19
 2021,gb,Scotland,New,comment,
-2021,gb,Scotland,Retained,regos_total_prior,9427.0
-2021,gb,Scotland,Retained,regos,1771.0
-2021,gb,Scotland,Retained,active,1084.0
+2021,gb,Scotland,Retained,regos_total_prior,9427
+2021,gb,Scotland,Retained,regos,1771
+2021,gb,Scotland,Retained,active,1084
 2021,gb,Scotland,Retained,apam,178.55
 2021,gb,Scotland,Retained,funds,193545.24
 2021,gb,Scotland,Retained,comment,
-2021,gb,Scotland,Retained,regos_total_curnt,7706.0
-2021,gb,Scotland,Returned,regos,663.0
-2021,gb,Scotland,Returned,active,346.0
+2021,gb,Scotland,Retained,regos_total_curnt,7706
+2021,gb,Scotland,Returned,regos,663
+2021,gb,Scotland,Returned,active,346
 2021,gb,Scotland,Returned,apam,160.96
 2021,gb,Scotland,Returned,funds,55691.94
 2021,gb,Scotland,Returned,comment,
-2021,gb,Scotland,Foundation,donations,765.0
+2021,gb,Scotland,Foundation,donations,765
 2021,gb,Scotland,Foundation,funds,18100.66
 2021,gb,Scotland,Foundation,ada,23.66
 2021,gb,Scotland,Foundation,comment,
-2021,gb,Wales,New,regos,3416.0
-2021,gb,Wales,New,active,1551.0
+2021,gb,Wales,New,regos,3416
+2021,gb,Wales,New,active,1551
 2021,gb,Wales,New,apam,102.92
 2021,gb,Wales,New,funds,159631.6
 2021,gb,Wales,New,comment,
-2021,gb,Wales,Retained,regos_total_prior,7456.0
-2021,gb,Wales,Retained,regos,1306.0
-2021,gb,Wales,Retained,active,750.0
+2021,gb,Wales,Retained,regos_total_prior,7456
+2021,gb,Wales,Retained,regos,1306
+2021,gb,Wales,Retained,active,750
 2021,gb,Wales,Retained,apam,143.68
 2021,gb,Wales,Retained,funds,107763.17
 2021,gb,Wales,Retained,comment,
-2021,gb,Wales,Retained,regos_total_curnt,5206.0
-2021,gb,Wales,Returned,regos,484.0
-2021,gb,Wales,Returned,active,228.0
+2021,gb,Wales,Retained,regos_total_curnt,5206
+2021,gb,Wales,Returned,regos,484
+2021,gb,Wales,Returned,active,228
 2021,gb,Wales,Returned,apam,123.98
 2021,gb,Wales,Returned,funds,28267.54
 2021,gb,Wales,Returned,comment,
-2021,gb,Wales,Foundation,donations,553.0
+2021,gb,Wales,Foundation,donations,553
 2021,gb,Wales,Foundation,funds,16253.84
 2021,gb,Wales,Foundation,ada,29.39
 2021,gb,Wales,Foundation,comment,
-2021,gb,East Midlands,New,regos,3373.0
-2021,gb,East Midlands,New,active,1513.0
+2021,gb,East Midlands,New,regos,3373
+2021,gb,East Midlands,New,active,1513
 2021,gb,East Midlands,New,apam,116.79
 2021,gb,East Midlands,New,funds,176709.26
 2021,gb,East Midlands,New,comment,
-2021,gb,East Midlands,Retained,regos_total_prior,5857.0
-2021,gb,East Midlands,Retained,regos,1065.0
-2021,gb,East Midlands,Retained,active,629.0
+2021,gb,East Midlands,Retained,regos_total_prior,5857
+2021,gb,East Midlands,Retained,regos,1065
+2021,gb,East Midlands,Retained,active,629
 2021,gb,East Midlands,Retained,apam,154.08
 2021,gb,East Midlands,Retained,funds,96915.25
 2021,gb,East Midlands,Retained,comment,
-2021,gb,East Midlands,Retained,regos_total_curnt,4846.0
-2021,gb,East Midlands,Returned,regos,408.0
-2021,gb,East Midlands,Returned,active,199.0
+2021,gb,East Midlands,Retained,regos_total_curnt,4846
+2021,gb,East Midlands,Returned,regos,408
+2021,gb,East Midlands,Returned,active,199
 2021,gb,East Midlands,Returned,apam,128.97
 2021,gb,East Midlands,Returned,funds,25665.6
 2021,gb,East Midlands,Returned,comment,
-2021,gb,East Midlands,Foundation,donations,477.0
+2021,gb,East Midlands,Foundation,donations,477
 2021,gb,East Midlands,Foundation,funds,12387.72
 2021,gb,East Midlands,Foundation,ada,25.97
 2021,gb,East Midlands,Foundation,comment,
-2021,gb,Northern Ireland,New,regos,1185.0
-2021,gb,Northern Ireland,New,active,573.0
+2021,gb,Northern Ireland,New,regos,1185
+2021,gb,Northern Ireland,New,active,573
 2021,gb,Northern Ireland,New,apam,185.96
 2021,gb,Northern Ireland,New,funds,106552.98
 2021,gb,Northern Ireland,New,comment,
-2021,gb,Northern Ireland,Retained,regos_total_prior,2439.0
-2021,gb,Northern Ireland,Retained,regos,376.0
-2021,gb,Northern Ireland,Retained,active,210.0
+2021,gb,Northern Ireland,Retained,regos_total_prior,2439
+2021,gb,Northern Ireland,Retained,regos,376
+2021,gb,Northern Ireland,Retained,active,210
 2021,gb,Northern Ireland,Retained,apam,208.58
 2021,gb,Northern Ireland,Retained,funds,43800.98
 2021,gb,Northern Ireland,Retained,comment,
-2021,gb,Northern Ireland,Retained,regos_total_curnt,1723.0
-2021,gb,Northern Ireland,Returned,regos,162.0
-2021,gb,Northern Ireland,Returned,active,78.0
+2021,gb,Northern Ireland,Retained,regos_total_curnt,1723
+2021,gb,Northern Ireland,Returned,regos,162
+2021,gb,Northern Ireland,Returned,active,78
 2021,gb,Northern Ireland,Returned,apam,207.09
 2021,gb,Northern Ireland,Returned,funds,16152.79
 2021,gb,Northern Ireland,Returned,comment,
-2021,gb,Northern Ireland,Foundation,donations,165.0
+2021,gb,Northern Ireland,Foundation,donations,165
 2021,gb,Northern Ireland,Foundation,funds,4647.73
 2021,gb,Northern Ireland,Foundation,ada,28.17
 2021,gb,Northern Ireland,Foundation,comment,
-2021,gb,East England,New,regos,489.0
-2021,gb,East England,New,active,237.0
+2021,gb,East England,New,regos,489
+2021,gb,East England,New,active,237
 2021,gb,East England,New,apam,142.73
 2021,gb,East England,New,funds,33826.07
 2021,gb,East England,New,comment,
-2021,gb,East England,Retained,regos_total_prior,1026.0
-2021,gb,East England,Retained,regos,162.0
-2021,gb,East England,Retained,active,108.0
+2021,gb,East England,Retained,regos_total_prior,1026
+2021,gb,East England,Retained,regos,162
+2021,gb,East England,Retained,active,108
 2021,gb,East England,Retained,apam,194.66
 2021,gb,East England,Retained,funds,21022.93
 2021,gb,East England,Retained,comment,
-2021,gb,East England,Retained,regos_total_curnt,731.0
-2021,gb,East England,Returned,regos,80.0
-2021,gb,East England,Returned,active,41.0
+2021,gb,East England,Retained,regos_total_curnt,731
+2021,gb,East England,Returned,regos,80
+2021,gb,East England,Returned,active,41
 2021,gb,East England,Returned,apam,162.94
 2021,gb,East England,Returned,funds,6680.5
 2021,gb,East England,Returned,comment,
-2021,gb,East England,Foundation,donations,125.0
-2021,gb,East England,Foundation,funds,2883.0
+2021,gb,East England,Foundation,donations,125
+2021,gb,East England,Foundation,funds,2883
 2021,gb,East England,Foundation,ada,23.06
 2021,gb,East England,Foundation,comment,
-2021,gb,Channel Islands,New,regos,235.0
-2021,gb,Channel Islands,New,active,118.0
+2021,gb,Channel Islands,New,regos,235
+2021,gb,Channel Islands,New,active,118
 2021,gb,Channel Islands,New,apam,141.18
 2021,gb,Channel Islands,New,funds,16659.33
 2021,gb,Channel Islands,New,comment,
-2021,gb,Channel Islands,Retained,regos_total_prior,282.0
-2021,gb,Channel Islands,Retained,regos,57.0
-2021,gb,Channel Islands,Retained,active,31.0
+2021,gb,Channel Islands,Retained,regos_total_prior,282
+2021,gb,Channel Islands,Retained,regos,57
+2021,gb,Channel Islands,Retained,active,31
 2021,gb,Channel Islands,Retained,apam,232.93
 2021,gb,Channel Islands,Retained,funds,7220.84
 2021,gb,Channel Islands,Retained,comment,
-2021,gb,Channel Islands,Retained,regos_total_curnt,332.0
-2021,gb,Channel Islands,Returned,regos,40.0
-2021,gb,Channel Islands,Returned,active,20.0
+2021,gb,Channel Islands,Retained,regos_total_curnt,332
+2021,gb,Channel Islands,Returned,regos,40
+2021,gb,Channel Islands,Returned,active,20
 2021,gb,Channel Islands,Returned,apam,125.46
 2021,gb,Channel Islands,Returned,funds,2509.1
 2021,gb,Channel Islands,Returned,comment,
-2021,gb,Channel Islands,Foundation,donations,52.0
-2021,gb,Channel Islands,Foundation,funds,3001.0
+2021,gb,Channel Islands,Foundation,donations,52
+2021,gb,Channel Islands,Foundation,funds,3001
 2021,gb,Channel Islands,Foundation,ada,57.71
 2021,gb,Channel Islands,Foundation,comment,
-2021,gb,Isle of Man,New,regos,121.0
-2021,gb,Isle of Man,New,active,67.0
+2021,gb,Isle of Man,New,regos,121
+2021,gb,Isle of Man,New,active,67
 2021,gb,Isle of Man,New,apam,173.45
 2021,gb,Isle of Man,New,funds,11621.09
 2021,gb,Isle of Man,New,comment,
-2021,gb,Isle of Man,Retained,regos_total_prior,99.0
-2021,gb,Isle of Man,Retained,regos,13.0
-2021,gb,Isle of Man,Retained,active,5.0
-2021,gb,Isle of Man,Retained,apam,214.0
-2021,gb,Isle of Man,Retained,funds,1070.0
+2021,gb,Isle of Man,Retained,regos_total_prior,99
+2021,gb,Isle of Man,Retained,regos,13
+2021,gb,Isle of Man,Retained,active,5
+2021,gb,Isle of Man,Retained,apam,214
+2021,gb,Isle of Man,Retained,funds,1070
 2021,gb,Isle of Man,Retained,comment,
-2021,gb,Isle of Man,Retained,regos_total_curnt,148.0
-2021,gb,Isle of Man,Returned,regos,14.0
-2021,gb,Isle of Man,Returned,active,7.0
+2021,gb,Isle of Man,Retained,regos_total_curnt,148
+2021,gb,Isle of Man,Returned,regos,14
+2021,gb,Isle of Man,Returned,active,7
 2021,gb,Isle of Man,Returned,apam,91.62
 2021,gb,Isle of Man,Returned,funds,641.33
 2021,gb,Isle of Man,Returned,comment,
-2021,gb,Isle of Man,Foundation,donations,20.0
+2021,gb,Isle of Man,Foundation,donations,20
 2021,gb,Isle of Man,Foundation,funds,580.97
 2021,gb,Isle of Man,Foundation,ada,29.05
 2021,gb,Isle of Man,Foundation,comment,
-2021,gb,Other,New,regos,10000.0
-2021,gb,Other,New,active,5744.0
+2021,gb,Other,New,regos,10000
+2021,gb,Other,New,active,5744
 2021,gb,Other,New,apam,228.69
 2021,gb,Other,New,funds,1313580.17
 2021,gb,Other,New,comment,
-2021,gb,Other,Retained,regos_total_prior,21337.0
-2021,gb,Other,Retained,regos,1417.0
-2021,gb,Other,Retained,active,817.0
+2021,gb,Other,Retained,regos_total_prior,21337
+2021,gb,Other,Retained,regos,1417
+2021,gb,Other,Retained,active,817
 2021,gb,Other,Retained,apam,237.67
 2021,gb,Other,Retained,funds,194174.15
 2021,gb,Other,Retained,comment,
-2021,gb,Other,Retained,regos_total_curnt,44279.0
-2021,gb,Other,Returned,regos,32862.0
-2021,gb,Other,Returned,active,2188.0
+2021,gb,Other,Retained,regos_total_curnt,44279
+2021,gb,Other,Returned,regos,32862
+2021,gb,Other,Returned,active,2188
 2021,gb,Other,Returned,apam,356.82
 2021,gb,Other,Returned,funds,780720.72
 2021,gb,Other,Returned,comment,
-2021,gb,Other,Foundation,donations,1365.0
+2021,gb,Other,Foundation,donations,1365
 2021,gb,Other,Foundation,funds,482361.1
 2021,gb,Other,Foundation,ada,353.38
 2021,gb,Other,Foundation,comment,
-2021,us,Total,New,regos,40792.0
-2021,us,Total,New,active,10780.0
+2021,us,Total,New,regos,40792
+2021,us,Total,New,active,10780
 2021,us,Total,New,apam,299.73
 2021,us,Total,New,funds,3231122.05
 2021,us,Total,New,comment,
-2021,us,Total,Retained,regos_total_prior,62146.0
-2021,us,Total,Retained,regos,11737.0
-2021,us,Total,Retained,active,7250.0
+2021,us,Total,Retained,regos_total_prior,62146
+2021,us,Total,Retained,regos,11737
+2021,us,Total,Retained,active,7250
 2021,us,Total,Retained,apam,837.43
 2021,us,Total,Retained,funds,6071365.28
 2021,us,Total,Retained,comment,
-2021,us,Total,Retained,regos_total_curnt,86870.0
-2021,us,Total,Returned,regos,34341.0
-2021,us,Total,Returned,active,3881.0
+2021,us,Total,Retained,regos_total_curnt,86870
+2021,us,Total,Returned,regos,34341
+2021,us,Total,Returned,active,3881
 2021,us,Total,Returned,apam,743.53
 2021,us,Total,Returned,funds,2885634.17
 2021,us,Total,Returned,comment,
-2021,us,Total,Foundation,donations,9424.0
+2021,us,Total,Foundation,donations,9424
 2021,us,Total,Foundation,funds,1614994.37
 2021,us,Total,Foundation,ada,171.37
 2021,us,Total,Foundation,comment,
-2021,us,CA,New,regos,3114.0
-2021,us,CA,New,active,921.0
+2021,us,CA,New,regos,3114
+2021,us,CA,New,active,921
 2021,us,CA,New,apam,285.52
 2021,us,CA,New,funds,262961.34
 2021,us,CA,New,comment,
-2021,us,CA,Retained,regos_total_prior,6396.0
-2021,us,CA,Retained,regos,1605.0
-2021,us,CA,Retained,active,1004.0
+2021,us,CA,Retained,regos_total_prior,6396
+2021,us,CA,Retained,regos,1605
+2021,us,CA,Retained,active,1004
 2021,us,CA,Retained,apam,819.01
 2021,us,CA,Retained,funds,822286.05
 2021,us,CA,Retained,comment,
-2021,us,CA,Retained,regos_total_curnt,5516.0
-2021,us,CA,Returned,regos,797.0
-2021,us,CA,Returned,active,303.0
+2021,us,CA,Retained,regos_total_curnt,5516
+2021,us,CA,Returned,regos,797
+2021,us,CA,Returned,active,303
 2021,us,CA,Returned,apam,539.61
 2021,us,CA,Returned,funds,163502.09
 2021,us,CA,Returned,comment,
-2021,us,CA,Foundation,donations,996.0
+2021,us,CA,Foundation,donations,996
 2021,us,CA,Foundation,funds,111396.03
 2021,us,CA,Foundation,ada,111.84
 2021,us,CA,Foundation,comment,
-2021,us,CO,New,regos,1193.0
-2021,us,CO,New,active,310.0
+2021,us,CO,New,regos,1193
+2021,us,CO,New,active,310
 2021,us,CO,New,apam,244.42
 2021,us,CO,New,funds,75769.49
 2021,us,CO,New,comment,
-2021,us,CO,Retained,regos_total_prior,1844.0
-2021,us,CO,Retained,regos,426.0
-2021,us,CO,Retained,active,265.0
+2021,us,CO,Retained,regos_total_prior,1844
+2021,us,CO,Retained,regos,426
+2021,us,CO,Retained,active,265
 2021,us,CO,Retained,apam,779.51
 2021,us,CO,Retained,funds,206570.56
 2021,us,CO,Retained,comment,
-2021,us,CO,Retained,regos_total_curnt,1814.0
-2021,us,CO,Returned,regos,195.0
-2021,us,CO,Returned,active,81.0
+2021,us,CO,Retained,regos_total_curnt,1814
+2021,us,CO,Returned,regos,195
+2021,us,CO,Returned,active,81
 2021,us,CO,Returned,apam,236.7
 2021,us,CO,Returned,funds,19172.53
 2021,us,CO,Returned,comment,
-2021,us,CO,Foundation,donations,206.0
-2021,us,CO,Foundation,funds,25438.0
+2021,us,CO,Foundation,donations,206
+2021,us,CO,Foundation,funds,25438
 2021,us,CO,Foundation,ada,123.49
 2021,us,CO,Foundation,comment,
-2021,us,CT,New,regos,677.0
-2021,us,CT,New,active,192.0
+2021,us,CT,New,regos,677
+2021,us,CT,New,active,192
 2021,us,CT,New,apam,259.04
 2021,us,CT,New,funds,49735.02
 2021,us,CT,New,comment,
-2021,us,CT,Retained,regos_total_prior,939.0
-2021,us,CT,Retained,regos,207.0
-2021,us,CT,Retained,active,138.0
+2021,us,CT,Retained,regos_total_prior,939
+2021,us,CT,Retained,regos,207
+2021,us,CT,Retained,active,138
 2021,us,CT,Retained,apam,922.03
 2021,us,CT,Retained,funds,127240.58
 2021,us,CT,Retained,comment,
-2021,us,CT,Retained,regos_total_curnt,1008.0
-2021,us,CT,Returned,regos,124.0
-2021,us,CT,Returned,active,62.0
+2021,us,CT,Retained,regos_total_curnt,1008
+2021,us,CT,Returned,regos,124
+2021,us,CT,Returned,active,62
 2021,us,CT,Returned,apam,478.9
 2021,us,CT,Returned,funds,29691.96
 2021,us,CT,Returned,comment,
-2021,us,CT,Foundation,donations,175.0
-2021,us,CT,Foundation,funds,14582.0
+2021,us,CT,Foundation,donations,175
+2021,us,CT,Foundation,funds,14582
 2021,us,CT,Foundation,ada,83.33
 2021,us,CT,Foundation,comment,
-2021,us,DC,New,regos,154.0
-2021,us,DC,New,active,34.0
+2021,us,DC,New,regos,154
+2021,us,DC,New,active,34
 2021,us,DC,New,apam,297.34
 2021,us,DC,New,funds,10109.59
 2021,us,DC,New,comment,
-2021,us,DC,Retained,regos_total_prior,278.0
-2021,us,DC,Retained,regos,67.0
-2021,us,DC,Retained,active,39.0
+2021,us,DC,Retained,regos_total_prior,278
+2021,us,DC,Retained,regos,67
+2021,us,DC,Retained,active,39
 2021,us,DC,Retained,apam,1210.17
 2021,us,DC,Retained,funds,47196.63
 2021,us,DC,Retained,comment,
-2021,us,DC,Retained,regos_total_curnt,254.0
-2021,us,DC,Returned,regos,33.0
-2021,us,DC,Returned,active,13.0
+2021,us,DC,Retained,regos_total_curnt,254
+2021,us,DC,Returned,regos,33
+2021,us,DC,Returned,active,13
 2021,us,DC,Returned,apam,512.42
 2021,us,DC,Returned,funds,6661.44
 2021,us,DC,Returned,comment,
-2021,us,DC,Foundation,donations,32.0
-2021,us,DC,Foundation,funds,2647.0
+2021,us,DC,Foundation,donations,32
+2021,us,DC,Foundation,funds,2647
 2021,us,DC,Foundation,ada,82.72
 2021,us,DC,Foundation,comment,
-2021,us,FL,New,regos,1666.0
-2021,us,FL,New,active,369.0
+2021,us,FL,New,regos,1666
+2021,us,FL,New,active,369
 2021,us,FL,New,apam,230.2
 2021,us,FL,New,funds,84944.46
 2021,us,FL,New,comment,
-2021,us,FL,Retained,regos_total_prior,2168.0
-2021,us,FL,Retained,regos,393.0
-2021,us,FL,Retained,active,230.0
+2021,us,FL,Retained,regos_total_prior,2168
+2021,us,FL,Retained,regos,393
+2021,us,FL,Retained,active,230
 2021,us,FL,Retained,apam,766.35
 2021,us,FL,Retained,funds,176259.44
 2021,us,FL,Retained,comment,
-2021,us,FL,Retained,regos_total_curnt,2272.0
-2021,us,FL,Returned,regos,213.0
-2021,us,FL,Returned,active,65.0
+2021,us,FL,Retained,regos_total_curnt,2272
+2021,us,FL,Returned,regos,213
+2021,us,FL,Returned,active,65
 2021,us,FL,Returned,apam,406.72
 2021,us,FL,Returned,funds,26436.85
 2021,us,FL,Returned,comment,
-2021,us,FL,Foundation,donations,339.0
+2021,us,FL,Foundation,donations,339
 2021,us,FL,Foundation,funds,30689.69
 2021,us,FL,Foundation,ada,90.53
 2021,us,FL,Foundation,comment,
-2021,us,GA,New,regos,843.0
-2021,us,GA,New,active,152.0
+2021,us,GA,New,regos,843
+2021,us,GA,New,active,152
 2021,us,GA,New,apam,271.62
 2021,us,GA,New,funds,41285.51
 2021,us,GA,New,comment,
-2021,us,GA,Retained,regos_total_prior,1226.0
-2021,us,GA,Retained,regos,207.0
-2021,us,GA,Retained,active,127.0
+2021,us,GA,Retained,regos_total_prior,1226
+2021,us,GA,Retained,regos,207
+2021,us,GA,Retained,active,127
 2021,us,GA,Retained,apam,865.83
 2021,us,GA,Retained,funds,109960.54
 2021,us,GA,Retained,comment,
-2021,us,GA,Retained,regos_total_curnt,1159.0
-2021,us,GA,Returned,regos,109.0
-2021,us,GA,Returned,active,24.0
+2021,us,GA,Retained,regos_total_curnt,1159
+2021,us,GA,Returned,regos,109
+2021,us,GA,Returned,active,24
 2021,us,GA,Returned,apam,388.83
-2021,us,GA,Returned,funds,9332.0
+2021,us,GA,Returned,funds,9332
 2021,us,GA,Returned,comment,
-2021,us,GA,Foundation,donations,136.0
+2021,us,GA,Foundation,donations,136
 2021,us,GA,Foundation,funds,19362.86
 2021,us,GA,Foundation,ada,142.37
 2021,us,GA,Foundation,comment,
-2021,us,IL,New,regos,1579.0
-2021,us,IL,New,active,456.0
+2021,us,IL,New,regos,1579
+2021,us,IL,New,active,456
 2021,us,IL,New,apam,329.82
 2021,us,IL,New,funds,150396.41
 2021,us,IL,New,comment,
-2021,us,IL,Retained,regos_total_prior,2477.0
-2021,us,IL,Retained,regos,529.0
-2021,us,IL,Retained,active,349.0
+2021,us,IL,Retained,regos_total_prior,2477
+2021,us,IL,Retained,regos,529
+2021,us,IL,Retained,active,349
 2021,us,IL,Retained,apam,893.05
 2021,us,IL,Retained,funds,311675.3
 2021,us,IL,Retained,comment,
-2021,us,IL,Retained,regos_total_curnt,2370.0
-2021,us,IL,Returned,regos,262.0
-2021,us,IL,Returned,active,103.0
+2021,us,IL,Retained,regos_total_curnt,2370
+2021,us,IL,Returned,regos,262
+2021,us,IL,Returned,active,103
 2021,us,IL,Returned,apam,417.51
 2021,us,IL,Returned,funds,43003.9
 2021,us,IL,Returned,comment,
-2021,us,IL,Foundation,donations,347.0
+2021,us,IL,Foundation,donations,347
 2021,us,IL,Foundation,funds,32667.07
 2021,us,IL,Foundation,ada,94.14
 2021,us,IL,Foundation,comment,
-2021,us,MA,New,regos,1830.0
-2021,us,MA,New,active,602.0
+2021,us,MA,New,regos,1830
+2021,us,MA,New,active,602
 2021,us,MA,New,apam,304.47
 2021,us,MA,New,funds,183289.77
 2021,us,MA,New,comment,
-2021,us,MA,Retained,regos_total_prior,2589.0
-2021,us,MA,Retained,regos,647.0
-2021,us,MA,Retained,active,440.0
+2021,us,MA,Retained,regos_total_prior,2589
+2021,us,MA,Retained,regos,647
+2021,us,MA,Retained,active,440
 2021,us,MA,Retained,apam,896.2
 2021,us,MA,Retained,funds,394325.98
 2021,us,MA,Retained,comment,
-2021,us,MA,Retained,regos_total_curnt,2708.0
-2021,us,MA,Returned,regos,231.0
-2021,us,MA,Returned,active,113.0
+2021,us,MA,Retained,regos_total_curnt,2708
+2021,us,MA,Returned,regos,231
+2021,us,MA,Returned,active,113
 2021,us,MA,Returned,apam,553.34
 2021,us,MA,Returned,funds,62527.98
 2021,us,MA,Returned,comment,
-2021,us,MA,Foundation,donations,352.0
+2021,us,MA,Foundation,donations,352
 2021,us,MA,Foundation,funds,35669.47
 2021,us,MA,Foundation,ada,101.33
 2021,us,MA,Foundation,comment,
-2021,us,MN,New,regos,714.0
-2021,us,MN,New,active,154.0
+2021,us,MN,New,regos,714
+2021,us,MN,New,active,154
 2021,us,MN,New,apam,319.22
 2021,us,MN,New,funds,49160.4
 2021,us,MN,New,comment,
-2021,us,MN,Retained,regos_total_prior,1029.0
-2021,us,MN,Retained,regos,241.0
-2021,us,MN,Retained,active,163.0
+2021,us,MN,Retained,regos_total_prior,1029
+2021,us,MN,Retained,regos,241
+2021,us,MN,Retained,active,163
 2021,us,MN,Retained,apam,944.55
 2021,us,MN,Retained,funds,153961.11
 2021,us,MN,Retained,comment,
-2021,us,MN,Retained,regos_total_curnt,1089.0
-2021,us,MN,Returned,regos,134.0
-2021,us,MN,Returned,active,48.0
+2021,us,MN,Retained,regos_total_curnt,1089
+2021,us,MN,Returned,regos,134
+2021,us,MN,Returned,active,48
 2021,us,MN,Returned,apam,352.82
 2021,us,MN,Returned,funds,16935.57
 2021,us,MN,Returned,comment,
-2021,us,MN,Foundation,donations,134.0
-2021,us,MN,Foundation,funds,30911.0
+2021,us,MN,Foundation,donations,134
+2021,us,MN,Foundation,funds,30911
 2021,us,MN,Foundation,ada,230.68
 2021,us,MN,Foundation,comment,
-2021,us,NJ,New,regos,1451.0
-2021,us,NJ,New,active,432.0
+2021,us,NJ,New,regos,1451
+2021,us,NJ,New,active,432
 2021,us,NJ,New,apam,454.72
 2021,us,NJ,New,funds,196438.84
 2021,us,NJ,New,comment,
-2021,us,NJ,Retained,regos_total_prior,2456.0
-2021,us,NJ,Retained,regos,605.0
-2021,us,NJ,Retained,active,384.0
+2021,us,NJ,Retained,regos_total_prior,2456
+2021,us,NJ,Retained,regos,605
+2021,us,NJ,Retained,active,384
 2021,us,NJ,Retained,apam,716.07
 2021,us,NJ,Retained,funds,274972.46
 2021,us,NJ,Retained,comment,
-2021,us,NJ,Retained,regos_total_curnt,2331.0
-2021,us,NJ,Returned,regos,275.0
-2021,us,NJ,Returned,active,118.0
+2021,us,NJ,Retained,regos_total_curnt,2331
+2021,us,NJ,Returned,regos,275
+2021,us,NJ,Returned,active,118
 2021,us,NJ,Returned,apam,341.3
 2021,us,NJ,Returned,funds,40272.93
 2021,us,NJ,Returned,comment,
-2021,us,NJ,Foundation,donations,415.0
+2021,us,NJ,Foundation,donations,415
 2021,us,NJ,Foundation,funds,30099.51
 2021,us,NJ,Foundation,ada,72.53
 2021,us,NJ,Foundation,comment,
-2021,us,NY,New,regos,2580.0
-2021,us,NY,New,active,755.0
+2021,us,NY,New,regos,2580
+2021,us,NY,New,active,755
 2021,us,NY,New,apam,375.16
 2021,us,NY,New,funds,283246.15
 2021,us,NY,New,comment,
-2021,us,NY,Retained,regos_total_prior,4242.0
-2021,us,NY,Retained,regos,984.0
-2021,us,NY,Retained,active,626.0
+2021,us,NY,Retained,regos_total_prior,4242
+2021,us,NY,Retained,regos,984
+2021,us,NY,Retained,active,626
 2021,us,NY,Retained,apam,1005.64
 2021,us,NY,Retained,funds,629529.79
 2021,us,NY,Retained,comment,
-2021,us,NY,Retained,regos_total_curnt,4052.0
-2021,us,NY,Returned,regos,488.0
-2021,us,NY,Returned,active,195.0
+2021,us,NY,Retained,regos_total_curnt,4052
+2021,us,NY,Returned,regos,488
+2021,us,NY,Returned,active,195
 2021,us,NY,Returned,apam,462.45
 2021,us,NY,Returned,funds,90177.23
 2021,us,NY,Returned,comment,
-2021,us,NY,Foundation,donations,595.0
+2021,us,NY,Foundation,donations,595
 2021,us,NY,Foundation,funds,68430.11
 2021,us,NY,Foundation,ada,115.01
 2021,us,NY,Foundation,comment,
-2021,us,OH,New,regos,1300.0
-2021,us,OH,New,active,245.0
+2021,us,OH,New,regos,1300
+2021,us,OH,New,active,245
 2021,us,OH,New,apam,221.01
 2021,us,OH,New,funds,54147.68
 2021,us,OH,New,comment,
-2021,us,OH,Retained,regos_total_prior,1656.0
-2021,us,OH,Retained,regos,322.0
-2021,us,OH,Retained,active,178.0
+2021,us,OH,Retained,regos_total_prior,1656
+2021,us,OH,Retained,regos,322
+2021,us,OH,Retained,active,178
 2021,us,OH,Retained,apam,713.6
 2021,us,OH,Retained,funds,127020.78
 2021,us,OH,Retained,comment,
-2021,us,OH,Retained,regos_total_curnt,1779.0
-2021,us,OH,Returned,regos,157.0
-2021,us,OH,Returned,active,59.0
+2021,us,OH,Retained,regos_total_curnt,1779
+2021,us,OH,Returned,regos,157
+2021,us,OH,Returned,active,59
 2021,us,OH,Returned,apam,256.66
 2021,us,OH,Returned,funds,15143.14
 2021,us,OH,Returned,comment,
-2021,us,OH,Foundation,donations,196.0
+2021,us,OH,Foundation,donations,196
 2021,us,OH,Foundation,funds,15455.66
 2021,us,OH,Foundation,ada,78.86
 2021,us,OH,Foundation,comment,
-2021,us,PA,New,regos,1831.0
-2021,us,PA,New,active,436.0
+2021,us,PA,New,regos,1831
+2021,us,PA,New,active,436
 2021,us,PA,New,apam,220.54
 2021,us,PA,New,funds,96155.53
 2021,us,PA,New,comment,
-2021,us,PA,Retained,regos_total_prior,2230.0
-2021,us,PA,Retained,regos,498.0
-2021,us,PA,Retained,active,293.0
+2021,us,PA,Retained,regos_total_prior,2230
+2021,us,PA,Retained,regos,498
+2021,us,PA,Retained,active,293
 2021,us,PA,Retained,apam,937.56
 2021,us,PA,Retained,funds,274704.12
 2021,us,PA,Retained,comment,
-2021,us,PA,Retained,regos_total_curnt,2549.0
-2021,us,PA,Returned,regos,220.0
-2021,us,PA,Returned,active,81.0
+2021,us,PA,Retained,regos_total_curnt,2549
+2021,us,PA,Returned,regos,220
+2021,us,PA,Returned,active,81
 2021,us,PA,Returned,apam,381.39
 2021,us,PA,Returned,funds,30892.4
 2021,us,PA,Returned,comment,
-2021,us,PA,Foundation,donations,280.0
+2021,us,PA,Foundation,donations,280
 2021,us,PA,Foundation,funds,28170.23
 2021,us,PA,Foundation,ada,100.61
 2021,us,PA,Foundation,comment,
-2021,us,TX,New,regos,2513.0
-2021,us,TX,New,active,575.0
+2021,us,TX,New,regos,2513
+2021,us,TX,New,active,575
 2021,us,TX,New,apam,238.67
 2021,us,TX,New,funds,137236.15
 2021,us,TX,New,comment,
-2021,us,TX,Retained,regos_total_prior,3677.0
-2021,us,TX,Retained,regos,676.0
-2021,us,TX,Retained,active,382.0
+2021,us,TX,Retained,regos_total_prior,3677
+2021,us,TX,Retained,regos,676
+2021,us,TX,Retained,active,382
 2021,us,TX,Retained,apam,997.98
 2021,us,TX,Retained,funds,381227.1
 2021,us,TX,Retained,comment,
-2021,us,TX,Retained,regos_total_curnt,3516.0
-2021,us,TX,Returned,regos,327.0
-2021,us,TX,Returned,active,124.0
+2021,us,TX,Retained,regos_total_curnt,3516
+2021,us,TX,Returned,regos,327
+2021,us,TX,Returned,active,124
 2021,us,TX,Returned,apam,286.09
 2021,us,TX,Returned,funds,35474.81
 2021,us,TX,Returned,comment,
-2021,us,TX,Foundation,donations,339.0
+2021,us,TX,Foundation,donations,339
 2021,us,TX,Foundation,funds,33240.01
 2021,us,TX,Foundation,ada,98.05
 2021,us,TX,Foundation,comment,
-2021,us,WA,New,regos,1245.0
-2021,us,WA,New,active,226.0
+2021,us,WA,New,regos,1245
+2021,us,WA,New,active,226
 2021,us,WA,New,apam,254.64
 2021,us,WA,New,funds,57549.2
 2021,us,WA,New,comment,
-2021,us,WA,Retained,regos_total_prior,1779.0
-2021,us,WA,Retained,regos,326.0
-2021,us,WA,Retained,active,209.0
+2021,us,WA,Retained,regos_total_prior,1779
+2021,us,WA,Retained,regos,326
+2021,us,WA,Retained,active,209
 2021,us,WA,Retained,apam,916.04
 2021,us,WA,Retained,funds,191452.96
 2021,us,WA,Retained,comment,
-2021,us,WA,Retained,regos_total_curnt,1757.0
-2021,us,WA,Returned,regos,186.0
-2021,us,WA,Returned,active,66.0
+2021,us,WA,Retained,regos_total_curnt,1757
+2021,us,WA,Returned,regos,186
+2021,us,WA,Returned,active,66
 2021,us,WA,Returned,apam,455.24
 2021,us,WA,Returned,funds,30045.88
 2021,us,WA,Returned,comment,
-2021,us,WA,Foundation,donations,207.0
+2021,us,WA,Foundation,donations,207
 2021,us,WA,Foundation,funds,20502.57
 2021,us,WA,Foundation,ada,99.05
 2021,us,WA,Foundation,comment,
-2021,us,Other,New,regos,18102.0
-2021,us,Other,New,active,4921.0
+2021,us,Other,New,regos,18102
+2021,us,Other,New,active,4921
 2021,us,Other,New,apam,304.55
 2021,us,Other,New,funds,1498696.51
 2021,us,Other,New,comment,
-2021,us,Other,Retained,regos_total_prior,27160.0
-2021,us,Other,Retained,regos,4004.0
-2021,us,Other,Retained,active,2423.0
+2021,us,Other,Retained,regos_total_prior,27160
+2021,us,Other,Retained,regos,4004
+2021,us,Other,Retained,active,2423
 2021,us,Other,Retained,apam,760.62
 2021,us,Other,Retained,funds,1842981.88
 2021,us,Other,Retained,comment,
-2021,us,Other,Retained,regos_total_curnt,52696.0
-2021,us,Other,Returned,regos,30590.0
-2021,us,Other,Returned,active,2426.0
+2021,us,Other,Retained,regos_total_curnt,52696
+2021,us,Other,Returned,regos,30590
+2021,us,Other,Returned,active,2426
 2021,us,Other,Returned,apam,934.2
 2021,us,Other,Returned,funds,2266363.46
 2021,us,Other,Returned,comment,
-2021,us,Other,Foundation,donations,4675.0
+2021,us,Other,Foundation,donations,4675
 2021,us,Other,Foundation,funds,1115733.16
 2021,us,Other,Foundation,ada,238.66
 2021,us,Other,Foundation,comment,
-2021,ie,Total,New,regos,9520.0
-2021,ie,Total,New,active,4747.0
+2021,ie,Total,New,regos,9520
+2021,ie,Total,New,active,4747
 2021,ie,Total,New,apam,309.19
 2021,ie,Total,New,funds,1467705.3
 2021,ie,Total,New,comment,
-2021,ie,Total,Retained,regos_total_prior,22130.0
-2021,ie,Total,Retained,regos,2807.0
-2021,ie,Total,Retained,active,1602.0
+2021,ie,Total,Retained,regos_total_prior,22130
+2021,ie,Total,Retained,regos,2807
+2021,ie,Total,Retained,active,1602
 2021,ie,Total,Retained,apam,361.28
 2021,ie,Total,Retained,funds,578770.92
 2021,ie,Total,Retained,comment,
-2021,ie,Total,Retained,regos_total_curnt,17133.0
-2021,ie,Total,Returned,regos,4806.0
-2021,ie,Total,Returned,active,775.0
+2021,ie,Total,Retained,regos_total_curnt,17133
+2021,ie,Total,Returned,regos,4806
+2021,ie,Total,Returned,active,775
 2021,ie,Total,Returned,apam,423.53
 2021,ie,Total,Returned,funds,328234.13
 2021,ie,Total,Returned,comment,
-2021,ie,Total,Foundation,donations,1363.0
+2021,ie,Total,Foundation,donations,1363
 2021,ie,Total,Foundation,funds,168949.05
 2021,ie,Total,Foundation,ada,123.95
 2021,ie,Total,Foundation,comment,
-2021,ie,Carlow,New,regos,103.0
-2021,ie,Carlow,New,active,48.0
+2021,ie,Carlow,New,regos,103
+2021,ie,Carlow,New,active,48
 2021,ie,Carlow,New,apam,241.72
 2021,ie,Carlow,New,funds,11602.71
 2021,ie,Carlow,New,comment,
-2021,ie,Carlow,Retained,regos_total_prior,193.0
-2021,ie,Carlow,Retained,regos,30.0
-2021,ie,Carlow,Retained,active,21.0
+2021,ie,Carlow,Retained,regos_total_prior,193
+2021,ie,Carlow,Retained,regos,30
+2021,ie,Carlow,Retained,active,21
 2021,ie,Carlow,Retained,apam,311.43
-2021,ie,Carlow,Retained,funds,6540.0
+2021,ie,Carlow,Retained,funds,6540
 2021,ie,Carlow,Retained,comment,
-2021,ie,Carlow,Retained,regos_total_curnt,136.0
-2021,ie,Carlow,Returned,regos,3.0
-2021,ie,Carlow,Returned,active,1.0
-2021,ie,Carlow,Returned,apam,270.0
-2021,ie,Carlow,Returned,funds,270.0
+2021,ie,Carlow,Retained,regos_total_curnt,136
+2021,ie,Carlow,Returned,regos,3
+2021,ie,Carlow,Returned,active,1
+2021,ie,Carlow,Returned,apam,270
+2021,ie,Carlow,Returned,funds,270
 2021,ie,Carlow,Returned,comment,
-2021,ie,Carlow,Foundation,donations,2.0
-2021,ie,Carlow,Foundation,funds,75.0
+2021,ie,Carlow,Foundation,donations,2
+2021,ie,Carlow,Foundation,funds,75
 2021,ie,Carlow,Foundation,ada,37.5
 2021,ie,Carlow,Foundation,comment,
-2021,ie,Cavan,New,regos,128.0
-2021,ie,Cavan,New,active,70.0
+2021,ie,Cavan,New,regos,128
+2021,ie,Cavan,New,active,70
 2021,ie,Cavan,New,apam,342.8
 2021,ie,Cavan,New,funds,23996.26
 2021,ie,Cavan,New,comment,
-2021,ie,Cavan,Retained,regos_total_prior,188.0
-2021,ie,Cavan,Retained,regos,29.0
-2021,ie,Cavan,Retained,active,21.0
+2021,ie,Cavan,Retained,regos_total_prior,188
+2021,ie,Cavan,Retained,regos,29
+2021,ie,Cavan,Retained,active,21
 2021,ie,Cavan,Retained,apam,349.81
-2021,ie,Cavan,Retained,funds,7346.0
+2021,ie,Cavan,Retained,funds,7346
 2021,ie,Cavan,Retained,comment,
-2021,ie,Cavan,Retained,regos_total_curnt,165.0
-2021,ie,Cavan,Returned,regos,8.0
-2021,ie,Cavan,Returned,active,2.0
+2021,ie,Cavan,Retained,regos_total_curnt,165
+2021,ie,Cavan,Returned,regos,8
+2021,ie,Cavan,Returned,active,2
 2021,ie,Cavan,Returned,apam,347.5
-2021,ie,Cavan,Returned,funds,695.0
+2021,ie,Cavan,Returned,funds,695
 2021,ie,Cavan,Returned,comment,
-2021,ie,Cavan,Foundation,donations,3.0
-2021,ie,Cavan,Foundation,funds,50.0
+2021,ie,Cavan,Foundation,donations,3
+2021,ie,Cavan,Foundation,funds,50
 2021,ie,Cavan,Foundation,ada,16.67
 2021,ie,Cavan,Foundation,comment,
-2021,ie,Clare,New,regos,131.0
-2021,ie,Clare,New,active,63.0
+2021,ie,Clare,New,regos,131
+2021,ie,Clare,New,active,63
 2021,ie,Clare,New,apam,270.75
 2021,ie,Clare,New,funds,17056.96
 2021,ie,Clare,New,comment,
-2021,ie,Clare,Retained,regos_total_prior,372.0
-2021,ie,Clare,Retained,regos,38.0
-2021,ie,Clare,Retained,active,24.0
+2021,ie,Clare,Retained,regos_total_prior,372
+2021,ie,Clare,Retained,regos,38
+2021,ie,Clare,Retained,active,24
 2021,ie,Clare,Retained,apam,266.73
 2021,ie,Clare,Retained,funds,6401.6
 2021,ie,Clare,Retained,comment,
-2021,ie,Clare,Retained,regos_total_curnt,180.0
-2021,ie,Clare,Returned,regos,11.0
-2021,ie,Clare,Returned,active,6.0
+2021,ie,Clare,Retained,regos_total_curnt,180
+2021,ie,Clare,Returned,regos,11
+2021,ie,Clare,Returned,active,6
 2021,ie,Clare,Returned,apam,399.5
-2021,ie,Clare,Returned,funds,2397.0
+2021,ie,Clare,Returned,funds,2397
 2021,ie,Clare,Returned,comment,
-2021,ie,Clare,Foundation,donations,2.0
-2021,ie,Clare,Foundation,funds,76.0
-2021,ie,Clare,Foundation,ada,38.0
+2021,ie,Clare,Foundation,donations,2
+2021,ie,Clare,Foundation,funds,76
+2021,ie,Clare,Foundation,ada,38
 2021,ie,Clare,Foundation,comment,
-2021,ie,Cork,New,regos,1009.0
-2021,ie,Cork,New,active,461.0
+2021,ie,Cork,New,regos,1009
+2021,ie,Cork,New,active,461
 2021,ie,Cork,New,apam,256.36
 2021,ie,Cork,New,funds,118182.22
 2021,ie,Cork,New,comment,
-2021,ie,Cork,Retained,regos_total_prior,2465.0
-2021,ie,Cork,Retained,regos,345.0
-2021,ie,Cork,Retained,active,187.0
+2021,ie,Cork,Retained,regos_total_prior,2465
+2021,ie,Cork,Retained,regos,345
+2021,ie,Cork,Retained,active,187
 2021,ie,Cork,Retained,apam,249.49
 2021,ie,Cork,Retained,funds,46654.76
 2021,ie,Cork,Retained,comment,
-2021,ie,Cork,Retained,regos_total_curnt,1482.0
-2021,ie,Cork,Returned,regos,128.0
-2021,ie,Cork,Returned,active,68.0
+2021,ie,Cork,Retained,regos_total_curnt,1482
+2021,ie,Cork,Returned,regos,128
+2021,ie,Cork,Returned,active,68
 2021,ie,Cork,Returned,apam,349.29
 2021,ie,Cork,Returned,funds,23751.55
 2021,ie,Cork,Returned,comment,
-2021,ie,Cork,Foundation,donations,27.0
-2021,ie,Cork,Foundation,funds,2200.0
+2021,ie,Cork,Foundation,donations,27
+2021,ie,Cork,Foundation,funds,2200
 2021,ie,Cork,Foundation,ada,81.48
 2021,ie,Cork,Foundation,comment,
-2021,ie,Donegal,New,regos,156.0
-2021,ie,Donegal,New,active,72.0
+2021,ie,Donegal,New,regos,156
+2021,ie,Donegal,New,active,72
 2021,ie,Donegal,New,apam,253.51
 2021,ie,Donegal,New,funds,18252.79
 2021,ie,Donegal,New,comment,
-2021,ie,Donegal,Retained,regos_total_prior,317.0
-2021,ie,Donegal,Retained,regos,31.0
-2021,ie,Donegal,Retained,active,19.0
+2021,ie,Donegal,Retained,regos_total_prior,317
+2021,ie,Donegal,Retained,regos,31
+2021,ie,Donegal,Retained,active,19
 2021,ie,Donegal,Retained,apam,289.48
 2021,ie,Donegal,Retained,funds,5500.1
 2021,ie,Donegal,Retained,comment,
-2021,ie,Donegal,Retained,regos_total_curnt,205.0
-2021,ie,Donegal,Returned,regos,18.0
-2021,ie,Donegal,Returned,active,6.0
+2021,ie,Donegal,Retained,regos_total_curnt,205
+2021,ie,Donegal,Returned,regos,18
+2021,ie,Donegal,Returned,active,6
 2021,ie,Donegal,Returned,apam,399.94
 2021,ie,Donegal,Returned,funds,2399.61
 2021,ie,Donegal,Returned,comment,
-2021,ie,Donegal,Foundation,donations,5.0
-2021,ie,Donegal,Foundation,funds,1805.0
-2021,ie,Donegal,Foundation,ada,361.0
+2021,ie,Donegal,Foundation,donations,5
+2021,ie,Donegal,Foundation,funds,1805
+2021,ie,Donegal,Foundation,ada,361
 2021,ie,Donegal,Foundation,comment,
-2021,ie,Dublin,New,regos,2992.0
-2021,ie,Dublin,New,active,1445.0
+2021,ie,Dublin,New,regos,2992
+2021,ie,Dublin,New,active,1445
 2021,ie,Dublin,New,apam,313.15
 2021,ie,Dublin,New,funds,452497.41
 2021,ie,Dublin,New,comment,
-2021,ie,Dublin,Retained,regos_total_prior,7500.0
-2021,ie,Dublin,Retained,regos,1191.0
-2021,ie,Dublin,Retained,active,669.0
+2021,ie,Dublin,Retained,regos_total_prior,7500
+2021,ie,Dublin,Retained,regos,1191
+2021,ie,Dublin,Retained,active,669
 2021,ie,Dublin,Retained,apam,468.36
 2021,ie,Dublin,Retained,funds,313335.87
 2021,ie,Dublin,Retained,comment,
-2021,ie,Dublin,Retained,regos_total_curnt,4548.0
-2021,ie,Dublin,Returned,regos,365.0
-2021,ie,Dublin,Returned,active,197.0
+2021,ie,Dublin,Retained,regos_total_curnt,4548
+2021,ie,Dublin,Returned,regos,365
+2021,ie,Dublin,Returned,active,197
 2021,ie,Dublin,Returned,apam,297.8
 2021,ie,Dublin,Returned,funds,58666.33
 2021,ie,Dublin,Returned,comment,
-2021,ie,Dublin,Foundation,donations,59.0
+2021,ie,Dublin,Foundation,donations,59
 2021,ie,Dublin,Foundation,funds,2309.53
 2021,ie,Dublin,Foundation,ada,39.14
 2021,ie,Dublin,Foundation,comment,
-2021,ie,Galway,New,regos,371.0
-2021,ie,Galway,New,active,176.0
+2021,ie,Galway,New,regos,371
+2021,ie,Galway,New,active,176
 2021,ie,Galway,New,apam,240.16
 2021,ie,Galway,New,funds,42268.98
 2021,ie,Galway,New,comment,
-2021,ie,Galway,Retained,regos_total_prior,924.0
-2021,ie,Galway,Retained,regos,90.0
-2021,ie,Galway,Retained,active,45.0
+2021,ie,Galway,Retained,regos_total_prior,924
+2021,ie,Galway,Retained,regos,90
+2021,ie,Galway,Retained,active,45
 2021,ie,Galway,Retained,apam,239.55
 2021,ie,Galway,Retained,funds,10779.89
 2021,ie,Galway,Retained,comment,
-2021,ie,Galway,Retained,regos_total_curnt,511.0
-2021,ie,Galway,Returned,regos,50.0
-2021,ie,Galway,Returned,active,27.0
+2021,ie,Galway,Retained,regos_total_curnt,511
+2021,ie,Galway,Returned,regos,50
+2021,ie,Galway,Returned,active,27
 2021,ie,Galway,Returned,apam,292.4
 2021,ie,Galway,Returned,funds,7894.85
 2021,ie,Galway,Returned,comment,
-2021,ie,Galway,Foundation,donations,11.0
-2021,ie,Galway,Foundation,funds,275.0
-2021,ie,Galway,Foundation,ada,25.0
+2021,ie,Galway,Foundation,donations,11
+2021,ie,Galway,Foundation,funds,275
+2021,ie,Galway,Foundation,ada,25
 2021,ie,Galway,Foundation,comment,
-2021,ie,Kerry,New,regos,187.0
-2021,ie,Kerry,New,active,77.0
+2021,ie,Kerry,New,regos,187
+2021,ie,Kerry,New,active,77
 2021,ie,Kerry,New,apam,259.64
 2021,ie,Kerry,New,funds,19992.3
 2021,ie,Kerry,New,comment,
-2021,ie,Kerry,Retained,regos_total_prior,402.0
-2021,ie,Kerry,Retained,regos,48.0
-2021,ie,Kerry,Retained,active,22.0
+2021,ie,Kerry,Retained,regos_total_prior,402
+2021,ie,Kerry,Retained,regos,48
+2021,ie,Kerry,Retained,active,22
 2021,ie,Kerry,Retained,apam,115.77
-2021,ie,Kerry,Retained,funds,2547.0
+2021,ie,Kerry,Retained,funds,2547
 2021,ie,Kerry,Retained,comment,
-2021,ie,Kerry,Retained,regos_total_curnt,248.0
-2021,ie,Kerry,Returned,regos,13.0
-2021,ie,Kerry,Returned,active,8.0
+2021,ie,Kerry,Retained,regos_total_curnt,248
+2021,ie,Kerry,Returned,regos,13
+2021,ie,Kerry,Returned,active,8
 2021,ie,Kerry,Returned,apam,586.25
-2021,ie,Kerry,Returned,funds,4690.0
+2021,ie,Kerry,Returned,funds,4690
 2021,ie,Kerry,Returned,comment,
-2021,ie,Kerry,Foundation,donations,6.0
-2021,ie,Kerry,Foundation,funds,172.0
+2021,ie,Kerry,Foundation,donations,6
+2021,ie,Kerry,Foundation,funds,172
 2021,ie,Kerry,Foundation,ada,28.67
 2021,ie,Kerry,Foundation,comment,
-2021,ie,Kildare,New,regos,396.0
-2021,ie,Kildare,New,active,214.0
+2021,ie,Kildare,New,regos,396
+2021,ie,Kildare,New,active,214
 2021,ie,Kildare,New,apam,311.65
 2021,ie,Kildare,New,funds,66692.98
 2021,ie,Kildare,New,comment,
-2021,ie,Kildare,Retained,regos_total_prior,858.0
-2021,ie,Kildare,Retained,regos,137.0
-2021,ie,Kildare,Retained,active,91.0
+2021,ie,Kildare,Retained,regos_total_prior,858
+2021,ie,Kildare,Retained,regos,137
+2021,ie,Kildare,Retained,active,91
 2021,ie,Kildare,Retained,apam,332.05
 2021,ie,Kildare,Retained,funds,30216.57
 2021,ie,Kildare,Retained,comment,
-2021,ie,Kildare,Retained,regos_total_curnt,585.0
-2021,ie,Kildare,Returned,regos,52.0
-2021,ie,Kildare,Returned,active,28.0
+2021,ie,Kildare,Retained,regos_total_curnt,585
+2021,ie,Kildare,Returned,regos,52
+2021,ie,Kildare,Returned,active,28
 2021,ie,Kildare,Returned,apam,346.52
 2021,ie,Kildare,Returned,funds,9702.52
 2021,ie,Kildare,Returned,comment,
-2021,ie,Kildare,Foundation,donations,17.0
-2021,ie,Kildare,Foundation,funds,505.0
+2021,ie,Kildare,Foundation,donations,17
+2021,ie,Kildare,Foundation,funds,505
 2021,ie,Kildare,Foundation,ada,29.71
 2021,ie,Kildare,Foundation,comment,
-2021,ie,Kilkenny,New,regos,106.0
-2021,ie,Kilkenny,New,active,52.0
+2021,ie,Kilkenny,New,regos,106
+2021,ie,Kilkenny,New,active,52
 2021,ie,Kilkenny,New,apam,328.8
 2021,ie,Kilkenny,New,funds,17097.81
 2021,ie,Kilkenny,New,comment,
-2021,ie,Kilkenny,Retained,regos_total_prior,262.0
-2021,ie,Kilkenny,Retained,regos,34.0
-2021,ie,Kilkenny,Retained,active,17.0
-2021,ie,Kilkenny,Retained,apam,244.0
-2021,ie,Kilkenny,Retained,funds,4148.0
+2021,ie,Kilkenny,Retained,regos_total_prior,262
+2021,ie,Kilkenny,Retained,regos,34
+2021,ie,Kilkenny,Retained,active,17
+2021,ie,Kilkenny,Retained,apam,244
+2021,ie,Kilkenny,Retained,funds,4148
 2021,ie,Kilkenny,Retained,comment,
-2021,ie,Kilkenny,Retained,regos_total_curnt,149.0
-2021,ie,Kilkenny,Returned,regos,9.0
-2021,ie,Kilkenny,Returned,active,3.0
+2021,ie,Kilkenny,Retained,regos_total_curnt,149
+2021,ie,Kilkenny,Returned,regos,9
+2021,ie,Kilkenny,Returned,active,3
 2021,ie,Kilkenny,Returned,apam,551.54
 2021,ie,Kilkenny,Returned,funds,1654.63
 2021,ie,Kilkenny,Returned,comment,
-2021,ie,Kilkenny,Foundation,donations,5.0
-2021,ie,Kilkenny,Foundation,funds,135.0
-2021,ie,Kilkenny,Foundation,ada,27.0
+2021,ie,Kilkenny,Foundation,donations,5
+2021,ie,Kilkenny,Foundation,funds,135
+2021,ie,Kilkenny,Foundation,ada,27
 2021,ie,Kilkenny,Foundation,comment,
-2021,ie,Laois,New,regos,4.0
-2021,ie,Laois,New,active,0.0
-2021,ie,Laois,New,apam,0.0
-2021,ie,Laois,New,funds,0.0
+2021,ie,Laois,New,regos,4
+2021,ie,Laois,New,active,0
+2021,ie,Laois,New,apam,0
+2021,ie,Laois,New,funds,0
 2021,ie,Laois,New,comment,
-2021,ie,Laois,Retained,regos_total_prior,12.0
-2021,ie,Laois,Retained,regos,1.0
-2021,ie,Laois,Retained,active,1.0
-2021,ie,Laois,Retained,apam,20.0
-2021,ie,Laois,Retained,funds,20.0
+2021,ie,Laois,Retained,regos_total_prior,12
+2021,ie,Laois,Retained,regos,1
+2021,ie,Laois,Retained,active,1
+2021,ie,Laois,Retained,apam,20
+2021,ie,Laois,Retained,funds,20
 2021,ie,Laois,Retained,comment,
-2021,ie,Laois,Retained,regos_total_curnt,5.0
-2021,ie,Laois,Returned,regos,0.0
-2021,ie,Laois,Returned,active,0.0
-2021,ie,Laois,Returned,apam,0.0
-2021,ie,Laois,Returned,funds,0.0
+2021,ie,Laois,Retained,regos_total_curnt,5
+2021,ie,Laois,Returned,regos,0
+2021,ie,Laois,Returned,active,0
+2021,ie,Laois,Returned,apam,0
+2021,ie,Laois,Returned,funds,0
 2021,ie,Laois,Returned,comment,
-2021,ie,Laois,Foundation,donations,2.0
-2021,ie,Laois,Foundation,funds,60.0
-2021,ie,Laois,Foundation,ada,30.0
+2021,ie,Laois,Foundation,donations,2
+2021,ie,Laois,Foundation,funds,60
+2021,ie,Laois,Foundation,ada,30
 2021,ie,Laois,Foundation,comment,
-2021,ie,Leitrim,New,regos,38.0
-2021,ie,Leitrim,New,active,19.0
+2021,ie,Leitrim,New,regos,38
+2021,ie,Leitrim,New,active,19
 2021,ie,Leitrim,New,apam,317.9
 2021,ie,Leitrim,New,funds,6040.13
 2021,ie,Leitrim,New,comment,
-2021,ie,Leitrim,Retained,regos_total_prior,76.0
-2021,ie,Leitrim,Retained,regos,11.0
-2021,ie,Leitrim,Retained,active,5.0
+2021,ie,Leitrim,Retained,regos_total_prior,76
+2021,ie,Leitrim,Retained,regos,11
+2021,ie,Leitrim,Retained,active,5
 2021,ie,Leitrim,Retained,apam,227.2
-2021,ie,Leitrim,Retained,funds,1136.0
+2021,ie,Leitrim,Retained,funds,1136
 2021,ie,Leitrim,Retained,comment,
-2021,ie,Leitrim,Retained,regos_total_curnt,54.0
-2021,ie,Leitrim,Returned,regos,5.0
-2021,ie,Leitrim,Returned,active,4.0
+2021,ie,Leitrim,Retained,regos_total_curnt,54
+2021,ie,Leitrim,Returned,regos,5
+2021,ie,Leitrim,Returned,active,4
 2021,ie,Leitrim,Returned,apam,283.46
 2021,ie,Leitrim,Returned,funds,1133.85
 2021,ie,Leitrim,Returned,comment,
-2021,ie,Leitrim,Foundation,donations,1.0
-2021,ie,Leitrim,Foundation,funds,60.0
-2021,ie,Leitrim,Foundation,ada,60.0
+2021,ie,Leitrim,Foundation,donations,1
+2021,ie,Leitrim,Foundation,funds,60
+2021,ie,Leitrim,Foundation,ada,60
 2021,ie,Leitrim,Foundation,comment,
-2021,ie,Limerick,New,regos,419.0
-2021,ie,Limerick,New,active,219.0
+2021,ie,Limerick,New,regos,419
+2021,ie,Limerick,New,active,219
 2021,ie,Limerick,New,apam,324.76
 2021,ie,Limerick,New,funds,71121.55
 2021,ie,Limerick,New,comment,
-2021,ie,Limerick,Retained,regos_total_prior,669.0
-2021,ie,Limerick,Retained,regos,101.0
-2021,ie,Limerick,Retained,active,61.0
+2021,ie,Limerick,Retained,regos_total_prior,669
+2021,ie,Limerick,Retained,regos,101
+2021,ie,Limerick,Retained,active,61
 2021,ie,Limerick,Retained,apam,295.68
 2021,ie,Limerick,Retained,funds,18036.29
 2021,ie,Limerick,Retained,comment,
-2021,ie,Limerick,Retained,regos_total_curnt,567.0
-2021,ie,Limerick,Returned,regos,47.0
-2021,ie,Limerick,Returned,active,27.0
+2021,ie,Limerick,Retained,regos_total_curnt,567
+2021,ie,Limerick,Returned,regos,47
+2021,ie,Limerick,Returned,active,27
 2021,ie,Limerick,Returned,apam,383.1
 2021,ie,Limerick,Returned,funds,10343.69
 2021,ie,Limerick,Returned,comment,
-2021,ie,Limerick,Foundation,donations,5.0
-2021,ie,Limerick,Foundation,funds,190.0
-2021,ie,Limerick,Foundation,ada,38.0
+2021,ie,Limerick,Foundation,donations,5
+2021,ie,Limerick,Foundation,funds,190
+2021,ie,Limerick,Foundation,ada,38
 2021,ie,Limerick,Foundation,comment,
-2021,ie,Longford,New,regos,52.0
-2021,ie,Longford,New,active,28.0
+2021,ie,Longford,New,regos,52
+2021,ie,Longford,New,active,28
 2021,ie,Longford,New,apam,208.2
 2021,ie,Longford,New,funds,5829.6
 2021,ie,Longford,New,comment,
-2021,ie,Longford,Retained,regos_total_prior,121.0
-2021,ie,Longford,Retained,regos,7.0
-2021,ie,Longford,Retained,active,2.0
+2021,ie,Longford,Retained,regos_total_prior,121
+2021,ie,Longford,Retained,regos,7
+2021,ie,Longford,Retained,active,2
 2021,ie,Longford,Retained,apam,362.5
-2021,ie,Longford,Retained,funds,725.0
+2021,ie,Longford,Retained,funds,725
 2021,ie,Longford,Retained,comment,
-2021,ie,Longford,Retained,regos_total_curnt,64.0
-2021,ie,Longford,Returned,regos,5.0
-2021,ie,Longford,Returned,active,5.0
+2021,ie,Longford,Retained,regos_total_curnt,64
+2021,ie,Longford,Returned,regos,5
+2021,ie,Longford,Returned,active,5
 2021,ie,Longford,Returned,apam,114.94
 2021,ie,Longford,Returned,funds,574.7
 2021,ie,Longford,Returned,comment,
-2021,ie,Longford,Foundation,donations,0.0
-2021,ie,Longford,Foundation,funds,0.0
-2021,ie,Longford,Foundation,ada,0.0
+2021,ie,Longford,Foundation,donations,0
+2021,ie,Longford,Foundation,funds,0
+2021,ie,Longford,Foundation,ada,0
 2021,ie,Longford,Foundation,comment,
-2021,ie,Louth,New,regos,200.0
-2021,ie,Louth,New,active,87.0
+2021,ie,Louth,New,regos,200
+2021,ie,Louth,New,active,87
 2021,ie,Louth,New,apam,288.97
 2021,ie,Louth,New,funds,25140.25
 2021,ie,Louth,New,comment,
-2021,ie,Louth,Retained,regos_total_prior,365.0
-2021,ie,Louth,Retained,regos,40.0
-2021,ie,Louth,Retained,active,19.0
+2021,ie,Louth,Retained,regos_total_prior,365
+2021,ie,Louth,Retained,regos,40
+2021,ie,Louth,Retained,active,19
 2021,ie,Louth,Retained,apam,276.79
-2021,ie,Louth,Retained,funds,5259.0
+2021,ie,Louth,Retained,funds,5259
 2021,ie,Louth,Retained,comment,
-2021,ie,Louth,Retained,regos_total_curnt,260.0
-2021,ie,Louth,Returned,regos,20.0
-2021,ie,Louth,Returned,active,12.0
+2021,ie,Louth,Retained,regos_total_curnt,260
+2021,ie,Louth,Returned,regos,20
+2021,ie,Louth,Returned,active,12
 2021,ie,Louth,Returned,apam,410.08
 2021,ie,Louth,Returned,funds,4920.99
 2021,ie,Louth,Returned,comment,
-2021,ie,Louth,Foundation,donations,8.0
-2021,ie,Louth,Foundation,funds,215.0
+2021,ie,Louth,Foundation,donations,8
+2021,ie,Louth,Foundation,funds,215
 2021,ie,Louth,Foundation,ada,26.88
 2021,ie,Louth,Foundation,comment,
-2021,ie,Mayo,New,regos,175.0
-2021,ie,Mayo,New,active,76.0
+2021,ie,Mayo,New,regos,175
+2021,ie,Mayo,New,active,76
 2021,ie,Mayo,New,apam,350.73
 2021,ie,Mayo,New,funds,26655.54
 2021,ie,Mayo,New,comment,
-2021,ie,Mayo,Retained,regos_total_prior,382.0
-2021,ie,Mayo,Retained,regos,36.0
-2021,ie,Mayo,Retained,active,21.0
+2021,ie,Mayo,Retained,regos_total_prior,382
+2021,ie,Mayo,Retained,regos,36
+2021,ie,Mayo,Retained,active,21
 2021,ie,Mayo,Retained,apam,286.52
 2021,ie,Mayo,Retained,funds,6016.9
 2021,ie,Mayo,Retained,comment,
-2021,ie,Mayo,Retained,regos_total_curnt,230.0
-2021,ie,Mayo,Returned,regos,19.0
-2021,ie,Mayo,Returned,active,12.0
+2021,ie,Mayo,Retained,regos_total_curnt,230
+2021,ie,Mayo,Returned,regos,19
+2021,ie,Mayo,Returned,active,12
 2021,ie,Mayo,Returned,apam,610.29
 2021,ie,Mayo,Returned,funds,7323.54
 2021,ie,Mayo,Returned,comment,
-2021,ie,Mayo,Foundation,donations,3.0
+2021,ie,Mayo,Foundation,donations,3
 2021,ie,Mayo,Foundation,funds,1464.5
 2021,ie,Mayo,Foundation,ada,488.17
 2021,ie,Mayo,Foundation,comment,
-2021,ie,Meath,New,regos,299.0
-2021,ie,Meath,New,active,144.0
+2021,ie,Meath,New,regos,299
+2021,ie,Meath,New,active,144
 2021,ie,Meath,New,apam,223.15
 2021,ie,Meath,New,funds,32133.85
 2021,ie,Meath,New,comment,
-2021,ie,Meath,Retained,regos_total_prior,670.0
-2021,ie,Meath,Retained,regos,88.0
-2021,ie,Meath,Retained,active,52.0
-2021,ie,Meath,Retained,apam,236.0
+2021,ie,Meath,Retained,regos_total_prior,670
+2021,ie,Meath,Retained,regos,88
+2021,ie,Meath,Retained,active,52
+2021,ie,Meath,Retained,apam,236
 2021,ie,Meath,Retained,funds,12272.08
 2021,ie,Meath,Retained,comment,
-2021,ie,Meath,Retained,regos_total_curnt,413.0
-2021,ie,Meath,Returned,regos,26.0
-2021,ie,Meath,Returned,active,14.0
+2021,ie,Meath,Retained,regos_total_curnt,413
+2021,ie,Meath,Returned,regos,26
+2021,ie,Meath,Returned,active,14
 2021,ie,Meath,Returned,apam,389.36
-2021,ie,Meath,Returned,funds,5451.0
+2021,ie,Meath,Returned,funds,5451
 2021,ie,Meath,Returned,comment,
-2021,ie,Meath,Foundation,donations,4.0
-2021,ie,Meath,Foundation,funds,110.0
+2021,ie,Meath,Foundation,donations,4
+2021,ie,Meath,Foundation,funds,110
 2021,ie,Meath,Foundation,ada,27.5
 2021,ie,Meath,Foundation,comment,
-2021,ie,Monaghan,New,regos,90.0
-2021,ie,Monaghan,New,active,51.0
+2021,ie,Monaghan,New,regos,90
+2021,ie,Monaghan,New,active,51
 2021,ie,Monaghan,New,apam,426.46
 2021,ie,Monaghan,New,funds,21749.32
 2021,ie,Monaghan,New,comment,
-2021,ie,Monaghan,Retained,regos_total_prior,195.0
-2021,ie,Monaghan,Retained,regos,15.0
-2021,ie,Monaghan,Retained,active,12.0
-2021,ie,Monaghan,Retained,apam,170.0
-2021,ie,Monaghan,Retained,funds,2040.0
+2021,ie,Monaghan,Retained,regos_total_prior,195
+2021,ie,Monaghan,Retained,regos,15
+2021,ie,Monaghan,Retained,active,12
+2021,ie,Monaghan,Retained,apam,170
+2021,ie,Monaghan,Retained,funds,2040
 2021,ie,Monaghan,Retained,comment,
-2021,ie,Monaghan,Retained,regos_total_curnt,107.0
-2021,ie,Monaghan,Returned,regos,2.0
-2021,ie,Monaghan,Returned,active,2.0
+2021,ie,Monaghan,Retained,regos_total_curnt,107
+2021,ie,Monaghan,Returned,regos,2
+2021,ie,Monaghan,Returned,active,2
 2021,ie,Monaghan,Returned,apam,122.5
-2021,ie,Monaghan,Returned,funds,245.0
+2021,ie,Monaghan,Returned,funds,245
 2021,ie,Monaghan,Returned,comment,
-2021,ie,Monaghan,Foundation,donations,0.0
-2021,ie,Monaghan,Foundation,funds,0.0
-2021,ie,Monaghan,Foundation,ada,0.0
+2021,ie,Monaghan,Foundation,donations,0
+2021,ie,Monaghan,Foundation,funds,0
+2021,ie,Monaghan,Foundation,ada,0
 2021,ie,Monaghan,Foundation,comment,
-2021,ie,Offaly,New,regos,108.0
-2021,ie,Offaly,New,active,55.0
+2021,ie,Offaly,New,regos,108
+2021,ie,Offaly,New,active,55
 2021,ie,Offaly,New,apam,196.24
 2021,ie,Offaly,New,funds,10792.98
 2021,ie,Offaly,New,comment,
-2021,ie,Offaly,Retained,regos_total_prior,187.0
-2021,ie,Offaly,Retained,regos,22.0
-2021,ie,Offaly,Retained,active,13.0
+2021,ie,Offaly,Retained,regos_total_prior,187
+2021,ie,Offaly,Retained,regos,22
+2021,ie,Offaly,Retained,active,13
 2021,ie,Offaly,Retained,apam,196.54
-2021,ie,Offaly,Retained,funds,2555.0
+2021,ie,Offaly,Retained,funds,2555
 2021,ie,Offaly,Retained,comment,
-2021,ie,Offaly,Retained,regos_total_curnt,138.0
-2021,ie,Offaly,Returned,regos,8.0
-2021,ie,Offaly,Returned,active,4.0
+2021,ie,Offaly,Retained,regos_total_curnt,138
+2021,ie,Offaly,Returned,regos,8
+2021,ie,Offaly,Returned,active,4
 2021,ie,Offaly,Returned,apam,126.25
-2021,ie,Offaly,Returned,funds,505.0
+2021,ie,Offaly,Returned,funds,505
 2021,ie,Offaly,Returned,comment,
-2021,ie,Offaly,Foundation,donations,5.0
-2021,ie,Offaly,Foundation,funds,199.0
+2021,ie,Offaly,Foundation,donations,5
+2021,ie,Offaly,Foundation,funds,199
 2021,ie,Offaly,Foundation,ada,39.8
 2021,ie,Offaly,Foundation,comment,
-2021,ie,Roscommon,New,regos,73.0
-2021,ie,Roscommon,New,active,33.0
+2021,ie,Roscommon,New,regos,73
+2021,ie,Roscommon,New,active,33
 2021,ie,Roscommon,New,apam,678.62
 2021,ie,Roscommon,New,funds,22394.46
 2021,ie,Roscommon,New,comment,
-2021,ie,Roscommon,Retained,regos_total_prior,151.0
-2021,ie,Roscommon,Retained,regos,12.0
-2021,ie,Roscommon,Retained,active,10.0
-2021,ie,Roscommon,Retained,apam,434.0
-2021,ie,Roscommon,Retained,funds,4340.0
+2021,ie,Roscommon,Retained,regos_total_prior,151
+2021,ie,Roscommon,Retained,regos,12
+2021,ie,Roscommon,Retained,active,10
+2021,ie,Roscommon,Retained,apam,434
+2021,ie,Roscommon,Retained,funds,4340
 2021,ie,Roscommon,Retained,comment,
-2021,ie,Roscommon,Retained,regos_total_curnt,94.0
-2021,ie,Roscommon,Returned,regos,9.0
-2021,ie,Roscommon,Returned,active,3.0
+2021,ie,Roscommon,Retained,regos_total_curnt,94
+2021,ie,Roscommon,Returned,regos,9
+2021,ie,Roscommon,Returned,active,3
 2021,ie,Roscommon,Returned,apam,653.33
-2021,ie,Roscommon,Returned,funds,1960.0
+2021,ie,Roscommon,Returned,funds,1960
 2021,ie,Roscommon,Returned,comment,
-2021,ie,Roscommon,Foundation,donations,3.0
-2021,ie,Roscommon,Foundation,funds,130.0
+2021,ie,Roscommon,Foundation,donations,3
+2021,ie,Roscommon,Foundation,funds,130
 2021,ie,Roscommon,Foundation,ada,43.33
 2021,ie,Roscommon,Foundation,comment,
-2021,ie,Sligo,New,regos,127.0
-2021,ie,Sligo,New,active,70.0
+2021,ie,Sligo,New,regos,127
+2021,ie,Sligo,New,active,70
 2021,ie,Sligo,New,apam,332.65
 2021,ie,Sligo,New,funds,23285.45
 2021,ie,Sligo,New,comment,
-2021,ie,Sligo,Retained,regos_total_prior,208.0
-2021,ie,Sligo,Retained,regos,32.0
-2021,ie,Sligo,Retained,active,20.0
+2021,ie,Sligo,Retained,regos_total_prior,208
+2021,ie,Sligo,Retained,regos,32
+2021,ie,Sligo,Retained,active,20
 2021,ie,Sligo,Retained,apam,180.75
-2021,ie,Sligo,Retained,funds,3615.0
+2021,ie,Sligo,Retained,funds,3615
 2021,ie,Sligo,Retained,comment,
-2021,ie,Sligo,Retained,regos_total_curnt,165.0
-2021,ie,Sligo,Returned,regos,6.0
-2021,ie,Sligo,Returned,active,6.0
+2021,ie,Sligo,Retained,regos_total_curnt,165
+2021,ie,Sligo,Returned,regos,6
+2021,ie,Sligo,Returned,active,6
 2021,ie,Sligo,Returned,apam,140.32
 2021,ie,Sligo,Returned,funds,841.9
 2021,ie,Sligo,Returned,comment,
-2021,ie,Sligo,Foundation,donations,2.0
-2021,ie,Sligo,Foundation,funds,28.0
-2021,ie,Sligo,Foundation,ada,14.0
+2021,ie,Sligo,Foundation,donations,2
+2021,ie,Sligo,Foundation,funds,28
+2021,ie,Sligo,Foundation,ada,14
 2021,ie,Sligo,Foundation,comment,
-2021,ie,Tipperary,New,regos,226.0
-2021,ie,Tipperary,New,active,112.0
+2021,ie,Tipperary,New,regos,226
+2021,ie,Tipperary,New,active,112
 2021,ie,Tipperary,New,apam,372.47
 2021,ie,Tipperary,New,funds,41716.62
 2021,ie,Tipperary,New,comment,
-2021,ie,Tipperary,Retained,regos_total_prior,503.0
-2021,ie,Tipperary,Retained,regos,69.0
-2021,ie,Tipperary,Retained,active,35.0
+2021,ie,Tipperary,Retained,regos_total_prior,503
+2021,ie,Tipperary,Retained,regos,69
+2021,ie,Tipperary,Retained,active,35
 2021,ie,Tipperary,Retained,apam,298.72
 2021,ie,Tipperary,Retained,funds,10455.26
 2021,ie,Tipperary,Retained,comment,
-2021,ie,Tipperary,Retained,regos_total_curnt,311.0
-2021,ie,Tipperary,Returned,regos,16.0
-2021,ie,Tipperary,Returned,active,6.0
+2021,ie,Tipperary,Retained,regos_total_curnt,311
+2021,ie,Tipperary,Returned,regos,16
+2021,ie,Tipperary,Returned,active,6
 2021,ie,Tipperary,Returned,apam,449.53
 2021,ie,Tipperary,Returned,funds,2697.2
 2021,ie,Tipperary,Returned,comment,
-2021,ie,Tipperary,Foundation,donations,4.0
-2021,ie,Tipperary,Foundation,funds,195.0
+2021,ie,Tipperary,Foundation,donations,4
+2021,ie,Tipperary,Foundation,funds,195
 2021,ie,Tipperary,Foundation,ada,48.75
 2021,ie,Tipperary,Foundation,comment,
-2021,ie,Waterford,New,regos,192.0
-2021,ie,Waterford,New,active,91.0
+2021,ie,Waterford,New,regos,192
+2021,ie,Waterford,New,active,91
 2021,ie,Waterford,New,apam,194.98
 2021,ie,Waterford,New,funds,17743.01
 2021,ie,Waterford,New,comment,
-2021,ie,Waterford,Retained,regos_total_prior,312.0
-2021,ie,Waterford,Retained,regos,48.0
-2021,ie,Waterford,Retained,active,31.0
+2021,ie,Waterford,Retained,regos_total_prior,312
+2021,ie,Waterford,Retained,regos,48
+2021,ie,Waterford,Retained,active,31
 2021,ie,Waterford,Retained,apam,229.81
 2021,ie,Waterford,Retained,funds,7124.12
 2021,ie,Waterford,Retained,comment,
-2021,ie,Waterford,Retained,regos_total_curnt,251.0
-2021,ie,Waterford,Returned,regos,11.0
-2021,ie,Waterford,Returned,active,8.0
+2021,ie,Waterford,Retained,regos_total_curnt,251
+2021,ie,Waterford,Returned,regos,11
+2021,ie,Waterford,Returned,active,8
 2021,ie,Waterford,Returned,apam,162.5
-2021,ie,Waterford,Returned,funds,1300.0
+2021,ie,Waterford,Returned,funds,1300
 2021,ie,Waterford,Returned,comment,
-2021,ie,Waterford,Foundation,donations,3.0
+2021,ie,Waterford,Foundation,donations,3
 2021,ie,Waterford,Foundation,funds,35.65
 2021,ie,Waterford,Foundation,ada,11.88
 2021,ie,Waterford,Foundation,comment,
-2021,ie,Westmeath,New,regos,137.0
-2021,ie,Westmeath,New,active,62.0
+2021,ie,Westmeath,New,regos,137
+2021,ie,Westmeath,New,active,62
 2021,ie,Westmeath,New,apam,251.68
 2021,ie,Westmeath,New,funds,15604.45
 2021,ie,Westmeath,New,comment,
-2021,ie,Westmeath,Retained,regos_total_prior,283.0
-2021,ie,Westmeath,Retained,regos,40.0
-2021,ie,Westmeath,Retained,active,28.0
+2021,ie,Westmeath,Retained,regos_total_prior,283
+2021,ie,Westmeath,Retained,regos,40
+2021,ie,Westmeath,Retained,active,28
 2021,ie,Westmeath,Retained,apam,246.38
 2021,ie,Westmeath,Retained,funds,6898.59
 2021,ie,Westmeath,Retained,comment,
-2021,ie,Westmeath,Retained,regos_total_curnt,190.0
-2021,ie,Westmeath,Returned,regos,13.0
-2021,ie,Westmeath,Returned,active,9.0
+2021,ie,Westmeath,Retained,regos_total_curnt,190
+2021,ie,Westmeath,Returned,regos,13
+2021,ie,Westmeath,Returned,active,9
 2021,ie,Westmeath,Returned,apam,274.67
 2021,ie,Westmeath,Returned,funds,2472.05
 2021,ie,Westmeath,Returned,comment,
-2021,ie,Westmeath,Foundation,donations,1.0
-2021,ie,Westmeath,Foundation,funds,10.0
-2021,ie,Westmeath,Foundation,ada,10.0
+2021,ie,Westmeath,Foundation,donations,1
+2021,ie,Westmeath,Foundation,funds,10
+2021,ie,Westmeath,Foundation,ada,10
 2021,ie,Westmeath,Foundation,comment,
-2021,ie,Wexford,New,regos,188.0
-2021,ie,Wexford,New,active,73.0
+2021,ie,Wexford,New,regos,188
+2021,ie,Wexford,New,active,73
 2021,ie,Wexford,New,apam,189.56
 2021,ie,Wexford,New,funds,13837.7
 2021,ie,Wexford,New,comment,
-2021,ie,Wexford,Retained,regos_total_prior,472.0
-2021,ie,Wexford,Retained,regos,52.0
-2021,ie,Wexford,Retained,active,30.0
+2021,ie,Wexford,Retained,regos_total_prior,472
+2021,ie,Wexford,Retained,regos,52
+2021,ie,Wexford,Retained,active,30
 2021,ie,Wexford,Retained,apam,332.02
 2021,ie,Wexford,Retained,funds,9960.67
 2021,ie,Wexford,Retained,comment,
-2021,ie,Wexford,Retained,regos_total_curnt,270.0
-2021,ie,Wexford,Returned,regos,30.0
-2021,ie,Wexford,Returned,active,16.0
+2021,ie,Wexford,Retained,regos_total_curnt,270
+2021,ie,Wexford,Returned,regos,30
+2021,ie,Wexford,Returned,active,16
 2021,ie,Wexford,Returned,apam,198.97
 2021,ie,Wexford,Returned,funds,3183.5
 2021,ie,Wexford,Returned,comment,
-2021,ie,Wexford,Foundation,donations,6.0
-2021,ie,Wexford,Foundation,funds,165.0
+2021,ie,Wexford,Foundation,donations,6
+2021,ie,Wexford,Foundation,funds,165
 2021,ie,Wexford,Foundation,ada,27.5
 2021,ie,Wexford,Foundation,comment,
-2021,ie,Wicklow,New,regos,251.0
-2021,ie,Wicklow,New,active,131.0
+2021,ie,Wicklow,New,regos,251
+2021,ie,Wicklow,New,active,131
 2021,ie,Wicklow,New,apam,322.42
 2021,ie,Wicklow,New,funds,42237.42
 2021,ie,Wicklow,New,comment,
-2021,ie,Wicklow,Retained,regos_total_prior,630.0
-2021,ie,Wicklow,Retained,regos,74.0
-2021,ie,Wicklow,Retained,active,46.0
+2021,ie,Wicklow,Retained,regos_total_prior,630
+2021,ie,Wicklow,Retained,regos,74
+2021,ie,Wicklow,Retained,active,46
 2021,ie,Wicklow,Retained,apam,333.87
 2021,ie,Wicklow,Retained,funds,15358.23
 2021,ie,Wicklow,Retained,comment,
-2021,ie,Wicklow,Retained,regos_total_curnt,359.0
-2021,ie,Wicklow,Returned,regos,34.0
-2021,ie,Wicklow,Returned,active,18.0
+2021,ie,Wicklow,Retained,regos_total_curnt,359
+2021,ie,Wicklow,Returned,regos,34
+2021,ie,Wicklow,Returned,active,18
 2021,ie,Wicklow,Returned,apam,379.95
 2021,ie,Wicklow,Returned,funds,6839.1
 2021,ie,Wicklow,Returned,comment,
-2021,ie,Wicklow,Foundation,donations,6.0
-2021,ie,Wicklow,Foundation,funds,140.0
+2021,ie,Wicklow,Foundation,donations,6
+2021,ie,Wicklow,Foundation,funds,140
 2021,ie,Wicklow,Foundation,ada,23.33
 2021,ie,Wicklow,Foundation,comment,
-2021,ie,Other,New,regos,1362.0
-2021,ie,Other,New,active,818.0
+2021,ie,Other,New,regos,1362
+2021,ie,Other,New,active,818
 2021,ie,Other,New,apam,371.37
 2021,ie,Other,New,funds,303782.55
 2021,ie,Other,New,comment,
-2021,ie,Other,Retained,regos_total_prior,3413.0
-2021,ie,Other,Retained,regos,186.0
-2021,ie,Other,Retained,active,100.0
+2021,ie,Other,Retained,regos_total_prior,3413
+2021,ie,Other,Retained,regos,186
+2021,ie,Other,Retained,active,100
 2021,ie,Other,Retained,apam,394.89
 2021,ie,Other,Retained,funds,39488.99
 2021,ie,Other,Retained,comment,
-2021,ie,Other,Retained,regos_total_curnt,5446.0
-2021,ie,Other,Returned,regos,3898.0
-2021,ie,Other,Returned,active,283.0
+2021,ie,Other,Retained,regos_total_curnt,5446
+2021,ie,Other,Returned,regos,3898
+2021,ie,Other,Returned,active,283
 2021,ie,Other,Returned,apam,587.71
 2021,ie,Other,Returned,funds,166321.12
 2021,ie,Other,Returned,comment,
-2021,ie,Other,Foundation,donations,1173.0
+2021,ie,Other,Foundation,donations,1173
 2021,ie,Other,Foundation,funds,158344.37
 2021,ie,Other,Foundation,ada,134.99
 2021,ie,Other,Foundation,comment,
-2021,nz,Total,New,regos,12288.0
-2021,nz,Total,New,active,6443.0
+2021,nz,Total,New,regos,12288
+2021,nz,Total,New,active,6443
 2021,nz,Total,New,apam,375.33
 2021,nz,Total,New,funds,2418240.25
 2021,nz,Total,New,comment,
-2021,nz,Total,Retained,regos_total_prior,12621.0
-2021,nz,Total,Retained,regos,2247.0
-2021,nz,Total,Retained,active,1468.0
+2021,nz,Total,Retained,regos_total_prior,12621
+2021,nz,Total,Retained,regos,2247
+2021,nz,Total,Retained,active,1468
 2021,nz,Total,Retained,apam,490.86
 2021,nz,Total,Retained,funds,720587.49
 2021,nz,Total,Retained,comment,
-2021,nz,Total,Retained,regos_total_curnt,21247.0
-2021,nz,Total,Returned,regos,6712.0
-2021,nz,Total,Returned,active,1363.0
+2021,nz,Total,Retained,regos_total_curnt,21247
+2021,nz,Total,Returned,regos,6712
+2021,nz,Total,Returned,active,1363
 2021,nz,Total,Returned,apam,457.9
 2021,nz,Total,Returned,funds,624121.65
 2021,nz,Total,Returned,comment,
-2021,nz,Total,Foundation,donations,1637.0
+2021,nz,Total,Foundation,donations,1637
 2021,nz,Total,Foundation,funds,160607.87
 2021,nz,Total,Foundation,ada,98.11
 2021,nz,Total,Foundation,comment,
-2021,nz,Auckland,New,regos,3992.0
-2021,nz,Auckland,New,active,2148.0
+2021,nz,Auckland,New,regos,3992
+2021,nz,Auckland,New,active,2148
 2021,nz,Auckland,New,apam,396.18
 2021,nz,Auckland,New,funds,851002.17
 2021,nz,Auckland,New,comment,
-2021,nz,Auckland,Retained,regos_total_prior,3747.0
-2021,nz,Auckland,Retained,regos,803.0
-2021,nz,Auckland,Retained,active,537.0
+2021,nz,Auckland,Retained,regos_total_prior,3747
+2021,nz,Auckland,Retained,regos,803
+2021,nz,Auckland,Retained,active,537
 2021,nz,Auckland,Retained,apam,562.07
 2021,nz,Auckland,Retained,funds,301830.15
 2021,nz,Auckland,Retained,comment,
-2021,nz,Auckland,Retained,regos_total_curnt,5436.0
-2021,nz,Auckland,Returned,regos,641.0
-2021,nz,Auckland,Returned,active,391.0
+2021,nz,Auckland,Retained,regos_total_curnt,5436
+2021,nz,Auckland,Returned,regos,641
+2021,nz,Auckland,Returned,active,391
 2021,nz,Auckland,Returned,apam,416.42
 2021,nz,Auckland,Returned,funds,162820.43
 2021,nz,Auckland,Returned,comment,
-2021,nz,Auckland,Foundation,donations,163.0
+2021,nz,Auckland,Foundation,donations,163
 2021,nz,Auckland,Foundation,funds,18448.97
 2021,nz,Auckland,Foundation,ada,113.18
 2021,nz,Auckland,Foundation,comment,
-2021,nz,Wellington,New,regos,1311.0
-2021,nz,Wellington,New,active,736.0
+2021,nz,Wellington,New,regos,1311
+2021,nz,Wellington,New,active,736
 2021,nz,Wellington,New,apam,287.28
 2021,nz,Wellington,New,funds,211438.6
 2021,nz,Wellington,New,comment,
-2021,nz,Wellington,Retained,regos_total_prior,1457.0
-2021,nz,Wellington,Retained,regos,323.0
-2021,nz,Wellington,Retained,active,221.0
+2021,nz,Wellington,Retained,regos_total_prior,1457
+2021,nz,Wellington,Retained,regos,323
+2021,nz,Wellington,Retained,active,221
 2021,nz,Wellington,Retained,apam,515.77
 2021,nz,Wellington,Retained,funds,113985.68
 2021,nz,Wellington,Retained,comment,
-2021,nz,Wellington,Retained,regos_total_curnt,1869.0
-2021,nz,Wellington,Returned,regos,235.0
-2021,nz,Wellington,Returned,active,144.0
+2021,nz,Wellington,Retained,regos_total_curnt,1869
+2021,nz,Wellington,Returned,regos,235
+2021,nz,Wellington,Returned,active,144
 2021,nz,Wellington,Returned,apam,394.28
 2021,nz,Wellington,Returned,funds,56776.73
 2021,nz,Wellington,Returned,comment,
-2021,nz,Wellington,Foundation,donations,40.0
+2021,nz,Wellington,Foundation,donations,40
 2021,nz,Wellington,Foundation,funds,3877.5
 2021,nz,Wellington,Foundation,ada,96.94
 2021,nz,Wellington,Foundation,comment,
-2021,nz,Canterbury,New,regos,1402.0
-2021,nz,Canterbury,New,active,632.0
+2021,nz,Canterbury,New,regos,1402
+2021,nz,Canterbury,New,active,632
 2021,nz,Canterbury,New,apam,318.23
 2021,nz,Canterbury,New,funds,201123.53
 2021,nz,Canterbury,New,comment,
-2021,nz,Canterbury,Retained,regos_total_prior,1486.0
-2021,nz,Canterbury,Retained,regos,321.0
-2021,nz,Canterbury,Retained,active,208.0
+2021,nz,Canterbury,Retained,regos_total_prior,1486
+2021,nz,Canterbury,Retained,regos,321
+2021,nz,Canterbury,Retained,active,208
 2021,nz,Canterbury,Retained,apam,492.21
 2021,nz,Canterbury,Retained,funds,102380.58
 2021,nz,Canterbury,Retained,comment,
-2021,nz,Canterbury,Retained,regos_total_curnt,1958.0
-2021,nz,Canterbury,Returned,regos,235.0
-2021,nz,Canterbury,Returned,active,130.0
+2021,nz,Canterbury,Retained,regos_total_curnt,1958
+2021,nz,Canterbury,Returned,regos,235
+2021,nz,Canterbury,Returned,active,130
 2021,nz,Canterbury,Returned,apam,589.52
 2021,nz,Canterbury,Returned,funds,76637.99
 2021,nz,Canterbury,Returned,comment,
-2021,nz,Canterbury,Foundation,donations,42.0
+2021,nz,Canterbury,Foundation,donations,42
 2021,nz,Canterbury,Foundation,funds,6275.54
 2021,nz,Canterbury,Foundation,ada,149.42
 2021,nz,Canterbury,Foundation,comment,
-2021,nz,Waikato,New,regos,898.0
-2021,nz,Waikato,New,active,443.0
+2021,nz,Waikato,New,regos,898
+2021,nz,Waikato,New,active,443
 2021,nz,Waikato,New,apam,372.8
 2021,nz,Waikato,New,funds,165151.63
 2021,nz,Waikato,New,comment,
-2021,nz,Waikato,Retained,regos_total_prior,666.0
-2021,nz,Waikato,Retained,regos,126.0
-2021,nz,Waikato,Retained,active,78.0
+2021,nz,Waikato,Retained,regos_total_prior,666
+2021,nz,Waikato,Retained,regos,126
+2021,nz,Waikato,Retained,active,78
 2021,nz,Waikato,Retained,apam,307.08
 2021,nz,Waikato,Retained,funds,23951.93
 2021,nz,Waikato,Retained,comment,
-2021,nz,Waikato,Retained,regos_total_curnt,1158.0
-2021,nz,Waikato,Returned,regos,134.0
-2021,nz,Waikato,Returned,active,74.0
+2021,nz,Waikato,Retained,regos_total_curnt,1158
+2021,nz,Waikato,Returned,regos,134
+2021,nz,Waikato,Returned,active,74
 2021,nz,Waikato,Returned,apam,243.98
 2021,nz,Waikato,Returned,funds,18054.19
 2021,nz,Waikato,Returned,comment,
-2021,nz,Waikato,Foundation,donations,36.0
+2021,nz,Waikato,Foundation,donations,36
 2021,nz,Waikato,Foundation,funds,1104.2
 2021,nz,Waikato,Foundation,ada,30.67
 2021,nz,Waikato,Foundation,comment,
-2021,nz,Bay of Plenty,New,regos,769.0
-2021,nz,Bay of Plenty,New,active,392.0
+2021,nz,Bay of Plenty,New,regos,769
+2021,nz,Bay of Plenty,New,active,392
 2021,nz,Bay of Plenty,New,apam,274.92
 2021,nz,Bay of Plenty,New,funds,107768.54
 2021,nz,Bay of Plenty,New,comment,
-2021,nz,Bay of Plenty,Retained,regos_total_prior,625.0
-2021,nz,Bay of Plenty,Retained,regos,126.0
-2021,nz,Bay of Plenty,Retained,active,75.0
+2021,nz,Bay of Plenty,Retained,regos_total_prior,625
+2021,nz,Bay of Plenty,Retained,regos,126
+2021,nz,Bay of Plenty,Retained,active,75
 2021,nz,Bay of Plenty,Retained,apam,279.3
 2021,nz,Bay of Plenty,Retained,funds,20947.42
 2021,nz,Bay of Plenty,Retained,comment,
-2021,nz,Bay of Plenty,Retained,regos_total_curnt,1025.0
-2021,nz,Bay of Plenty,Returned,regos,130.0
-2021,nz,Bay of Plenty,Returned,active,71.0
+2021,nz,Bay of Plenty,Retained,regos_total_curnt,1025
+2021,nz,Bay of Plenty,Returned,regos,130
+2021,nz,Bay of Plenty,Returned,active,71
 2021,nz,Bay of Plenty,Returned,apam,309.36
 2021,nz,Bay of Plenty,Returned,funds,21964.59
 2021,nz,Bay of Plenty,Returned,comment,
-2021,nz,Bay of Plenty,Foundation,donations,27.0
+2021,nz,Bay of Plenty,Foundation,donations,27
 2021,nz,Bay of Plenty,Foundation,funds,2112.17
 2021,nz,Bay of Plenty,Foundation,ada,78.23
 2021,nz,Bay of Plenty,Foundation,comment,
-2021,nz,Otago,New,regos,502.0
-2021,nz,Otago,New,active,231.0
+2021,nz,Otago,New,regos,502
+2021,nz,Otago,New,active,231
 2021,nz,Otago,New,apam,328.12
 2021,nz,Otago,New,funds,75796.06
 2021,nz,Otago,New,comment,
-2021,nz,Otago,Retained,regos_total_prior,527.0
-2021,nz,Otago,Retained,regos,81.0
-2021,nz,Otago,Retained,active,55.0
+2021,nz,Otago,Retained,regos_total_prior,527
+2021,nz,Otago,Retained,regos,81
+2021,nz,Otago,Retained,active,55
 2021,nz,Otago,Retained,apam,424.26
 2021,nz,Otago,Retained,funds,23334.26
 2021,nz,Otago,Retained,comment,
-2021,nz,Otago,Retained,regos_total_curnt,656.0
-2021,nz,Otago,Returned,regos,73.0
-2021,nz,Otago,Returned,active,36.0
+2021,nz,Otago,Retained,regos_total_curnt,656
+2021,nz,Otago,Returned,regos,73
+2021,nz,Otago,Returned,active,36
 2021,nz,Otago,Returned,apam,391.36
-2021,nz,Otago,Returned,funds,14089.0
+2021,nz,Otago,Returned,funds,14089
 2021,nz,Otago,Returned,comment,
-2021,nz,Otago,Foundation,donations,18.0
+2021,nz,Otago,Foundation,donations,18
 2021,nz,Otago,Foundation,funds,2703.3
 2021,nz,Otago,Foundation,ada,150.18
 2021,nz,Otago,Foundation,comment,
-2021,nz,Manawatu-Wanganui,New,regos,325.0
-2021,nz,Manawatu-Wanganui,New,active,161.0
+2021,nz,Manawatu-Wanganui,New,regos,325
+2021,nz,Manawatu-Wanganui,New,active,161
 2021,nz,Manawatu-Wanganui,New,apam,262.84
 2021,nz,Manawatu-Wanganui,New,funds,42316.62
 2021,nz,Manawatu-Wanganui,New,comment,
-2021,nz,Manawatu-Wanganui,Retained,regos_total_prior,307.0
-2021,nz,Manawatu-Wanganui,Retained,regos,53.0
-2021,nz,Manawatu-Wanganui,Retained,active,29.0
+2021,nz,Manawatu-Wanganui,Retained,regos_total_prior,307
+2021,nz,Manawatu-Wanganui,Retained,regos,53
+2021,nz,Manawatu-Wanganui,Retained,active,29
 2021,nz,Manawatu-Wanganui,Retained,apam,324.33
 2021,nz,Manawatu-Wanganui,Retained,funds,9405.57
 2021,nz,Manawatu-Wanganui,Retained,comment,
-2021,nz,Manawatu-Wanganui,Retained,regos_total_curnt,418.0
-2021,nz,Manawatu-Wanganui,Returned,regos,40.0
-2021,nz,Manawatu-Wanganui,Returned,active,19.0
+2021,nz,Manawatu-Wanganui,Retained,regos_total_curnt,418
+2021,nz,Manawatu-Wanganui,Returned,regos,40
+2021,nz,Manawatu-Wanganui,Returned,active,19
 2021,nz,Manawatu-Wanganui,Returned,apam,273.86
 2021,nz,Manawatu-Wanganui,Returned,funds,5203.26
 2021,nz,Manawatu-Wanganui,Returned,comment,
-2021,nz,Manawatu-Wanganui,Foundation,donations,7.0
-2021,nz,Manawatu-Wanganui,Foundation,funds,420.0
-2021,nz,Manawatu-Wanganui,Foundation,ada,60.0
+2021,nz,Manawatu-Wanganui,Foundation,donations,7
+2021,nz,Manawatu-Wanganui,Foundation,funds,420
+2021,nz,Manawatu-Wanganui,Foundation,ada,60
 2021,nz,Manawatu-Wanganui,Foundation,comment,
-2021,nz,Hawke's Bay,New,regos,0.0
-2021,nz,Hawke's Bay,New,active,0.0
-2021,nz,Hawke's Bay,New,apam,0.0
-2021,nz,Hawke's Bay,New,funds,0.0
+2021,nz,Hawke's Bay,New,regos,0
+2021,nz,Hawke's Bay,New,active,0
+2021,nz,Hawke's Bay,New,apam,0
+2021,nz,Hawke's Bay,New,funds,0
 2021,nz,Hawke's Bay,New,comment,
-2021,nz,Hawke's Bay,Retained,regos_total_prior,0.0
-2021,nz,Hawke's Bay,Retained,regos,0.0
-2021,nz,Hawke's Bay,Retained,active,0.0
-2021,nz,Hawke's Bay,Retained,apam,0.0
-2021,nz,Hawke's Bay,Retained,funds,0.0
+2021,nz,Hawke's Bay,Retained,regos_total_prior,0
+2021,nz,Hawke's Bay,Retained,regos,0
+2021,nz,Hawke's Bay,Retained,active,0
+2021,nz,Hawke's Bay,Retained,apam,0
+2021,nz,Hawke's Bay,Retained,funds,0
 2021,nz,Hawke's Bay,Retained,comment,
-2021,nz,Hawke's Bay,Retained,regos_total_curnt,0.0
-2021,nz,Hawke's Bay,Returned,regos,0.0
-2021,nz,Hawke's Bay,Returned,active,0.0
-2021,nz,Hawke's Bay,Returned,apam,0.0
-2021,nz,Hawke's Bay,Returned,funds,0.0
+2021,nz,Hawke's Bay,Retained,regos_total_curnt,0
+2021,nz,Hawke's Bay,Returned,regos,0
+2021,nz,Hawke's Bay,Returned,active,0
+2021,nz,Hawke's Bay,Returned,apam,0
+2021,nz,Hawke's Bay,Returned,funds,0
 2021,nz,Hawke's Bay,Returned,comment,
-2021,nz,Hawke's Bay,Foundation,donations,0.0
-2021,nz,Hawke's Bay,Foundation,funds,0.0
-2021,nz,Hawke's Bay,Foundation,ada,0.0
+2021,nz,Hawke's Bay,Foundation,donations,0
+2021,nz,Hawke's Bay,Foundation,funds,0
+2021,nz,Hawke's Bay,Foundation,ada,0
 2021,nz,Hawke's Bay,Foundation,comment,
-2021,nz,Taranaki,New,regos,198.0
-2021,nz,Taranaki,New,active,111.0
+2021,nz,Taranaki,New,regos,198
+2021,nz,Taranaki,New,active,111
 2021,nz,Taranaki,New,apam,336.09
 2021,nz,Taranaki,New,funds,37305.91
 2021,nz,Taranaki,New,comment,
-2021,nz,Taranaki,Retained,regos_total_prior,176.0
-2021,nz,Taranaki,Retained,regos,40.0
-2021,nz,Taranaki,Retained,active,30.0
+2021,nz,Taranaki,Retained,regos_total_prior,176
+2021,nz,Taranaki,Retained,regos,40
+2021,nz,Taranaki,Retained,active,30
 2021,nz,Taranaki,Retained,apam,366.91
 2021,nz,Taranaki,Retained,funds,11007.24
 2021,nz,Taranaki,Retained,comment,
-2021,nz,Taranaki,Retained,regos_total_curnt,265.0
-2021,nz,Taranaki,Returned,regos,27.0
-2021,nz,Taranaki,Returned,active,15.0
+2021,nz,Taranaki,Retained,regos_total_curnt,265
+2021,nz,Taranaki,Returned,regos,27
+2021,nz,Taranaki,Returned,active,15
 2021,nz,Taranaki,Returned,apam,328.13
 2021,nz,Taranaki,Returned,funds,4921.95
 2021,nz,Taranaki,Returned,comment,
-2021,nz,Taranaki,Foundation,donations,7.0
-2021,nz,Taranaki,Foundation,funds,675.0
+2021,nz,Taranaki,Foundation,donations,7
+2021,nz,Taranaki,Foundation,funds,675
 2021,nz,Taranaki,Foundation,ada,96.43
 2021,nz,Taranaki,Foundation,comment,
-2021,nz,Northland,New,regos,227.0
-2021,nz,Northland,New,active,101.0
+2021,nz,Northland,New,regos,227
+2021,nz,Northland,New,active,101
 2021,nz,Northland,New,apam,358.86
 2021,nz,Northland,New,funds,36244.66
 2021,nz,Northland,New,comment,
-2021,nz,Northland,Retained,regos_total_prior,132.0
-2021,nz,Northland,Retained,regos,18.0
-2021,nz,Northland,Retained,active,12.0
+2021,nz,Northland,Retained,regos_total_prior,132
+2021,nz,Northland,Retained,regos,18
+2021,nz,Northland,Retained,active,12
 2021,nz,Northland,Retained,apam,204.5
-2021,nz,Northland,Retained,funds,2454.0
+2021,nz,Northland,Retained,funds,2454
 2021,nz,Northland,Retained,comment,
-2021,nz,Northland,Retained,regos_total_curnt,276.0
-2021,nz,Northland,Returned,regos,31.0
-2021,nz,Northland,Returned,active,18.0
+2021,nz,Northland,Retained,regos_total_curnt,276
+2021,nz,Northland,Returned,regos,31
+2021,nz,Northland,Returned,active,18
 2021,nz,Northland,Returned,apam,344.76
 2021,nz,Northland,Returned,funds,6205.66
 2021,nz,Northland,Returned,comment,
-2021,nz,Northland,Foundation,donations,12.0
+2021,nz,Northland,Foundation,donations,12
 2021,nz,Northland,Foundation,funds,642.8
 2021,nz,Northland,Foundation,ada,53.57
 2021,nz,Northland,Foundation,comment,
-2021,nz,Southland,New,regos,173.0
-2021,nz,Southland,New,active,95.0
+2021,nz,Southland,New,regos,173
+2021,nz,Southland,New,active,95
 2021,nz,Southland,New,apam,420.75
 2021,nz,Southland,New,funds,39971.6
 2021,nz,Southland,New,comment,
-2021,nz,Southland,Retained,regos_total_prior,152.0
-2021,nz,Southland,Retained,regos,26.0
-2021,nz,Southland,Retained,active,17.0
+2021,nz,Southland,Retained,regos_total_prior,152
+2021,nz,Southland,Retained,regos,26
+2021,nz,Southland,Retained,active,17
 2021,nz,Southland,Retained,apam,965.71
-2021,nz,Southland,Retained,funds,16417.0
+2021,nz,Southland,Retained,funds,16417
 2021,nz,Southland,Retained,comment,
-2021,nz,Southland,Retained,regos_total_curnt,209.0
-2021,nz,Southland,Returned,regos,10.0
-2021,nz,Southland,Returned,active,6.0
+2021,nz,Southland,Retained,regos_total_curnt,209
+2021,nz,Southland,Returned,regos,10
+2021,nz,Southland,Returned,active,6
 2021,nz,Southland,Returned,apam,225.83
-2021,nz,Southland,Returned,funds,1355.0
+2021,nz,Southland,Returned,funds,1355
 2021,nz,Southland,Returned,comment,
-2021,nz,Southland,Foundation,donations,4.0
+2021,nz,Southland,Foundation,donations,4
 2021,nz,Southland,Foundation,funds,293.7
 2021,nz,Southland,Foundation,ada,73.42
 2021,nz,Southland,Foundation,comment,
-2021,nz,Tasman,New,regos,62.0
-2021,nz,Tasman,New,active,33.0
+2021,nz,Tasman,New,regos,62
+2021,nz,Tasman,New,active,33
 2021,nz,Tasman,New,apam,251.72
 2021,nz,Tasman,New,funds,8306.7
 2021,nz,Tasman,New,comment,
-2021,nz,Tasman,Retained,regos_total_prior,58.0
-2021,nz,Tasman,Retained,regos,12.0
-2021,nz,Tasman,Retained,active,7.0
-2021,nz,Tasman,Retained,apam,528.0
-2021,nz,Tasman,Retained,funds,3696.0
+2021,nz,Tasman,Retained,regos_total_prior,58
+2021,nz,Tasman,Retained,regos,12
+2021,nz,Tasman,Retained,active,7
+2021,nz,Tasman,Retained,apam,528
+2021,nz,Tasman,Retained,funds,3696
 2021,nz,Tasman,Retained,comment,
-2021,nz,Tasman,Retained,regos_total_curnt,82.0
-2021,nz,Tasman,Returned,regos,8.0
-2021,nz,Tasman,Returned,active,5.0
-2021,nz,Tasman,Returned,apam,301.0
-2021,nz,Tasman,Returned,funds,1505.0
+2021,nz,Tasman,Retained,regos_total_curnt,82
+2021,nz,Tasman,Returned,regos,8
+2021,nz,Tasman,Returned,active,5
+2021,nz,Tasman,Returned,apam,301
+2021,nz,Tasman,Returned,funds,1505
 2021,nz,Tasman,Returned,comment,
-2021,nz,Tasman,Foundation,donations,3.0
-2021,nz,Tasman,Foundation,funds,315.0
-2021,nz,Tasman,Foundation,ada,105.0
+2021,nz,Tasman,Foundation,donations,3
+2021,nz,Tasman,Foundation,funds,315
+2021,nz,Tasman,Foundation,ada,105
 2021,nz,Tasman,Foundation,comment,
-2021,nz,Marlborough,New,regos,114.0
-2021,nz,Marlborough,New,active,57.0
+2021,nz,Marlborough,New,regos,114
+2021,nz,Marlborough,New,active,57
 2021,nz,Marlborough,New,apam,191.03
 2021,nz,Marlborough,New,funds,10888.96
 2021,nz,Marlborough,New,comment,
-2021,nz,Marlborough,Retained,regos_total_prior,91.0
-2021,nz,Marlborough,Retained,regos,19.0
-2021,nz,Marlborough,Retained,active,8.0
+2021,nz,Marlborough,Retained,regos_total_prior,91
+2021,nz,Marlborough,Retained,regos,19
+2021,nz,Marlborough,Retained,active,8
 2021,nz,Marlborough,Retained,apam,281.25
-2021,nz,Marlborough,Retained,funds,2250.0
+2021,nz,Marlborough,Retained,funds,2250
 2021,nz,Marlborough,Retained,comment,
-2021,nz,Marlborough,Retained,regos_total_curnt,146.0
-2021,nz,Marlborough,Returned,regos,13.0
-2021,nz,Marlborough,Returned,active,7.0
+2021,nz,Marlborough,Retained,regos_total_curnt,146
+2021,nz,Marlborough,Returned,regos,13
+2021,nz,Marlborough,Returned,active,7
 2021,nz,Marlborough,Returned,apam,241.43
-2021,nz,Marlborough,Returned,funds,1690.0
+2021,nz,Marlborough,Returned,funds,1690
 2021,nz,Marlborough,Returned,comment,
-2021,nz,Marlborough,Foundation,donations,2.0
-2021,nz,Marlborough,Foundation,funds,53.0
+2021,nz,Marlborough,Foundation,donations,2
+2021,nz,Marlborough,Foundation,funds,53
 2021,nz,Marlborough,Foundation,ada,26.5
 2021,nz,Marlborough,Foundation,comment,
-2021,nz,Nelson,New,regos,64.0
-2021,nz,Nelson,New,active,29.0
+2021,nz,Nelson,New,regos,64
+2021,nz,Nelson,New,active,29
 2021,nz,Nelson,New,apam,188.28
 2021,nz,Nelson,New,funds,5460.05
 2021,nz,Nelson,New,comment,
-2021,nz,Nelson,Retained,regos_total_prior,98.0
-2021,nz,Nelson,Retained,regos,16.0
-2021,nz,Nelson,Retained,active,8.0
+2021,nz,Nelson,Retained,regos_total_prior,98
+2021,nz,Nelson,Retained,regos,16
+2021,nz,Nelson,Retained,active,8
 2021,nz,Nelson,Retained,apam,303.19
 2021,nz,Nelson,Retained,funds,2425.49
 2021,nz,Nelson,Retained,comment,
-2021,nz,Nelson,Retained,regos_total_curnt,93.0
-2021,nz,Nelson,Returned,regos,13.0
-2021,nz,Nelson,Returned,active,8.0
+2021,nz,Nelson,Retained,regos_total_curnt,93
+2021,nz,Nelson,Returned,regos,13
+2021,nz,Nelson,Returned,active,8
 2021,nz,Nelson,Returned,apam,552.9
 2021,nz,Nelson,Returned,funds,4423.19
 2021,nz,Nelson,Returned,comment,
-2021,nz,Nelson,Foundation,donations,3.0
-2021,nz,Nelson,Foundation,funds,370.0
+2021,nz,Nelson,Foundation,donations,3
+2021,nz,Nelson,Foundation,funds,370
 2021,nz,Nelson,Foundation,ada,123.33
 2021,nz,Nelson,Foundation,comment,
-2021,nz,Gisborne,New,regos,64.0
-2021,nz,Gisborne,New,active,30.0
+2021,nz,Gisborne,New,regos,64
+2021,nz,Gisborne,New,active,30
 2021,nz,Gisborne,New,apam,279.65
 2021,nz,Gisborne,New,funds,8389.4
 2021,nz,Gisborne,New,comment,
-2021,nz,Gisborne,Retained,regos_total_prior,65.0
-2021,nz,Gisborne,Retained,regos,8.0
-2021,nz,Gisborne,Retained,active,7.0
+2021,nz,Gisborne,Retained,regos_total_prior,65
+2021,nz,Gisborne,Retained,regos,8
+2021,nz,Gisborne,Retained,active,7
 2021,nz,Gisborne,Retained,apam,407.14
-2021,nz,Gisborne,Retained,funds,2850.0
+2021,nz,Gisborne,Retained,funds,2850
 2021,nz,Gisborne,Retained,comment,
-2021,nz,Gisborne,Retained,regos_total_curnt,80.0
-2021,nz,Gisborne,Returned,regos,8.0
-2021,nz,Gisborne,Returned,active,4.0
+2021,nz,Gisborne,Retained,regos_total_curnt,80
+2021,nz,Gisborne,Returned,regos,8
+2021,nz,Gisborne,Returned,active,4
 2021,nz,Gisborne,Returned,apam,592.5
-2021,nz,Gisborne,Returned,funds,2370.0
+2021,nz,Gisborne,Returned,funds,2370
 2021,nz,Gisborne,Returned,comment,
-2021,nz,Gisborne,Foundation,donations,5.0
-2021,nz,Gisborne,Foundation,funds,2296.0
+2021,nz,Gisborne,Foundation,donations,5
+2021,nz,Gisborne,Foundation,funds,2296
 2021,nz,Gisborne,Foundation,ada,459.2
 2021,nz,Gisborne,Foundation,comment,
-2021,nz,West Coast,New,regos,26.0
-2021,nz,West Coast,New,active,9.0
+2021,nz,West Coast,New,regos,26
+2021,nz,West Coast,New,active,9
 2021,nz,West Coast,New,apam,203.78
-2021,nz,West Coast,New,funds,1834.0
+2021,nz,West Coast,New,funds,1834
 2021,nz,West Coast,New,comment,
-2021,nz,West Coast,Retained,regos_total_prior,29.0
-2021,nz,West Coast,Retained,regos,7.0
-2021,nz,West Coast,Retained,active,4.0
+2021,nz,West Coast,Retained,regos_total_prior,29
+2021,nz,West Coast,Retained,regos,7
+2021,nz,West Coast,Retained,active,4
 2021,nz,West Coast,Retained,apam,638.67
 2021,nz,West Coast,Retained,funds,2554.7
 2021,nz,West Coast,Retained,comment,
-2021,nz,West Coast,Retained,regos_total_curnt,35.0
-2021,nz,West Coast,Returned,regos,2.0
-2021,nz,West Coast,Returned,active,0.0
-2021,nz,West Coast,Returned,apam,0.0
-2021,nz,West Coast,Returned,funds,0.0
+2021,nz,West Coast,Retained,regos_total_curnt,35
+2021,nz,West Coast,Returned,regos,2
+2021,nz,West Coast,Returned,active,0
+2021,nz,West Coast,Returned,apam,0
+2021,nz,West Coast,Returned,funds,0
 2021,nz,West Coast,Returned,comment,
-2021,nz,West Coast,Foundation,donations,1.0
-2021,nz,West Coast,Foundation,funds,100.0
-2021,nz,West Coast,Foundation,ada,100.0
+2021,nz,West Coast,Foundation,donations,1
+2021,nz,West Coast,Foundation,funds,100
+2021,nz,West Coast,Foundation,ada,100
 2021,nz,West Coast,Foundation,comment,
-2021,nz,Other,New,regos,2161.0
-2021,nz,Other,New,active,1235.0
+2021,nz,Other,New,regos,2161
+2021,nz,Other,New,active,1235
 2021,nz,Other,New,apam,498.17
 2021,nz,Other,New,funds,615241.82
 2021,nz,Other,New,comment,
-2021,nz,Other,Retained,regos_total_prior,3005.0
-2021,nz,Other,Retained,regos,268.0
-2021,nz,Other,Retained,active,172.0
+2021,nz,Other,Retained,regos_total_prior,3005
+2021,nz,Other,Retained,regos,268
+2021,nz,Other,Retained,active,172
 2021,nz,Other,Retained,apam,471.5
 2021,nz,Other,Retained,funds,81097.47
 2021,nz,Other,Retained,comment,
-2021,nz,Other,Retained,regos_total_curnt,7541.0
-2021,nz,Other,Returned,regos,5112.0
-2021,nz,Other,Returned,active,435.0
+2021,nz,Other,Retained,regos_total_curnt,7541
+2021,nz,Other,Returned,regos,5112
+2021,nz,Other,Returned,active,435
 2021,nz,Other,Returned,apam,565.76
 2021,nz,Other,Returned,funds,246104.66
 2021,nz,Other,Returned,comment,
-2021,nz,Other,Foundation,donations,1267.0
+2021,nz,Other,Foundation,donations,1267
 2021,nz,Other,Foundation,funds,120920.69
 2021,nz,Other,Foundation,ada,95.44
 2021,nz,Other,Foundation,comment,
-2021,at,Total,New,regos,714.0
-2021,at,Total,New,active,133.0
+2021,at,Total,New,regos,714
+2021,at,Total,New,active,133
 2021,at,Total,New,apam,117.37
 2021,at,Total,New,funds,15610.71
 2021,at,Total,New,comment,
-2021,at,Total,Retained,regos_total_prior,1236.0
-2021,at,Total,Retained,regos,246.0
-2021,at,Total,Retained,active,80.0
+2021,at,Total,Retained,regos_total_prior,1236
+2021,at,Total,Retained,regos,246
+2021,at,Total,Retained,active,80
 2021,at,Total,Retained,apam,123.45
 2021,at,Total,Retained,funds,9875.79
 2021,at,Total,Retained,comment,
-2021,at,Total,Retained,regos_total_curnt,1666.0
-2021,at,Total,Returned,regos,706.0
-2021,at,Total,Returned,active,56.0
+2021,at,Total,Retained,regos_total_curnt,1666
+2021,at,Total,Returned,regos,706
+2021,at,Total,Returned,active,56
 2021,at,Total,Returned,apam,286.23
 2021,at,Total,Returned,funds,16028.6
 2021,at,Total,Returned,comment,
-2021,at,Total,Foundation,donations,201.0
+2021,at,Total,Foundation,donations,201
 2021,at,Total,Foundation,funds,11473.82
 2021,at,Total,Foundation,ada,57.08
 2021,at,Total,Foundation,comment,
-2021,at,Other,New,regos,714.0
-2021,at,Other,New,active,133.0
+2021,at,Other,New,regos,714
+2021,at,Other,New,active,133
 2021,at,Other,New,apam,117.37
 2021,at,Other,New,funds,15610.71
 2021,at,Other,New,comment,
-2021,at,Other,Retained,regos_total_prior,1236.0
-2021,at,Other,Retained,regos,246.0
-2021,at,Other,Retained,active,80.0
+2021,at,Other,Retained,regos_total_prior,1236
+2021,at,Other,Retained,regos,246
+2021,at,Other,Retained,active,80
 2021,at,Other,Retained,apam,123.45
 2021,at,Other,Retained,funds,9875.79
 2021,at,Other,Retained,comment,
-2021,at,Other,Retained,regos_total_curnt,1666.0
-2021,at,Other,Returned,regos,706.0
-2021,at,Other,Returned,active,56.0
+2021,at,Other,Retained,regos_total_curnt,1666
+2021,at,Other,Returned,regos,706
+2021,at,Other,Returned,active,56
 2021,at,Other,Returned,apam,286.23
 2021,at,Other,Returned,funds,16028.6
 2021,at,Other,Returned,comment,
-2021,at,Other,Foundation,donations,201.0
+2021,at,Other,Foundation,donations,201
 2021,at,Other,Foundation,funds,11473.82
 2021,at,Other,Foundation,ada,57.08
 2021,at,Other,Foundation,comment,
-2021,be,Total,New,regos,511.0
-2021,be,Total,New,active,110.0
+2021,be,Total,New,regos,511
+2021,be,Total,New,active,110
 2021,be,Total,New,apam,133.44
 2021,be,Total,New,funds,14677.87
 2021,be,Total,New,comment,
-2021,be,Total,Retained,regos_total_prior,999.0
-2021,be,Total,Retained,regos,164.0
-2021,be,Total,Retained,active,47.0
+2021,be,Total,Retained,regos_total_prior,999
+2021,be,Total,Retained,regos,164
+2021,be,Total,Retained,active,47
 2021,be,Total,Retained,apam,420.31
 2021,be,Total,Retained,funds,19754.79
 2021,be,Total,Retained,comment,
-2021,be,Total,Retained,regos_total_curnt,1326.0
-2021,be,Total,Returned,regos,651.0
-2021,be,Total,Returned,active,44.0
+2021,be,Total,Retained,regos_total_curnt,1326
+2021,be,Total,Returned,regos,651
+2021,be,Total,Returned,active,44
 2021,be,Total,Returned,apam,281.6
 2021,be,Total,Returned,funds,12390.62
 2021,be,Total,Returned,comment,
-2021,be,Total,Foundation,donations,48.0
+2021,be,Total,Foundation,donations,48
 2021,be,Total,Foundation,funds,17235.34
 2021,be,Total,Foundation,ada,359.07
 2021,be,Total,Foundation,comment,
-2021,be,Other,New,regos,511.0
-2021,be,Other,New,active,110.0
+2021,be,Other,New,regos,511
+2021,be,Other,New,active,110
 2021,be,Other,New,apam,133.44
 2021,be,Other,New,funds,14677.87
 2021,be,Other,New,comment,
-2021,be,Other,Retained,regos_total_prior,999.0
-2021,be,Other,Retained,regos,164.0
-2021,be,Other,Retained,active,47.0
+2021,be,Other,Retained,regos_total_prior,999
+2021,be,Other,Retained,regos,164
+2021,be,Other,Retained,active,47
 2021,be,Other,Retained,apam,420.31
 2021,be,Other,Retained,funds,19754.79
 2021,be,Other,Retained,comment,
-2021,be,Other,Retained,regos_total_curnt,1326.0
-2021,be,Other,Returned,regos,651.0
-2021,be,Other,Returned,active,44.0
+2021,be,Other,Retained,regos_total_curnt,1326
+2021,be,Other,Returned,regos,651
+2021,be,Other,Returned,active,44
 2021,be,Other,Returned,apam,281.6
 2021,be,Other,Returned,funds,12390.62
 2021,be,Other,Returned,comment,
-2021,be,Other,Foundation,donations,48.0
+2021,be,Other,Foundation,donations,48
 2021,be,Other,Foundation,funds,17235.34
 2021,be,Other,Foundation,ada,359.07
 2021,be,Other,Foundation,comment,
-2021,cz,Total,New,regos,1312.0
-2021,cz,Total,New,active,240.0
+2021,cz,Total,New,regos,1312
+2021,cz,Total,New,active,240
 2021,cz,Total,New,apam,1577.95
 2021,cz,Total,New,funds,378707.11
 2021,cz,Total,New,comment,
-2021,cz,Total,Retained,regos_total_prior,3285.0
-2021,cz,Total,Retained,regos,942.0
-2021,cz,Total,Retained,active,309.0
+2021,cz,Total,Retained,regos_total_prior,3285
+2021,cz,Total,Retained,regos,942
+2021,cz,Total,Retained,active,309
 2021,cz,Total,Retained,apam,3848.98
 2021,cz,Total,Retained,funds,1189333.77
 2021,cz,Total,Retained,comment,
-2021,cz,Total,Retained,regos_total_curnt,4241.0
-2021,cz,Total,Returned,regos,1987.0
-2021,cz,Total,Returned,active,193.0
+2021,cz,Total,Retained,regos_total_curnt,4241
+2021,cz,Total,Returned,regos,1987
+2021,cz,Total,Returned,active,193
 2021,cz,Total,Returned,apam,8370.76
 2021,cz,Total,Returned,funds,1615556.58
 2021,cz,Total,Returned,comment,
-2021,cz,Total,Foundation,donations,465.0
-2021,cz,Total,Foundation,funds,287879.0
+2021,cz,Total,Foundation,donations,465
+2021,cz,Total,Foundation,funds,287879
 2021,cz,Total,Foundation,ada,619.09
 2021,cz,Total,Foundation,comment,
-2021,cz,Other,New,regos,1312.0
-2021,cz,Other,New,active,240.0
+2021,cz,Other,New,regos,1312
+2021,cz,Other,New,active,240
 2021,cz,Other,New,apam,1577.95
 2021,cz,Other,New,funds,378707.11
 2021,cz,Other,New,comment,
-2021,cz,Other,Retained,regos_total_prior,3285.0
-2021,cz,Other,Retained,regos,942.0
-2021,cz,Other,Retained,active,309.0
+2021,cz,Other,Retained,regos_total_prior,3285
+2021,cz,Other,Retained,regos,942
+2021,cz,Other,Retained,active,309
 2021,cz,Other,Retained,apam,3848.98
 2021,cz,Other,Retained,funds,1189333.77
 2021,cz,Other,Retained,comment,
-2021,cz,Other,Retained,regos_total_curnt,4241.0
-2021,cz,Other,Returned,regos,1987.0
-2021,cz,Other,Returned,active,193.0
+2021,cz,Other,Retained,regos_total_curnt,4241
+2021,cz,Other,Returned,regos,1987
+2021,cz,Other,Returned,active,193
 2021,cz,Other,Returned,apam,8370.76
 2021,cz,Other,Returned,funds,1615556.58
 2021,cz,Other,Returned,comment,
-2021,cz,Other,Foundation,donations,465.0
-2021,cz,Other,Foundation,funds,287879.0
+2021,cz,Other,Foundation,donations,465
+2021,cz,Other,Foundation,funds,287879
 2021,cz,Other,Foundation,ada,619.09
 2021,cz,Other,Foundation,comment,
-2021,dk,Total,New,regos,688.0
-2021,dk,Total,New,active,120.0
+2021,dk,Total,New,regos,688
+2021,dk,Total,New,active,120
 2021,dk,Total,New,apam,784.63
-2021,dk,Total,New,funds,94156.0
+2021,dk,Total,New,funds,94156
 2021,dk,Total,New,comment,
-2021,dk,Total,Retained,regos_total_prior,932.0
-2021,dk,Total,Retained,regos,67.0
-2021,dk,Total,Retained,active,36.0
+2021,dk,Total,Retained,regos_total_prior,932
+2021,dk,Total,Retained,regos,67
+2021,dk,Total,Retained,active,36
 2021,dk,Total,Retained,apam,3681.94
-2021,dk,Total,Retained,funds,132550.0
+2021,dk,Total,Retained,funds,132550
 2021,dk,Total,Retained,comment,
-2021,dk,Total,Retained,regos_total_curnt,1501.0
-2021,dk,Total,Returned,regos,746.0
-2021,dk,Total,Returned,active,31.0
+2021,dk,Total,Retained,regos_total_curnt,1501
+2021,dk,Total,Returned,regos,746
+2021,dk,Total,Returned,active,31
 2021,dk,Total,Returned,apam,892.2
 2021,dk,Total,Returned,funds,27658.25
 2021,dk,Total,Returned,comment,
-2021,dk,Total,Foundation,donations,63.0
+2021,dk,Total,Foundation,donations,63
 2021,dk,Total,Foundation,funds,23630.4
 2021,dk,Total,Foundation,ada,375.09
 2021,dk,Total,Foundation,comment,
-2021,dk,Other,New,regos,688.0
-2021,dk,Other,New,active,120.0
+2021,dk,Other,New,regos,688
+2021,dk,Other,New,active,120
 2021,dk,Other,New,apam,784.63
-2021,dk,Other,New,funds,94156.0
+2021,dk,Other,New,funds,94156
 2021,dk,Other,New,comment,
-2021,dk,Other,Retained,regos_total_prior,932.0
-2021,dk,Other,Retained,regos,67.0
-2021,dk,Other,Retained,active,36.0
+2021,dk,Other,Retained,regos_total_prior,932
+2021,dk,Other,Retained,regos,67
+2021,dk,Other,Retained,active,36
 2021,dk,Other,Retained,apam,3681.94
-2021,dk,Other,Retained,funds,132550.0
+2021,dk,Other,Retained,funds,132550
 2021,dk,Other,Retained,comment,
-2021,dk,Other,Retained,regos_total_curnt,1501.0
-2021,dk,Other,Returned,regos,746.0
-2021,dk,Other,Returned,active,31.0
+2021,dk,Other,Retained,regos_total_curnt,1501
+2021,dk,Other,Returned,regos,746
+2021,dk,Other,Returned,active,31
 2021,dk,Other,Returned,apam,892.2
 2021,dk,Other,Returned,funds,27658.25
 2021,dk,Other,Returned,comment,
-2021,dk,Other,Foundation,donations,63.0
+2021,dk,Other,Foundation,donations,63
 2021,dk,Other,Foundation,funds,23630.4
 2021,dk,Other,Foundation,ada,375.09
 2021,dk,Other,Foundation,comment,
-2021,fi,Total,New,regos,0.0
-2021,fi,Total,New,active,0.0
-2021,fi,Total,New,apam,0.0
-2021,fi,Total,New,funds,0.0
+2021,fi,Total,New,regos,0
+2021,fi,Total,New,active,0
+2021,fi,Total,New,apam,0
+2021,fi,Total,New,funds,0
 2021,fi,Total,New,comment,
-2021,fi,Total,Retained,regos_total_prior,10.0
-2021,fi,Total,Retained,regos,2.0
-2021,fi,Total,Retained,active,0.0
-2021,fi,Total,Retained,apam,0.0
-2021,fi,Total,Retained,funds,0.0
+2021,fi,Total,Retained,regos_total_prior,10
+2021,fi,Total,Retained,regos,2
+2021,fi,Total,Retained,active,0
+2021,fi,Total,Retained,apam,0
+2021,fi,Total,Retained,funds,0
 2021,fi,Total,Retained,comment,
-2021,fi,Total,Retained,regos_total_curnt,402.0
-2021,fi,Total,Returned,regos,400.0
-2021,fi,Total,Returned,active,0.0
-2021,fi,Total,Returned,apam,0.0
-2021,fi,Total,Returned,funds,0.0
+2021,fi,Total,Retained,regos_total_curnt,402
+2021,fi,Total,Returned,regos,400
+2021,fi,Total,Returned,active,0
+2021,fi,Total,Returned,apam,0
+2021,fi,Total,Returned,funds,0
 2021,fi,Total,Returned,comment,
-2021,fi,Total,Foundation,donations,0.0
-2021,fi,Total,Foundation,funds,0.0
-2021,fi,Total,Foundation,ada,0.0
+2021,fi,Total,Foundation,donations,0
+2021,fi,Total,Foundation,funds,0
+2021,fi,Total,Foundation,ada,0
 2021,fi,Total,Foundation,comment,
-2021,fi,Other,New,regos,0.0
-2021,fi,Other,New,active,0.0
-2021,fi,Other,New,apam,0.0
-2021,fi,Other,New,funds,0.0
+2021,fi,Other,New,regos,0
+2021,fi,Other,New,active,0
+2021,fi,Other,New,apam,0
+2021,fi,Other,New,funds,0
 2021,fi,Other,New,comment,
-2021,fi,Other,Retained,regos_total_prior,10.0
-2021,fi,Other,Retained,regos,2.0
-2021,fi,Other,Retained,active,0.0
-2021,fi,Other,Retained,apam,0.0
-2021,fi,Other,Retained,funds,0.0
+2021,fi,Other,Retained,regos_total_prior,10
+2021,fi,Other,Retained,regos,2
+2021,fi,Other,Retained,active,0
+2021,fi,Other,Retained,apam,0
+2021,fi,Other,Retained,funds,0
 2021,fi,Other,Retained,comment,
-2021,fi,Other,Retained,regos_total_curnt,402.0
-2021,fi,Other,Returned,regos,400.0
-2021,fi,Other,Returned,active,0.0
-2021,fi,Other,Returned,apam,0.0
-2021,fi,Other,Returned,funds,0.0
+2021,fi,Other,Retained,regos_total_curnt,402
+2021,fi,Other,Returned,regos,400
+2021,fi,Other,Returned,active,0
+2021,fi,Other,Returned,apam,0
+2021,fi,Other,Returned,funds,0
 2021,fi,Other,Returned,comment,
-2021,fi,Other,Foundation,donations,0.0
-2021,fi,Other,Foundation,funds,0.0
-2021,fi,Other,Foundation,ada,0.0
+2021,fi,Other,Foundation,donations,0
+2021,fi,Other,Foundation,funds,0
+2021,fi,Other,Foundation,ada,0
 2021,fi,Other,Foundation,comment,
-2021,fr,Total,New,regos,6954.0
-2021,fr,Total,New,active,670.0
+2021,fr,Total,New,regos,6954
+2021,fr,Total,New,active,670
 2021,fr,Total,New,apam,106.51
 2021,fr,Total,New,funds,71359.59
 2021,fr,Total,New,comment,
-2021,fr,Total,Retained,regos_total_prior,10378.0
-2021,fr,Total,Retained,regos,1427.0
-2021,fr,Total,Retained,active,409.0
+2021,fr,Total,Retained,regos_total_prior,10378
+2021,fr,Total,Retained,regos,1427
+2021,fr,Total,Retained,active,409
 2021,fr,Total,Retained,apam,239.87
 2021,fr,Total,Retained,funds,98108.36
 2021,fr,Total,Retained,comment,
-2021,fr,Total,Retained,regos_total_curnt,14142.0
-2021,fr,Total,Returned,regos,5761.0
-2021,fr,Total,Returned,active,283.0
+2021,fr,Total,Retained,regos_total_curnt,14142
+2021,fr,Total,Returned,regos,5761
+2021,fr,Total,Returned,active,283
 2021,fr,Total,Returned,apam,315.18
 2021,fr,Total,Returned,funds,89194.78
 2021,fr,Total,Returned,comment,
-2021,fr,Total,Foundation,donations,796.0
+2021,fr,Total,Foundation,donations,796
 2021,fr,Total,Foundation,funds,138402.03
 2021,fr,Total,Foundation,ada,173.87
 2021,fr,Total,Foundation,comment,
-2021,fr,Other,New,regos,6954.0
-2021,fr,Other,New,active,670.0
+2021,fr,Other,New,regos,6954
+2021,fr,Other,New,active,670
 2021,fr,Other,New,apam,106.51
 2021,fr,Other,New,funds,71359.59
 2021,fr,Other,New,comment,
-2021,fr,Other,Retained,regos_total_prior,10378.0
-2021,fr,Other,Retained,regos,1427.0
-2021,fr,Other,Retained,active,409.0
+2021,fr,Other,Retained,regos_total_prior,10378
+2021,fr,Other,Retained,regos,1427
+2021,fr,Other,Retained,active,409
 2021,fr,Other,Retained,apam,239.87
 2021,fr,Other,Retained,funds,98108.36
 2021,fr,Other,Retained,comment,
-2021,fr,Other,Retained,regos_total_curnt,14142.0
-2021,fr,Other,Returned,regos,5761.0
-2021,fr,Other,Returned,active,283.0
+2021,fr,Other,Retained,regos_total_curnt,14142
+2021,fr,Other,Returned,regos,5761
+2021,fr,Other,Returned,active,283
 2021,fr,Other,Returned,apam,315.18
 2021,fr,Other,Returned,funds,89194.78
 2021,fr,Other,Returned,comment,
-2021,fr,Other,Foundation,donations,796.0
+2021,fr,Other,Foundation,donations,796
 2021,fr,Other,Foundation,funds,138402.03
 2021,fr,Other,Foundation,ada,173.87
 2021,fr,Other,Foundation,comment,
-2021,de,Total,New,regos,6017.0
-2021,de,Total,New,active,1443.0
+2021,de,Total,New,regos,6017
+2021,de,Total,New,active,1443
 2021,de,Total,New,apam,122.28
 2021,de,Total,New,funds,176456.89
 2021,de,Total,New,comment,
-2021,de,Total,Retained,regos_total_prior,10469.0
-2021,de,Total,Retained,regos,1923.0
-2021,de,Total,Retained,active,842.0
+2021,de,Total,Retained,regos_total_prior,10469
+2021,de,Total,Retained,regos,1923
+2021,de,Total,Retained,active,842
 2021,de,Total,Retained,apam,279.52
 2021,de,Total,Retained,funds,235359.13
 2021,de,Total,Retained,comment,
-2021,de,Total,Retained,regos_total_curnt,11936.0
-2021,de,Total,Returned,regos,3996.0
-2021,de,Total,Returned,active,446.0
+2021,de,Total,Retained,regos_total_curnt,11936
+2021,de,Total,Returned,regos,3996
+2021,de,Total,Returned,active,446
 2021,de,Total,Returned,apam,301.24
 2021,de,Total,Returned,funds,134354.39
 2021,de,Total,Returned,comment,
-2021,de,Total,Foundation,donations,998.0
+2021,de,Total,Foundation,donations,998
 2021,de,Total,Foundation,funds,115947.03
 2021,de,Total,Foundation,ada,116.18
 2021,de,Total,Foundation,comment,
-2021,de,Other,New,regos,6017.0
-2021,de,Other,New,active,1443.0
+2021,de,Other,New,regos,6017
+2021,de,Other,New,active,1443
 2021,de,Other,New,apam,122.28
 2021,de,Other,New,funds,176456.89
 2021,de,Other,New,comment,
-2021,de,Other,Retained,regos_total_prior,10469.0
-2021,de,Other,Retained,regos,1923.0
-2021,de,Other,Retained,active,842.0
+2021,de,Other,Retained,regos_total_prior,10469
+2021,de,Other,Retained,regos,1923
+2021,de,Other,Retained,active,842
 2021,de,Other,Retained,apam,279.52
 2021,de,Other,Retained,funds,235359.13
 2021,de,Other,Retained,comment,
-2021,de,Other,Retained,regos_total_curnt,11936.0
-2021,de,Other,Returned,regos,3996.0
-2021,de,Other,Returned,active,446.0
+2021,de,Other,Retained,regos_total_curnt,11936
+2021,de,Other,Returned,regos,3996
+2021,de,Other,Returned,active,446
 2021,de,Other,Returned,apam,301.24
 2021,de,Other,Returned,funds,134354.39
 2021,de,Other,Returned,comment,
-2021,de,Other,Foundation,donations,998.0
+2021,de,Other,Foundation,donations,998
 2021,de,Other,Foundation,funds,115947.03
 2021,de,Other,Foundation,ada,116.18
 2021,de,Other,Foundation,comment,
-2021,it,Total,New,regos,0.0
-2021,it,Total,New,active,0.0
-2021,it,Total,New,apam,0.0
-2021,it,Total,New,funds,0.0
+2021,it,Total,New,regos,0
+2021,it,Total,New,active,0
+2021,it,Total,New,apam,0
+2021,it,Total,New,funds,0
 2021,it,Total,New,comment,
-2021,it,Total,Retained,regos_total_prior,0.0
-2021,it,Total,Retained,regos,0.0
-2021,it,Total,Retained,active,0.0
-2021,it,Total,Retained,apam,0.0
-2021,it,Total,Retained,funds,0.0
+2021,it,Total,Retained,regos_total_prior,0
+2021,it,Total,Retained,regos,0
+2021,it,Total,Retained,active,0
+2021,it,Total,Retained,apam,0
+2021,it,Total,Retained,funds,0
 2021,it,Total,Retained,comment,
-2021,it,Total,Retained,regos_total_curnt,0.0
-2021,it,Total,Returned,regos,0.0
-2021,it,Total,Returned,active,0.0
-2021,it,Total,Returned,apam,0.0
-2021,it,Total,Returned,funds,0.0
+2021,it,Total,Retained,regos_total_curnt,0
+2021,it,Total,Returned,regos,0
+2021,it,Total,Returned,active,0
+2021,it,Total,Returned,apam,0
+2021,it,Total,Returned,funds,0
 2021,it,Total,Returned,comment,
-2021,it,Total,Foundation,donations,0.0
-2021,it,Total,Foundation,funds,0.0
-2021,it,Total,Foundation,ada,0.0
+2021,it,Total,Foundation,donations,0
+2021,it,Total,Foundation,funds,0
+2021,it,Total,Foundation,ada,0
 2021,it,Total,Foundation,comment,
-2021,it,Other,New,regos,0.0
-2021,it,Other,New,active,0.0
-2021,it,Other,New,apam,0.0
-2021,it,Other,New,funds,0.0
+2021,it,Other,New,regos,0
+2021,it,Other,New,active,0
+2021,it,Other,New,apam,0
+2021,it,Other,New,funds,0
 2021,it,Other,New,comment,
-2021,it,Other,Retained,regos_total_prior,0.0
-2021,it,Other,Retained,regos,0.0
-2021,it,Other,Retained,active,0.0
-2021,it,Other,Retained,apam,0.0
-2021,it,Other,Retained,funds,0.0
+2021,it,Other,Retained,regos_total_prior,0
+2021,it,Other,Retained,regos,0
+2021,it,Other,Retained,active,0
+2021,it,Other,Retained,apam,0
+2021,it,Other,Retained,funds,0
 2021,it,Other,Retained,comment,
-2021,it,Other,Retained,regos_total_curnt,0.0
-2021,it,Other,Returned,regos,0.0
-2021,it,Other,Returned,active,0.0
-2021,it,Other,Returned,apam,0.0
-2021,it,Other,Returned,funds,0.0
+2021,it,Other,Retained,regos_total_curnt,0
+2021,it,Other,Returned,regos,0
+2021,it,Other,Returned,active,0
+2021,it,Other,Returned,apam,0
+2021,it,Other,Returned,funds,0
 2021,it,Other,Returned,comment,
-2021,it,Other,Foundation,donations,0.0
-2021,it,Other,Foundation,funds,0.0
-2021,it,Other,Foundation,ada,0.0
+2021,it,Other,Foundation,donations,0
+2021,it,Other,Foundation,funds,0
+2021,it,Other,Foundation,ada,0
 2021,it,Other,Foundation,comment,
-2021,nl,Total,New,regos,2136.0
-2021,nl,Total,New,active,864.0
+2021,nl,Total,New,regos,2136
+2021,nl,Total,New,active,864
 2021,nl,Total,New,apam,178.23
 2021,nl,Total,New,funds,153993.72
 2021,nl,Total,New,comment,
-2021,nl,Total,Retained,regos_total_prior,3101.0
-2021,nl,Total,Retained,regos,494.0
-2021,nl,Total,Retained,active,307.0
+2021,nl,Total,Retained,regos_total_prior,3101
+2021,nl,Total,Retained,regos,494
+2021,nl,Total,Retained,active,307
 2021,nl,Total,Retained,apam,334.33
 2021,nl,Total,Retained,funds,102638.75
 2021,nl,Total,Retained,comment,
-2021,nl,Total,Retained,regos_total_curnt,4113.0
-2021,nl,Total,Returned,regos,1483.0
-2021,nl,Total,Returned,active,172.0
+2021,nl,Total,Retained,regos_total_curnt,4113
+2021,nl,Total,Returned,regos,1483
+2021,nl,Total,Returned,active,172
 2021,nl,Total,Returned,apam,346.57
 2021,nl,Total,Returned,funds,59609.95
 2021,nl,Total,Returned,comment,
-2021,nl,Total,Foundation,donations,443.0
+2021,nl,Total,Foundation,donations,443
 2021,nl,Total,Foundation,funds,35313.92
 2021,nl,Total,Foundation,ada,79.72
 2021,nl,Total,Foundation,comment,
-2021,nl,Other,New,regos,2136.0
-2021,nl,Other,New,active,864.0
+2021,nl,Other,New,regos,2136
+2021,nl,Other,New,active,864
 2021,nl,Other,New,apam,178.23
 2021,nl,Other,New,funds,153993.72
 2021,nl,Other,New,comment,
-2021,nl,Other,Retained,regos_total_prior,3101.0
-2021,nl,Other,Retained,regos,494.0
-2021,nl,Other,Retained,active,307.0
+2021,nl,Other,Retained,regos_total_prior,3101
+2021,nl,Other,Retained,regos,494
+2021,nl,Other,Retained,active,307
 2021,nl,Other,Retained,apam,334.33
 2021,nl,Other,Retained,funds,102638.75
 2021,nl,Other,Retained,comment,
-2021,nl,Other,Retained,regos_total_curnt,4113.0
-2021,nl,Other,Returned,regos,1483.0
-2021,nl,Other,Returned,active,172.0
+2021,nl,Other,Retained,regos_total_curnt,4113
+2021,nl,Other,Returned,regos,1483
+2021,nl,Other,Returned,active,172
 2021,nl,Other,Returned,apam,346.57
 2021,nl,Other,Returned,funds,59609.95
 2021,nl,Other,Returned,comment,
-2021,nl,Other,Foundation,donations,443.0
+2021,nl,Other,Foundation,donations,443
 2021,nl,Other,Foundation,funds,35313.92
 2021,nl,Other,Foundation,ada,79.72
 2021,nl,Other,Foundation,comment,
-2021,no,Total,New,regos,954.0
-2021,no,Total,New,active,246.0
+2021,no,Total,New,regos,954
+2021,no,Total,New,active,246
 2021,no,Total,New,apam,1409.29
 2021,no,Total,New,funds,346685.22
 2021,no,Total,New,comment,
-2021,no,Total,Retained,regos_total_prior,1972.0
-2021,no,Total,Retained,regos,312.0
-2021,no,Total,Retained,active,160.0
+2021,no,Total,Retained,regos_total_prior,1972
+2021,no,Total,Retained,regos,312
+2021,no,Total,Retained,active,160
 2021,no,Total,Retained,apam,3292.68
 2021,no,Total,Retained,funds,526828.61
 2021,no,Total,Retained,comment,
-2021,no,Total,Retained,regos_total_curnt,2972.0
-2021,no,Total,Returned,regos,1706.0
-2021,no,Total,Returned,active,110.0
+2021,no,Total,Retained,regos_total_curnt,2972
+2021,no,Total,Returned,regos,1706
+2021,no,Total,Returned,active,110
 2021,no,Total,Returned,apam,2901.83
 2021,no,Total,Returned,funds,319201.28
 2021,no,Total,Returned,comment,
-2021,no,Total,Foundation,donations,188.0
+2021,no,Total,Foundation,donations,188
 2021,no,Total,Foundation,funds,161062.89
 2021,no,Total,Foundation,ada,856.72
 2021,no,Total,Foundation,comment,
-2021,no,Other,New,regos,954.0
-2021,no,Other,New,active,246.0
+2021,no,Other,New,regos,954
+2021,no,Other,New,active,246
 2021,no,Other,New,apam,1409.29
 2021,no,Other,New,funds,346685.22
 2021,no,Other,New,comment,
-2021,no,Other,Retained,regos_total_prior,1972.0
-2021,no,Other,Retained,regos,312.0
-2021,no,Other,Retained,active,160.0
+2021,no,Other,Retained,regos_total_prior,1972
+2021,no,Other,Retained,regos,312
+2021,no,Other,Retained,active,160
 2021,no,Other,Retained,apam,3292.68
 2021,no,Other,Retained,funds,526828.61
 2021,no,Other,Retained,comment,
-2021,no,Other,Retained,regos_total_curnt,2972.0
-2021,no,Other,Returned,regos,1706.0
-2021,no,Other,Returned,active,110.0
+2021,no,Other,Retained,regos_total_curnt,2972
+2021,no,Other,Returned,regos,1706
+2021,no,Other,Returned,active,110
 2021,no,Other,Returned,apam,2901.83
 2021,no,Other,Returned,funds,319201.28
 2021,no,Other,Returned,comment,
-2021,no,Other,Foundation,donations,188.0
+2021,no,Other,Foundation,donations,188
 2021,no,Other,Foundation,funds,161062.89
 2021,no,Other,Foundation,ada,856.72
 2021,no,Other,Foundation,comment,
-2021,es,Total,New,regos,2657.0
-2021,es,Total,New,active,496.0
+2021,es,Total,New,regos,2657
+2021,es,Total,New,active,496
 2021,es,Total,New,apam,114.28
 2021,es,Total,New,funds,56684.27
 2021,es,Total,New,comment,
-2021,es,Total,Retained,regos_total_prior,5238.0
-2021,es,Total,Retained,regos,1085.0
-2021,es,Total,Retained,active,480.0
-2021,es,Total,Retained,apam,246.0
-2021,es,Total,Retained,funds,118079.0
+2021,es,Total,Retained,regos_total_prior,5238
+2021,es,Total,Retained,regos,1085
+2021,es,Total,Retained,active,480
+2021,es,Total,Retained,apam,246
+2021,es,Total,Retained,funds,118079
 2021,es,Total,Retained,comment,
-2021,es,Total,Retained,regos_total_curnt,6391.0
-2021,es,Total,Returned,regos,2649.0
-2021,es,Total,Returned,active,252.0
+2021,es,Total,Retained,regos_total_curnt,6391
+2021,es,Total,Returned,regos,2649
+2021,es,Total,Returned,active,252
 2021,es,Total,Returned,apam,231.91
 2021,es,Total,Returned,funds,58442.39
 2021,es,Total,Returned,comment,
-2021,es,Total,Foundation,donations,541.0
+2021,es,Total,Foundation,donations,541
 2021,es,Total,Foundation,funds,32683.64
 2021,es,Total,Foundation,ada,60.41
 2021,es,Total,Foundation,comment,
-2021,es,Other,New,regos,2657.0
-2021,es,Other,New,active,496.0
+2021,es,Other,New,regos,2657
+2021,es,Other,New,active,496
 2021,es,Other,New,apam,114.28
 2021,es,Other,New,funds,56684.27
 2021,es,Other,New,comment,
-2021,es,Other,Retained,regos_total_prior,5238.0
-2021,es,Other,Retained,regos,1085.0
-2021,es,Other,Retained,active,480.0
-2021,es,Other,Retained,apam,246.0
-2021,es,Other,Retained,funds,118079.0
+2021,es,Other,Retained,regos_total_prior,5238
+2021,es,Other,Retained,regos,1085
+2021,es,Other,Retained,active,480
+2021,es,Other,Retained,apam,246
+2021,es,Other,Retained,funds,118079
 2021,es,Other,Retained,comment,
-2021,es,Other,Retained,regos_total_curnt,6391.0
-2021,es,Other,Returned,regos,2649.0
-2021,es,Other,Returned,active,252.0
+2021,es,Other,Retained,regos_total_curnt,6391
+2021,es,Other,Returned,regos,2649
+2021,es,Other,Returned,active,252
 2021,es,Other,Returned,apam,231.91
 2021,es,Other,Returned,funds,58442.39
 2021,es,Other,Returned,comment,
-2021,es,Other,Foundation,donations,541.0
+2021,es,Other,Foundation,donations,541
 2021,es,Other,Foundation,funds,32683.64
 2021,es,Other,Foundation,ada,60.41
 2021,es,Other,Foundation,comment,
-2021,se,Total,New,regos,998.0
-2021,se,Total,New,active,192.0
+2021,se,Total,New,regos,998
+2021,se,Total,New,active,192
 2021,se,Total,New,apam,1702.48
 2021,se,Total,New,funds,326875.7
 2021,se,Total,New,comment,
-2021,se,Total,Retained,regos_total_prior,1721.0
-2021,se,Total,Retained,regos,228.0
-2021,se,Total,Retained,active,96.0
+2021,se,Total,Retained,regos_total_prior,1721
+2021,se,Total,Retained,regos,228
+2021,se,Total,Retained,active,96
 2021,se,Total,Retained,apam,6408.33
 2021,se,Total,Retained,funds,615200.1
 2021,se,Total,Retained,comment,
-2021,se,Total,Retained,regos_total_curnt,2955.0
-2021,se,Total,Returned,regos,1729.0
-2021,se,Total,Returned,active,92.0
+2021,se,Total,Retained,regos_total_curnt,2955
+2021,se,Total,Returned,regos,1729
+2021,se,Total,Returned,active,92
 2021,se,Total,Returned,apam,6193.93
 2021,se,Total,Returned,funds,569841.42
 2021,se,Total,Returned,comment,
-2021,se,Total,Foundation,donations,175.0
+2021,se,Total,Foundation,donations,175
 2021,se,Total,Foundation,funds,165820.98
 2021,se,Total,Foundation,ada,947.55
 2021,se,Total,Foundation,comment,
-2021,se,Other,New,regos,998.0
-2021,se,Other,New,active,192.0
+2021,se,Other,New,regos,998
+2021,se,Other,New,active,192
 2021,se,Other,New,apam,1702.48
 2021,se,Other,New,funds,326875.7
 2021,se,Other,New,comment,
-2021,se,Other,Retained,regos_total_prior,1721.0
-2021,se,Other,Retained,regos,228.0
-2021,se,Other,Retained,active,96.0
+2021,se,Other,Retained,regos_total_prior,1721
+2021,se,Other,Retained,regos,228
+2021,se,Other,Retained,active,96
 2021,se,Other,Retained,apam,6408.33
 2021,se,Other,Retained,funds,615200.1
 2021,se,Other,Retained,comment,
-2021,se,Other,Retained,regos_total_curnt,2955.0
-2021,se,Other,Returned,regos,1729.0
-2021,se,Other,Returned,active,92.0
+2021,se,Other,Retained,regos_total_curnt,2955
+2021,se,Other,Returned,regos,1729
+2021,se,Other,Returned,active,92
 2021,se,Other,Returned,apam,6193.93
 2021,se,Other,Returned,funds,569841.42
 2021,se,Other,Returned,comment,
-2021,se,Other,Foundation,donations,175.0
+2021,se,Other,Foundation,donations,175
 2021,se,Other,Foundation,funds,165820.98
 2021,se,Other,Foundation,ada,947.55
 2021,se,Other,Foundation,comment,
-2021,ch,Total,New,regos,2076.0
-2021,ch,Total,New,active,677.0
+2021,ch,Total,New,regos,2076
+2021,ch,Total,New,active,677
 2021,ch,Total,New,apam,168.17
 2021,ch,Total,New,funds,113850.35
 2021,ch,Total,New,comment,
-2021,ch,Total,Retained,regos_total_prior,3845.0
-2021,ch,Total,Retained,regos,761.0
-2021,ch,Total,Retained,active,408.0
+2021,ch,Total,Retained,regos_total_prior,3845
+2021,ch,Total,Retained,regos,761
+2021,ch,Total,Retained,active,408
 2021,ch,Total,Retained,apam,368.13
 2021,ch,Total,Retained,funds,150195.19
 2021,ch,Total,Retained,comment,
-2021,ch,Total,Retained,regos_total_curnt,4451.0
-2021,ch,Total,Returned,regos,1614.0
-2021,ch,Total,Returned,active,219.0
+2021,ch,Total,Retained,regos_total_curnt,4451
+2021,ch,Total,Returned,regos,1614
+2021,ch,Total,Returned,active,219
 2021,ch,Total,Returned,apam,427.21
 2021,ch,Total,Returned,funds,93558.8
 2021,ch,Total,Returned,comment,
-2021,ch,Total,Foundation,donations,258.0
+2021,ch,Total,Foundation,donations,258
 2021,ch,Total,Foundation,funds,56619.26
 2021,ch,Total,Foundation,ada,219.45
 2021,ch,Total,Foundation,comment,
-2021,ch,Other,New,regos,2076.0
-2021,ch,Other,New,active,677.0
+2021,ch,Other,New,regos,2076
+2021,ch,Other,New,active,677
 2021,ch,Other,New,apam,168.17
 2021,ch,Other,New,funds,113850.35
 2021,ch,Other,New,comment,
-2021,ch,Other,Retained,regos_total_prior,3845.0
-2021,ch,Other,Retained,regos,761.0
-2021,ch,Other,Retained,active,408.0
+2021,ch,Other,Retained,regos_total_prior,3845
+2021,ch,Other,Retained,regos,761
+2021,ch,Other,Retained,active,408
 2021,ch,Other,Retained,apam,368.13
 2021,ch,Other,Retained,funds,150195.19
 2021,ch,Other,Retained,comment,
-2021,ch,Other,Retained,regos_total_curnt,4451.0
-2021,ch,Other,Returned,regos,1614.0
-2021,ch,Other,Returned,active,219.0
+2021,ch,Other,Retained,regos_total_curnt,4451
+2021,ch,Other,Returned,regos,1614
+2021,ch,Other,Returned,active,219
 2021,ch,Other,Returned,apam,427.21
 2021,ch,Other,Returned,funds,93558.8
 2021,ch,Other,Returned,comment,
-2021,ch,Other,Foundation,donations,258.0
+2021,ch,Other,Foundation,donations,258
 2021,ch,Other,Foundation,funds,56619.26
 2021,ch,Other,Foundation,ada,219.45
 2021,ch,Other,Foundation,comment,
-2021,hk,Total,New,regos,699.0
-2021,hk,Total,New,active,248.0
+2021,hk,Total,New,regos,699
+2021,hk,Total,New,active,248
 2021,hk,Total,New,apam,5200.72
-2021,hk,Total,New,funds,1289778.0
+2021,hk,Total,New,funds,1289778
 2021,hk,Total,New,comment,
-2021,hk,Total,Retained,regos_total_prior,944.0
-2021,hk,Total,Retained,regos,222.0
-2021,hk,Total,Retained,active,119.0
+2021,hk,Total,Retained,regos_total_prior,944
+2021,hk,Total,Retained,regos,222
+2021,hk,Total,Retained,active,119
 2021,hk,Total,Retained,apam,6666.33
-2021,hk,Total,Retained,funds,793293.0
+2021,hk,Total,Retained,funds,793293
 2021,hk,Total,Retained,comment,
-2021,hk,Total,Retained,regos_total_curnt,1430.0
-2021,hk,Total,Returned,regos,509.0
-2021,hk,Total,Returned,active,109.0
+2021,hk,Total,Retained,regos_total_curnt,1430
+2021,hk,Total,Returned,regos,509
+2021,hk,Total,Returned,active,109
 2021,hk,Total,Returned,apam,6666.32
-2021,hk,Total,Returned,funds,726629.0
+2021,hk,Total,Returned,funds,726629
 2021,hk,Total,Returned,comment,
-2021,hk,Total,Foundation,donations,88.0
+2021,hk,Total,Foundation,donations,88
 2021,hk,Total,Foundation,funds,101736.1
 2021,hk,Total,Foundation,ada,1156.09
 2021,hk,Total,Foundation,comment,
-2021,hk,Other,New,regos,699.0
-2021,hk,Other,New,active,248.0
+2021,hk,Other,New,regos,699
+2021,hk,Other,New,active,248
 2021,hk,Other,New,apam,5200.72
-2021,hk,Other,New,funds,1289778.0
+2021,hk,Other,New,funds,1289778
 2021,hk,Other,New,comment,
-2021,hk,Other,Retained,regos_total_prior,944.0
-2021,hk,Other,Retained,regos,222.0
-2021,hk,Other,Retained,active,119.0
+2021,hk,Other,Retained,regos_total_prior,944
+2021,hk,Other,Retained,regos,222
+2021,hk,Other,Retained,active,119
 2021,hk,Other,Retained,apam,6666.33
-2021,hk,Other,Retained,funds,793293.0
+2021,hk,Other,Retained,funds,793293
 2021,hk,Other,Retained,comment,
-2021,hk,Other,Retained,regos_total_curnt,1430.0
-2021,hk,Other,Returned,regos,509.0
-2021,hk,Other,Returned,active,109.0
+2021,hk,Other,Retained,regos_total_curnt,1430
+2021,hk,Other,Returned,regos,509
+2021,hk,Other,Returned,active,109
 2021,hk,Other,Returned,apam,6666.32
-2021,hk,Other,Returned,funds,726629.0
+2021,hk,Other,Returned,funds,726629
 2021,hk,Other,Returned,comment,
-2021,hk,Other,Foundation,donations,88.0
+2021,hk,Other,Foundation,donations,88
 2021,hk,Other,Foundation,funds,101736.1
 2021,hk,Other,Foundation,ada,1156.09
 2021,hk,Other,Foundation,comment,
-2021,ex,Total,New,regos,4442.0
-2021,ex,Total,New,active,715.0
+2021,ex,Total,New,regos,4442
+2021,ex,Total,New,active,715
 2021,ex,Total,New,apam,221.43
 2021,ex,Total,New,funds,158319.79
 2021,ex,Total,New,comment,
-2021,ex,Total,Retained,regos_total_prior,5662.0
-2021,ex,Total,Retained,regos,679.0
-2021,ex,Total,Retained,active,177.0
+2021,ex,Total,Retained,regos_total_prior,5662
+2021,ex,Total,Retained,regos,679
+2021,ex,Total,Retained,active,177
 2021,ex,Total,Retained,apam,340.03
 2021,ex,Total,Retained,funds,60185.99
 2021,ex,Total,Retained,comment,
-2021,ex,Total,Retained,regos_total_curnt,7965.0
-2021,ex,Total,Returned,regos,2844.0
-2021,ex,Total,Returned,active,148.0
+2021,ex,Total,Retained,regos_total_curnt,7965
+2021,ex,Total,Returned,regos,2844
+2021,ex,Total,Returned,active,148
 2021,ex,Total,Returned,apam,377.34
 2021,ex,Total,Returned,funds,55846.99
 2021,ex,Total,Returned,comment,
-2021,ex,Total,Foundation,donations,418.0
+2021,ex,Total,Foundation,donations,418
 2021,ex,Total,Foundation,funds,25148.65
 2021,ex,Total,Foundation,ada,60.16
 2021,ex,Total,Foundation,comment,
-2021,ex,Other,New,regos,4442.0
-2021,ex,Other,New,active,715.0
+2021,ex,Other,New,regos,4442
+2021,ex,Other,New,active,715
 2021,ex,Other,New,apam,221.43
 2021,ex,Other,New,funds,158319.79
 2021,ex,Other,New,comment,
-2021,ex,Other,Retained,regos_total_prior,5662.0
-2021,ex,Other,Retained,regos,679.0
-2021,ex,Other,Retained,active,177.0
+2021,ex,Other,Retained,regos_total_prior,5662
+2021,ex,Other,Retained,regos,679
+2021,ex,Other,Retained,active,177
 2021,ex,Other,Retained,apam,340.03
 2021,ex,Other,Retained,funds,60185.99
 2021,ex,Other,Retained,comment,
-2021,ex,Other,Retained,regos_total_curnt,7965.0
-2021,ex,Other,Returned,regos,2844.0
-2021,ex,Other,Returned,active,148.0
+2021,ex,Other,Retained,regos_total_curnt,7965
+2021,ex,Other,Returned,regos,2844
+2021,ex,Other,Returned,active,148
 2021,ex,Other,Returned,apam,377.34
 2021,ex,Other,Returned,funds,55846.99
 2021,ex,Other,Returned,comment,
-2021,ex,Other,Foundation,donations,418.0
+2021,ex,Other,Foundation,donations,418
 2021,ex,Other,Foundation,funds,25148.65
 2021,ex,Other,Foundation,ada,60.16
 2021,ex,Other,Foundation,comment,
-2021,sg,Total,New,regos,637.0
-2021,sg,Total,New,active,196.0
+2021,sg,Total,New,regos,637
+2021,sg,Total,New,active,196
 2021,sg,Total,New,apam,662.93
 2021,sg,Total,New,funds,129934.94
 2021,sg,Total,New,comment,
-2021,sg,Total,Retained,regos_total_prior,1562.0
-2021,sg,Total,Retained,regos,196.0
-2021,sg,Total,Retained,active,109.0
-2021,sg,Total,Retained,apam,651.0
+2021,sg,Total,Retained,regos_total_prior,1562
+2021,sg,Total,Retained,regos,196
+2021,sg,Total,Retained,active,109
+2021,sg,Total,Retained,apam,651
 2021,sg,Total,Retained,funds,70958.58
 2021,sg,Total,Retained,comment,
-2021,sg,Total,Retained,regos_total_curnt,1314.0
-2021,sg,Total,Returned,regos,481.0
-2021,sg,Total,Returned,active,56.0
+2021,sg,Total,Retained,regos_total_curnt,1314
+2021,sg,Total,Returned,regos,481
+2021,sg,Total,Returned,active,56
 2021,sg,Total,Returned,apam,860.02
 2021,sg,Total,Returned,funds,48160.87
 2021,sg,Total,Returned,comment,
-2021,sg,Total,Foundation,donations,61.0
-2021,sg,Total,Foundation,funds,9245.0
+2021,sg,Total,Foundation,donations,61
+2021,sg,Total,Foundation,funds,9245
 2021,sg,Total,Foundation,ada,151.56
 2021,sg,Total,Foundation,comment,
-2021,sg,Other,New,regos,637.0
-2021,sg,Other,New,active,196.0
+2021,sg,Other,New,regos,637
+2021,sg,Other,New,active,196
 2021,sg,Other,New,apam,662.93
 2021,sg,Other,New,funds,129934.94
 2021,sg,Other,New,comment,
-2021,sg,Other,Retained,regos_total_prior,1562.0
-2021,sg,Other,Retained,regos,196.0
-2021,sg,Other,Retained,active,109.0
-2021,sg,Other,Retained,apam,651.0
+2021,sg,Other,Retained,regos_total_prior,1562
+2021,sg,Other,Retained,regos,196
+2021,sg,Other,Retained,active,109
+2021,sg,Other,Retained,apam,651
 2021,sg,Other,Retained,funds,70958.58
 2021,sg,Other,Retained,comment,
-2021,sg,Other,Retained,regos_total_curnt,1314.0
-2021,sg,Other,Returned,regos,481.0
-2021,sg,Other,Returned,active,56.0
+2021,sg,Other,Retained,regos_total_curnt,1314
+2021,sg,Other,Returned,regos,481
+2021,sg,Other,Returned,active,56
 2021,sg,Other,Returned,apam,860.02
 2021,sg,Other,Returned,funds,48160.87
 2021,sg,Other,Returned,comment,
-2021,sg,Other,Foundation,donations,61.0
-2021,sg,Other,Foundation,funds,9245.0
+2021,sg,Other,Foundation,donations,61
+2021,sg,Other,Foundation,funds,9245
 2021,sg,Other,Foundation,ada,151.56
 2021,sg,Other,Foundation,comment,
-2021,za,Total,New,regos,47.0
-2021,za,Total,New,active,3.0
-2021,za,Total,New,apam,1520.0
-2021,za,Total,New,funds,4560.0
+2021,za,Total,New,regos,47
+2021,za,Total,New,active,3
+2021,za,Total,New,apam,1520
+2021,za,Total,New,funds,4560
 2021,za,Total,New,comment,
-2021,za,Total,Retained,regos_total_prior,3403.0
-2021,za,Total,Retained,regos,0.0
-2021,za,Total,Retained,active,0.0
-2021,za,Total,Retained,apam,0.0
-2021,za,Total,Retained,funds,0.0
+2021,za,Total,Retained,regos_total_prior,3403
+2021,za,Total,Retained,regos,0
+2021,za,Total,Retained,active,0
+2021,za,Total,Retained,apam,0
+2021,za,Total,Retained,funds,0
 2021,za,Total,Retained,comment,
-2021,za,Total,Retained,regos_total_curnt,2520.0
-2021,za,Total,Returned,regos,2473.0
-2021,za,Total,Returned,active,2.0
-2021,za,Total,Returned,apam,1300.0
-2021,za,Total,Returned,funds,2600.0
+2021,za,Total,Retained,regos_total_curnt,2520
+2021,za,Total,Returned,regos,2473
+2021,za,Total,Returned,active,2
+2021,za,Total,Returned,apam,1300
+2021,za,Total,Returned,funds,2600
 2021,za,Total,Returned,comment,
-2021,za,Total,Foundation,donations,6.0
-2021,za,Total,Foundation,funds,3070.0
+2021,za,Total,Foundation,donations,6
+2021,za,Total,Foundation,funds,3070
 2021,za,Total,Foundation,ada,511.67
 2021,za,Total,Foundation,comment,
-2021,za,Other,New,regos,47.0
-2021,za,Other,New,active,3.0
-2021,za,Other,New,apam,1520.0
-2021,za,Other,New,funds,4560.0
+2021,za,Other,New,regos,47
+2021,za,Other,New,active,3
+2021,za,Other,New,apam,1520
+2021,za,Other,New,funds,4560
 2021,za,Other,New,comment,
-2021,za,Other,Retained,regos_total_prior,3403.0
-2021,za,Other,Retained,regos,0.0
-2021,za,Other,Retained,active,0.0
-2021,za,Other,Retained,apam,0.0
-2021,za,Other,Retained,funds,0.0
+2021,za,Other,Retained,regos_total_prior,3403
+2021,za,Other,Retained,regos,0
+2021,za,Other,Retained,active,0
+2021,za,Other,Retained,apam,0
+2021,za,Other,Retained,funds,0
 2021,za,Other,Retained,comment,
-2021,za,Other,Retained,regos_total_curnt,2520.0
-2021,za,Other,Returned,regos,2473.0
-2021,za,Other,Returned,active,2.0
-2021,za,Other,Returned,apam,1300.0
-2021,za,Other,Returned,funds,2600.0
+2021,za,Other,Retained,regos_total_curnt,2520
+2021,za,Other,Returned,regos,2473
+2021,za,Other,Returned,active,2
+2021,za,Other,Returned,apam,1300
+2021,za,Other,Returned,funds,2600
 2021,za,Other,Returned,comment,
-2021,za,Other,Foundation,donations,6.0
-2021,za,Other,Foundation,funds,3070.0
+2021,za,Other,Foundation,donations,6
+2021,za,Other,Foundation,funds,3070
 2021,za,Other,Foundation,ada,511.67
 2021,za,Other,Foundation,comment,
-2022,au,NSW,Retained,regos,10000
-2022,au,NSW,Retained,active,4250
-2022,au,NSW,Retained,funds,2530790.0
-2022,au,NSW,Retained,apam,595.48
-2022,au,NSW,Retained,regos_total_prior,17874.0
-2022,au,NSW,Retained,regos_total_curnt,0.0
-2022,au,VIC,Retained,regos,3863
-2022,au,VIC,Retained,active,2510
-2022,au,VIC,Retained,funds,1673736.29
-2022,au,VIC,Retained,apam,666.83
-2022,au,VIC,Retained,regos_total_prior,16967.0
-2022,au,VIC,Retained,regos_total_curnt,0.0
-2022,au,QLD,Retained,regos,3543
-2022,au,QLD,Retained,active,3000
-2022,au,QLD,Retained,funds,1757100.0
-2022,au,QLD,Retained,apam,585.7
-2022,au,QLD,Retained,regos_total_prior,15704.0
-2022,au,QLD,Retained,regos_total_curnt,0.0
-2022,au,WA,Retained,regos,1687
-2022,au,WA,Retained,active,1119
-2022,au,WA,Retained,funds,680258.23
-2022,au,WA,Retained,apam,607.92
-2022,au,WA,Retained,regos_total_prior,7981.0
-2022,au,WA,Retained,regos_total_curnt,0.0
-2022,au,SA,Retained,regos,1031
-2022,au,SA,Retained,active,672
-2022,au,SA,Retained,funds,340362.75
-2022,au,SA,Retained,apam,506.49
-2022,au,SA,Retained,regos_total_prior,5278.0
-2022,au,SA,Retained,regos_total_curnt,0.0
-2022,au,ACT,Retained,regos,431
-2022,au,ACT,Retained,active,281
-2022,au,ACT,Retained,funds,159398.1
-2022,au,ACT,Retained,apam,567.25
-2022,au,ACT,Retained,regos_total_prior,1589.0
-2022,au,ACT,Retained,regos_total_curnt,0.0
-2022,au,TAS,Retained,regos,383
-2022,au,TAS,Retained,active,270
-2022,au,TAS,Retained,funds,149503.3
-2022,au,TAS,Retained,apam,553.72
-2022,au,TAS,Retained,regos_total_prior,1596.0
-2022,au,TAS,Retained,regos_total_curnt,0.0
-2022,au,NT,Retained,regos,96
-2022,au,NT,Retained,active,55
-2022,au,NT,Retained,funds,31396.71
-2022,au,NT,Retained,apam,570.85
-2022,au,NT,Retained,regos_total_prior,563.0
-2022,au,NT,Retained,regos_total_curnt,0.0
-2022,au,Other,Retained,regos,2212
-2022,au,Other,Retained,active,1558
-2022,au,Other,Retained,funds,900335.56
-2022,au,Other,Retained,apam,577.88
-2022,au,Other,Retained,regos_total_prior,51821.0
-2022,au,Other,Retained,regos_total_curnt,0.0
-2022,au,Total,Retained,regos,23246
-2022,au,Total,Retained,active,13715
-2022,au,Total,Retained,funds,8222880.9399999995
-2022,au,Total,Retained,apam,600.91
-2022,au,Total,Retained,regos_total_prior,119373.0
-2022,au,Total,Retained,regos_total_curnt,0.0
-2022,au,NSW,Returned,regos,2500.0
-2022,au,NSW,Returned,active,1332.0
+2022,au,NSW,Returned,regos,2500
+2022,au,NSW,Returned,active,1332
 2022,au,NSW,Returned,funds,674782.63
 2022,au,NSW,Returned,apam,506.59
-2022,au,VIC,Returned,regos,2533.0
-2022,au,VIC,Returned,active,1263.0
+2022,au,VIC,Returned,regos,2533
+2022,au,VIC,Returned,active,1263
 2022,au,VIC,Returned,funds,682854.37
 2022,au,VIC,Returned,apam,540.66
-2022,au,QLD,Returned,regos,2301.0
-2022,au,QLD,Returned,active,1326.0
+2022,au,QLD,Returned,regos,2301
+2022,au,QLD,Returned,active,1326
 2022,au,QLD,Returned,funds,514010.12
 2022,au,QLD,Returned,apam,387.64
-2022,au,WA,Returned,regos,1158.0
-2022,au,WA,Returned,active,668.0
+2022,au,WA,Returned,regos,1158
+2022,au,WA,Returned,active,668
 2022,au,WA,Returned,funds,341586.4
 2022,au,WA,Returned,apam,511.36
-2022,au,SA,Returned,regos,714.0
-2022,au,SA,Returned,active,411.0
+2022,au,SA,Returned,regos,714
+2022,au,SA,Returned,active,411
 2022,au,SA,Returned,funds,163009.25
 2022,au,SA,Returned,apam,396.62
-2022,au,ACT,Returned,regos,241.0
-2022,au,ACT,Returned,active,137.0
+2022,au,ACT,Returned,regos,241
+2022,au,ACT,Returned,active,137
 2022,au,ACT,Returned,funds,57221.03
 2022,au,ACT,Returned,apam,417.67
-2022,au,TAS,Returned,regos,251.0
-2022,au,TAS,Returned,active,137.0
+2022,au,TAS,Returned,regos,251
+2022,au,TAS,Returned,active,137
 2022,au,TAS,Returned,funds,66497.24
 2022,au,TAS,Returned,apam,485.38
-2022,au,NT,Returned,regos,71.0
-2022,au,NT,Returned,active,31.0
-2022,au,NT,Returned,funds,20390.0
+2022,au,NT,Returned,regos,71
+2022,au,NT,Returned,active,31
+2022,au,NT,Returned,funds,20390
 2022,au,NT,Returned,apam,657.74
-2022,au,Other,Returned,regos,41857.0
-2022,au,Other,Returned,active,2829.0
+2022,au,Other,Returned,regos,41857
+2022,au,Other,Returned,active,2829
 2022,au,Other,Returned,funds,3002661.38
 2022,au,Other,Returned,apam,1061.39
-2022,au,Total,Returned,regos,51626.0
-2022,au,Total,Returned,active,8134.0
+2022,au,Total,Returned,regos,51626
+2022,au,Total,Returned,active,8134
 2022,au,Total,Returned,funds,5523012.42
-2022,au,Total,Returned,apam,679.0
+2022,au,Total,Returned,apam,679
 2022,au,NSW,New,regos,11124.0
 2022,au,NSW,New,active,5542.0
 2022,au,NSW,New,funds,2461999.71
 2022,au,NSW,New,apam,444.24
+2022,au,NSW,New,comment,This is a comment of how this is going
 2022,au,VIC,New,regos,10571.0
 2022,au,VIC,New,active,5044.0
 2022,au,VIC,New,funds,2109915.44
 2022,au,VIC,New,apam,418.3
+2022,au,VIC,New,comment,This is another comment
 2022,au,QLD,New,regos,9860.0
 2022,au,QLD,New,active,5155.0
 2022,au,QLD,New,funds,1847257.0
 2022,au,QLD,New,apam,358.34
+2022,au,QLD,New,comment,
 2022,au,WA,New,regos,5136.0
 2022,au,WA,New,active,2695.0
 2022,au,WA,New,funds,1066889.71
 2022,au,WA,New,apam,395.88
+2022,au,WA,New,comment,
 2022,au,SA,New,regos,3533.0
 2022,au,SA,New,active,1880.0
 2022,au,SA,New,funds,752726.03
 2022,au,SA,New,apam,400.39
+2022,au,SA,New,comment,
 2022,au,ACT,New,regos,917.0
 2022,au,ACT,New,active,467.0
 2022,au,ACT,New,funds,203592.04
 2022,au,ACT,New,apam,435.96
+2022,au,ACT,New,comment,
 2022,au,TAS,New,regos,962.0
 2022,au,TAS,New,active,493.0
 2022,au,TAS,New,funds,192502.66
 2022,au,TAS,New,apam,390.47
+2022,au,TAS,New,comment,
 2022,au,NT,New,regos,396.0
 2022,au,NT,New,active,182.0
 2022,au,NT,New,funds,46499.46
 2022,au,NT,New,apam,255.49
+2022,au,NT,New,comment,
 2022,au,Other,New,regos,7752.0
 2022,au,Other,New,active,4624.0
 2022,au,Other,New,funds,2523091.53
 2022,au,Other,New,apam,545.65
-2022,au,Total,New,regos,50251.0
-2022,au,Total,New,active,26082.0
+2022,au,Other,New,comment,
+2022,au,Total,New,regos,50251
+2022,au,Total,New,active,26082
 2022,au,Total,New,funds,11204473.58
 2022,au,Total,New,apam,429.59
-2022,au,NSW,Foundation,donations,1617
-2022,au,NSW,Foundation,funds,196048.19
-2022,au,NSW,Foundation,ada,121.24192331478046
-2022,au,VIC,Foundation,donations,1485
+2022,au,Total,New,comment,
+2022,au,NSW,Retained,regos,10000.0
+2022,au,NSW,Retained,active,4250.0
+2022,au,NSW,Retained,funds,2530790.0
+2022,au,NSW,Retained,apam,595.48
+2022,au,NSW,Retained,comment,
+2022,au,NSW,Retained,regos_total_prior,17874
+2022,au,NSW,Retained,regos_total_curnt,0
+2022,au,VIC,Retained,regos,3863.0
+2022,au,VIC,Retained,active,2510.0
+2022,au,VIC,Retained,funds,1673736.29
+2022,au,VIC,Retained,apam,666.8272071713147
+2022,au,VIC,Retained,comment,
+2022,au,VIC,Retained,regos_total_prior,16967
+2022,au,VIC,Retained,regos_total_curnt,0
+2022,au,QLD,Retained,regos,3543.0
+2022,au,QLD,Retained,active,3000.0
+2022,au,QLD,Retained,funds,1757100.0
+2022,au,QLD,Retained,apam,585.7
+2022,au,QLD,Retained,comment,
+2022,au,QLD,Retained,regos_total_prior,15704
+2022,au,QLD,Retained,regos_total_curnt,0
+2022,au,WA,Retained,regos,1687.0
+2022,au,WA,Retained,active,1119.0
+2022,au,WA,Retained,funds,680258.23
+2022,au,WA,Retained,apam,607.9162019660411
+2022,au,WA,Retained,comment,
+2022,au,WA,Retained,regos_total_prior,7981
+2022,au,WA,Retained,regos_total_curnt,0
+2022,au,SA,Retained,regos,1031.0
+2022,au,SA,Retained,active,672.0
+2022,au,SA,Retained,funds,340362.75
+2022,au,SA,Retained,apam,506.4921875
+2022,au,SA,Retained,comment,
+2022,au,SA,Retained,regos_total_prior,5278
+2022,au,SA,Retained,regos_total_curnt,0
+2022,au,ACT,Retained,regos,431.0
+2022,au,ACT,Retained,active,281.0
+2022,au,ACT,Retained,funds,159398.1
+2022,au,ACT,Retained,apam,567.2530249110321
+2022,au,ACT,Retained,comment,
+2022,au,ACT,Retained,regos_total_prior,1589
+2022,au,ACT,Retained,regos_total_curnt,0
+2022,au,TAS,Retained,regos,383.0
+2022,au,TAS,Retained,active,270.0
+2022,au,TAS,Retained,funds,149503.3
+2022,au,TAS,Retained,apam,553.7159259259258
+2022,au,TAS,Retained,comment,
+2022,au,TAS,Retained,regos_total_prior,1596
+2022,au,TAS,Retained,regos_total_curnt,0
+2022,au,NT,Retained,regos,96.0
+2022,au,NT,Retained,active,55.0
+2022,au,NT,Retained,funds,31396.71
+2022,au,NT,Retained,apam,570.8492727272727
+2022,au,NT,Retained,comment,
+2022,au,NT,Retained,regos_total_prior,563
+2022,au,NT,Retained,regos_total_curnt,0
+2022,au,Other,Retained,regos,2212.0
+2022,au,Other,Retained,active,1558.0
+2022,au,Other,Retained,funds,900335.56
+2022,au,Other,Retained,apam,577.8790500641849
+2022,au,Other,Retained,comment,
+2022,au,Other,Retained,regos_total_prior,51821
+2022,au,Other,Retained,regos_total_curnt,0
+2022,au,Total,Retained,regos,23246.0
+2022,au,Total,Retained,active,13715.0
+2022,au,Total,Retained,funds,8222880.9399999995
+2022,au,Total,Retained,apam,599.553841779074
+2022,au,Total,Retained,comment,
+2022,au,Total,Retained,regos_total_prior,119373
+2022,au,Total,Retained,regos_total_curnt,0
+2022,au,NSW,Foundation,donations,1540.0
+2022,au,NSW,Foundation,funds,153600.02
+2022,au,NSW,Foundation,ada,99.74
+2022,au,NSW,Foundation,comment,
+2022,au,VIC,Foundation,donations,1485.0
 2022,au,VIC,Foundation,funds,124675.6
 2022,au,VIC,Foundation,ada,83.96
-2022,au,QLD,Foundation,donations,1066
+2022,au,VIC,Foundation,comment,
+2022,au,QLD,Foundation,donations,1066.0
 2022,au,QLD,Foundation,funds,115313.64
 2022,au,QLD,Foundation,ada,108.17
-2022,au,WA,Foundation,donations,685
+2022,au,QLD,Foundation,comment,
+2022,au,WA,Foundation,donations,685.0
 2022,au,WA,Foundation,funds,58778.35
 2022,au,WA,Foundation,ada,85.81
-2022,au,SA,Foundation,donations,398
+2022,au,WA,Foundation,comment,
+2022,au,SA,Foundation,donations,398.0
 2022,au,SA,Foundation,funds,27712.11
 2022,au,SA,Foundation,ada,69.63
-2022,au,ACT,Foundation,donations,127
+2022,au,SA,Foundation,comment,
+2022,au,ACT,Foundation,donations,127.0
 2022,au,ACT,Foundation,funds,7121.0
 2022,au,ACT,Foundation,ada,56.07
-2022,au,TAS,Foundation,donations,138
+2022,au,ACT,Foundation,comment,
+2022,au,TAS,Foundation,donations,138.0
 2022,au,TAS,Foundation,funds,11521.48
 2022,au,TAS,Foundation,ada,83.49
-2022,au,NT,Foundation,donations,23
+2022,au,TAS,Foundation,comment,
+2022,au,NT,Foundation,donations,23.0
 2022,au,NT,Foundation,funds,1626.0
 2022,au,NT,Foundation,ada,70.7
-2022,au,Other,Foundation,donations,4628
+2022,au,NT,Foundation,comment,
+2022,au,Other,Foundation,donations,4628.0
 2022,au,Other,Foundation,funds,1143008.47
 2022,au,Other,Foundation,ada,246.98
-2022,au,Total,Foundation,donations,10167.0
-2022,au,Total,Foundation,funds,1685804.8399999999
-2022,au,Total,Foundation,ada,165.81143306776826
+2022,au,Other,Foundation,comment,
+2022,au,Total,Foundation,donations,10090.0
+2022,au,Total,Foundation,funds,1643356.67
+2022,au,Total,Foundation,ada,162.87
+2022,au,Total,Foundation,comment,

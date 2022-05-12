@@ -21,6 +21,11 @@ def market_total(scope, tenure, metric):
 		target_df = target_df[target_df['campaign'] == int(scope.campaign-1)].copy()	
 
 	target_df = target_df[target_df['region'] == 'Total']
+	# Exclude comments from target_df
+	target_df = target_df[target_df['metric'] != 'comment']
+	target_df['result'] = target_df['result'].astype(float)
+
+	
 
 	if tenure == 'p2p':
 		target_df = target_df[target_df['tenure'] != 'Foundation']
@@ -32,7 +37,6 @@ def market_total(scope, tenure, metric):
 	else:
 		target_df = target_df[target_df['tenure'] == tenure]
 		target_df.set_index('metric', inplace = True)
-
 		if metric in target_df.index:
 			market_total = target_df.loc[metric].at['result']
 
@@ -54,7 +58,7 @@ def retention_rate(scope, tenure):
 	retention_ratio = 0.0
 
 	total_regos =  market_total(scope, tenure, 'regos')
-	print(total_regos)
+	print('retention_rate > total_regos = ', total_regos)
 	last_years_campaign_regos = market_total(scope, tenure, 'regos_total_prior')
 	
 	if last_years_campaign_regos > 0:
@@ -96,21 +100,25 @@ def target_rates_for_view(scope):
 			target_rates[region] = {}
 
 			for metric in tenure_metrics:
+				default_value = float(0.0) if metric != 'comment' else ''
 
 				# Base Rates (last Campaign)
 				if metric in base_df_for_region.index:
 					base_result = base_df_for_region.loc[metric].at['result']
 				else:
-					base_result = 0.0
+					base_result = default_value
 
+				base_result = format_metrics(scope, metric, base_result)
 				base_rates[region][metric] = base_result
 
 				# Target Rates (Current Campaign)
 				if metric in target_df_for_region.index:
 					target_result = target_df_for_region.loc[metric].at['result']
+					
 				else:
-					target_result = 0.0
+					target_result = default_value
 				
+				target_result = format_metrics(scope, metric, target_result)
 				target_rates[region][metric] = target_result
 
 
@@ -118,4 +126,23 @@ def target_rates_for_view(scope):
 	scope.target_rates = target_rates
 
 				
+
+def format_metrics(scope, metric, value):
+	expected_format = scope.metrics[metric]
+
+	# print( metric, ' = ', value, ' > ', type(value), value!= value)
+
+	# if value == nan:
+	if metric == 'comment' and value != value: # last but is check if its a nan
+		# print('changing the value')
+		value = ''
+
+	formatted_value = expected_format(value)
+	
+	return formatted_value
+
+
+
+
+
 

@@ -33,9 +33,4 @@ def view_targets(scope):
 	if scope.target_selected_tenure == 'Foundation':
 		render_foundation_donations(scope)
 
-	#TODO remove this before release
-	import streamlit as st
-	st.markdown("""---""")
-	st.write('This is the scope.target_df')
-	st.dataframe(scope.target_df)
 

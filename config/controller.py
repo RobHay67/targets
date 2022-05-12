@@ -5,6 +5,7 @@ from config.model.version import scope_version
 from config.model.countries import scope_countries
 from config.model.folders import scope_folders
 from config.model.tenure import scope_tenure
+from config.model.metrics import scope_metrics
 
 from users.model.load import load_user_table
 from targets.model.load import load_target_rates
@@ -30,6 +31,7 @@ def set_scope(scope):
 		scope_countries(scope)					# add list of countries for selection
 		scope_folders(scope)					# Required before we can attempt to load any data
 		scope_tenure(scope)						# establish the tenure levels and defaults
+		scope_metrics(scope)					# store a dictionary of metric values and their formats
 
 	if scope.initial_load:						# This will only run one time after the initial load has occured
 		load_user_table(scope)						# Load the user for this application 

@@ -6,7 +6,7 @@ from targets.model.copy import copy_prior_year_tenure_rates
 
 from targets.view.header import tenure_group_header
 from targets.model.format_values import format_regos, format_dolls, format_percent, format_string
-from targets.view.widgets import render_prior_regos, render_regos_widget, render_active_widget, render_apam_widget, render_funds_widget,  render_retention_ratio, render_active_ratio
+from targets.view.widgets import render_prior_regos, render_regos_widget, render_active_widget, render_apam_widget, render_funds_widget,  render_retention_ratio, render_active_ratio, render_comment
 
 def render_retained_fundraisers(scope):
 
@@ -15,9 +15,9 @@ def render_retained_fundraisers(scope):
 	st.subheader(tenure_group_header(scope))
 
 	for region in scope.target_columns:
-		col1,col2,col3,col4,col5,col6,col7,col8 = st.columns([2,2,2,2,2,2,2,2])
+		col1,col2,col3,col4,col5,col6,col7,col8,col9 = st.columns([2,2,2,2,2,2,2,2,4])
 		if region == 'row_heading':
-			tenure_headings(scope, scope.campaign, col1,col2,col3,col4,col5,col6,col7,col8)
+			tenure_headings(scope, scope.campaign, col1,col2,col3,col4,col5,col6,col7,col8,col9)
 		else:
 			with col1: 
 				st.write('')
@@ -30,6 +30,7 @@ def render_retained_fundraisers(scope):
 			with col6: render_funds_widget(scope, region)
 			with col7: render_retention_ratio(scope, region)
 			with col8: render_active_ratio(scope, region)
+			with col9: render_comment(scope, region)
 
 	st.button( 	label='Copy Last Years Rates ( over-writes all of the above rates )', 
 				on_click=copy_prior_year_tenure_rates, 
@@ -43,9 +44,9 @@ def render_retained_fundraisers(scope):
 	st.subheader(tenure_group_header(scope) + ' ( base values from ' + str(previous_campaign) + ')')
 
 	for region in scope.target_columns:
-		col1,col2,col3,col4,col5,col6,col7,col8 = st.columns([2,2,2,2,2,2,2,2])
+		col1,col2,col3,col4,col5,col6,col7,col8,col9 = st.columns([2,2,2,2,2,2,2,2,4])
 		if region == 'row_heading':
-			tenure_headings(scope, previous_campaign, col1,col2,col3,col4,col5,col6,col7,col8)
+			tenure_headings(scope, previous_campaign, col1,col2,col3,col4,col5,col6,col7,col8,col9)
 		else:
 			rates = scope.target_base_rates[region]
 			active_ratio = 0.0
@@ -68,7 +69,7 @@ def render_retained_fundraisers(scope):
 
 
 
-def tenure_headings(scope, campaign, col1,col2,col3,col4,col5,col6,col7,col8):
+def tenure_headings(scope, campaign, col1,col2,col3,col4,col5,col6,col7,col8,col9):
 
 	current_campaign = str(campaign)
 	previous_campaign = str(campaign - 1)
@@ -82,7 +83,7 @@ def tenure_headings(scope, campaign, col1,col2,col3,col4,col5,col6,col7,col8):
 	with col6: st.markdown(format_string('Funds Raised' ,align='Right'), unsafe_allow_html=True)
 	with col7: st.markdown(format_string('Retention Ratio' ,align='Center'), unsafe_allow_html=True)
 	with col8: st.markdown(format_string('Active Ratio/Rate (%)' ,align='Center'), unsafe_allow_html=True)
-
+	with col9: st.markdown(format_string('Comments', align='Left'), unsafe_allow_html=True)
 
 	
 

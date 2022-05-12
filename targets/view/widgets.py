@@ -13,11 +13,39 @@ from targets.model.update_values import on_change_ada
 from targets.model.update_values import on_change_country
 from targets.model.update_values import on_change_target_setting_method
 from targets.model.update_values import on_change_target_selected_tenure
+from targets.model.update_values import on_change_comment
 
 
 from targets.model.format_values import format_regos, format_dolls, format_percent, format_string
 from config.model.countries import country_key_from_name
 from targets.model.format_values import format_regos, format_dolls, format_percent, format_string
+
+
+def render_comment(scope, region):
+	col_name = 'Comments'
+	metric = 'comment'
+	widget_key = create_widget_key(scope, region, metric)
+	widget_value = scope.target_rates[region][metric]
+	editable_column = is_widget_editable(scope, region)
+	print(editable_column)
+
+	
+	if editable_column:
+		scope.target_rates[region][metric] = st.text_input(
+															label='',
+															value=widget_value, 
+															on_change=on_change_comment,
+															max_chars=500,
+															args=(scope, region, ),
+															key=(widget_key)
+															)
+	else:
+		st.write('')
+		st.write('')
+		st.markdown(format_string(scope.target_rates[region][metric], align='left'), unsafe_allow_html=True)
+		# st.write('this is a comment')
+
+
 
 
 def render_prior_regos(scope, region):
@@ -33,15 +61,13 @@ def render_regos_widget(scope, region):
 	widget_key = create_widget_key(scope, region, metric)
 	widget_value = int(scope.target_rates[region][metric])
 	widget_step = int(widget_value * .05)
-
-
 	editable_column = is_widget_editable(scope, region)
-	print('editable_column = ', editable_column)
+
 	if editable_column:
 		scope.target_rates[region][metric] = st.number_input(
 														label='',
 														min_value=0,
-														value=int(scope.target_rates[region][metric]), 
+														value=widget_value, 
 														format="%.0i", # format="%.0f",
 														step=widget_step,
 														on_change=on_change_regos,
@@ -214,13 +240,11 @@ def render_ada_widget(scope, region):
 		st.write('')
 
 
-
 # Selectors at the top of each tenure page
 
 def render_country_selector(scope):
 
 	list_of_countries = scope.dropdown_countries
-	print(scope.user_selected_country)
 	index_pos = list_of_countries.index(scope.user_selected_country)
 	scope.user_selected_country = st.selectbox ( 
 													label=('Available Countries'), 

@@ -15,11 +15,12 @@ regos_total_curnt = 'regos_total_curnt'	# Total number of Registrations in all t
 donations = 'donations'					# Total Number of Donations
 ada = 'ada'								# Average Donation Amount
 
+comment = 'comment'						# A place for the user to leave some words
 tenure_levels = {
-					'New'		:[regos, active, funds, apam],
-					'Returned'	:[regos, active, funds, apam],
-					'Retained'	:[regos, active, funds, apam, regos_total_prior, regos_total_curnt],
-					'Foundation':[donations,     funds, ada],
+					'New'		:[regos, active, funds, apam, comment],
+					'Returned'	:[regos, active, funds, apam, comment],
+					'Retained'	:[regos, active, funds, apam, comment, regos_total_prior, regos_total_curnt],
+					'Foundation':[donations,     funds, ada , comment],
 				}
 
 

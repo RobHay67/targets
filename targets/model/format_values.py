@@ -40,7 +40,7 @@ def format_regos(regos, align=None):
 
 
 def format_dolls(dolls, align=None):
-
+	print(dolls)
 	formatted_dollars = "$ {:,.2f}".format(dolls)
 
 	if align != None:
