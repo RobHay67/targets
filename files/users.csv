@@ -1,4 +1,4 @@
 name,pword,country_codes,can_edit_targets,can_see_total_movember,can_edit_forex_rates,can_edit_previous_rates,can_edit_config,can_edit_users,can_download_rates_table,target_setting_method,selected_country
-Rob,pass,all,True,True,True,True,True,True,True,Region,Australia
+Rob,pass,all,True,True,True,True,True,True,True,Region,Canada
 Jez,password,ca at,True,True,False,False,False,False,True,Region,Canada
 Rhys,password,gb be nz,True,False,False,False,False,False,False,Region,United Kingdom

@@ -108,7 +108,7 @@ def target_rates_for_view(scope):
 				else:
 					base_result = default_value
 
-				base_result = format_metrics(scope, metric, base_result)
+				base_result = format_metric(scope, metric, base_result)
 				base_rates[region][metric] = base_result
 
 				# Target Rates (Current Campaign)
@@ -118,7 +118,7 @@ def target_rates_for_view(scope):
 				else:
 					target_result = default_value
 				
-				target_result = format_metrics(scope, metric, target_result)
+				target_result = format_metric(scope, metric, target_result)
 				target_rates[region][metric] = target_result
 
 
@@ -127,17 +127,34 @@ def target_rates_for_view(scope):
 
 				
 
-def format_metrics(scope, metric, value):
+def format_metric(scope, metric, value):
+	
 	expected_format = scope.metrics[metric]
 
 	# print( metric, ' = ', value, ' > ', type(value), value!= value)
 
-	# if value == nan:
-	if metric == 'comment' and value != value: # last but is check if its a nan
-		# print('changing the value')
-		value = ''
+	# if metric == 'comment' and value != value: # last but is check if its a nan
+	# 	# print('changing the value')
+	# 	value = ''
+	# print(metric, expected_format)
 
-	formatted_value = expected_format(value)
+	if expected_format == int:
+		# formatted_value = float(value)
+		formatted_value = int(value)
+	
+	if expected_format == float:
+		formatted_value = float(value)
+
+	if expected_format == str:
+		if metric == 'comment' and value != value: 
+			# last but is check if its a nan
+			# print('changing the value')
+			formatted_value = ''
+		else:
+			formatted_value = str(value)
+
+
+	# formatted_value = expected_format(value)
 	
 	return formatted_value
 

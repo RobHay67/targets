@@ -27,7 +27,6 @@ def render_comment(scope, region):
 	widget_key = create_widget_key(scope, region, metric)
 	widget_value = scope.target_rates[region][metric]
 	editable_column = is_widget_editable(scope, region)
-	print(editable_column)
 
 	
 	if editable_column:

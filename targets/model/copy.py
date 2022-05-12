@@ -2,7 +2,6 @@ from targets.model.save import save_target_rates
 
 
 def copy_prior_year_tenure_rates(scope):
-	print('lets copy last years rates')
 	scope.target_rates = scope.target_base_rates
 
 	# In the case where tenure = Retained, we need to swap around the campaign totals
