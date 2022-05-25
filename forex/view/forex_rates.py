@@ -49,5 +49,4 @@ def render_forex_rates(scope):
 		submit_button = st.form_submit_button(label='Save Changes to Forex Rates Table')
 
 	if submit_button:
-		print('we are saving here')
 		save_forex_rates(scope)

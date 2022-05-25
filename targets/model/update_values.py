@@ -54,7 +54,6 @@ def on_change_active_regos(scope:dict, region:str):
 	save_target_rates(scope)
 
 def on_change_apam(scope:dict, region:str):	
-	print('running > on_change_apam')
 
 	metric = 'apam'
 	changed_value = scope[create_widget_key(scope, region, metric)]
