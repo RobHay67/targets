@@ -109,12 +109,21 @@ def render_user_maintenance(scope):
 			render_true_or_false_control(scope, custom_label, user_name, current_value, df_col_name, widget_key )
 
 		with col11: 
-			st.write('Target Setting Method')
-			st.write(scope.user_df.loc[user_name].at['target_setting_method'])
+			# st.write('Target Setting Method')
+			# st.write(scope.user_df.loc[user_name].at['target_setting_method'])
+
+			custom_label = 'Target Setting Method'
+			df_col_name = 'target_setting_method'
+			widget_key = 'widget_' + user_name + '_' + df_col_name
+			current_value = scope.user_df.loc[user_name].at[df_col_name]
+			render_target_setting_method(scope, custom_label, user_name, current_value, df_col_name, widget_key )
 
 		with col12: 
-			st.write('Selected Country')
-			st.write(scope.user_df.loc[user_name].at['selected_country'])
+			custom_label = 'Selected Country'
+			df_col_name = 'selected_country'
+			widget_key = 'widget_' + user_name + '_' + df_col_name
+			current_value = scope.user_df.loc[user_name].at[df_col_name]
+			render_selected_country_selector(scope, custom_label, user_name, current_value, df_col_name, widget_key )
 
 	st.write('---')
 	st.write(scope.user_df)
@@ -149,7 +158,14 @@ def render_country_code_selector(scope, custom_label, user_name, current_value, 
 					key=(widget_key)
 					)
 
-
+def render_selected_country_selector(scope, custom_label, user_name, current_value, df_col_name, widget_key ):
+	st.text_input(
+					label=custom_label, 
+					value=current_value,
+					on_change=on_change_selected_country,
+					args=(scope, user_name, df_col_name, widget_key, ),
+					key=(widget_key)
+					)
 
 def render_password_control(scope, custom_label, user_name, current_value, df_col_name, widget_key ):
 	st.text_input(
@@ -160,6 +176,26 @@ def render_password_control(scope, custom_label, user_name, current_value, df_co
 					args=(scope, user_name, df_col_name, widget_key, ),
 					key=(widget_key)
 					)
+
+def render_target_setting_method(scope, custom_label, user_name, current_value, df_col_name, widget_key ):
+	select_box_options = ['Region', 'Country']
+
+	# scope.user_df.at[user_name, df_col_name] = changed_value
+	# current_selection = scope.user_df.loc[user_name].at['target_setting_method']
+	index_pos = select_box_options.index(scope.user_df.loc[user_name].at['target_setting_method'])
+
+	st.selectbox(
+				label='Budget By', 
+				options=select_box_options,
+				index=index_pos,
+				key=widget_key,
+				on_change=on_change_target_setting_method,
+				args=(scope, user_name, df_col_name, widget_key, ),
+				)
+
+
+
+
 
 def on_change_true_or_false(scope:dict, user_name:str, df_col_name:str, widget_key:str ):
 	changed_value = scope[widget_key]
@@ -186,6 +222,20 @@ def on_add_new_user(scope:dict,widget_key:str ):
 
 
 def on_change_country_codes(scope:dict, user_name:str, df_col_name:str, widget_key:str ):
+
+	# TODO - add in some sense checking on the string to make sure it is in the correct format
+
+	changed_value = scope[widget_key]
+
+	# store the selection
+	scope.user_df.at[user_name, df_col_name] = changed_value
+
+def on_change_target_setting_method(scope:dict, user_name:str, df_col_name:str, widget_key:str ):
+	changed_value = scope[widget_key]
+	# store the selection
+	scope.user_df.at[user_name, df_col_name] = changed_value
+
+def on_change_selected_country(scope:dict, user_name:str, df_col_name:str, widget_key:str ):
 
 	# TODO - add in some sense checking on the string to make sure it is in the correct format
 
