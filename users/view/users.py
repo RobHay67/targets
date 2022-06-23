@@ -58,7 +58,7 @@ def render_user_maintenance(scope):
 			render_password_control(scope, custom_label, user_name, current_value, df_col_name, widget_key )
 
 		with col3: # Password
-			custom_label = 'View Countries (codes)'
+			custom_label = 'Countries (codes)'
 			df_col_name = 'country_codes'
 			widget_key = 'widget_' + user_name + '_' + df_col_name
 			current_value = scope.user_df.loc[user_name].at[df_col_name]

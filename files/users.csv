@@ -6,4 +6,5 @@ Kristian,password,all,True,True,True,True,True,True,True,Country,Australia
 Ange,password,all,True,True,True,True,True,True,True,Country,Australia
 Carol,password,all,True,True,True,True,True,True,True,Country,Australia
 Matthew,password,all,True,True,True,True,True,True,True,Country,Australia
-Rach,password,"au,nz",True,False,False,False,False,False,True,Country,Australia
+Rach,password,au nz,True,False,False,False,False,False,False,Country,Australia
+AC,password,gb,True,False,False,False,False,False,False,Country,Australia

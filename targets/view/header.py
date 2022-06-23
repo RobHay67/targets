@@ -4,6 +4,7 @@ import streamlit as st
 from config.model.currency import currency_name, currency_symbol
 from targets.view.widgets import render_country_selector, render_target_setting_method
 
+from targets.model.export import convert_df
 
 def render_targets_header(scope):
 
@@ -11,6 +12,15 @@ def render_targets_header(scope):
 
 	with col1:
 			st.header('Target Rates')
+
+			widget_key = scope.user_name + '_download_rates'
+			st.download_button( 
+								"Download Entire Rates Table", 
+								data=convert_df(scope.target_df),
+								file_name='target_rates_2022.csv', 
+								mime='text/csv', 
+								key=widget_key,
+								)
 	with col2:
 
 		render_country_selector(scope)
