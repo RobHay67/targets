@@ -1,11 +1,11 @@
 
 # ------------------------------------------------- Execute Application
+# activate Pipenv 	- pipenv shell
 # streamlit run app.py
 # ------------------------------------------------- GitHub
 # git push -u origin <branch>
 # ------------------------------------------------- Pipenv
 # cd into project folder 
-# activate Pipenv 	- pipenv shell
 # deactivate env	- exit
 # add a package 	- pipenv install django
 # specify ver   	- pipenv install mplfinance===0.12.7a5
@@ -31,15 +31,6 @@ scope = set_scope(st.session_state)
 render_sidebar(scope)
 render_selected_page(scope)
 
-
-
-
-
-# str_as_list = scope.user_country_codes
-# country_code_list = str_as_list.split()
-
-# print(str_as_list)
-# print(country_code_list)
 
 
 
