@@ -89,12 +89,15 @@ no_regions = {region_field:None, regions:['Other'] }
 
 country_region_config = {
 #                 'all':no_regions,
-                'au':{ region_field:'state'                    , regions: au_state_list},
+                # 'au':{ region_field:'state'                    , regions: au_state_list},
+				'au':no_regions,
                 'us':{ region_field:'state'                    , regions: list(us_state_codes.keys())},
                 'ca':{ region_field:'state'                    , regions: list(ca_state_codes.keys())},
-                'gb':{ region_field:'geo_state_region_province', regions: gb_state_list},
+                # 'gb':{ region_field:'geo_state_region_province', regions: gb_state_list},
+				'gb':no_regions,
                 'nz':{ region_field:'geo_city_or_town'         , regions: nz_state_list},
-                'ie':{ region_field:'state'                    , regions: ie_state_list},
+                # 'ie':{ region_field:'state'                    , regions: ie_state_list},
+				'ie':no_regions,
                 'at':no_regions, 
 				'be':no_regions, 
 				'cz':no_regions, 
