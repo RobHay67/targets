@@ -29,11 +29,11 @@ def load_customer_dataframe( scope, core_df_name, campaign_year, nrows=None ):
 									nrows=nrows,
 								   )
 	if core_df_name =='Customers': 
-		print ( ('columns = ' + str(len(core_df.columns)) ).ljust(15), ('rows = ' + str(len(core_df))).ljust(20), ('total LCL donations = ' + str(round(core_df.lcl_fundr_total.sum(),2))).ljust(40),           (' - Finished loading ' +  str(core_df_name)).ljust(40), 'campaign year =', campaign_year, )
+		print ( ('columns = ' + str(len(core_df.columns)) ).ljust(10), ('rows = ' + str(len(core_df))).ljust(20), ('total LCL donations = ' + str(round(core_df.lcl_fundr_total.sum(),2))).ljust(40),           (' - ' +  str(core_df_name)).ljust(40), 'campaign year =', campaign_year, )
 	elif core_df_name =='Donations':
-		print ( ('columns = ' + str(len(core_df.columns)) ).ljust(15), ('rows = ' + str(len(core_df))).ljust(20), ('total LCL donations = ' + str(round(core_df.lcl_fundr_total.sum(),2))).ljust(40),           (' - Finished loading ' +  str(core_df_name)).ljust(40), 'campaign year =', campaign_year, )
+		print ( ('columns = ' + str(len(core_df.columns)) ).ljust(10), ('rows = ' + str(len(core_df))).ljust(20), ('total LCL donations = ' + str(round(core_df.lcl_fundr_total.sum(),2))).ljust(40),           (' - ' +  str(core_df_name)).ljust(40), 'campaign year =', campaign_year, )
 	else:                                                             
-		print ( ('columns = ' + str(len(core_df.columns)) ).ljust(15), ('rows = ' + str(len(core_df))).ljust(20), ('total LCL donations = ' + str(round(core_df.value_lcl_total_donations.sum(),2))).ljust(40), (' - Finished loading ' +  str(core_df_name)).ljust(40), 'campaign year =', campaign_year, )
+		print ( ('columns = ' + str(len(core_df.columns)) ).ljust(10), ('rows = ' + str(len(core_df))).ljust(20), ('total LCL donations = ' + str(round(core_df.value_lcl_total_donations.sum(),2))).ljust(40), (' - ' +  str(core_df_name)).ljust(40), 'campaign year =', campaign_year, )
 	return core_df
 
 

@@ -1,27 +1,28 @@
 
 
 from types import SimpleNamespace
+import pandas as pd
 from rate_code.load_data import scope_paths
 
 
+target_app_columns 	= ['campaign', 'payment_country', 'region', 'tenure', 'metric', 'result']
+finance_columns 	= ['finance_measure','formula','result']
 
 def set_scope():
 	scope = SimpleNamespace( 
-								rates_df_columns = ['campaign', 'payment_country', 'region', 'tenure',  'metric', 'result', 'formula', 'finance_measure'],
-								
-								nrows 				= 200,
+
+								nrows 				= None,
+
 								campaign_previous	= 2021,
 								campaign_retained	= 2020,
-								show_regions		= False,
-								save_for_finance	= False,
-								save_for_target_app = True,
+
+								show_regions		= True,
+								save_rates			= True,
+
+								target_app_rates_df = pd.DataFrame( columns=target_app_columns),
+								finance_rates_df 	= pd.DataFrame( columns=finance_columns),
 								)
 	
-	if scope.save_for_finance == True:
-		scope.finance_description = True,
-		scope.save_for_target_app = False	
-	else:
-		scope.finance_description = False,
 
 	scope_paths(scope)
 
