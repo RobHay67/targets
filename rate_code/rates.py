@@ -5,13 +5,50 @@ from rate_code.report import print_section_title, add_measure
 
 
 def store_movember_rates(scope):
-	rates_df = foundation_donations	(scope)
-	rates_df = new_fundraisers     	(scope)
-	rates_df = retained_fundraisers	(scope)
-	rates_df = returned_fundraisers	(scope)
-	rates_df = total_fundraisers   	(scope)
-	rates_df = team_direct			(scope)
-	rates_df = total_peer_2_peer   	(scope)
+
+	if scope.show_regions:
+		rates_df = foundation_donations	(scope)
+		rates_df = new_fundraisers     	(scope)
+		rates_df = retained_fundraisers	(scope)
+		rates_df = returned_fundraisers	(scope)
+		rates_df = total_fundraisers   	(scope)
+		rates_df = team_direct			(scope)
+		rates_df = total_peer_2_peer   	(scope)
+
+	if scope.show_community:
+
+		# print('show comunnity tag')
+		# category_fundraising
+		categories(scope)
+
+		
+
+
+def categories(scope):
+	fundraiser_df = scope.country_frs_current[scope.country_frs_current['customer_type'] == 'fundraiser']
+
+	list_of_categories = fundraiser_df.category_fundraising.unique()
+
+	for category in list_of_categories:
+
+		scope.tenure = category
+
+		# print_section_title( scope, category.upper())
+
+		category_df  = fundraiser_df[fundraiser_df['category_fundraising'] == category]
+		total_regos_current  = len( category_df)
+		total_active       = category_df.feat_active.sum()
+		total_funds_current  = round((category_df['lcl_fundr_total'].sum()),2)
+		apac = round( ( total_funds_current / total_active ), 2)
+
+
+		print ( (scope.country).ljust(5), (scope.region).ljust(5), (category).ljust(20), ('Total Fundraisers'					).ljust(55), str( total_regos_current ))
+		print ( (scope.country).ljust(5), (scope.region).ljust(5), (category).ljust(20), ('Total Active'					    ).ljust(55), str( total_active ))
+		print ( (scope.country).ljust(5), (scope.region).ljust(5), (category).ljust(20), ('Average Per Active Cateogry (APAC)'	).ljust(55), str( apac ))
+		print ( (scope.country).ljust(5), (scope.region).ljust(5), (category).ljust(20), ('Total Funds Raised'					).ljust(55), str( total_funds_current ))
+
+
+
 
 
 def foundation_donations( scope):
@@ -61,8 +98,16 @@ def retained_fundraisers( scope):
 
 	print_section_title( scope, 'RETAINED Fundraisers (from previous campaign)')
 
-	total_regos_current  = len( scope.country_frs_current)
-	total_regos_previous = len( scope.country_frs_previous)
+	fundraiser_df_current = scope.country_frs_current[scope.country_frs_current['customer_type'] == 'fundraiser']
+	fundraiser_df_previous = scope.country_frs_previous[scope.country_frs_previous['customer_type'] == 'fundraiser']
+
+
+	# total_regos_current  = len( scope.country_frs_current)
+	# total_regos_previous = len( scope.country_frs_previous)
+
+	total_regos_current = len(fundraiser_df_current)
+	total_regos_previous = len(fundraiser_df_previous)
+
 	
 	retained_df           = scope.country_frs_current[(scope.country_frs_current['tenure_retained'] == 1) & (scope.country_frs_current['customer_type'] == 'fundraiser')]
 	retained_regos        = len( retained_df )
@@ -134,7 +179,6 @@ def total_fundraisers( scope):
 	add_measure( scope, 'ignore', total_active   	 , 'TOTAL INDIVIDUALS - Total Active Fundraisers' )
 	add_measure( scope, 'ignore', total_funds_current, 'TOTAL INDIVIDUALS - Total Funds Raised' )
 
-
 def team_direct( scope):
 
 	scope.tenure = 'Team'
@@ -155,7 +199,6 @@ def team_direct( scope):
 	add_measure( scope, 'funds'    , team_funds, 'TEAM - Total Funds' )
 	add_measure( scope, 'comment'  , ''        , 'TEAM - Comment' )
 
-
 def total_peer_2_peer( scope):
 
 	scope.tenure = 'total'
@@ -166,8 +209,15 @@ def total_peer_2_peer( scope):
 	teams_active_df = scope.country_frs_current[scope.country_frs_current['customer_type'] == 'team']
 	teams_active_df = teams_active_df[teams_active_df['aud_fundr_total'] != 0]
 
-	total_regos_current  = len( fundraisers_df) + len( teams_active_df)
+	
+	total_fundraisers = len( fundraisers_df)
+	total_fundraisers_active = fundraisers_df.feat_active.sum()
+	total_teams_active  = len( teams_active_df)
+	total_active_entities = total_fundraisers_active + total_teams_active
 	total_funds_current  = round((scope.country_frs_current['lcl_fundr_total'].sum()),2)
 
-	add_measure( scope, 'ignore', total_regos_current   , 'TOTAL PEER 2 PEER - Total Number of Fundraisers' )
-	add_measure( scope, 'ignore', total_funds_current   , 'TOTAL PEER 2 PEER - Total Funds Raised' )
+	add_measure( scope, 'ignore', total_fundraisers   		, 'TOTAL PEER 2 PEER - Total Number of Fundraisers' )
+	add_measure( scope, 'ignore', total_fundraisers_active	, 'TOTAL PEER 2 PEER - Total Number of Active Fundraisers' )
+	add_measure( scope, 'ignore', total_teams_active   		, 'TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations' )
+	add_measure( scope, 'ignore', total_active_entities   	, 'TOTAL PEER 2 PEER - Total Number of Active Entities' )
+	add_measure( scope, 'ignore', total_funds_current   	, 'TOTAL PEER 2 PEER - Total Funds Raised' )

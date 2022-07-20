@@ -15,9 +15,12 @@ def set_scope():
 
 								campaign_previous	= 2021,
 								campaign_retained	= 2020,
+								# campaign_previous	= 2018,
+								# campaign_retained	= 2017,
 
 								show_regions		= True,
 								save_rates			= True,
+								show_community		= False,
 
 								target_app_rates_df = pd.DataFrame( columns=target_app_columns),
 								finance_rates_df 	= pd.DataFrame( columns=finance_columns),
