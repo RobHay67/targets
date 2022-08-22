@@ -6,14 +6,23 @@ from rate_code.report import print_section_title, add_measure
 
 def store_movember_rates(scope):
 
-	if scope.show_regions:
-		rates_df = foundation_donations	(scope)
-		rates_df = new_fundraisers     	(scope)
-		rates_df = retained_fundraisers	(scope)
-		rates_df = returned_fundraisers	(scope)
-		rates_df = total_fundraisers   	(scope)
-		rates_df = team_direct			(scope)
-		rates_df = total_peer_2_peer   	(scope)
+	foundation_donations	(scope)
+	new_fundraisers     	(scope)
+	retained_fundraisers	(scope)
+	returned_fundraisers	(scope)
+	total_fundraisers   	(scope)
+	team_direct			(scope)
+	total_peer_2_peer   	(scope)
+
+
+	# if scope.show_regions:
+	# 	rates_df = foundation_donations	(scope)
+	# 	rates_df = new_fundraisers     	(scope)
+	# 	rates_df = retained_fundraisers	(scope)
+	# 	rates_df = returned_fundraisers	(scope)
+	# 	rates_df = total_fundraisers   	(scope)
+	# 	rates_df = team_direct			(scope)
+	# 	rates_df = total_peer_2_peer   	(scope)
 
 	if scope.show_community:
 

@@ -1,0 +1,737 @@
+finance_measure,formula,result
+AU-FOUNDATION & RG - No of Donations,,3557
+AU-FOUNDATION & RG - ADA,423245.92 / 3557 = ,118.99
+AU-FOUNDATION & RG - Total Funds,,423245.92
+AU-NEW - No of New Fundraisers (previous campaign),,47054
+AU-NEW - No of Active Fundraisers,,35966
+AU-NEW - APAM (Active),35966 / 11107436.88 = ,308.83
+AU-NEW - Total Funds,,11107436.88
+AU-NEW - Active Ratio,35966 / 47054 = ,0.7644
+AU-RETAINED - No of Fundraisers (previous campaign),,71406
+AU-RETAINED - Total Retained from Previous into Current,,15608
+AU-RETAINED - No of Active Fundraisers,,12488
+AU-RETAINED - APAM (Active),6007373.23 / 12488 = ,481.05
+AU-RETAINED - Total Funds,,6007373.23
+AU-RETAINED - Retained Ratio,15608 / 71406 = ,0.2186
+AU-RETAINED - Active Ratio,12488 / 15608 = ,0.8001
+AU-RETAINED - Total No of Fundraisers (current campaign),,73582
+AU-RETURNING - No of Returning Frs before previous campaign,,10920
+AU-RETURNING - No of Active Fundraisers,,7603
+AU-RETURNING - APAM (Active),2822551.51 / 7603 = ,371.24
+AU-RETURNING - Total Funds,,2822551.51
+AU-RETURNING - Active Ratio,7603 / 10920 = ,0.6962
+AU-TOTAL INDIVIDUALS - Total Number of Fundraisers,,73582
+AU-TOTAL INDIVIDUALS - Total Active Fundraisers,,56057
+AU-TOTAL INDIVIDUALS - Total Funds Raised,,19937361.62
+AU-TEAM - No of Teams,,739
+AU-TEAM - ATDD,262877.89 / 739 = ,355.72
+AU-TEAM - Total Funds,,262877.89
+AU-TOTAL PEER 2 PEER - Total Number of Fundraisers,,73582
+AU-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,56057
+AU-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,739
+AU-TOTAL PEER 2 PEER - Total Number of Active Entities,,56796
+AU-TOTAL PEER 2 PEER - Total Funds Raised,,20623485.43
+CA-FOUNDATION & RG - No of Donations,,7277
+CA-FOUNDATION & RG - ADA,1019946.64 / 7277 = ,140.16
+CA-FOUNDATION & RG - Total Funds,,1019946.64
+CA-NEW - No of New Fundraisers (previous campaign),,30489
+CA-NEW - No of Active Fundraisers,,20319
+CA-NEW - APAM (Active),20319 / 5124820.08 = ,252.22
+CA-NEW - Total Funds,,5124820.08
+CA-NEW - Active Ratio,20319 / 30489 = ,0.6664
+CA-RETAINED - No of Fundraisers (previous campaign),,55299
+CA-RETAINED - Total Retained from Previous into Current,,15525
+CA-RETAINED - No of Active Fundraisers,,12451
+CA-RETAINED - APAM (Active),6384793.07 / 12451 = ,512.79
+CA-RETAINED - Total Funds,,6384793.07
+CA-RETAINED - Retained Ratio,15525 / 55299 = ,0.2807
+CA-RETAINED - Active Ratio,12451 / 15525 = ,0.802
+CA-RETAINED - Total No of Fundraisers (current campaign),,56075
+CA-RETURNING - No of Returning Frs before previous campaign,,10061
+CA-RETURNING - No of Active Fundraisers,,6679
+CA-RETURNING - APAM (Active),2189882.93 / 6679 = ,327.88
+CA-RETURNING - Total Funds,,2189882.93
+CA-RETURNING - Active Ratio,6679 / 10061 = ,0.6639
+CA-TOTAL INDIVIDUALS - Total Number of Fundraisers,,56075
+CA-TOTAL INDIVIDUALS - Total Active Fundraisers,,39449
+CA-TOTAL INDIVIDUALS - Total Funds Raised,,13699496.08
+CA-TEAM - No of Teams,,2577
+CA-TEAM - ATDD,897856.32 / 2577 = ,348.41
+CA-TEAM - Total Funds,,897856.32
+CA-TOTAL PEER 2 PEER - Total Number of Fundraisers,,56075
+CA-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,39449
+CA-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,2577
+CA-TOTAL PEER 2 PEER - Total Number of Active Entities,,42026
+CA-TOTAL PEER 2 PEER - Total Funds Raised,,15617299.04
+GB-FOUNDATION & RG - No of Donations,,6783
+GB-FOUNDATION & RG - ADA,447907.41 / 6783 = ,66.03
+GB-FOUNDATION & RG - Total Funds,,447907.41
+GB-NEW - No of New Fundraisers (previous campaign),,33625
+GB-NEW - No of Active Fundraisers,,20384
+GB-NEW - APAM (Active),20384 / 2689155.49 = ,131.92
+GB-NEW - Total Funds,,2689155.49
+GB-NEW - Active Ratio,20384 / 33625 = ,0.6062
+GB-RETAINED - No of Fundraisers (previous campaign),,48524
+GB-RETAINED - Total Retained from Previous into Current,,8439
+GB-RETAINED - No of Active Fundraisers,,5847
+GB-RETAINED - APAM (Active),1114010.21 / 5847 = ,190.53
+GB-RETAINED - Total Funds,,1114010.21
+GB-RETAINED - Retained Ratio,8439 / 48524 = ,0.1739
+GB-RETAINED - Active Ratio,5847 / 8439 = ,0.6929
+GB-RETAINED - Total No of Fundraisers (current campaign),,51025
+GB-RETURNING - No of Returning Frs before previous campaign,,8961
+GB-RETURNING - No of Active Fundraisers,,4838
+GB-RETURNING - APAM (Active),763694.57 / 4838 = ,157.85
+GB-RETURNING - Total Funds,,763694.57
+GB-RETURNING - Active Ratio,4838 / 8961 = ,0.5399
+GB-TOTAL INDIVIDUALS - Total Number of Fundraisers,,51025
+GB-TOTAL INDIVIDUALS - Total Active Fundraisers,,31069
+GB-TOTAL INDIVIDUALS - Total Funds Raised,,4566860.27
+GB-TEAM - No of Teams,,2351
+GB-TEAM - ATDD,290532.56 / 2351 = ,123.58
+GB-TEAM - Total Funds,,290532.56
+GB-TOTAL PEER 2 PEER - Total Number of Fundraisers,,51025
+GB-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,31069
+GB-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,2351
+GB-TOTAL PEER 2 PEER - Total Number of Active Entities,,33420
+GB-TOTAL PEER 2 PEER - Total Funds Raised,,5305300.24
+US-FOUNDATION & RG - No of Donations,,9833
+US-FOUNDATION & RG - ADA,744123.39 / 9833 = ,75.68
+US-FOUNDATION & RG - Total Funds,,744123.39
+US-NEW - No of New Fundraisers (previous campaign),,41028
+US-NEW - No of Active Fundraisers,,23629
+US-NEW - APAM (Active),23629 / 4206775.79 = ,178.03
+US-NEW - Total Funds,,4206775.79
+US-NEW - Active Ratio,23629 / 41028 = ,0.5759
+US-RETAINED - No of Fundraisers (previous campaign),,84551
+US-RETAINED - Total Retained from Previous into Current,,18277
+US-RETAINED - No of Active Fundraisers,,13533
+US-RETAINED - APAM (Active),7067273.19 / 13533 = ,522.23
+US-RETAINED - Total Funds,,7067273.19
+US-RETAINED - Retained Ratio,18277 / 84551 = ,0.2162
+US-RETAINED - Active Ratio,13533 / 18277 = ,0.7404
+US-RETAINED - Total No of Fundraisers (current campaign),,67683
+US-RETURNING - No of Returning Frs before previous campaign,,8378
+US-RETURNING - No of Active Fundraisers,,4250
+US-RETURNING - APAM (Active),1113332.33 / 4250 = ,261.96
+US-RETURNING - Total Funds,,1113332.33
+US-RETURNING - Active Ratio,4250 / 8378 = ,0.5073
+US-TOTAL INDIVIDUALS - Total Number of Fundraisers,,67683
+US-TOTAL INDIVIDUALS - Total Active Fundraisers,,41412
+US-TOTAL INDIVIDUALS - Total Funds Raised,,12387381.31
+US-TEAM - No of Teams,,2380
+US-TEAM - ATDD,776108.54 / 2380 = ,326.1
+US-TEAM - Total Funds,,776108.54
+US-TOTAL PEER 2 PEER - Total Number of Fundraisers,,67683
+US-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,41412
+US-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,2380
+US-TOTAL PEER 2 PEER - Total Number of Active Entities,,43792
+US-TOTAL PEER 2 PEER - Total Funds Raised,,13907613.24
+IE-FOUNDATION & RG - No of Donations,,1700
+IE-FOUNDATION & RG - ADA,86858.92 / 1700 = ,51.09
+IE-FOUNDATION & RG - Total Funds,,86858.92
+IE-NEW - No of New Fundraisers (previous campaign),,2844
+IE-NEW - No of Active Fundraisers,,1677
+IE-NEW - APAM (Active),1677 / 426923.73 = ,254.58
+IE-NEW - Total Funds,,426923.73
+IE-NEW - Active Ratio,1677 / 2844 = ,0.5897
+IE-RETAINED - No of Fundraisers (previous campaign),,4243
+IE-RETAINED - Total Retained from Previous into Current,,632
+IE-RETAINED - No of Active Fundraisers,,460
+IE-RETAINED - APAM (Active),144581.96 / 460 = ,314.31
+IE-RETAINED - Total Funds,,144581.96
+IE-RETAINED - Retained Ratio,632 / 4243 = ,0.149
+IE-RETAINED - Active Ratio,460 / 632 = ,0.7278
+IE-RETAINED - Total No of Fundraisers (current campaign),,4173
+IE-RETURNING - No of Returning Frs before previous campaign,,697
+IE-RETURNING - No of Active Fundraisers,,363
+IE-RETURNING - APAM (Active),114033.59 / 363 = ,314.14
+IE-RETURNING - Total Funds,,114033.59
+IE-RETURNING - Active Ratio,363 / 697 = ,0.5208
+IE-TOTAL INDIVIDUALS - Total Number of Fundraisers,,4173
+IE-TOTAL INDIVIDUALS - Total Active Fundraisers,,2500
+IE-TOTAL INDIVIDUALS - Total Funds Raised,,685539.28
+IE-TEAM - No of Teams,,61
+IE-TEAM - ATDD,27488.32 / 61 = ,450.63
+IE-TEAM - Total Funds,,27488.32
+IE-TOTAL PEER 2 PEER - Total Number of Fundraisers,,4173
+IE-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,2500
+IE-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,61
+IE-TOTAL PEER 2 PEER - Total Number of Active Entities,,2561
+IE-TOTAL PEER 2 PEER - Total Funds Raised,,799886.52
+NZ-FOUNDATION & RG - No of Donations,,1106
+NZ-FOUNDATION & RG - ADA,121869.41 / 1106 = ,110.19
+NZ-FOUNDATION & RG - Total Funds,,121869.41
+NZ-NEW - No of New Fundraisers (previous campaign),,6285
+NZ-NEW - No of Active Fundraisers,,4642
+NZ-NEW - APAM (Active),4642 / 945520.93 = ,203.69
+NZ-NEW - Total Funds,,945520.93
+NZ-NEW - Active Ratio,4642 / 6285 = ,0.7386
+NZ-RETAINED - No of Fundraisers (previous campaign),,7911
+NZ-RETAINED - Total Retained from Previous into Current,,1281
+NZ-RETAINED - No of Active Fundraisers,,1029
+NZ-RETAINED - APAM (Active),298286.15 / 1029 = ,289.88
+NZ-RETAINED - Total Funds,,298286.15
+NZ-RETAINED - Retained Ratio,1281 / 7911 = ,0.1619
+NZ-RETAINED - Active Ratio,1029 / 1281 = ,0.8033
+NZ-RETAINED - Total No of Fundraisers (current campaign),,8607
+NZ-RETURNING - No of Returning Frs before previous campaign,,1041
+NZ-RETURNING - No of Active Fundraisers,,663
+NZ-RETURNING - APAM (Active),155237.6 / 663 = ,234.14
+NZ-RETURNING - Total Funds,,155237.6
+NZ-RETURNING - Active Ratio,663 / 1041 = ,0.6369
+NZ-TOTAL INDIVIDUALS - Total Number of Fundraisers,,8607
+NZ-TOTAL INDIVIDUALS - Total Active Fundraisers,,6334
+NZ-TOTAL INDIVIDUALS - Total Funds Raised,,1399044.68
+NZ-TEAM - No of Teams,,304
+NZ-TEAM - ATDD,26176.2 / 304 = ,86.11
+NZ-TEAM - Total Funds,,26176.2
+NZ-TOTAL PEER 2 PEER - Total Number of Fundraisers,,8607
+NZ-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,6334
+NZ-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,304
+NZ-TOTAL PEER 2 PEER - Total Number of Active Entities,,6638
+NZ-TOTAL PEER 2 PEER - Total Funds Raised,,1547090.29
+AT-FOUNDATION & RG - No of Donations,,195
+AT-FOUNDATION & RG - ADA,6976.62 / 195 = ,35.78
+AT-FOUNDATION & RG - Total Funds,,6976.62
+AT-NEW - No of New Fundraisers (previous campaign),,615
+AT-NEW - No of Active Fundraisers,,285
+AT-NEW - APAM (Active),285 / 17554.84 = ,61.6
+AT-NEW - Total Funds,,17554.84
+AT-NEW - Active Ratio,285 / 615 = ,0.4634
+AT-RETAINED - No of Fundraisers (previous campaign),,1393
+AT-RETAINED - Total Retained from Previous into Current,,316
+AT-RETAINED - No of Active Fundraisers,,183
+AT-RETAINED - APAM (Active),18984.94 / 183 = ,103.74
+AT-RETAINED - Total Funds,,18984.94
+AT-RETAINED - Retained Ratio,316 / 1393 = ,0.2268
+AT-RETAINED - Active Ratio,183 / 316 = ,0.5791
+AT-RETAINED - Total No of Fundraisers (current campaign),,1116
+AT-RETURNING - No of Returning Frs before previous campaign,,185
+AT-RETURNING - No of Active Fundraisers,,76
+AT-RETURNING - APAM (Active),5453.48 / 76 = ,71.76
+AT-RETURNING - Total Funds,,5453.48
+AT-RETURNING - Active Ratio,76 / 185 = ,0.4108
+AT-TOTAL INDIVIDUALS - Total Number of Fundraisers,,1116
+AT-TOTAL INDIVIDUALS - Total Active Fundraisers,,544
+AT-TOTAL INDIVIDUALS - Total Funds Raised,,41993.26
+AT-TEAM - No of Teams,,39
+AT-TEAM - ATDD,3695.61 / 39 = ,94.76
+AT-TEAM - Total Funds,,3695.61
+AT-TOTAL PEER 2 PEER - Total Number of Fundraisers,,1116
+AT-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,544
+AT-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,39
+AT-TOTAL PEER 2 PEER - Total Number of Active Entities,,583
+AT-TOTAL PEER 2 PEER - Total Funds Raised,,52665.49
+BE-FOUNDATION & RG - No of Donations,,706
+BE-FOUNDATION & RG - ADA,9789.0 / 706 = ,13.87
+BE-FOUNDATION & RG - Total Funds,,9789.0
+BE-NEW - No of New Fundraisers (previous campaign),,790
+BE-NEW - No of Active Fundraisers,,310
+BE-NEW - APAM (Active),310 / 30306.3 = ,97.76
+BE-NEW - Total Funds,,30306.3
+BE-NEW - Active Ratio,310 / 790 = ,0.3924
+BE-RETAINED - No of Fundraisers (previous campaign),,1324
+BE-RETAINED - Total Retained from Previous into Current,,258
+BE-RETAINED - No of Active Fundraisers,,136
+BE-RETAINED - APAM (Active),32972.24 / 136 = ,242.44
+BE-RETAINED - Total Funds,,32972.24
+BE-RETAINED - Retained Ratio,258 / 1324 = ,0.1949
+BE-RETAINED - Active Ratio,136 / 258 = ,0.5271
+BE-RETAINED - Total No of Fundraisers (current campaign),,1215
+BE-RETURNING - No of Returning Frs before previous campaign,,167
+BE-RETURNING - No of Active Fundraisers,,50
+BE-RETURNING - APAM (Active),6035.62 / 50 = ,120.71
+BE-RETURNING - Total Funds,,6035.62
+BE-RETURNING - Active Ratio,50 / 167 = ,0.2994
+BE-TOTAL INDIVIDUALS - Total Number of Fundraisers,,1215
+BE-TOTAL INDIVIDUALS - Total Active Fundraisers,,496
+BE-TOTAL INDIVIDUALS - Total Funds Raised,,69314.16
+BE-TEAM - No of Teams,,35
+BE-TEAM - ATDD,8695.0 / 35 = ,248.43
+BE-TEAM - Total Funds,,8695.0
+BE-TOTAL PEER 2 PEER - Total Number of Fundraisers,,1215
+BE-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,496
+BE-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,35
+BE-TOTAL PEER 2 PEER - Total Number of Active Entities,,531
+BE-TOTAL PEER 2 PEER - Total Funds Raised,,87798.16
+CZ-FOUNDATION & RG - No of Donations,,412
+CZ-FOUNDATION & RG - ADA,308594.6 / 412 = ,749.02
+CZ-FOUNDATION & RG - Total Funds,,308594.6
+CZ-NEW - No of New Fundraisers (previous campaign),,2290
+CZ-NEW - No of Active Fundraisers,,1051
+CZ-NEW - APAM (Active),1051 / 1200717.84 = ,1142.45
+CZ-NEW - Total Funds,,1200717.84
+CZ-NEW - Active Ratio,1051 / 2290 = ,0.459
+CZ-RETAINED - No of Fundraisers (previous campaign),,5710
+CZ-RETAINED - Total Retained from Previous into Current,,1606
+CZ-RETAINED - No of Active Fundraisers,,913
+CZ-RETAINED - APAM (Active),1353602.26 / 913 = ,1482.59
+CZ-RETAINED - Total Funds,,1353602.26
+CZ-RETAINED - Retained Ratio,1606 / 5710 = ,0.2813
+CZ-RETAINED - Active Ratio,913 / 1606 = ,0.5685
+CZ-RETAINED - Total No of Fundraisers (current campaign),,4650
+CZ-RETURNING - No of Returning Frs before previous campaign,,754
+CZ-RETURNING - No of Active Fundraisers,,270
+CZ-RETURNING - APAM (Active),381690.54 / 270 = ,1413.67
+CZ-RETURNING - Total Funds,,381690.54
+CZ-RETURNING - Active Ratio,270 / 754 = ,0.3581
+CZ-TOTAL INDIVIDUALS - Total Number of Fundraisers,,4650
+CZ-TOTAL INDIVIDUALS - Total Active Fundraisers,,2234
+CZ-TOTAL INDIVIDUALS - Total Funds Raised,,2936010.64
+CZ-TEAM - No of Teams,,176
+CZ-TEAM - ATDD,802397.9 / 176 = ,4559.08
+CZ-TEAM - Total Funds,,802397.9
+CZ-TOTAL PEER 2 PEER - Total Number of Fundraisers,,4650
+CZ-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,2234
+CZ-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,176
+CZ-TOTAL PEER 2 PEER - Total Number of Active Entities,,2410
+CZ-TOTAL PEER 2 PEER - Total Funds Raised,,4047003.14
+DK-FOUNDATION & RG - No of Donations,,54
+DK-FOUNDATION & RG - ADA,37827.42 / 54 = ,700.51
+DK-FOUNDATION & RG - Total Funds,,37827.42
+DK-NEW - No of New Fundraisers (previous campaign),,701
+DK-NEW - No of Active Fundraisers,,293
+DK-NEW - APAM (Active),293 / 110736.76 = ,377.94
+DK-NEW - Total Funds,,110736.76
+DK-NEW - Active Ratio,293 / 701 = ,0.418
+DK-RETAINED - No of Fundraisers (previous campaign),,1536
+DK-RETAINED - Total Retained from Previous into Current,,178
+DK-RETAINED - No of Active Fundraisers,,96
+DK-RETAINED - APAM (Active),183760.52 / 96 = ,1914.17
+DK-RETAINED - Total Funds,,183760.52
+DK-RETAINED - Retained Ratio,178 / 1536 = ,0.1159
+DK-RETAINED - Active Ratio,96 / 178 = ,0.5393
+DK-RETAINED - Total No of Fundraisers (current campaign),,1092
+DK-RETURNING - No of Returning Frs before previous campaign,,213
+DK-RETURNING - No of Active Fundraisers,,78
+DK-RETURNING - APAM (Active),54407.98 / 78 = ,697.54
+DK-RETURNING - Total Funds,,54407.98
+DK-RETURNING - Active Ratio,78 / 213 = ,0.3662
+DK-TOTAL INDIVIDUALS - Total Number of Fundraisers,,1092
+DK-TOTAL INDIVIDUALS - Total Active Fundraisers,,467
+DK-TOTAL INDIVIDUALS - Total Funds Raised,,348905.26
+DK-TEAM - No of Teams,,23
+DK-TEAM - ATDD,16405.33 / 23 = ,713.28
+DK-TEAM - Total Funds,,16405.33
+DK-TOTAL PEER 2 PEER - Total Number of Fundraisers,,1092
+DK-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,467
+DK-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,23
+DK-TOTAL PEER 2 PEER - Total Number of Active Entities,,490
+DK-TOTAL PEER 2 PEER - Total Funds Raised,,403138.01
+FI-FOUNDATION & RG - No of Donations,,1
+FI-FOUNDATION & RG - ADA,20.0 / 1 = ,20.0
+FI-FOUNDATION & RG - Total Funds,,20.0
+FI-NEW - No of New Fundraisers (previous campaign),,0
+FI-NEW - No of Active Fundraisers,,0
+FI-NEW - APAM (Active),0 / 0.0 = ,0.0
+FI-NEW - Total Funds,,0.0
+FI-NEW - Active Ratio,0 / 0 = ,0.0
+FI-RETAINED - No of Fundraisers (previous campaign),,2815
+FI-RETAINED - Total Retained from Previous into Current,,0
+FI-RETAINED - No of Active Fundraisers,,0
+FI-RETAINED - APAM (Active),0.0 / 0 = ,0.0
+FI-RETAINED - Total Funds,,0.0
+FI-RETAINED - Retained Ratio,0 / 2815 = ,0.0
+FI-RETAINED - Active Ratio,0 / 0 = ,0.0
+FI-RETAINED - Total No of Fundraisers (current campaign),,0
+FI-RETURNING - No of Returning Frs before previous campaign,,0
+FI-RETURNING - No of Active Fundraisers,,0
+FI-RETURNING - APAM (Active),0.0 / 0 = ,0.0
+FI-RETURNING - Total Funds,,0.0
+FI-RETURNING - Active Ratio,0 / 0 = ,0.0
+FI-TOTAL INDIVIDUALS - Total Number of Fundraisers,,0
+FI-TOTAL INDIVIDUALS - Total Active Fundraisers,,0
+FI-TOTAL INDIVIDUALS - Total Funds Raised,,0.0
+FI-TEAM - No of Teams,,0
+FI-TEAM - ATDD,0.0 / 0 = ,0.0
+FI-TEAM - Total Funds,,0.0
+FI-TOTAL PEER 2 PEER - Total Number of Fundraisers,,0
+FI-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,0
+FI-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,0
+FI-TOTAL PEER 2 PEER - Total Number of Active Entities,,0
+FI-TOTAL PEER 2 PEER - Total Funds Raised,,20.0
+FR-FOUNDATION & RG - No of Donations,,1024
+FR-FOUNDATION & RG - ADA,188323.14 / 1024 = ,183.91
+FR-FOUNDATION & RG - Total Funds,,188323.14
+FR-NEW - No of New Fundraisers (previous campaign),,6145
+FR-NEW - No of Active Fundraisers,,1974
+FR-NEW - APAM (Active),1974 / 111364.76 = ,56.42
+FR-NEW - Total Funds,,111364.76
+FR-NEW - Active Ratio,1974 / 6145 = ,0.3212
+FR-RETAINED - No of Fundraisers (previous campaign),,12606
+FR-RETAINED - Total Retained from Previous into Current,,2077
+FR-RETAINED - No of Active Fundraisers,,1053
+FR-RETAINED - APAM (Active),133086.96 / 1053 = ,126.39
+FR-RETAINED - Total Funds,,133086.96
+FR-RETAINED - Retained Ratio,2077 / 12606 = ,0.1648
+FR-RETAINED - Active Ratio,1053 / 2077 = ,0.507
+FR-RETAINED - Total No of Fundraisers (current campaign),,9332
+FR-RETURNING - No of Returning Frs before previous campaign,,1110
+FR-RETURNING - No of Active Fundraisers,,306
+FR-RETURNING - APAM (Active),19438.08 / 306 = ,63.52
+FR-RETURNING - Total Funds,,19438.08
+FR-RETURNING - Active Ratio,306 / 1110 = ,0.2757
+FR-TOTAL INDIVIDUALS - Total Number of Fundraisers,,9332
+FR-TOTAL INDIVIDUALS - Total Active Fundraisers,,3333
+FR-TOTAL INDIVIDUALS - Total Funds Raised,,263889.8
+FR-TEAM - No of Teams,,251
+FR-TEAM - ATDD,40166.39 / 251 = ,160.03
+FR-TEAM - Total Funds,,40166.39
+FR-TOTAL PEER 2 PEER - Total Number of Fundraisers,,9332
+FR-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,3333
+FR-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,251
+FR-TOTAL PEER 2 PEER - Total Number of Active Entities,,3584
+FR-TOTAL PEER 2 PEER - Total Funds Raised,,492379.33
+DE-FOUNDATION & RG - No of Donations,,599
+DE-FOUNDATION & RG - ADA,52111.69 / 599 = ,87.0
+DE-FOUNDATION & RG - Total Funds,,52111.69
+DE-NEW - No of New Fundraisers (previous campaign),,3586
+DE-NEW - No of Active Fundraisers,,2041
+DE-NEW - APAM (Active),2041 / 176478.71 = ,86.47
+DE-NEW - Total Funds,,176478.71
+DE-NEW - Active Ratio,2041 / 3586 = ,0.5692
+DE-RETAINED - No of Fundraisers (previous campaign),,6525
+DE-RETAINED - Total Retained from Previous into Current,,1529
+DE-RETAINED - No of Active Fundraisers,,1049
+DE-RETAINED - APAM (Active),197650.22 / 1049 = ,188.42
+DE-RETAINED - Total Funds,,197650.22
+DE-RETAINED - Retained Ratio,1529 / 6525 = ,0.2343
+DE-RETAINED - Active Ratio,1049 / 1529 = ,0.6861
+DE-RETAINED - Total No of Fundraisers (current campaign),,5734
+DE-RETURNING - No of Returning Frs before previous campaign,,619
+DE-RETURNING - No of Active Fundraisers,,278
+DE-RETURNING - APAM (Active),25653.1 / 278 = ,92.28
+DE-RETURNING - Total Funds,,25653.1
+DE-RETURNING - Active Ratio,278 / 619 = ,0.4491
+DE-TOTAL INDIVIDUALS - Total Number of Fundraisers,,5734
+DE-TOTAL INDIVIDUALS - Total Active Fundraisers,,3368
+DE-TOTAL INDIVIDUALS - Total Funds Raised,,399782.03
+DE-TEAM - No of Teams,,257
+DE-TEAM - ATDD,34663.35 / 257 = ,134.88
+DE-TEAM - Total Funds,,34663.35
+DE-TOTAL PEER 2 PEER - Total Number of Fundraisers,,5734
+DE-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,3368
+DE-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,257
+DE-TOTAL PEER 2 PEER - Total Number of Active Entities,,3625
+DE-TOTAL PEER 2 PEER - Total Funds Raised,,486557.07
+IT-FOUNDATION & RG - No of Donations,,0
+IT-FOUNDATION & RG - ADA,0.0 / 0 = ,0.0
+IT-FOUNDATION & RG - Total Funds,,0.0
+IT-NEW - No of New Fundraisers (previous campaign),,0
+IT-NEW - No of Active Fundraisers,,0
+IT-NEW - APAM (Active),0 / 0.0 = ,0.0
+IT-NEW - Total Funds,,0.0
+IT-NEW - Active Ratio,0 / 0 = ,0.0
+IT-RETAINED - No of Fundraisers (previous campaign),,0
+IT-RETAINED - Total Retained from Previous into Current,,0
+IT-RETAINED - No of Active Fundraisers,,0
+IT-RETAINED - APAM (Active),0.0 / 0 = ,0.0
+IT-RETAINED - Total Funds,,0.0
+IT-RETAINED - Retained Ratio,0 / 0 = ,0.0
+IT-RETAINED - Active Ratio,0 / 0 = ,0.0
+IT-RETAINED - Total No of Fundraisers (current campaign),,0
+IT-RETURNING - No of Returning Frs before previous campaign,,0
+IT-RETURNING - No of Active Fundraisers,,0
+IT-RETURNING - APAM (Active),0.0 / 0 = ,0.0
+IT-RETURNING - Total Funds,,0.0
+IT-RETURNING - Active Ratio,0 / 0 = ,0.0
+IT-TOTAL INDIVIDUALS - Total Number of Fundraisers,,0
+IT-TOTAL INDIVIDUALS - Total Active Fundraisers,,0
+IT-TOTAL INDIVIDUALS - Total Funds Raised,,0.0
+IT-TEAM - No of Teams,,0
+IT-TEAM - ATDD,0.0 / 0 = ,0.0
+IT-TEAM - Total Funds,,0.0
+IT-TOTAL PEER 2 PEER - Total Number of Fundraisers,,0
+IT-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,0
+IT-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,0
+IT-TOTAL PEER 2 PEER - Total Number of Active Entities,,0
+IT-TOTAL PEER 2 PEER - Total Funds Raised,,0.0
+NL-FOUNDATION & RG - No of Donations,,428
+NL-FOUNDATION & RG - ADA,31068.09 / 428 = ,72.59
+NL-FOUNDATION & RG - Total Funds,,31068.09
+NL-NEW - No of New Fundraisers (previous campaign),,1749
+NL-NEW - No of Active Fundraisers,,853
+NL-NEW - APAM (Active),853 / 112372.49 = ,131.74
+NL-NEW - Total Funds,,112372.49
+NL-NEW - Active Ratio,853 / 1749 = ,0.4877
+NL-RETAINED - No of Fundraisers (previous campaign),,2815
+NL-RETAINED - Total Retained from Previous into Current,,491
+NL-RETAINED - No of Active Fundraisers,,341
+NL-RETAINED - APAM (Active),88547.46 / 341 = ,259.67
+NL-RETAINED - Total Funds,,88547.46
+NL-RETAINED - Retained Ratio,491 / 2815 = ,0.1744
+NL-RETAINED - Active Ratio,341 / 491 = ,0.6945
+NL-RETAINED - Total No of Fundraisers (current campaign),,2597
+NL-RETURNING - No of Returning Frs before previous campaign,,357
+NL-RETURNING - No of Active Fundraisers,,172
+NL-RETURNING - APAM (Active),21097.32 / 172 = ,122.66
+NL-RETURNING - Total Funds,,21097.32
+NL-RETURNING - Active Ratio,172 / 357 = ,0.4818
+NL-TOTAL INDIVIDUALS - Total Number of Fundraisers,,2597
+NL-TOTAL INDIVIDUALS - Total Active Fundraisers,,1366
+NL-TOTAL INDIVIDUALS - Total Funds Raised,,222017.27
+NL-TEAM - No of Teams,,105
+NL-TEAM - ATDD,27065.19 / 105 = ,257.76
+NL-TEAM - Total Funds,,27065.19
+NL-TOTAL PEER 2 PEER - Total Number of Fundraisers,,2597
+NL-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,1366
+NL-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,105
+NL-TOTAL PEER 2 PEER - Total Number of Active Entities,,1471
+NL-TOTAL PEER 2 PEER - Total Funds Raised,,280150.55
+NO-FOUNDATION & RG - No of Donations,,243
+NO-FOUNDATION & RG - ADA,227347.54 / 243 = ,935.59
+NO-FOUNDATION & RG - Total Funds,,227347.54
+NO-NEW - No of New Fundraisers (previous campaign),,1590
+NO-NEW - No of Active Fundraisers,,863
+NO-NEW - APAM (Active),863 / 914173.18 = ,1059.3
+NO-NEW - Total Funds,,914173.18
+NO-NEW - Active Ratio,863 / 1590 = ,0.5428
+NO-RETAINED - No of Fundraisers (previous campaign),,4812
+NO-RETAINED - Total Retained from Previous into Current,,897
+NO-RETAINED - No of Active Fundraisers,,505
+NO-RETAINED - APAM (Active),1151435.25 / 505 = ,2280.07
+NO-RETAINED - Total Funds,,1151435.25
+NO-RETAINED - Retained Ratio,897 / 4812 = ,0.1864
+NO-RETAINED - Active Ratio,505 / 897 = ,0.563
+NO-RETAINED - Total No of Fundraisers (current campaign),,3276
+NO-RETURNING - No of Returning Frs before previous campaign,,789
+NO-RETURNING - No of Active Fundraisers,,323
+NO-RETURNING - APAM (Active),367364.87 / 323 = ,1137.35
+NO-RETURNING - Total Funds,,367364.87
+NO-RETURNING - Active Ratio,323 / 789 = ,0.4094
+NO-TOTAL INDIVIDUALS - Total Number of Fundraisers,,3276
+NO-TOTAL INDIVIDUALS - Total Active Fundraisers,,1691
+NO-TOTAL INDIVIDUALS - Total Funds Raised,,2432973.3
+NO-TEAM - No of Teams,,73
+NO-TEAM - ATDD,116317.5 / 73 = ,1593.39
+NO-TEAM - Total Funds,,116317.5
+NO-TOTAL PEER 2 PEER - Total Number of Fundraisers,,3276
+NO-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,1691
+NO-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,73
+NO-TOTAL PEER 2 PEER - Total Number of Active Entities,,1764
+NO-TOTAL PEER 2 PEER - Total Funds Raised,,2776638.34
+ES-FOUNDATION & RG - No of Donations,,532
+ES-FOUNDATION & RG - ADA,32238.59 / 532 = ,60.6
+ES-FOUNDATION & RG - Total Funds,,32238.59
+ES-NEW - No of New Fundraisers (previous campaign),,3590
+ES-NEW - No of Active Fundraisers,,1418
+ES-NEW - APAM (Active),1418 / 98336.36 = ,69.35
+ES-NEW - Total Funds,,98336.36
+ES-NEW - Active Ratio,1418 / 3590 = ,0.395
+ES-RETAINED - No of Fundraisers (previous campaign),,6610
+ES-RETAINED - Total Retained from Previous into Current,,1685
+ES-RETAINED - No of Active Fundraisers,,1069
+ES-RETAINED - APAM (Active),121831.79 / 1069 = ,113.97
+ES-RETAINED - Total Funds,,121831.79
+ES-RETAINED - Retained Ratio,1685 / 6610 = ,0.2549
+ES-RETAINED - Active Ratio,1069 / 1685 = ,0.6344
+ES-RETAINED - Total No of Fundraisers (current campaign),,6060
+ES-RETURNING - No of Returning Frs before previous campaign,,785
+ES-RETURNING - No of Active Fundraisers,,264
+ES-RETURNING - APAM (Active),17540.95 / 264 = ,66.44
+ES-RETURNING - Total Funds,,17540.95
+ES-RETURNING - Active Ratio,264 / 785 = ,0.3363
+ES-TOTAL INDIVIDUALS - Total Number of Fundraisers,,6060
+ES-TOTAL INDIVIDUALS - Total Active Fundraisers,,2751
+ES-TOTAL INDIVIDUALS - Total Funds Raised,,237709.1
+ES-TEAM - No of Teams,,184
+ES-TEAM - ATDD,26592.9 / 184 = ,144.53
+ES-TEAM - Total Funds,,26592.9
+ES-TOTAL PEER 2 PEER - Total Number of Fundraisers,,6060
+ES-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,2751
+ES-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,184
+ES-TOTAL PEER 2 PEER - Total Number of Active Entities,,2935
+ES-TOTAL PEER 2 PEER - Total Funds Raised,,296540.59
+SE-FOUNDATION & RG - No of Donations,,392
+SE-FOUNDATION & RG - ADA,262938.84 / 392 = ,670.76
+SE-FOUNDATION & RG - Total Funds,,262938.84
+SE-NEW - No of New Fundraisers (previous campaign),,1990
+SE-NEW - No of Active Fundraisers,,1349
+SE-NEW - APAM (Active),1349 / 1122935.75 = ,832.42
+SE-NEW - Total Funds,,1122935.75
+SE-NEW - Active Ratio,1349 / 1990 = ,0.6779
+SE-RETAINED - No of Fundraisers (previous campaign),,6147
+SE-RETAINED - Total Retained from Previous into Current,,842
+SE-RETAINED - No of Active Fundraisers,,650
+SE-RETAINED - APAM (Active),1147602.72 / 650 = ,1765.54
+SE-RETAINED - Total Funds,,1147602.72
+SE-RETAINED - Retained Ratio,842 / 6147 = ,0.137
+SE-RETAINED - Active Ratio,650 / 842 = ,0.772
+SE-RETAINED - Total No of Fundraisers (current campaign),,3160
+SE-RETURNING - No of Returning Frs before previous campaign,,328
+SE-RETURNING - No of Active Fundraisers,,168
+SE-RETURNING - APAM (Active),157513.3 / 168 = ,937.58
+SE-RETURNING - Total Funds,,157513.3
+SE-RETURNING - Active Ratio,168 / 328 = ,0.5122
+SE-TOTAL INDIVIDUALS - Total Number of Fundraisers,,3160
+SE-TOTAL INDIVIDUALS - Total Active Fundraisers,,2167
+SE-TOTAL INDIVIDUALS - Total Funds Raised,,2428051.77
+SE-TEAM - No of Teams,,138
+SE-TEAM - ATDD,650032.0 / 138 = ,4710.38
+SE-TEAM - Total Funds,,650032.0
+SE-TOTAL PEER 2 PEER - Total Number of Fundraisers,,3160
+SE-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,2167
+SE-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,138
+SE-TOTAL PEER 2 PEER - Total Number of Active Entities,,2305
+SE-TOTAL PEER 2 PEER - Total Funds Raised,,3341022.61
+CH-FOUNDATION & RG - No of Donations,,185
+CH-FOUNDATION & RG - ADA,41350.12 / 185 = ,223.51
+CH-FOUNDATION & RG - Total Funds,,41350.12
+CH-NEW - No of New Fundraisers (previous campaign),,1443
+CH-NEW - No of Active Fundraisers,,890
+CH-NEW - APAM (Active),890 / 150822.33 = ,169.46
+CH-NEW - Total Funds,,150822.33
+CH-NEW - Active Ratio,890 / 1443 = ,0.6168
+CH-RETAINED - No of Fundraisers (previous campaign),,2812
+CH-RETAINED - Total Retained from Previous into Current,,688
+CH-RETAINED - No of Active Fundraisers,,478
+CH-RETAINED - APAM (Active),146386.51 / 478 = ,306.25
+CH-RETAINED - Total Funds,,146386.51
+CH-RETAINED - Retained Ratio,688 / 2812 = ,0.2447
+CH-RETAINED - Active Ratio,478 / 688 = ,0.6948
+CH-RETAINED - Total No of Fundraisers (current campaign),,2427
+CH-RETURNING - No of Returning Frs before previous campaign,,296
+CH-RETURNING - No of Active Fundraisers,,131
+CH-RETURNING - APAM (Active),27516.7 / 131 = ,210.05
+CH-RETURNING - Total Funds,,27516.7
+CH-RETURNING - Active Ratio,131 / 296 = ,0.4426
+CH-TOTAL INDIVIDUALS - Total Number of Fundraisers,,2427
+CH-TOTAL INDIVIDUALS - Total Active Fundraisers,,1499
+CH-TOTAL INDIVIDUALS - Total Funds Raised,,324725.54
+CH-TEAM - No of Teams,,88
+CH-TEAM - ATDD,15004.1 / 88 = ,170.5
+CH-TEAM - Total Funds,,15004.1
+CH-TOTAL PEER 2 PEER - Total Number of Fundraisers,,2427
+CH-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,1499
+CH-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,88
+CH-TOTAL PEER 2 PEER - Total Number of Active Entities,,1587
+CH-TOTAL PEER 2 PEER - Total Funds Raised,,381079.76
+HK-FOUNDATION & RG - No of Donations,,62
+HK-FOUNDATION & RG - ADA,83231.99 / 62 = ,1342.45
+HK-FOUNDATION & RG - Total Funds,,83231.99
+HK-NEW - No of New Fundraisers (previous campaign),,380
+HK-NEW - No of Active Fundraisers,,244
+HK-NEW - APAM (Active),244 / 619025.59 = ,2536.99
+HK-NEW - Total Funds,,619025.59
+HK-NEW - Active Ratio,244 / 380 = ,0.6421
+HK-RETAINED - No of Fundraisers (previous campaign),,879
+HK-RETAINED - Total Retained from Previous into Current,,148
+HK-RETAINED - No of Active Fundraisers,,111
+HK-RETAINED - APAM (Active),517117.62 / 111 = ,4658.72
+HK-RETAINED - Total Funds,,517117.62
+HK-RETAINED - Retained Ratio,148 / 879 = ,0.1684
+HK-RETAINED - Active Ratio,111 / 148 = ,0.75
+HK-RETAINED - Total No of Fundraisers (current campaign),,614
+HK-RETURNING - No of Returning Frs before previous campaign,,86
+HK-RETURNING - No of Active Fundraisers,,36
+HK-RETURNING - APAM (Active),359907.94 / 36 = ,9997.44
+HK-RETURNING - Total Funds,,359907.94
+HK-RETURNING - Active Ratio,36 / 86 = ,0.4186
+HK-TOTAL INDIVIDUALS - Total Number of Fundraisers,,614
+HK-TOTAL INDIVIDUALS - Total Active Fundraisers,,391
+HK-TOTAL INDIVIDUALS - Total Funds Raised,,1496051.15
+HK-TEAM - No of Teams,,27
+HK-TEAM - ATDD,299593.86 / 27 = ,11096.07
+HK-TEAM - Total Funds,,299593.86
+HK-TOTAL PEER 2 PEER - Total Number of Fundraisers,,614
+HK-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,391
+HK-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,27
+HK-TOTAL PEER 2 PEER - Total Number of Active Entities,,418
+HK-TOTAL PEER 2 PEER - Total Funds Raised,,1878877.0
+EX-FOUNDATION & RG - No of Donations,,11521
+EX-FOUNDATION & RG - ADA,98547.39 / 11521 = ,8.55
+EX-FOUNDATION & RG - Total Funds,,98547.39
+EX-NEW - No of New Fundraisers (previous campaign),,3460
+EX-NEW - No of Active Fundraisers,,874
+EX-NEW - APAM (Active),874 / 73643.13 = ,84.26
+EX-NEW - Total Funds,,73643.13
+EX-NEW - Active Ratio,874 / 3460 = ,0.2526
+EX-RETAINED - No of Fundraisers (previous campaign),,5662
+EX-RETAINED - Total Retained from Previous into Current,,862
+EX-RETAINED - No of Active Fundraisers,,385
+EX-RETAINED - APAM (Active),86484.02 / 385 = ,224.63
+EX-RETAINED - Total Funds,,86484.02
+EX-RETAINED - Retained Ratio,862 / 5662 = ,0.1522
+EX-RETAINED - Active Ratio,385 / 862 = ,0.4466
+EX-RETAINED - Total No of Fundraisers (current campaign),,4976
+EX-RETURNING - No of Returning Frs before previous campaign,,654
+EX-RETURNING - No of Active Fundraisers,,143
+EX-RETURNING - APAM (Active),16799.54 / 143 = ,117.48
+EX-RETURNING - Total Funds,,16799.54
+EX-RETURNING - Active Ratio,143 / 654 = ,0.2187
+EX-TOTAL INDIVIDUALS - Total Number of Fundraisers,,4976
+EX-TOTAL INDIVIDUALS - Total Active Fundraisers,,1402
+EX-TOTAL INDIVIDUALS - Total Funds Raised,,176926.69
+EX-TEAM - No of Teams,,74
+EX-TEAM - ATDD,8346.16 / 74 = ,112.79
+EX-TEAM - Total Funds,,8346.16
+EX-TOTAL PEER 2 PEER - Total Number of Fundraisers,,4976
+EX-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,1402
+EX-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,74
+EX-TOTAL PEER 2 PEER - Total Number of Active Entities,,1476
+EX-TOTAL PEER 2 PEER - Total Funds Raised,,283820.24
+SG-FOUNDATION & RG - No of Donations,,460
+SG-FOUNDATION & RG - ADA,10688.6 / 460 = ,23.24
+SG-FOUNDATION & RG - Total Funds,,10688.6
+SG-NEW - No of New Fundraisers (previous campaign),,503
+SG-NEW - No of Active Fundraisers,,323
+SG-NEW - APAM (Active),323 / 154296.94 = ,477.7
+SG-NEW - Total Funds,,154296.94
+SG-NEW - Active Ratio,323 / 503 = ,0.6421
+SG-RETAINED - No of Fundraisers (previous campaign),,1029
+SG-RETAINED - Total Retained from Previous into Current,,174
+SG-RETAINED - No of Active Fundraisers,,115
+SG-RETAINED - APAM (Active),84262.97 / 115 = ,732.72
+SG-RETAINED - Total Funds,,84262.97
+SG-RETAINED - Retained Ratio,174 / 1029 = ,0.1691
+SG-RETAINED - Active Ratio,115 / 174 = ,0.6609
+SG-RETAINED - Total No of Fundraisers (current campaign),,794
+SG-RETURNING - No of Returning Frs before previous campaign,,117
+SG-RETURNING - No of Active Fundraisers,,54
+SG-RETURNING - APAM (Active),34024.71 / 54 = ,630.09
+SG-RETURNING - Total Funds,,34024.71
+SG-RETURNING - Active Ratio,54 / 117 = ,0.4615
+SG-TOTAL INDIVIDUALS - Total Number of Fundraisers,,794
+SG-TOTAL INDIVIDUALS - Total Active Fundraisers,,492
+SG-TOTAL INDIVIDUALS - Total Funds Raised,,272584.62
+SG-TEAM - No of Teams,,38
+SG-TEAM - ATDD,25513.51 / 38 = ,671.41
+SG-TEAM - Total Funds,,25513.51
+SG-TOTAL PEER 2 PEER - Total Number of Fundraisers,,794
+SG-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,492
+SG-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,38
+SG-TOTAL PEER 2 PEER - Total Number of Active Entities,,530
+SG-TOTAL PEER 2 PEER - Total Funds Raised,,308786.73
+ZA-FOUNDATION & RG - No of Donations,,224
+ZA-FOUNDATION & RG - ADA,131893.4 / 224 = ,588.81
+ZA-FOUNDATION & RG - Total Funds,,131893.4
+ZA-NEW - No of New Fundraisers (previous campaign),,5289
+ZA-NEW - No of Active Fundraisers,,1653
+ZA-NEW - APAM (Active),1653 / 1037873.38 = ,627.87
+ZA-NEW - Total Funds,,1037873.38
+ZA-NEW - Active Ratio,1653 / 5289 = ,0.3125
+ZA-RETAINED - No of Fundraisers (previous campaign),,10810
+ZA-RETAINED - Total Retained from Previous into Current,,1138
+ZA-RETAINED - No of Active Fundraisers,,529
+ZA-RETAINED - APAM (Active),1166128.38 / 529 = ,2204.4
+ZA-RETAINED - Total Funds,,1166128.38
+ZA-RETAINED - Retained Ratio,1138 / 10810 = ,0.1053
+ZA-RETAINED - Active Ratio,529 / 1138 = ,0.4649
+ZA-RETAINED - Total No of Fundraisers (current campaign),,7625
+ZA-RETURNING - No of Returning Frs before previous campaign,,1198
+ZA-RETURNING - No of Active Fundraisers,,403
+ZA-RETURNING - APAM (Active),440498.35 / 403 = ,1093.05
+ZA-RETURNING - Total Funds,,440498.35
+ZA-RETURNING - Active Ratio,403 / 1198 = ,0.3364
+ZA-TOTAL INDIVIDUALS - Total Number of Fundraisers,,7625
+ZA-TOTAL INDIVIDUALS - Total Active Fundraisers,,2585
+ZA-TOTAL INDIVIDUALS - Total Funds Raised,,2644500.11
+ZA-TEAM - No of Teams,,162
+ZA-TEAM - ATDD,174797.43 / 162 = ,1079.0
+ZA-TEAM - Total Funds,,174797.43
+ZA-TOTAL PEER 2 PEER - Total Number of Fundraisers,,7625
+ZA-TOTAL PEER 2 PEER - Total Number of Active Fundraisers,,2585
+ZA-TOTAL PEER 2 PEER - Total Number of Teams with Direct Donations,,162
+ZA-TOTAL PEER 2 PEER - Total Number of Active Entities,,2747
+ZA-TOTAL PEER 2 PEER - Total Funds Raised,,2951190.94

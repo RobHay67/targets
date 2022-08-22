@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import os
 
 from targets.model.export import convert_df
 from targets.model.save import save_target_df
@@ -34,6 +35,27 @@ def render_rates_page(scope):
 										mime='text/csv', 
 										key=widget_key,
 										)
+
+	with col4:
+		if scope.user_can_download_rates_table:
+			file_path = os.path.join(scope.folder_files, 'sample_rates.csv')
+			print('Loading > ', file_path)
+			data_file = pd.read_csv( file_path, 
+									# dtype={'campaign':'int', 'payment_country':'str', 'region':'str', 'tenure':'str', 'metric':'str', 'value':'float64'},
+									# parse_dates=csv_dates(schema),
+									index_col=None,
+									)
+			widget_key = scope.user_name + '_download_special_rates'
+			st.download_button( 
+										"Convert Rates Table for Mark", 
+										data=convert_df(data_file),
+										file_name='target_rates_mark.csv', 
+										mime='text/csv', 
+										key=widget_key,
+										)
+
+
+
 
 	with col5:
 		if scope.user_can_edit_config:
@@ -71,3 +93,5 @@ def copy_rates(scope):
 	scope.target_df = pd.concat([scope.target_df, last_years_rates], sort=False)
 
 	save_target_df(scope)
+
+

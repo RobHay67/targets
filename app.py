@@ -1,7 +1,7 @@
 
 # ------------------------------------------------- Execute Application
 # activate Pipenv 	- pipenv shell
-# streamlit run app.py
+# streamlit run 	- streamlit run app.py
 # ------------------------------------------------- GitHub
 # git push -u origin <branch>
 # ------------------------------------------------- Pipenv

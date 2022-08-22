@@ -21,9 +21,6 @@ scope = set_scope()
 # print(scope)
 
 
-
-
-
 print_report_header(scope)
 
 # -------------------------------------
@@ -34,19 +31,10 @@ dnt_current  = load_customer_dataframe( scope, 'Donations', scope.campaign_previ
 frs_previous = load_customer_dataframe( scope, 'Customers', scope.campaign_retained, scope.nrows )
 
 
-# Create an Empty Rates Df
-
-
-
-
-
-
 # TODO Country Lists for testing purposes
 country_list  = [ 'au', 'ca', 'gb', 'us', 'ie', 'nz', 'at', 'be', 'cz', 'dk', 'fi', 'fr', 'de', 'it', 'nl', 'no', 'es', 'se', 'ch', 'hk', 'ex', 'sg', 'za' ]
 # country_list  = [ 'au', 'ca', 'at' ]
 # country_list  = [ 'us' ]
-
-
 
 
 # Primary Controller - iterate through Countries and then regions and generate the appropriate information
@@ -68,33 +56,34 @@ for country in country_list:
 
 	store_movember_rates(scope)
 
-		
-	country_regions = list(country_region_config[country]['regions'])
+	
+	if scope.show_regions:
+		country_regions = list(country_region_config[country]['regions'])
 
-	if 'Other' in country_regions:
-		scope.region = 'Other'
-		# We only have a single region so add the totals again, but with a region of other
-		store_movember_rates(scope)
-	else:
-		# We have multiple regions so we need a region subset of data to pass to the report constructor
-		
-		# Create a general purpose region field for subsetting - ie Australia migth = state wheras canada = province
-		region_field = country_region_config[country]['region_field']
-		country_frs_current['region'] = np.where( country_frs_current[region_field].isin(country_regions),  country_frs_current[region_field], 'Other' )
-		country_dnt_current['region'] = np.where( country_dnt_current[region_field].isin(country_regions),  country_dnt_current[region_field], 'Other' )
-		country_frs_previous['region']= np.where( country_frs_previous[region_field].isin(country_regions), country_frs_previous[region_field], 'Other' )
-		
-		# Add Other to our country_regions list so we get all data by region - everyone has an other
-		country_regions.append('Other')
-
-		for region in country_regions:
-			scope.region = region
-
-			scope.country_frs_current  = country_frs_current[country_frs_current['region']   == region].copy()
-			scope.country_dnt_current  = country_dnt_current[country_dnt_current['region']   == region].copy()
-			scope.country_frs_previous = country_frs_previous[country_frs_previous['region'] == region].copy()
-			
+		if 'Other' in country_regions:
+			scope.region = 'Other'
+			# We only have a single region so add the totals again, but with a region of other
 			store_movember_rates(scope)
+		else:
+			# We have multiple regions so we need a region subset of data to pass to the report constructor
+			
+			# Create a general purpose region field for subsetting - ie Australia might = state,  wheras canada = province
+			region_field = country_region_config[country]['region_field']
+			country_frs_current['region'] = np.where( country_frs_current[region_field].isin(country_regions),  country_frs_current[region_field], 'Other' )
+			country_dnt_current['region'] = np.where( country_dnt_current[region_field].isin(country_regions),  country_dnt_current[region_field], 'Other' )
+			country_frs_previous['region']= np.where( country_frs_previous[region_field].isin(country_regions), country_frs_previous[region_field], 'Other' )
+			
+			# Add Other to our country_regions list so we get all data by region - everyone has an other
+			country_regions.append('Other')
+
+			for region in country_regions:
+				scope.region = region
+
+				scope.country_frs_current  = country_frs_current[country_frs_current['region']   == region].copy()
+				scope.country_dnt_current  = country_dnt_current[country_dnt_current['region']   == region].copy()
+				scope.country_frs_previous = country_frs_previous[country_frs_previous['region'] == region].copy()
+				
+				store_movember_rates(scope)
 
 	if scope.save_rates:
 		scope.target_app_rates_df.to_csv(scope.path_target_rates, index=False)

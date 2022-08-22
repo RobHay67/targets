@@ -14,6 +14,7 @@ def render_targets_header(scope):
 			st.header('Target Rates')
 
 			widget_key = scope.user_name + '_download_rates'
+
 			st.download_button( 
 								"Download Entire Rates Table", 
 								data=convert_df(scope.target_df),
